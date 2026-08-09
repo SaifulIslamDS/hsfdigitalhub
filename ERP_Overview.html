@@ -206,14 +206,70 @@
       .erp-section { break-inside:avoid; }
     }
   
-        /* HSF Netlify site refinement */
-        .hsf-document-hero { padding-top: 10rem !important; }
-        .hsf-breadcrumb a { text-decoration: none !important; }
-        .hsf-breadcrumb a:hover { text-decoration: underline !important; }
-        @media (max-width: 640px) {
-          .hsf-document-hero { padding-top: 7.5rem !important; }
-        }
-        </style>
+        /* HSF vertical-rhythm refinement */
+    .hsf-document-hero {
+      padding-top: 1.5rem !important;
+    }
+    .hsf-breadcrumb {
+      margin-bottom: .45rem;
+    }
+    .hsf-document-hero > .relative.mx-auto.grid {
+      padding-top: .75rem !important;
+      padding-bottom: 3rem !important;
+    }
+
+    /* Compact the information/map strip immediately below each hero. */
+    .hsf-document-hero + section > .mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+
+    /* Compact the main reading area while retaining breathing room. */
+    .hsf-document-hero ~ section.mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2.75rem !important;
+    }
+
+    @media (max-width: 640px) {
+      .hsf-document-hero {
+        padding-top: 1rem !important;
+      }
+      .hsf-breadcrumb {
+        margin-bottom: .3rem;
+      }
+      .hsf-document-hero > .relative.mx-auto.grid {
+        padding-top: .55rem !important;
+        padding-bottom: 2.25rem !important;
+      }
+      .hsf-document-hero + section > .mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+      .hsf-document-hero ~ section.mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+      }
+    }
+
+
+      .part-divider {
+        margin: 2.2rem 0 1rem !important;
+        padding: 1.65rem !important;
+      }
+      .part-divider:first-child {
+        margin-top: 0 !important;
+      }
+      .erp-section {
+        margin-bottom: 1rem !important;
+      }
+      .section-body h3 {
+        margin-top: 1.4rem !important;
+      }
+      .flow-box {
+        margin-top: 1rem !important;
+        margin-bottom: 1.05rem !important;
+      }
+    </style>
 </head>
 <body class="min-h-screen antialiased">
 <a id="top"></a>
@@ -402,7 +458,6 @@
 </a></nav>
 </div>
 </div>
-
 </aside>
 <main>
 <section class="relative overflow-hidden border-b border-emerald-100 bg-gradient-to-br from-[#F6FBF8] via-white to-[#EEF8F2] hsf-document-hero"><div class="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8"><nav aria-label="Breadcrumb" class="hsf-breadcrumb flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-500"><a class="inline-flex items-center gap-1.5 text-[#006B35] hover:text-[#008C44]" href="index.html"><svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Knowledge Hub</a><span class="text-slate-300">›</span><span class="font-bold text-slate-700">HSF ERP Overview</span></nav></div>
@@ -470,7 +525,6 @@
 <div>
 <div class="text-xs font-black uppercase tracking-[0.17em] text-[#008C44]">Management document map</div>
 <h2 class="mt-2 text-2xl font-black tracking-tight text-[#163F2A] sm:text-3xl">Navigate the complete ERP scope</h2>
-
 </div>
 <button class="self-start rounded-xl border border-emerald-200 px-4 py-2 text-sm font-black text-[#006B35] hover:bg-emerald-50 sm:self-auto" data-open-menu="">Open full contents</button>
 </div>

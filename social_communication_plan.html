@@ -259,14 +259,65 @@
       .reader section.section,.reader section.week { box-shadow:none; break-inside:avoid; }
     }
   
-        /* HSF Netlify site refinement */
-        .hsf-document-hero { padding-top: 10rem !important; }
-        .hsf-breadcrumb a { text-decoration: none !important; }
-        .hsf-breadcrumb a:hover { text-decoration: underline !important; }
-        @media (max-width: 640px) {
-          .hsf-document-hero { padding-top: 7.5rem !important; }
-        }
-        </style>
+        /* HSF vertical-rhythm refinement */
+    .hsf-document-hero {
+      padding-top: 1.5rem !important;
+    }
+    .hsf-breadcrumb {
+      margin-bottom: .45rem;
+    }
+    .hsf-document-hero > .relative.mx-auto.grid {
+      padding-top: .75rem !important;
+      padding-bottom: 3rem !important;
+    }
+
+    /* Compact the information/map strip immediately below each hero. */
+    .hsf-document-hero + section > .mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+
+    /* Compact the main reading area while retaining breathing room. */
+    .hsf-document-hero ~ section.mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2.75rem !important;
+    }
+
+    @media (max-width: 640px) {
+      .hsf-document-hero {
+        padding-top: 1rem !important;
+      }
+      .hsf-breadcrumb {
+        margin-bottom: .3rem;
+      }
+      .hsf-document-hero > .relative.mx-auto.grid {
+        padding-top: .55rem !important;
+        padding-bottom: 2.25rem !important;
+      }
+      .hsf-document-hero + section > .mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+      .hsf-document-hero ~ section.mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+      }
+    }
+
+
+      .reader section.section,
+      .reader section.week {
+        margin-bottom: 1.25rem !important;
+      }
+      .reader section.section > h2 {
+        margin-bottom: .9rem !important;
+        padding-bottom: .7rem !important;
+      }
+      .reader h3 {
+        margin-top: 1.45rem !important;
+        margin-bottom: .65rem !important;
+      }
+    </style>
 </head>
 <body class="min-h-screen antialiased">
 <a id="top"></a>
@@ -431,7 +482,6 @@
 <span><span class="font-bold text-slate-800">Theme 012</span><span class="block text-xs leading-5 text-slate-500">From Empathy to Action: The Society We Build Together</span></span>
 </a></nav>
 </div>
-
 </aside>
 <main>
 <section class="relative overflow-hidden border-b border-emerald-100 bg-gradient-to-br from-[#F7FCF9] via-white to-[#FFFDE6] hsf-document-hero"><div class="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8"><nav aria-label="Breadcrumb" class="hsf-breadcrumb flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-500"><a class="inline-flex items-center gap-1.5 text-[#006B35] hover:text-[#008C44]" href="index.html"><svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Knowledge Hub</a><span class="text-slate-300">›</span><span class="font-bold text-slate-700">Evidence-Led Social Communication</span></nav></div>
@@ -476,7 +526,6 @@
  Browse contents
  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"></path></svg>
 </button>
-
 </div>
 </div>
 <aside class="rounded-3xl border border-emerald-100 bg-white/92 p-6 shadow-soft backdrop-blur">
@@ -620,7 +669,6 @@
 <section class="mx-auto max-w-[1500px] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
 <div class="grid gap-8 xl:grid-cols-[minmax(0,1fr)_285px]">
 <article class="reader min-w-0">
-
 <section class="section" id="communication-philosophy"><h2>Communication Philosophy</h2><div class="quote mt-4">No fixed calendar. No rushed publishing. Choose the most relevant theme, verify the evidence, create quality content, publish when ready, learn from the response, and continue.</div><p>HSF communication should not make people feel sorry for communities for a moment. It should help people understand why a social problem exists, how it affects dignity and opportunity, what HSF is practically doing, what evidence is available and what a thoughtful person can do next.</p><h3>The empathy-to-action ladder</h3><ol><li>Notice the human reality</li><li>Understand the structural barrier</li><li>Recognize the right or social principle involved</li><li>See the practical HSF response</li><li>Look for evidence and learning</li><li>Reflect on personal/community responsibility</li><li>Choose a realistic action</li><li>Support responsibly when ready</li></ol><h3>Tone guardrails</h3><ul><li>Do not use pity as the main persuasion mechanism.</li><li>Do not portray HSF as a rescuer and communities as passive recipients.</li><li>Use hope that is earned by real action.</li><li>Use questions that invite reflection, not accusation.</li><li>Make public-health advice medically reviewed and practical.</li><li>Make rights content understandable without turning every post into legal language.</li><li>Never invent numbers to make a post stronger.</li></ul></section>
 <section class="section" id="sdg-rights-framework"><h2>SDG and Rights Framework</h2><p>The SDGs are used as a communication and accountability lens, not as decorative icons.</p><table><thead><tr><th>SDG</th><th>Theme</th><th>HSF communication use</th></tr></thead><tbody><tr><td>SDG 1</td><td>No Poverty</td><td>Financial barriers affecting education, health and household choices</td></tr><tr><td>SDG 3</td><td>Good Health and Well-being</td><td>Primary healthcare, prevention, women/child health, health literacy</td></tr><tr><td>SDG 4</td><td>Quality Education</td><td>Access, quality, continuity, lifelong learning, teachers</td></tr><tr><td>SDG 5</td><td>Gender Equality</td><td>Women and girls, early marriage, participation, menstrual dignity</td></tr><tr><td>SDG 6</td><td>Clean Water and Sanitation</td><td>Safe water, hygiene, sanitation and health</td></tr><tr><td>SDG 8</td><td>Decent Work and Economic Growth</td><td>Target 8.7 on child labour</td></tr><tr><td>SDG 10</td><td>Reduced Inequalities</td><td>Practical barriers, non-discrimination and equitable access</td></tr><tr><td>SDG 11</td><td>Sustainable Cities and Communities</td><td>Community safety and resilience</td></tr><tr><td>SDG 13</td><td>Climate Action</td><td>Resilience, awareness, local climate responsibility</td></tr><tr><td>SDG 16</td><td>Peace, Justice and Strong Institutions</td><td>Violence prevention, child protection, accountability, trust</td></tr><tr><td>SDG 17</td><td>Partnerships for the Goals</td><td>CSR, volunteers, institutions, data and cooperation</td></tr></tbody></table><h3>Rights lenses used</h3><ul><li><b>UDHR:</b> equal dignity, health/basic wellbeing, education and non-discrimination.</li><li><b>Convention on the Rights of the Child:</b> best interests, voice, privacy, protection from violence, health, education, play and protection from harmful work.</li><li>Rights references guide communication and safeguarding; they do not turn HSF social posts into legal advice.</li></ul></section>
 <section class="section" id="audience-empathy-architecture"><h2>Audience and Empathy Architecture</h2><table><thead><tr><th>Audience</th><th>What they should understand</th><th>Appropriate action</th></tr></thead><tbody><tr><td>Socially aware individuals</td><td>The issue is human, close to daily life and worth thinking about</td><td>Learn, discuss, share, challenge harmful norms</td></tr><tr><td>Parents and communities</td><td>HSF respects real constraints and invites practical partnership</td><td>Support children, seek care early, protect dignity, participate</td></tr><tr><td>Young people</td><td>Your voice, learning and choices matter</td><td>Engage, learn, volunteer appropriately, advocate safely</td></tr><tr><td>Professionals and volunteers</td><td>Your expertise can solve a defined social problem</td><td>Offer skills through a structured role</td></tr><tr><td>CSR / institutions</td><td>HSF can connect partnership with clear outcomes and evidence</td><td>Partner around defined project results</td></tr><tr><td>Donors / diaspora</td><td>Support should be responsible, specific and reportable</td><td>Support verified projects through official channels</td></tr></tbody></table></section>

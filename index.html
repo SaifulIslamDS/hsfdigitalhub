@@ -31,14 +31,23 @@
     html { scroll-behavior:smooth; }
     body { background:#f7faf8; color:#26362d; }
   
-        /* HSF Netlify site refinement */
-        .hsf-document-hero { padding-top: 10rem !important; }
-        .hsf-breadcrumb a { text-decoration: none !important; }
-        .hsf-breadcrumb a:hover { text-decoration: underline !important; }
-        @media (max-width: 640px) {
-          .hsf-document-hero { padding-top: 7.5rem !important; }
-        }
-        </style>
+        /* HSF Knowledge Hub vertical-rhythm refinement */
+    .hsf-document-hero {
+      padding-top: 3rem !important;
+    }
+    .hsf-document-hero > .relative.mx-auto.grid {
+      padding-top: 0 !important;
+      padding-bottom: 4rem !important;
+    }
+    @media (max-width: 640px) {
+      .hsf-document-hero {
+        padding-top: 2rem !important;
+      }
+      .hsf-document-hero > .relative.mx-auto.grid {
+        padding-bottom: 3rem !important;
+      }
+    }
+    </style>
 </head>
 <body class="min-h-screen antialiased">
 <header class="sticky top-0 z-40 border-b border-emerald-100/80 bg-white/95 shadow-sm backdrop-blur">
@@ -106,7 +115,6 @@
 </div>
 <div class="mt-5 rounded-2xl border border-emerald-100 bg-[#FBFDFB] p-4">
 <div class="text-xs font-black uppercase tracking-[0.15em] text-[#008C44]">Setup</div>
-
 </div>
 </aside>
 </div>

@@ -126,14 +126,63 @@
       .guide-section { box-shadow:none; break-inside:avoid; }
     }
   
-        /* HSF Netlify site refinement */
-        .hsf-document-hero { padding-top: 10rem !important; }
-        .hsf-breadcrumb a { text-decoration: none !important; }
-        .hsf-breadcrumb a:hover { text-decoration: underline !important; }
-        @media (max-width: 640px) {
-          .hsf-document-hero { padding-top: 7.5rem !important; }
-        }
-        </style>
+        /* HSF vertical-rhythm refinement */
+    .hsf-document-hero {
+      padding-top: 1.5rem !important;
+    }
+    .hsf-breadcrumb {
+      margin-bottom: .45rem;
+    }
+    .hsf-document-hero > .relative.mx-auto.grid {
+      padding-top: .75rem !important;
+      padding-bottom: 3rem !important;
+    }
+
+    /* Compact the information/map strip immediately below each hero. */
+    .hsf-document-hero + section > .mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+
+    /* Compact the main reading area while retaining breathing room. */
+    .hsf-document-hero ~ section.mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2.75rem !important;
+    }
+
+    @media (max-width: 640px) {
+      .hsf-document-hero {
+        padding-top: 1rem !important;
+      }
+      .hsf-breadcrumb {
+        margin-bottom: .3rem;
+      }
+      .hsf-document-hero > .relative.mx-auto.grid {
+        padding-top: .55rem !important;
+        padding-bottom: 2.25rem !important;
+      }
+      .hsf-document-hero + section > .mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+      .hsf-document-hero ~ section.mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+      }
+    }
+
+
+      .guide-section {
+        margin-bottom: 1rem !important;
+      }
+      .guide-section h3 {
+        margin-top: 1.3rem !important;
+      }
+      .quote-principle {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+      }
+    </style>
 </head>
 <body class="min-h-screen antialiased">
 <a id="top"></a>

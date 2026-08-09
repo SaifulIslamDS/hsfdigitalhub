@@ -104,14 +104,76 @@
       .table-wrap { break-inside: avoid; box-shadow: none; }
     }
   
-        /* HSF Netlify site refinement */
-        .hsf-document-hero { padding-top: 10rem !important; }
-        .hsf-breadcrumb a { text-decoration: none !important; }
-        .hsf-breadcrumb a:hover { text-decoration: underline !important; }
-        @media (max-width: 640px) {
-          .hsf-document-hero { padding-top: 7.5rem !important; }
-        }
-        </style>
+        /* HSF vertical-rhythm refinement */
+    .hsf-document-hero {
+      padding-top: 1.5rem !important;
+    }
+    .hsf-breadcrumb {
+      margin-bottom: .45rem;
+    }
+    .hsf-document-hero > .relative.mx-auto.grid {
+      padding-top: .75rem !important;
+      padding-bottom: 3rem !important;
+    }
+
+    /* Compact the information/map strip immediately below each hero. */
+    .hsf-document-hero + section > .mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+
+    /* Compact the main reading area while retaining breathing room. */
+    .hsf-document-hero ~ section.mx-auto {
+      padding-top: 2rem !important;
+      padding-bottom: 2.75rem !important;
+    }
+
+    @media (max-width: 640px) {
+      .hsf-document-hero {
+        padding-top: 1rem !important;
+      }
+      .hsf-breadcrumb {
+        margin-bottom: .3rem;
+      }
+      .hsf-document-hero > .relative.mx-auto.grid {
+        padding-top: .55rem !important;
+        padding-bottom: 2.25rem !important;
+      }
+      .hsf-document-hero + section > .mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+      }
+      .hsf-document-hero ~ section.mx-auto {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+      }
+    }
+
+
+      .document-content > h1 {
+        margin-top: 3rem !important;
+        margin-bottom: 1rem !important;
+        padding-top: .8rem !important;
+      }
+      .document-content > h1:first-of-type {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+      .document-content h2 {
+        margin-top: 2rem !important;
+        margin-bottom: .8rem !important;
+      }
+      .document-content h3 {
+        margin-top: 1.55rem !important;
+        margin-bottom: .6rem !important;
+      }
+      .document-content hr {
+        margin: 2.35rem 0 !important;
+      }
+      .table-wrap {
+        margin-bottom: 1.45rem !important;
+      }
+    </style>
 </head>
 <body class="min-h-screen antialiased">
 <a id="top"></a>
@@ -280,7 +342,6 @@
 <span class="leading-5">Appendix C - Annual Institutional Deliverables</span>
 </a>
 </nav>
-
 </aside>
 <main>
 <section class="relative overflow-hidden border-b border-emerald-100 bg-gradient-to-br from-[#F7FCF9] via-white to-[#FFFDE6] hsf-document-hero"><div class="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8"><nav aria-label="Breadcrumb" class="hsf-breadcrumb flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-500"><a class="inline-flex items-center gap-1.5 text-[#006B35] hover:text-[#008C44]" href="index.html"><svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Knowledge Hub</a><span class="text-slate-300">›</span><span class="font-bold text-slate-700">Digital Transformation &amp; Institutional Development</span></nav></div>
