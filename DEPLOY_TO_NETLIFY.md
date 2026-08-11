@@ -21,3 +21,21 @@ This demonstration package intentionally keeps noindex/nofollow protection, a Ne
 - Publish directory: `.`
 - `index.html` is at the ZIP root
 - `netlify.toml` and `_redirects` are included
+
+
+## Protected-access requirement
+
+This version includes a site-wide 6-digit PIN gate using Netlify Edge Functions.
+
+Before the protected site can be used, these Netlify Environment variables are required:
+
+- `HSF_ACCESS_PIN` — exactly six numeric digits
+- `HSF_ACCESS_SECRET` — a separate random value of at least 32 characters
+
+If variable scopes are available, the Functions scope should be included.
+
+The site intentionally fails closed when these values are not configured.
+
+Full setup and testing instructions are available in:
+
+`SECURITY_PIN_GATE.md`
