@@ -89,12 +89,7 @@ A production deploy may be triggered from:
 
 ### First visit
 
-A visitor should see:
-
-**HSF Digital Transformation Knowledge Hub**
-**Protected institutional reference resource**
-
-A 6-digit PIN field will be shown.
+A visitor should see a compact HSF-branded access card containing the HSF logo, Knowledge Hub title, a short protected-resource note, and the 6-digit PIN field.
 
 No site document should be visible before a valid PIN is entered.
 

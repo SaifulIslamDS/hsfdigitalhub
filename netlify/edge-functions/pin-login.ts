@@ -161,7 +161,7 @@ function securityHeaders(extra = {}) {
     "referrer-policy": "no-referrer",
     "x-robots-tag": "noindex, nofollow, noarchive, nosnippet",
     "content-security-policy":
-      "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+      "default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
     ...extra,
   };
 }
@@ -202,63 +202,205 @@ function renderAccessPage({
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
   <title>Protected Access · HSF Knowledge Hub</title>
   <style>
-    :root{color-scheme:light;--green:#008C44;--deep:#006B35;--ink:#173F2A;--muted:#66756C;--soft:#EFF8F3;--line:#D8E9DF;--white:#fff}
+    :root{
+      color-scheme:light;
+      --green:#008C44;
+      --deep:#006B35;
+      --ink:#173F2A;
+      --muted:#6A786F;
+      --line:#D8E9DF;
+      --soft:#F4FAF6;
+      --white:#FFFFFF;
+    }
     *{box-sizing:border-box}
-    html,body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#F4F8F5;color:var(--ink)}
-    body{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 15% 10%,rgba(0,140,68,.10),transparent 30rem),radial-gradient(circle at 88% 85%,rgba(30,142,137,.09),transparent 30rem),linear-gradient(145deg,#F9FCFA,#EEF7F2)}
-    .shell{width:min(100%,970px);display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.78fr);overflow:hidden;border:1px solid var(--line);border-radius:30px;background:rgba(255,255,255,.96);box-shadow:0 30px 80px rgba(16,62,36,.14)}
-    .intro{padding:54px;background:linear-gradient(145deg,#F8FCF9,#EAF7F0);position:relative;min-height:570px}
-    .brand{display:flex;align-items:center;gap:14px}
-    .mark{width:58px;height:58px;border-radius:18px;background:var(--green);color:#fff;display:grid;place-items:center;font-weight:900;font-size:18px;letter-spacing:.04em;box-shadow:0 10px 24px rgba(0,140,68,.20)}
-    .brand small{display:block;text-transform:uppercase;letter-spacing:.16em;font-weight:900;color:var(--green);font-size:10px}
-    .brand strong{display:block;margin-top:5px;font-size:15px}
-    h1{font-size:42px;line-height:1.08;letter-spacing:-.04em;margin:68px 0 18px;max-width:520px}
-    .intro p{font-size:15px;line-height:1.8;color:var(--muted);max-width:520px;margin:0}
-    .privacy{margin-top:36px;display:flex;gap:10px;align-items:flex-start;border-top:1px solid rgba(0,140,68,.13);padding-top:20px;color:#50645A;font-size:12px;line-height:1.6}
-    .panel{padding:54px 44px;display:flex;flex-direction:column;justify-content:center;background:#fff}
-    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:10px;font-weight:900;color:var(--green)}
-    h2{font-size:25px;letter-spacing:-.025em;margin:9px 0 9px}
-    .hint{font-size:13px;line-height:1.6;color:var(--muted);margin:0 0 24px}
-    label{display:block;font-size:12px;font-weight:850;margin-bottom:8px;color:#31483B}
-    input{width:100%;height:58px;border:1px solid #CFE1D6;border-radius:15px;padding:0 18px;background:#FAFCFB;color:#163F2A;font-size:22px;letter-spacing:.42em;text-align:center;font-weight:800;outline:none}
-    input:focus{border-color:var(--green);box-shadow:0 0 0 4px rgba(0,140,68,.11);background:#fff}
-    button{width:100%;height:52px;border:0;border-radius:14px;background:var(--green);color:#fff;font-weight:900;font-size:14px;cursor:pointer;margin-top:15px;box-shadow:0 10px 20px rgba(0,140,68,.18)}
+    html,body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#F2F8F4;color:var(--ink)}
+    body{
+      min-height:100vh;
+      display:grid;
+      place-items:center;
+      padding:22px;
+      background:
+        radial-gradient(circle at 18% 14%,rgba(0,140,68,.10),transparent 28rem),
+        radial-gradient(circle at 82% 84%,rgba(30,142,137,.08),transparent 26rem),
+        linear-gradient(145deg,#F8FCF9,#EDF7F1);
+    }
+    .card{
+      width:min(100%,560px);
+      border:1px solid var(--line);
+      border-radius:26px;
+      background:rgba(255,255,255,.97);
+      box-shadow:0 28px 70px rgba(16,62,36,.14);
+      padding:42px 42px 34px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:15px;
+      padding-bottom:24px;
+      border-bottom:1px solid #E5EFE9;
+    }
+    .brand img{
+      width:64px;
+      height:64px;
+      object-fit:contain;
+      flex:0 0 auto;
+    }
+    .brand-name{
+      font-size:13px;
+      line-height:1.3;
+      font-weight:900;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--green);
+    }
+    .hub-name{
+      margin-top:5px;
+      font-size:18px;
+      line-height:1.3;
+      font-weight:900;
+      color:var(--ink);
+    }
+    .summary{
+      margin:22px 0 28px;
+      font-size:13px;
+      line-height:1.65;
+      color:var(--muted);
+    }
+    .eyebrow{
+      font-size:10px;
+      line-height:1;
+      font-weight:900;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:var(--green);
+    }
+    h1{
+      margin:9px 0 7px;
+      font-size:28px;
+      line-height:1.15;
+      letter-spacing:-.035em;
+      color:var(--ink);
+    }
+    .session{
+      margin:0 0 23px;
+      font-size:12px;
+      line-height:1.55;
+      color:var(--muted);
+    }
+    label{
+      display:block;
+      margin-bottom:8px;
+      font-size:12px;
+      font-weight:900;
+      color:#31483B;
+    }
+    input{
+      width:100%;
+      height:56px;
+      border:1px solid #CFE1D6;
+      border-radius:14px;
+      background:#FBFDFC;
+      padding:0 18px;
+      outline:none;
+      text-align:center;
+      font-size:22px;
+      font-weight:850;
+      letter-spacing:.40em;
+      color:var(--ink);
+      transition:.18s;
+    }
+    input:focus{
+      border-color:var(--green);
+      background:#fff;
+      box-shadow:0 0 0 4px rgba(0,140,68,.10);
+    }
+    button{
+      width:100%;
+      height:50px;
+      margin-top:14px;
+      border:0;
+      border-radius:13px;
+      background:var(--green);
+      color:#fff;
+      font-size:14px;
+      font-weight:900;
+      cursor:pointer;
+      box-shadow:0 10px 22px rgba(0,140,68,.17);
+    }
     button:hover{background:var(--deep)}
-    .alert{border-radius:13px;padding:12px 14px;font-size:12px;line-height:1.55;margin:0 0 16px}
+    .note{
+      margin-top:13px;
+      text-align:center;
+      font-size:10.5px;
+      line-height:1.5;
+      color:#819087;
+    }
+    .footer{
+      margin-top:26px;
+      padding-top:18px;
+      border-top:1px solid #E8F0EB;
+      text-align:center;
+      font-size:10px;
+      color:#94A099;
+    }
+    .alert{
+      margin:0 0 16px;
+      border-radius:12px;
+      padding:11px 13px;
+      font-size:11px;
+      line-height:1.5;
+    }
     .error{background:#FFF2F1;border:1px solid #F4C7C3;color:#8B2D27}
     .config{background:#FFF9DF;border:1px solid #EBD998;color:#705A08}
-    .session{margin-top:16px;text-align:center;font-size:11px;line-height:1.55;color:#7A877F}
-    .footer{margin-top:28px;text-align:center;font-size:10px;color:#94A099}
-    @media(max-width:780px){body{padding:14px}.shell{grid-template-columns:1fr;border-radius:24px}.intro{min-height:auto;padding:34px 30px}h1{font-size:31px;margin-top:44px}.privacy{margin-top:26px}.panel{padding:36px 30px}}
+    @media(max-width:620px){
+      body{padding:14px}
+      .card{padding:30px 24px 26px;border-radius:22px}
+      .brand img{width:56px;height:56px}
+      .hub-name{font-size:16px}
+      h1{font-size:25px}
+    }
   </style>
 </head>
 <body>
-  <main class="shell">
-    <section class="intro">
-      <div class="brand">
-        <div class="mark" aria-hidden="true">HSF</div>
-        <div><small>Human Safety Foundation</small><strong>Digital Transformation Knowledge Hub</strong></div>
+  <main class="card">
+    <div class="brand">
+      <img src="/assets/images/hsf-logo.png" alt="Human Safety Foundation logo">
+      <div>
+        <div class="brand-name">Human Safety Foundation</div>
+        <div class="hub-name">Digital Transformation Knowledge Hub</div>
       </div>
-      <h1>Protected institutional reference resource.</h1>
-      <p>This demonstration site contains HSF working frameworks, design references and institutional guidance. Access is intended for authorized HSF reviewers and collaborators.</p>
-      <div class="privacy"><span>The PIN is verified by a Netlify Edge Function. It is not stored in the public HTML or client-side JavaScript.</span></div>
-    </section>
-    <section class="panel">
-      <div class="eyebrow">Authorized access</div>
-      <h2>Enter the 6-digit PIN</h2>
-      <p class="hint">The access session remains valid for up to 12 hours on this browser.</p>
-      ${configurationHtml}
-      ${errorHtml}
-      ${hasConfigurationError ? "" : `
-      <form action="/__hsf_access" method="post">
-        <input type="hidden" name="return_to" value="${safeReturn}">
-        <label for="pin">Access PIN</label>
-        <input id="pin" name="pin" type="password" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" minlength="6" autocomplete="one-time-code" autofocus required>
-        <button type="submit">Access Knowledge Hub</button>
-        <div class="session">Six numeric digits are required. Repeated failed attempts are rate-limited.</div>
-      </form>`}
-      <div class="footer">Human Safety Foundation (HSF) · Always we are...</div>
-    </section>
+    </div>
+
+    <p class="summary">Protected HSF reference materials for authorized reviewers and collaborators.</p>
+
+    <div class="eyebrow">Authorized access</div>
+    <h1>Enter the 6-digit PIN</h1>
+    <p class="session">The access session remains valid for up to 12 hours on this browser.</p>
+
+    ${configurationHtml}
+    ${errorHtml}
+
+    ${hasConfigurationError ? "" : `
+    <form action="/__hsf_access" method="post">
+      <input type="hidden" name="return_to" value="${safeReturn}">
+      <label for="pin">Access PIN</label>
+      <input
+        id="pin"
+        name="pin"
+        type="password"
+        inputmode="numeric"
+        pattern="[0-9]{6}"
+        maxlength="6"
+        minlength="6"
+        autocomplete="one-time-code"
+        autofocus
+        required
+      >
+      <button type="submit">Access Knowledge Hub</button>
+      <div class="note">Six numeric digits are required. Repeated failed attempts are rate-limited.</div>
+    </form>`}
+
+    <div class="footer">Human Safety Foundation (HSF) · Always we are...</div>
   </main>
 </body>
 </html>`;
