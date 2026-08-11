@@ -462,7 +462,7 @@
 </div>
 </aside>
 <main>
-<section class="relative overflow-hidden border-b border-emerald-100 bg-gradient-to-br from-[#F6FBF8] via-white to-[#EEF8F2] hsf-document-hero"><div class="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8"><nav aria-label="Breadcrumb" class="hsf-breadcrumb flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-500"><a class="inline-flex items-center gap-1.5 text-[#006B35] hover:text-[#008C44]" href="index.html"><svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Knowledge Hub</a><span class="text-slate-300">›</span><span class="font-bold text-slate-700">HSF ERP Overview</span></nav></div>
+<section class="relative overflow-hidden border-b border-emerald-100 bg-gradient-to-br from-[#F6FBF8] via-white to-[#EEF8F2] hsf-document-hero"><div class="relative mx-auto max-w-[1500px] px-4 sm:px-6 lg:px-8"><nav aria-label="Breadcrumb" class="hsf-breadcrumb flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-500"><button aria-label="Go back to the previous Knowledge Hub location" class="inline-flex items-center gap-1.5 rounded-lg border border-emerald-100 bg-white px-2.5 py-1.5 text-xs font-extrabold text-[#006B35] shadow-sm transition hover:bg-emerald-50" data-hsf-back="1" title="Go back" type="button"><svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Go Back</span></button><span class="text-slate-300">·</span><a class="inline-flex items-center gap-1.5 text-[#006B35] hover:text-[#008C44]" href="index.html"><svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10.5V20h13v-9.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>Knowledge Hub</a><span class="text-slate-300">›</span><span class="font-bold text-slate-700">HSF ERP Overview</span></nav></div>
 <div class="absolute -right-24 -top-24 h-96 w-96 rounded-full border-[42px] border-emerald-100/55"></div>
 <div class="absolute -left-16 bottom-0 h-44 w-44 rounded-full bg-[#008C44]/5"></div>
 <div class="relative mx-auto grid max-w-[1500px] gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_355px] lg:px-8 pb-14 pt-6 md:pb-20 md:pt-8">
@@ -1404,7 +1404,7 @@
 <div>
 <div class="section-part">People &amp; Institutional Systems</div>
 <h2>Document and Evidence Management</h2>
-</div>
+</div><div class="note"><b>Public-use boundary:</b> ERP records support operational traceability. Evidence interpretation and approval of public claims remain governed by the <a href="impact_meal_learning_framework.html#evidence-hierarchy"><b>Impact, MEAL &amp; Learning Framework</b></a>; social adaptation remains governed by the <a href="social_communication_plan.html"><b>Social Communication Plan</b></a>.</div>
 </div>
 <div class="section-body"><p class="compact-summary">HSF ERP should provide a controlled document repository.</p><details class="compact-details"><summary>Open detailed reference</summary><div class="compact-inner"><div class="lead-callout">HSF ERP should provide a controlled document repository.</div>
 <p>Examples include policies, agreements, donor documents, appointment letters, bills, vouchers, receipts, bank slips, attendance sheets, photos, reports, meeting minutes, training materials, student documents, referrals and audit records.</p>
@@ -1890,5 +1890,23 @@
 <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
 </svg>
 <span>Protected · Sign out</span>
-</a></body>
+</a><script data-hsf-back-script="1">
+(() => {
+  const goBack = () => {
+    try {
+      if (document.referrer) {
+        const ref = new URL(document.referrer);
+        if (ref.origin === window.location.origin) {
+          history.back();
+          return;
+        }
+      }
+    } catch (_) {}
+    window.location.href = 'index.html';
+  };
+  document.querySelectorAll('[data-hsf-back="1"]').forEach((button) => {
+    button.addEventListener('click', goBack);
+  });
+})();
+</script></body>
 </html>

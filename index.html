@@ -108,9 +108,7 @@
 <div class="mt-1 text-xs font-bold text-slate-500">Knowledge hub</div>
 </div>
 </div>
-<div class="mt-5 rounded-2xl border border-emerald-100 bg-[#FBFDFB] p-4">
-<div class="text-xs font-black uppercase tracking-[0.15em] text-[#008C44]">Setup</div>
-</div>
+
 </aside>
 </div>
 </section>
@@ -139,9 +137,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="digital_transformation_framework.html">
- Copy filename
- </button>
+
 </div>
 </article>
 <article class="group relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -162,9 +158,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="social_communication_plan.html">
- Copy filename
- </button>
+
 </div>
 </article>
 <article class="group relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -185,9 +179,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="ERP_Overview.html">
- Copy filename
- </button>
+
 </div>
 </article>
 <article class="group relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -208,9 +200,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="brand_identity_master_guide.html">
- Copy filename
- </button>
+
 </div>
 </article><article class="group relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 <div class="absolute inset-y-0 left-0 w-1.5" style="background:#D77A00"></div>
@@ -230,9 +220,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="website_content_editorial_guidelines.html">
- Copy filename
- </button>
+
 </div>
 </article>
 <article class="group relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -257,7 +245,7 @@
 <path d="M5 12h14m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
 </a>
-<button class="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-500 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-[#006B35]" data-copy="impact_meal_learning_framework.html">Copy filename</button>
+
 </div>
 </article></div>
 </section>
@@ -316,16 +304,7 @@
       }, 1300);
     }
 
-    document.querySelectorAll('[data-copy]').forEach(btn => {
-      btn.addEventListener('click', async () => {
-        const value = btn.dataset.copy;
-        try {
-          await navigator.clipboard.writeText(value);
-          showToast('Filename copied');
-        } catch {
-          showToast(value);
-        }
-      });
+    
     });
   </script>
 <a aria-label="Sign out of the protected HSF Knowledge Hub" class="fixed bottom-4 left-4 z-[80] inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/95 px-3 py-2 text-[11px] font-black text-[#006B35] shadow-lg backdrop-blur transition hover:bg-emerald-50" data-hsf-security-signout="1" href="/__hsf_logout" title="End this protected access session">
