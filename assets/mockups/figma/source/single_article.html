@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Single Blog Article — HSF Figma Concept</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#edf1f4;color:#14231b;font-family:Inter,Arial,sans-serif}
+body{width:1600px;min-height:1100px;overflow:hidden}
+.canvas-bar{height:48px;background:#202124;color:#d7dce0;display:flex;align-items:center;padding:0 24px;font-size:12px;font-weight:700;letter-spacing:.08em}
+.dot{width:10px;height:10px;border-radius:50%;background:#21a366;margin-right:10px}
+.workspace{display:grid;grid-template-columns:1320px 240px;gap:20px;padding:18px 20px 24px}
+.board{height:1010px;background:white;border:1px solid #d9e1dc;box-shadow:0 12px 35px rgba(17,47,30,.12);overflow:hidden;position:relative}
+.site-header{height:78px;border-bottom:1px solid #e8eee9;display:flex;align-items:center;padding:0 38px;gap:30px;background:#fff}
+.logo{width:56px;height:56px;object-fit:contain}
+.nav{display:flex;gap:26px;align-items:center;margin-left:18px;flex:1;color:#435047;font-size:13px;font-weight:700}
+.nav-item{padding:29px 0 25px;border-bottom:3px solid transparent;white-space:nowrap}
+.nav-item.active{color:#007d3c;border-color:#008c44}
+.donate{background:#008c44;color:#fff;border-radius:10px;padding:12px 20px;font-size:13px;font-weight:800}
+.page{height:884px;overflow:hidden;background:#fff}
+.hero{display:grid;grid-template-columns:1.04fr .96fr;min-height:300px;background:linear-gradient(120deg,#f4fbf7,#edf7f2)}
+.hero-copy{padding:42px 52px}
+.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#008c44;font-weight:900}
+h1{font-size:42px;line-height:1.04;margin:10px 0 14px;letter-spacing:-.035em;color:#133f29}
+.lead{font-size:16px;line-height:1.6;color:#5c6b62;max-width:620px}
+.actions{display:flex;gap:10px;margin-top:20px}
+.btn{display:inline-flex;padding:11px 17px;border-radius:9px;font-size:12px;font-weight:800}
+.btn-primary{background:#008c44;color:#fff} .btn-secondary{border:1px solid #bed8c7;color:#006b35;background:#fff}
+.hero-img,.photo{width:100%;height:100%;object-fit:cover}
+.photo-wrap{position:relative;overflow:hidden}
+.stock{position:absolute;right:10px;bottom:10px;background:rgba(15,23,42,.78);color:#fff;font-size:9px;font-weight:800;padding:6px 8px;border-radius:999px;letter-spacing:.04em}
+.section{padding:28px 52px}
+.section.soft{background:#f8faf9} .section.tint{background:#eff8f3}
+.section-title{font-size:25px;font-weight:900;color:#163d2a;margin:4px 0 16px;letter-spacing:-.02em}
+.section-sub{font-size:13px;color:#68766d;margin-top:-8px;margin-bottom:16px;line-height:1.55}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{border:1px solid #dce8e0;border-radius:14px;background:#fff;padding:16px;min-height:108px}
+.card h3{font-size:15px;margin:8px 0 7px;color:#183c2b} .card p{font-size:11px;line-height:1.55;color:#68756d;margin:0}
+.card-img{height:98px;margin:-16px -16px 12px;position:relative;overflow:hidden;border-radius:13px 13px 0 0}
+.metric{background:white;border:1px solid #dbe7df;border-radius:14px;padding:16px}
+.metric b{font-size:24px;color:#008c44;display:block} .metric span{font-size:10px;color:#6f7a73}
+.chip{display:inline-block;border-radius:999px;background:#e7f6ed;color:#006b35;padding:5px 9px;font-size:9px;font-weight:800;margin:2px}
+.footer{height:48px;background:#123f2b;color:#dceadf;display:flex;align-items:center;justify-content:space-between;padding:0 42px;font-size:10px}
+.spec{height:1010px;background:#f8fafb;border:1px solid #d9e0e4;border-radius:6px;padding:18px 16px;color:#26332b;overflow:hidden}
+.spec h2{font-size:13px;margin:0 0 6px} .spec .meta{font-size:10px;color:#718078;margin-bottom:18px}
+.spec-block{border-top:1px solid #dbe2de;padding-top:13px;margin-top:13px}
+.spec-label{font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:#89948d;font-weight:900}
+.spec-value{font-size:11px;line-height:1.5;font-weight:700;margin-top:4px}
+.spec ul{padding-left:16px;margin:7px 0 0;font-size:10px;line-height:1.55;color:#526059}
+.swatches{display:flex;gap:6px;margin-top:8px} .sw{width:22px;height:22px;border-radius:6px;border:1px solid rgba(0,0,0,.08)}
+.rule{height:1px;background:#e2ebe5;margin:14px 0}
+.list-row{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid #edf1ee} .num{width:22px;height:22px;border-radius:7px;background:#e8f6ee;color:#008c44;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:900;flex:0 0 auto}
+.list-row b{font-size:12px} .list-row p{font-size:10px;color:#6c786f;margin:3px 0 0;line-height:1.4}
+.article-card{display:grid;grid-template-columns:110px 1fr;gap:14px;border:1px solid #dfe8e2;border-radius:13px;overflow:hidden;background:white}
+.article-card .photo-wrap{height:104px}
+.article-copy{padding:12px 12px 10px 0} .article-copy b{font-size:13px} .article-copy p{font-size:10px;color:#6b776f;line-height:1.45}
+.form-field{height:36px;border:1px solid #d9e2dc;border-radius:8px;background:#fff;margin-top:7px}
+.amounts{display:flex;gap:8px;flex-wrap:wrap} .amount{border:1px solid #cbdcd1;border-radius:9px;padding:9px 13px;font-size:11px;font-weight:800;background:#fff} .amount.selected{background:#008c44;color:#fff;border-color:#008c44}
+</style>
+</head>
+<body>
+<div class="canvas-bar"><span class="dot"></span>HSF WEBSITE REDESIGN · FIGMA-STYLE CONCEPT · DESKTOP FRAME · 1440 GRID</div>
+<div class="workspace">
+  <main class="board">
+    <header class="site-header">
+      <img class="logo" src="../../../images/hsf-logo.png" alt="HSF logo">
+      <div class="nav"><span class="nav-item ">About</span><span class="nav-item ">Projects</span><span class="nav-item ">Impact</span><span class="nav-item active">News & Insights</span><span class="nav-item ">Resources</span><span class="nav-item ">Get Involved</span><span class="nav-item ">Contact</span></div>
+      <span class="donate">Donate</span>
+    </header>
+    <div class="page">
+    <section class="section tint"><div class="eyebrow">Insights · Climate Action</div><div class="section-title" style="font-size:36px;max-width:870px">Community resilience should begin with clear local context and practical learning.</div><div class="lead">A short standfirst should explain why the article matters before the reader enters the full body.</div><div style="margin-top:13px;font-size:10px;color:#718078">HSF Editorial Team · Published 11 Aug 2026 · Updated when needed · 6 min read</div></section>
+    <section style="height:230px"><div class="photo-wrap"><img class="hero-img" src="../../stock/climate.jpg" alt=""><span class="stock">STOCK PLACEHOLDER</span></div></section>
+    <section class="section"><div style="display:grid;grid-template-columns:180px 1fr 210px;gap:26px">
+      <div><div class="eyebrow">On this page</div><div class="list-row"><span class="num">1</span><div><b>Context</b></div></div><div class="list-row"><span class="num">2</span><div><b>What matters</b></div></div><div class="list-row"><span class="num">3</span><div><b>HSF perspective</b></div></div></div>
+      <div><p style="font-size:13px;line-height:1.75;color:#47564d;margin-top:0">The article body should use descriptive subheadings, short paragraphs, evidence links and careful distinctions between HSF project activity and broader issue-based discussion.</p><div class="card" style="margin-top:15px"><b>Evidence note</b><p>Sources, reporting periods and links should be provided where a factual claim requires support.</p></div></div>
+      <div class="card"><div class="eyebrow">Related project</div><h3>Climate Action</h3><p>The project page should explain current HSF delivery; the article should not replace it.</p></div>
+    </div></section>
+    </div>
+    <footer class="footer"><span>Human Safety Foundation (HSF) · Always we are...</span><span>hsfbd.org · Accessibility · Privacy · Safeguarding</span></footer>
+  </main>
+  <aside class="spec">
+    <h2>Single Blog Article</h2>
+    <div class="meta">WordPress desktop concept · 12-column content grid</div>
+    <div class="spec-block"><div class="spec-label">Page goal</div><div class="spec-value">To provide a readable, evidence-aware article page with clear authorship, dates and related context.</div></div>
+    <div class="spec-block"><div class="spec-label">Primary CTA</div><div class="spec-value">Explore Related Project</div></div>
+    <div class="spec-block"><div class="spec-label">WordPress model</div><div class="spec-value">Single Post template</div></div>
+    <div class="spec-block"><div class="spec-label">Design notes</div><ul><li>Breadcrumb, category, H1, standfirst, author and dates should appear above the article.</li><li>Featured-image alt text and credit should be prepared before publishing.</li><li>An updated date should appear when material facts change.</li><li>One relevant CTA should be used at the end rather than multiple competing asks.</li></ul></div>
+    <div class="spec-block"><div class="spec-label">Core tokens</div><div class="swatches">
+      <span class="sw" style="background:#008c44"></span><span class="sw" style="background:#006b35"></span>
+      <span class="sw" style="background:#eff8f3"></span><span class="sw" style="background:#ffffff"></span>
+      <span class="sw" style="background:#233128"></span>
+    </div></div>
+    <div class="spec-block"><div class="spec-label">Photo policy</div><div class="spec-value">Stock imagery is for design demonstration only. Approved HSF field photography should replace it in production.</div></div>
+  </aside>
+</div>
+</body></html>
