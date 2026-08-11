@@ -210,3 +210,7 @@ For production, the Netlify UI remains the recommended place for the real PIN an
 The `netlify/edge-functions` directory intentionally contains only deployable Edge Function handlers with a default function export.
 
 Shared security helper code is embedded in the relevant handlers instead of being stored as a separate `.ts` file inside this directory. Netlify treats JavaScript and TypeScript files in its Edge Functions directory as function files during bundling, and every deployable Edge Function file requires a default handler export.
+
+## PIN visibility
+
+The eye control inside the PIN field allows the six entered digits to be shown or hidden. The PIN is still submitted only through the protected access form and verified by the Netlify Edge Function.

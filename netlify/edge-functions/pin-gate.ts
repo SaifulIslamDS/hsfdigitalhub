@@ -161,7 +161,7 @@ function securityHeaders(extra = {}) {
     "referrer-policy": "no-referrer",
     "x-robots-tag": "noindex, nofollow, noarchive, nosnippet",
     "content-security-policy":
-      "default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+      "default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
     ...extra,
   };
 }
@@ -294,13 +294,14 @@ function renderAccessPage({
       font-weight:900;
       color:#31483B;
     }
+    .pin-wrap{position:relative}
     input{
       width:100%;
       height:56px;
       border:1px solid #CFE1D6;
       border-radius:14px;
       background:#FBFDFC;
-      padding:0 18px;
+      padding:0 58px 0 18px;
       outline:none;
       text-align:center;
       font-size:22px;
@@ -314,7 +315,28 @@ function renderAccessPage({
       background:#fff;
       box-shadow:0 0 0 4px rgba(0,140,68,.10);
     }
-    button{
+    .pin-toggle{
+      position:absolute;
+      top:50%;
+      right:11px;
+      width:38px;
+      height:38px;
+      margin:0;
+      padding:0;
+      transform:translateY(-50%);
+      display:grid;
+      place-items:center;
+      border:0;
+      border-radius:10px;
+      background:transparent;
+      color:#607269;
+      box-shadow:none;
+      cursor:pointer;
+    }
+    .pin-toggle:hover{background:#EDF7F1;color:var(--deep)}
+    .pin-toggle:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+    .pin-toggle svg{width:20px;height:20px}
+    .submit-btn{
       width:100%;
       height:50px;
       margin-top:14px;
@@ -327,7 +349,7 @@ function renderAccessPage({
       cursor:pointer;
       box-shadow:0 10px 22px rgba(0,140,68,.17);
     }
-    button:hover{background:var(--deep)}
+    .submit-btn:hover{background:var(--deep)}
     .note{
       margin-top:13px;
       text-align:center;
@@ -384,24 +406,67 @@ function renderAccessPage({
     <form action="/__hsf_access" method="post">
       <input type="hidden" name="return_to" value="${safeReturn}">
       <label for="pin">Access PIN</label>
-      <input
-        id="pin"
-        name="pin"
-        type="password"
-        inputmode="numeric"
-        pattern="[0-9]{6}"
-        maxlength="6"
-        minlength="6"
-        autocomplete="one-time-code"
-        autofocus
-        required
-      >
-      <button type="submit">Access Knowledge Hub</button>
+      <div class="pin-wrap">
+        <input
+          id="pin"
+          name="pin"
+          type="password"
+          inputmode="numeric"
+          pattern="[0-9]{6}"
+          maxlength="6"
+          minlength="6"
+          autocomplete="one-time-code"
+          autofocus
+          required
+        >
+        <button
+          class="pin-toggle"
+          id="pinToggle"
+          type="button"
+          aria-label="Show PIN"
+          aria-pressed="false"
+          title="Show PIN"
+        >
+          <svg id="eyeOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path>
+            <circle cx="12" cy="12" r="2.7"></circle>
+          </svg>
+          <svg id="eyeClosed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" hidden>
+            <path d="m3 3 18 18"></path>
+            <path d="M10.6 10.6A2 2 0 0 0 13.4 13.4"></path>
+            <path d="M9.9 4.3A10.8 10.8 0 0 1 12 4c6 0 9.5 8 9.5 8a16.6 16.6 0 0 1-2.1 3.1"></path>
+            <path d="M6.6 6.6C4 8.4 2.5 12 2.5 12S6 20 12 20a9.7 9.7 0 0 0 4.1-.9"></path>
+          </svg>
+        </button>
+      </div>
+      <button class="submit-btn" type="submit">Access Knowledge Hub</button>
       <div class="note">Six numeric digits are required. Repeated failed attempts are rate-limited.</div>
     </form>`}
 
     <div class="footer">Human Safety Foundation (HSF) · Always we are...</div>
   </main>
+
+  <script>
+    (() => {
+      const pin = document.getElementById("pin");
+      const toggle = document.getElementById("pinToggle");
+      const eyeOpen = document.getElementById("eyeOpen");
+      const eyeClosed = document.getElementById("eyeClosed");
+
+      if (!pin || !toggle || !eyeOpen || !eyeClosed) return;
+
+      toggle.addEventListener("click", () => {
+        const showing = pin.type === "text";
+        pin.type = showing ? "password" : "text";
+        toggle.setAttribute("aria-pressed", String(!showing));
+        toggle.setAttribute("aria-label", showing ? "Show PIN" : "Hide PIN");
+        toggle.setAttribute("title", showing ? "Show PIN" : "Hide PIN");
+        eyeOpen.hidden = !showing;
+        eyeClosed.hidden = showing;
+        pin.focus({ preventScroll: true });
+      });
+    })();
+  </script>
 </body>
 </html>`;
 }
