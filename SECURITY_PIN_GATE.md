@@ -128,7 +128,6 @@ Signing out deletes the session cookie and returns the visitor to the protected 
 ```text
 netlify/
 └── edge-functions/
-    ├── _pin-utils.ts
     ├── pin-gate.ts
     ├── pin-login.ts
     └── pin-logout.ts
@@ -143,8 +142,7 @@ Processes the PIN form and applies Netlify rate limiting.
 ### `pin-logout.ts`
 Deletes the session cookie.
 
-### `_pin-utils.ts`
-Contains the Web Crypto hashing, HMAC session signing, secure page rendering, and shared validation helpers.
+Security helpers are intentionally embedded inside the deployable handler files. This avoids placing a non-handler TypeScript module in Netlify's configured Edge Functions directory, where Netlify would otherwise try to package it as an Edge Function.
 
 ---
 
@@ -210,3 +208,10 @@ netlify dev
 The two environment variables must also be available to the local Netlify development environment.
 
 For production, the Netlify UI remains the recommended place for the real PIN and session secret.
+
+
+## Build compatibility note
+
+The `netlify/edge-functions` directory intentionally contains only deployable Edge Function handlers with a default function export.
+
+Shared security helper code is embedded in the relevant handlers instead of being stored as a separate `.ts` file inside this directory. Netlify treats JavaScript and TypeScript files in its Edge Functions directory as function files during bundling, and every deployable Edge Function file requires a default handler export.

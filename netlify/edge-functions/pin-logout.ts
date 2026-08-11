@@ -1,6 +1,5 @@
-import {
-  COOKIE_NAME,
-} from "./_pin-utils.ts";
+
+const COOKIE_NAME = "hsf_access_v1";
 
 export default async function pinLogout(_request, context) {
   context.cookies.delete({
