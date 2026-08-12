@@ -13,7 +13,7 @@ The protection applies to:
 
 The PIN is not stored in HTML, JavaScript, GitHub, or this ZIP.
 
-A successful PIN entry creates a signed, `HttpOnly`, `Secure`, `SameSite=Strict` session cookie. The session expires after 12 hours.
+A successful PIN entry creates a signed, `HttpOnly`, `Secure`, `SameSite=Strict` authorization cookie with a 12-hour absolute lifetime. A second signed idle-session cookie enforces automatic sign-out after inactivity.
 
 The PIN endpoint is limited to 5 requests per 60 seconds for each client IP/domain by Netlify's code-based rate limiting.
 
@@ -21,9 +21,9 @@ This is a shared-PIN private-review layer. It is not intended to protect confide
 
 ---
 
-## 1. Required Netlify environment variables
+## 1. Netlify environment variables
 
-Two runtime environment variables are required:
+Two runtime environment variables are required, and one optional variable controls inactivity sign-out:
 
 ### `HSF_ACCESS_PIN`
 
@@ -52,6 +52,18 @@ $rng.Dispose()
 
 The resulting Base64 text can be copied into `HSF_ACCESS_SECRET`.
 
+### `HSF_IDLE_TIMEOUT_MINUTES`
+
+Controls the authorized-user inactivity timeout in whole minutes.
+
+Recommended production value:
+
+```text
+30
+```
+
+If the variable is omitted, the code defaults to **30 minutes**. Valid values are **1 through 720**. The existing 12-hour authorization session remains the absolute maximum even when a larger idle value is configured.
+
 ---
 
 ## 2. Netlify configuration
@@ -66,6 +78,7 @@ The following variables should be added:
 |---|---|
 | `HSF_ACCESS_PIN` | Your private 6-digit PIN |
 | `HSF_ACCESS_SECRET` | The random secret generated above |
+| `HSF_IDLE_TIMEOUT_MINUTES` | `30` (recommended; optional, defaults to 30) |
 
 If Netlify shows variable scopes, the **Functions** scope must be included because Edge Functions read runtime environment variables from the Functions scope.
 
@@ -75,7 +88,7 @@ The PIN and secret should not be added to `netlify.toml`.
 
 ## 3. Redeployment
 
-After either environment variable is added or changed, a new deploy is required.
+After any security environment variable is added or changed, a new deploy is required.
 
 Netlify applies Edge Function environment-variable changes at deployment time.
 
@@ -96,9 +109,11 @@ No site document should be visible before a valid PIN is entered.
 ### Correct PIN
 
 A successful PIN entry should:
-1. set a secure 12-hour session cookie;
-2. redirect the visitor to the originally requested page;
-3. allow direct navigation to other protected pages and assets.
+1. set the secure 12-hour authorization cookie;
+2. set the signed idle-session cookie;
+3. redirect the visitor to the originally requested page;
+4. allow direct navigation to other protected pages and assets while activity continues;
+5. automatically sign out after the configured inactivity period.
 
 ### Incorrect PIN
 
@@ -114,7 +129,7 @@ If the PIN or session secret is missing or invalid, the site intentionally fails
 
 After access is granted, a small **Protected · Sign out** control appears at the lower-left of each main HTML page.
 
-Signing out deletes the session cookie and returns the visitor to the protected entry screen.
+Signing out deletes both the authorization and idle-session cookies and returns the visitor to the protected entry screen.
 
 ---
 
@@ -129,13 +144,13 @@ netlify/
 ```
 
 ### `pin-gate.ts`
-Protects the entire site and verifies the signed session cookie.
+Protects the entire site, verifies both signed cookies, injects the browser inactivity guard into authorized HTML pages, and handles the protected `/__hsf_activity` refresh route.
 
 ### `pin-login.ts`
-Processes the PIN form and applies Netlify rate limiting.
+Processes the PIN form, creates both signed cookies, and applies Netlify rate limiting.
 
 ### `pin-logout.ts`
-Deletes the session cookie.
+Deletes both authorization cookies.
 
 Security helpers are intentionally embedded inside the deployable handler files. This avoids placing a non-handler TypeScript module in Netlify's configured Edge Functions directory, where Netlify would otherwise try to package it as an Edge Function.
 
@@ -184,9 +199,11 @@ The following checks should be completed in an incognito/private browser window:
 5. The correct PIN should open the requested page.
 6. Refreshing the page should keep the authorized session active.
 7. Another master document should open without asking for the PIN again.
-8. **Protected · Sign out** should end the session.
-9. After sign-out, a protected page should require the PIN again.
-10. The deploy log should be checked for confirmation that Netlify accepted the rate-limit rule.
+8. Complete inactivity for the configured timeout should automatically return to the protected entry screen.
+9. After the inactivity timeout, direct navigation to a protected page should still require the PIN.
+10. **Protected · Sign out** should end the session manually.
+11. After sign-out, a protected page should require the PIN again.
+12. The deploy log should be checked for confirmation that Netlify accepted the rate-limit rule.
 
 ---
 
@@ -200,7 +217,7 @@ When local testing is needed, the Netlify CLI should be used:
 netlify dev
 ```
 
-The two environment variables must also be available to the local Netlify development environment.
+The two required variables and, when testing a custom inactivity window, `HSF_IDLE_TIMEOUT_MINUTES` must be available to the local Netlify development environment.
 
 For production, the Netlify UI remains the recommended place for the real PIN and session secret.
 
@@ -213,4 +230,4 @@ Shared security helper code is embedded in the relevant handlers instead of bein
 
 ## PIN visibility
 
-The eye control inside the PIN field allows the six entered digits to be shown or hidden. The PIN is still submitted only through the authorized access form and verified by the Netlify Edge Function.
+The eye control inside the PIN field allows the six entered digits to be shown or hidden. The PIN is still submitted only through the protected access form and verified by the Netlify Edge Function.

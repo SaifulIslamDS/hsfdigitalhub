@@ -1,6 +1,10 @@
 
 const COOKIE_NAME = "hsf_access_v1";
+const IDLE_COOKIE_NAME = "hsf_idle_v1";
 const SESSION_SECONDS = 12 * 60 * 60;
+const DEFAULT_IDLE_TIMEOUT_MINUTES = 30;
+const MIN_IDLE_TIMEOUT_MINUTES = 1;
+const MAX_IDLE_TIMEOUT_MINUTES = 12 * 60;
 const encoder = new TextEncoder();
 
 function bytesToBase64Url(bytes) {
@@ -72,6 +76,7 @@ async function hmacVerify(secret, value, encodedSignature) {
 function readSecurityConfig() {
   const pin = Netlify.env.get("HSF_ACCESS_PIN") ?? "";
   const secret = Netlify.env.get("HSF_ACCESS_SECRET") ?? "";
+  const rawIdleTimeout = (Netlify.env.get("HSF_IDLE_TIMEOUT_MINUTES") ?? "").trim();
 
   if (!/^\d{6}$/.test(pin)) {
     return {
@@ -96,7 +101,37 @@ function readSecurityConfig() {
     };
   }
 
-  return { ok: true, pin, secret };
+  let idleTimeoutMinutes = DEFAULT_IDLE_TIMEOUT_MINUTES;
+  if (rawIdleTimeout) {
+    if (!/^\d+$/.test(rawIdleTimeout)) {
+      return {
+        ok: false,
+        message:
+          "HSF_IDLE_TIMEOUT_MINUTES must be a whole number between 1 and 720.",
+      };
+    }
+
+    idleTimeoutMinutes = Number(rawIdleTimeout);
+    if (
+      !Number.isInteger(idleTimeoutMinutes) ||
+      idleTimeoutMinutes < MIN_IDLE_TIMEOUT_MINUTES ||
+      idleTimeoutMinutes > MAX_IDLE_TIMEOUT_MINUTES
+    ) {
+      return {
+        ok: false,
+        message:
+          "HSF_IDLE_TIMEOUT_MINUTES must be a whole number between 1 and 720.",
+      };
+    }
+  }
+
+  return {
+    ok: true,
+    pin,
+    secret,
+    idleTimeoutMinutes,
+    idleTimeoutSeconds: idleTimeoutMinutes * 60,
+  };
 }
 
 async function pinMatches(submittedPin, configuredPin) {
@@ -113,6 +148,38 @@ async function createSessionValue(secret) {
   const payload = `hsf-access-v1:${expiresAt}`;
   const signature = await hmacSign(secret, payload);
   return { value: `${expiresAt}.${signature}`, expiresAt };
+}
+
+async function createIdleValue(secret, idleTimeoutSeconds) {
+  const expiresAt = Math.floor(Date.now() / 1000) + idleTimeoutSeconds;
+  const payload = `hsf-idle-v1:${expiresAt}`;
+  const signature = await hmacSign(secret, payload);
+  return { value: `${expiresAt}.${signature}`, expiresAt };
+}
+
+async function verifyIdleValue(value, secret, idleTimeoutSeconds) {
+  if (!value) return false;
+  const match = /^(\d{10})\.([A-Za-z0-9_-]+)$/.exec(value);
+  if (!match) return false;
+
+  const expiresAt = Number(match[1]);
+  const now = Math.floor(Date.now() / 1000);
+  if (!Number.isFinite(expiresAt) || expiresAt <= now) return false;
+  if (expiresAt > now + idleTimeoutSeconds + 300) return false;
+
+  return hmacVerify(secret, `hsf-idle-v1:${expiresAt}`, match[2]);
+}
+
+function setIdleCookie(context, idle) {
+  context.cookies.set({
+    name: IDLE_COOKIE_NAME,
+    value: idle.value,
+    path: "/",
+    secure: true,
+    httpOnly: true,
+    sameSite: "strict",
+    expires: idle.expiresAt * 1000,
+  });
 }
 
 async function verifySessionValue(value, secret) {
@@ -200,7 +267,7 @@ function renderAccessPage({
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-  <title>Authorized Access · HSF Knowledge Hub</title>
+  <title>Protected Access · HSF Knowledge Hub</title>
   <style>
     :root{
       color-scheme:light;
@@ -397,7 +464,7 @@ function renderAccessPage({
 
     <div class="eyebrow">Authorized access</div>
     <h1>Enter the 6-digit PIN</h1>
-    <p class="session">The access session remains valid for up to 12 hours on this browser.</p>
+    <p class="session">The access session remains valid for up to 12 hours and automatically signs out after inactivity.</p>
 
     ${configurationHtml}
     ${errorHtml}
@@ -448,6 +515,7 @@ function renderAccessPage({
 
   <script>
     (() => {
+      try { localStorage.removeItem("hsf_idle_last_activity_v1"); } catch {}
       const pin = document.getElementById("pin");
       const toggle = document.getElementById("pinToggle");
       const eyeOpen = document.getElementById("eyeOpen");
@@ -534,6 +602,7 @@ export default async function pinLogin(request, context) {
   }
 
   const session = await createSessionValue(config.secret);
+  const idle = await createIdleValue(config.secret, config.idleTimeoutSeconds);
 
   context.cookies.set({
     name: COOKIE_NAME,
@@ -544,6 +613,7 @@ export default async function pinLogin(request, context) {
     sameSite: "strict",
     expires: session.expiresAt * 1000,
   });
+  setIdleCookie(context, idle);
 
   return new Response(null, {
     status: 303,

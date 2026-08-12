@@ -1,9 +1,14 @@
 
 const COOKIE_NAME = "hsf_access_v1";
+const IDLE_COOKIE_NAME = "hsf_idle_v1";
 
 export default async function pinLogout(_request, context) {
   context.cookies.delete({
     name: COOKIE_NAME,
+    path: "/",
+  });
+  context.cookies.delete({
+    name: IDLE_COOKIE_NAME,
     path: "/",
   });
 

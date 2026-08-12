@@ -33,6 +33,10 @@ Before the protected site can be used, these Netlify Environment variables are r
 - `HSF_ACCESS_PIN` — exactly six numeric digits
 - `HSF_ACCESS_SECRET` — a separate random value of at least 32 characters
 
+The inactivity window is controlled by:
+
+- `HSF_IDLE_TIMEOUT_MINUTES` — whole minutes from 1 to 720; recommended value `30`; defaults to 30 when omitted
+
 If variable scopes are available, the Functions scope should be included.
 
 The site intentionally fails closed when these values are not configured.

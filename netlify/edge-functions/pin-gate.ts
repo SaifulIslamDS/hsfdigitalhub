@@ -1,6 +1,10 @@
 
 const COOKIE_NAME = "hsf_access_v1";
+const IDLE_COOKIE_NAME = "hsf_idle_v1";
 const SESSION_SECONDS = 12 * 60 * 60;
+const DEFAULT_IDLE_TIMEOUT_MINUTES = 30;
+const MIN_IDLE_TIMEOUT_MINUTES = 1;
+const MAX_IDLE_TIMEOUT_MINUTES = 12 * 60;
 const encoder = new TextEncoder();
 
 function bytesToBase64Url(bytes) {
@@ -72,6 +76,7 @@ async function hmacVerify(secret, value, encodedSignature) {
 function readSecurityConfig() {
   const pin = Netlify.env.get("HSF_ACCESS_PIN") ?? "";
   const secret = Netlify.env.get("HSF_ACCESS_SECRET") ?? "";
+  const rawIdleTimeout = (Netlify.env.get("HSF_IDLE_TIMEOUT_MINUTES") ?? "").trim();
 
   if (!/^\d{6}$/.test(pin)) {
     return {
@@ -96,7 +101,37 @@ function readSecurityConfig() {
     };
   }
 
-  return { ok: true, pin, secret };
+  let idleTimeoutMinutes = DEFAULT_IDLE_TIMEOUT_MINUTES;
+  if (rawIdleTimeout) {
+    if (!/^\d+$/.test(rawIdleTimeout)) {
+      return {
+        ok: false,
+        message:
+          "HSF_IDLE_TIMEOUT_MINUTES must be a whole number between 1 and 720.",
+      };
+    }
+
+    idleTimeoutMinutes = Number(rawIdleTimeout);
+    if (
+      !Number.isInteger(idleTimeoutMinutes) ||
+      idleTimeoutMinutes < MIN_IDLE_TIMEOUT_MINUTES ||
+      idleTimeoutMinutes > MAX_IDLE_TIMEOUT_MINUTES
+    ) {
+      return {
+        ok: false,
+        message:
+          "HSF_IDLE_TIMEOUT_MINUTES must be a whole number between 1 and 720.",
+      };
+    }
+  }
+
+  return {
+    ok: true,
+    pin,
+    secret,
+    idleTimeoutMinutes,
+    idleTimeoutSeconds: idleTimeoutMinutes * 60,
+  };
 }
 
 async function pinMatches(submittedPin, configuredPin) {
@@ -113,6 +148,38 @@ async function createSessionValue(secret) {
   const payload = `hsf-access-v1:${expiresAt}`;
   const signature = await hmacSign(secret, payload);
   return { value: `${expiresAt}.${signature}`, expiresAt };
+}
+
+async function createIdleValue(secret, idleTimeoutSeconds) {
+  const expiresAt = Math.floor(Date.now() / 1000) + idleTimeoutSeconds;
+  const payload = `hsf-idle-v1:${expiresAt}`;
+  const signature = await hmacSign(secret, payload);
+  return { value: `${expiresAt}.${signature}`, expiresAt };
+}
+
+async function verifyIdleValue(value, secret, idleTimeoutSeconds) {
+  if (!value) return false;
+  const match = /^(\d{10})\.([A-Za-z0-9_-]+)$/.exec(value);
+  if (!match) return false;
+
+  const expiresAt = Number(match[1]);
+  const now = Math.floor(Date.now() / 1000);
+  if (!Number.isFinite(expiresAt) || expiresAt <= now) return false;
+  if (expiresAt > now + idleTimeoutSeconds + 300) return false;
+
+  return hmacVerify(secret, `hsf-idle-v1:${expiresAt}`, match[2]);
+}
+
+function setIdleCookie(context, idle) {
+  context.cookies.set({
+    name: IDLE_COOKIE_NAME,
+    value: idle.value,
+    path: "/",
+    secure: true,
+    httpOnly: true,
+    sameSite: "strict",
+    expires: idle.expiresAt * 1000,
+  });
 }
 
 async function verifySessionValue(value, secret) {
@@ -200,7 +267,7 @@ function renderAccessPage({
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-  <title>Authorized Access · HSF Knowledge Hub</title>
+  <title>Protected Access · HSF Knowledge Hub</title>
   <style>
     :root{
       color-scheme:light;
@@ -402,7 +469,7 @@ function renderAccessPage({
 
     <div class="eyebrow">Authorized access</div>
     <h1>Enter the 6-digit PIN</h1>
-    <p class="session">The access session remains valid for up to 12 hours on this browser.</p>
+    <p class="session">The access session remains valid for up to 12 hours and automatically signs out after inactivity.</p>
 
     ${configurationHtml}
     ${errorHtml}
@@ -455,6 +522,7 @@ function renderAccessPage({
 
   <script>
     (() => {
+      try { localStorage.removeItem("hsf_idle_last_activity_v1"); } catch {}
       const pin = document.getElementById("pin");
       const toggle = document.getElementById("pinToggle");
       if (!pin || !toggle) return;
@@ -473,6 +541,140 @@ function renderAccessPage({
 </html>`;
 }
 
+function idleGuardScript(idleTimeoutMinutes) {
+  const timeoutMs = idleTimeoutMinutes * 60 * 1000;
+  const pingIntervalMs = Math.min(60 * 1000, Math.max(10 * 1000, Math.floor(timeoutMs / 4)));
+
+  return `<script id="hsf-idle-guard">
+    (() => {
+      const TIMEOUT_MS = ${timeoutMs};
+      const PING_INTERVAL_MS = ${pingIntervalMs};
+      const STORAGE_KEY = "hsf_idle_last_activity_v1";
+      let timer = 0;
+      let lastPingAt = 0;
+      let lastRecordedAt = 0;
+      let signingOut = false;
+
+      const readLastActivity = () => {
+        try {
+          const value = Number(localStorage.getItem(STORAGE_KEY));
+          return Number.isFinite(value) && value > 0 ? value : 0;
+        } catch {
+          return lastRecordedAt;
+        }
+      };
+
+      const writeLastActivity = (value) => {
+        lastRecordedAt = value;
+        try { localStorage.setItem(STORAGE_KEY, String(value)); } catch {}
+      };
+
+      const signOut = () => {
+        if (signingOut) return;
+        signingOut = true;
+        try { localStorage.removeItem(STORAGE_KEY); } catch {}
+        location.replace("/__hsf_logout?reason=idle");
+      };
+
+      const schedule = () => {
+        clearTimeout(timer);
+        const lastActivity = readLastActivity() || Date.now();
+        const remaining = TIMEOUT_MS - (Date.now() - lastActivity);
+        if (remaining <= 0) {
+          signOut();
+          return;
+        }
+        timer = setTimeout(() => {
+          const latest = readLastActivity();
+          if (!latest || Date.now() - latest >= TIMEOUT_MS) signOut();
+          else schedule();
+        }, remaining + 150);
+      };
+
+      const ping = async (force = false) => {
+        const now = Date.now();
+        if (!force && now - lastPingAt < PING_INTERVAL_MS) return;
+        lastPingAt = now;
+        try {
+          const response = await fetch("/__hsf_activity", {
+            method: "POST",
+            credentials: "same-origin",
+            cache: "no-store",
+            headers: { "X-HSF-Activity": "1" },
+          });
+          if (response.status === 401) signOut();
+        } catch {
+          // Network loss does not extend the server-side idle cookie.
+        }
+      };
+
+      const recordActivity = () => {
+        if (signingOut) return;
+        const now = Date.now();
+        const previous = readLastActivity();
+        if (previous && now - previous >= TIMEOUT_MS) {
+          signOut();
+          return;
+        }
+        if (now - lastRecordedAt < 1000) return;
+        writeLastActivity(now);
+        schedule();
+        void ping(false);
+      };
+
+      const initial = readLastActivity();
+      if (initial && Date.now() - initial >= TIMEOUT_MS) {
+        signOut();
+        return;
+      }
+
+      writeLastActivity(Date.now());
+      schedule();
+      void ping(true);
+
+      ["pointerdown", "keydown", "touchstart", "scroll", "mousemove"].forEach((eventName) => {
+        window.addEventListener(eventName, recordActivity, { passive: true });
+      });
+
+      window.addEventListener("storage", (event) => {
+        if (event.key !== STORAGE_KEY) return;
+        if (event.newValue === null) {
+          signOut();
+          return;
+        }
+        schedule();
+      });
+
+      window.addEventListener("focus", recordActivity);
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) recordActivity();
+      });
+    })();
+  </script>`;
+}
+
+async function injectIdleGuard(response, idleTimeoutMinutes) {
+  const contentType = response.headers.get("content-type") ?? "";
+  if (!contentType.toLowerCase().includes("text/html")) return response;
+
+  const html = await response.text();
+  const guard = idleGuardScript(idleTimeoutMinutes);
+  const bodyClose = html.toLowerCase().lastIndexOf("</body>");
+  const output = bodyClose >= 0
+    ? `${html.slice(0, bodyClose)}${guard}${html.slice(bodyClose)}`
+    : `${html}${guard}`;
+
+  const headers = protectedResponseHeaders(response.headers);
+  headers.delete("content-length");
+  headers.delete("etag");
+
+  return new Response(output, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
 function htmlResponse(html, status = 200, extraHeaders = {}) {
   return new Response(html, { status, headers: securityHeaders(extraHeaders) });
 }
@@ -487,12 +689,68 @@ export default async function pinGate(request, context) {
     );
   }
 
+  const url = new URL(request.url);
   const session = context.cookies.get(COOKIE_NAME);
+  const idleSession = context.cookies.get(IDLE_COOKIE_NAME);
+  const [sessionValid, idleValid] = await Promise.all([
+    session ? verifySessionValue(session, config.secret) : false,
+    idleSession
+      ? verifyIdleValue(idleSession, config.secret, config.idleTimeoutSeconds)
+      : false,
+  ]);
 
-  if (session && await verifySessionValue(session, config.secret)) {
+  if (url.pathname === "/__hsf_activity") {
+    if (request.method !== "POST") {
+      return new Response(null, {
+        status: 405,
+        headers: {
+          "allow": "POST",
+          "cache-control": "private, no-store, max-age=0",
+        },
+      });
+    }
+
+    if (!sessionValid || !idleValid) {
+      context.cookies.delete({ name: COOKIE_NAME, path: "/" });
+      context.cookies.delete({ name: IDLE_COOKIE_NAME, path: "/" });
+      return new Response(null, {
+        status: 401,
+        headers: {
+          "cache-control": "private, no-store, max-age=0",
+          "pragma": "no-cache",
+          "x-robots-tag": "noindex, nofollow, noarchive, nosnippet",
+        },
+      });
+    }
+
+    const refreshedIdle = await createIdleValue(
+      config.secret,
+      config.idleTimeoutSeconds,
+    );
+    setIdleCookie(context, refreshedIdle);
+
+    return new Response(null, {
+      status: 204,
+      headers: {
+        "cache-control": "private, no-store, max-age=0",
+        "pragma": "no-cache",
+      },
+    });
+  }
+
+  if (sessionValid && idleValid) {
+    const refreshedIdle = await createIdleValue(
+      config.secret,
+      config.idleTimeoutSeconds,
+    );
+    setIdleCookie(context, refreshedIdle);
+
     const response = await context.next();
-    const headers = protectedResponseHeaders(response.headers);
+    if ((response.headers.get("content-type") ?? "").toLowerCase().includes("text/html")) {
+      return injectIdleGuard(response, config.idleTimeoutMinutes);
+    }
 
+    const headers = protectedResponseHeaders(response.headers);
     return new Response(response.body, {
       status: response.status,
       statusText: response.statusText,
@@ -500,9 +758,10 @@ export default async function pinGate(request, context) {
     });
   }
 
-  const url = new URL(request.url);
-  const returnTo = safeReturnTo(`${url.pathname}${url.search}`);
+  context.cookies.delete({ name: COOKIE_NAME, path: "/" });
+  context.cookies.delete({ name: IDLE_COOKIE_NAME, path: "/" });
 
+  const returnTo = safeReturnTo(`${url.pathname}${url.search}`);
   return htmlResponse(renderAccessPage({ returnTo }), 401);
 }
 
