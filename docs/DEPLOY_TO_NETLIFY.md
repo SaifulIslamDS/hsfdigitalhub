@@ -10,6 +10,7 @@ Official public website: https://hsfbd.org/
 - social_communication_plan.html
 - ERP_Overview.html
 - brand_identity_master_guide.html
+- impact_meal_learning_framework.html
 
 UI redesign references are stored in `assets/mockups/`.
 
