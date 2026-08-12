@@ -464,7 +464,7 @@ function renderAccessPage({
 
     <div class="eyebrow">Authorized access</div>
     <h1>Enter the 6-digit PIN</h1>
-    <p class="session">The access session remains valid for up to 12 hours and automatically signs out after inactivity.</p>
+    <p class="session">The access session remains valid for up to 30 minutes and automatically signs out after inactivity.</p>
 
     ${configurationHtml}
     ${errorHtml}
