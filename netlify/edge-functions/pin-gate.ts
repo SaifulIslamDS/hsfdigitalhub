@@ -335,7 +335,12 @@ function renderAccessPage({
     }
     .pin-toggle:hover{background:#EDF7F1;color:var(--deep)}
     .pin-toggle:focus-visible{outline:2px solid var(--green);outline-offset:2px}
-    .pin-toggle svg{width:20px;height:20px}
+    .pin-toggle svg{width:20px;height:20px;display:block}
+    .pin-toggle .eye-closed{display:none}
+    .pin-toggle[aria-pressed="true"] .eye-open{display:none}
+    .pin-toggle[aria-pressed="true"] .eye-closed{display:block}
+    input[type="password"]::-ms-reveal,
+    input[type="password"]::-ms-clear{display:none}
     .submit-btn{
       width:100%;
       height:50px;
@@ -427,15 +432,17 @@ function renderAccessPage({
           aria-pressed="false"
           title="Show PIN"
         >
-          <svg id="eyeOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path>
-            <circle cx="12" cy="12" r="2.7"></circle>
-          </svg>
-          <svg id="eyeClosed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" hidden>
-            <path d="m3 3 18 18"></path>
-            <path d="M10.6 10.6A2 2 0 0 0 13.4 13.4"></path>
-            <path d="M9.9 4.3A10.8 10.8 0 0 1 12 4c6 0 9.5 8 9.5 8a16.6 16.6 0 0 1-2.1 3.1"></path>
-            <path d="M6.6 6.6C4 8.4 2.5 12 2.5 12S6 20 12 20a9.7 9.7 0 0 0 4.1-.9"></path>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <g class="eye-open">
+              <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path>
+              <circle cx="12" cy="12" r="2.7"></circle>
+            </g>
+            <g class="eye-closed">
+              <path d="m3 3 18 18"></path>
+              <path d="M10.6 10.6A2 2 0 0 0 13.4 13.4"></path>
+              <path d="M9.9 4.3A10.8 10.8 0 0 1 12 4c6 0 9.5 8 9.5 8a16.6 16.6 0 0 1-2.1 3.1"></path>
+              <path d="M6.6 6.6C4 8.4 2.5 12 2.5 12S6 20 12 20a9.7 9.7 0 0 0 4.1-.9"></path>
+            </g>
           </svg>
         </button>
       </div>
@@ -450,10 +457,7 @@ function renderAccessPage({
     (() => {
       const pin = document.getElementById("pin");
       const toggle = document.getElementById("pinToggle");
-      const eyeOpen = document.getElementById("eyeOpen");
-      const eyeClosed = document.getElementById("eyeClosed");
-
-      if (!pin || !toggle || !eyeOpen || !eyeClosed) return;
+      if (!pin || !toggle) return;
 
       toggle.addEventListener("click", () => {
         const showing = pin.type === "text";
@@ -461,8 +465,6 @@ function renderAccessPage({
         toggle.setAttribute("aria-pressed", String(!showing));
         toggle.setAttribute("aria-label", showing ? "Show PIN" : "Hide PIN");
         toggle.setAttribute("title", showing ? "Show PIN" : "Hide PIN");
-        eyeOpen.hidden = !showing;
-        eyeClosed.hidden = showing;
         pin.focus({ preventScroll: true });
       });
     })();
