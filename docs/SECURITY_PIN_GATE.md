@@ -213,4 +213,4 @@ Shared security helper code is embedded in the relevant handlers instead of bein
 
 ## PIN visibility
 
-The eye control inside the PIN field allows the six entered digits to be shown or hidden. The PIN is still submitted only through the protected access form and verified by the Netlify Edge Function.
+The eye control inside the PIN field allows the six entered digits to be shown or hidden. The PIN is still submitted only through the authorized access form and verified by the Netlify Edge Function.

@@ -200,7 +200,7 @@ function renderAccessPage({
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-  <title>Protected Access · HSF Knowledge Hub</title>
+  <title>Authorized Access · HSF Knowledge Hub</title>
   <style>
     :root{
       color-scheme:light;
