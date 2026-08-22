@@ -1,0 +1,15 @@
+:root {
+  --hsf-primary: #008C44;
+  --hsf-deep: #006B35;
+  --hsf-secondary: #35A36C;
+  --hsf-accent: #D9A62E;
+  --hsf-soft: #EFF8F3;
+  --hsf-surface: #FFFDE6;
+  --hsf-ink: #223029;
+  --hsf-muted: #65716B;
+  --hsf-light: #FFFFFF;
+  --hsf-space-sm: 20px;
+  --hsf-space-md: 32px;
+  --hsf-space-lg: 48px;
+  --hsf-radius-md: 24px;
+}

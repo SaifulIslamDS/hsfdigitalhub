@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="600" viewBox="0 0 1200 600">
+<metadata>{&quot;stack&quot;:&quot;HSF Brand Design Stack&quot;,&quot;version&quot;:&quot;3.0.0&quot;,&quot;platform&quot;:&quot;shared&quot;,&quot;format&quot;:&quot;authoritative-logo-master&quot;,&quot;family&quot;:&quot;Official HSF Logo Master&quot;,&quot;communication&quot;:&quot;BRAND&quot;,&quot;default_brand_expression&quot;:&quot;Evergreen&quot;,&quot;logo_policy&quot;:&quot;Central approved vector asset; template contains replaceable LOGO_COMPONENT_SLOT only&quot;,&quot;width&quot;:1200,&quot;height&quot;:600,&quot;application_profile&quot;:&quot;Portable SVG 1.1; Illustrator 2022-oriented; no external fonts/images/filters/foreignObject&quot;,&quot;revision_date&quot;:&quot;22 August 2026&quot;}</metadata>
+<g id="BACKGROUND"><rect x="0" y="0" width="1200" height="600" fill="#FFFDE6" rx="0" data-token="color.surface"/></g>
+<g id="BRAND_MOTIF" opacity="0.10">
+      <circle cx="1080.0" cy="66.0" r="60.0" fill="#35A36C" data-token="color.secondary"/>
+      <circle cx="1140.0" cy="108.0" r="33.0" fill="#D9A62E" data-token="color.accent"/>
+      <circle cx="1008.0" cy="108.0" r="21.000000000000004" fill="#008C44" data-token="color.primary"/>
+    </g>
+<g id="AUTHORITATIVE_LOGO_MASTER_PLACEHOLDER">
+<rect x="40" y="40" width="1120" height="520" fill="#FFFFFF" rx="36" stroke="#C83A43" stroke-width="6"/>
+<text x="600" y="240" font-family="Arial" font-size="62" font-weight="700" fill="#C83A43" text-anchor="middle">OFFICIAL HSF VECTOR LOGO</text>
+<text x="600" y="325" font-family="Arial" font-size="32" font-weight="700" fill="#223029" text-anchor="middle">REPLACE THIS FILE WITH THE APPROVED VECTOR MASTER</text>
+<text x="600" y="390" font-family="Arial" font-size="26" font-weight="400" fill="#65716B" text-anchor="middle">Do not publish this placeholder.</text>
+</g>
+<g id="SAFE_GUIDES" visibility="hidden">
+      <rect x="180" y="90" width="840" height="420" fill="none" stroke="#FF00AA" stroke-width="3" stroke-dasharray="16 10"/>
+      <text x="192" y="118" font-family="Arial" font-size="18" font-weight="700" fill="#FF00AA" text-anchor="start">SAFE CONTENT ZONE — GUIDE LAYER</text>
+    </g>
+</svg>

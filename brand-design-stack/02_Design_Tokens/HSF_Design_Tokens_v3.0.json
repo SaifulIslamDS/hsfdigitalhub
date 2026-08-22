@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "version": "3.0.0",
+    "date": "22 August 2026",
+    "source_stack": "HSF Brand Design Stack v2.0.1",
+    "policy_alignment": [
+      "Social Communication Plan v3.2",
+      "Brand Identity & Social Design System v2.2"
+    ],
+    "default_expression": "Evergreen"
+  },
+  "brand_expressions": {
+    "Evergreen": {
+      "primary": "#008C44",
+      "deep": "#006B35",
+      "secondary": "#35A36C",
+      "accent": "#D9A62E",
+      "soft": "#EFF8F3",
+      "surface": "#FFFDE6",
+      "ink": "#223029",
+      "muted": "#65716B",
+      "light": "#FFFFFF"
+    },
+    "Trust Blue": {
+      "primary": "#1769AA",
+      "deep": "#0E3F66",
+      "secondary": "#4F9ED6",
+      "accent": "#1E8E89",
+      "soft": "#EEF6FB",
+      "surface": "#F7FBFE",
+      "ink": "#1E2D3D",
+      "muted": "#607386",
+      "light": "#FFFFFF"
+    },
+    "Hope Gold": {
+      "primary": "#D77A00",
+      "deep": "#8D4B00",
+      "secondary": "#F3B340",
+      "accent": "#3C74A8",
+      "soft": "#FFF7E6",
+      "surface": "#FFFBF2",
+      "ink": "#382B1B",
+      "muted": "#75654E",
+      "light": "#FFFFFF"
+    },
+    "Care Red": {
+      "primary": "#C83A43",
+      "deep": "#7C1F26",
+      "secondary": "#E46970",
+      "accent": "#D98A24",
+      "soft": "#FFF0F1",
+      "surface": "#FFF8F8",
+      "ink": "#382325",
+      "muted": "#775A5D",
+      "light": "#FFFFFF"
+    },
+    "Dignity Violet": {
+      "primary": "#6F4A8E",
+      "deep": "#3F2B59",
+      "secondary": "#A678BC",
+      "accent": "#1D8A8A",
+      "soft": "#F6F0FA",
+      "surface": "#FCF9FD",
+      "ink": "#2C2632",
+      "muted": "#6E6674",
+      "light": "#FFFFFF"
+    }
+  },
+  "typography": {
+    "live_svg_font": "Arial",
+    "preferred_brand_font_note": "Apply approved HSF fonts locally when available; font files are not distributed in this stack.",
+    "bengali_note": "Use approved Bengali font configured by HSF; do not embed font binaries."
+  },
+  "spacing": {
+    "xs": 12,
+    "sm": 20,
+    "md": 32,
+    "lg": 48,
+    "xl": 72,
+    "xxl": 96
+  },
+  "radii": {
+    "sm": 14,
+    "md": 24,
+    "lg": 36
+  },
+  "communication_streams": {
+    "core": {
+      "ids": "P01\u2013P48",
+      "roles": [
+        "Issue",
+        "Resolution"
+      ],
+      "rhythm": "3 Standard + 1 Special Engagement"
+    },
+    "overlay": [
+      "OBS",
+      "HSF",
+      "FIELD",
+      "EVENT",
+      "MOMENT"
+    ]
+  },
+  "logo_policy": "One central approved vector master; templates contain standardized LOGO_COMPONENT_SLOT placeholders only."
+}

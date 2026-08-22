@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080">
+<metadata>{&quot;stack&quot;:&quot;HSF Brand Design Stack&quot;,&quot;version&quot;:&quot;3.0.0&quot;,&quot;platform&quot;:&quot;facebook&quot;,&quot;format&quot;:&quot;Profile Safe&quot;,&quot;family&quot;:&quot;Facebook Profile Safe&quot;,&quot;communication&quot;:&quot;BRAND&quot;,&quot;default_brand_expression&quot;:&quot;Evergreen&quot;,&quot;logo_policy&quot;:&quot;Central approved vector asset; template contains replaceable LOGO_COMPONENT_SLOT only&quot;,&quot;width&quot;:1080,&quot;height&quot;:1080,&quot;application_profile&quot;:&quot;Portable SVG 1.1; Illustrator 2022-oriented; no external fonts/images/filters/foreignObject&quot;,&quot;revision_date&quot;:&quot;22 August 2026&quot;}</metadata>
+<g id="BACKGROUND"><rect x="0" y="0" width="1080" height="1080" fill="#FFFDE6" rx="0" data-token="color.surface"/></g>
+<g id="BRAND_MOTIF" opacity="0.10">
+      <circle cx="972.0" cy="118.8" r="108.0" fill="#35A36C" data-token="color.secondary"/>
+      <circle cx="1026.0" cy="194.4" r="59.4" fill="#D9A62E" data-token="color.accent"/>
+      <circle cx="907.1999999999999" cy="194.4" r="37.800000000000004" fill="#008C44" data-token="color.primary"/>
+    </g>
+<circle cx="540.0" cy="540.0" r="367.20000000000005" fill="#EFF8F3" data-token="color.soft"/><g id="LOGO_COMPONENT_SLOT">
+      <rect x="302.40000000000003" y="399.6" width="475.2" height="280.8" fill="#FFFFFF" rx="14" stroke="#008C44" stroke-width="3"/>
+      <text x="540.0" y="538.0" font-family="Arial" font-size="24" font-weight="700" fill="#008C44" text-anchor="middle">HSF OFFICIAL LOGO</text>
+      <text x="540.0" y="564.0" font-family="Arial" font-size="14" font-weight="400" fill="#65716B" text-anchor="middle">PLACE CENTRAL MASTER</text>
+    </g><circle cx="540.0" cy="540.0" r="507.59999999999997" fill="none" stroke="#FF00AA" stroke-width="3" stroke-dasharray="12 8" opacity="0.25"/><text x="540.0" y="993.6" font-family="Arial" font-size="37" font-weight="700" fill="#65716B" text-anchor="middle">CIRCLE CROP SAFE MASTER</text>
+<g id="SAFE_GUIDES" visibility="hidden">
+      <rect x="59" y="59" width="962" height="962" fill="none" stroke="#FF00AA" stroke-width="3" stroke-dasharray="16 10"/>
+      <text x="71" y="87" font-family="Arial" font-size="18" font-weight="700" fill="#FF00AA" text-anchor="start">SAFE CONTENT ZONE — GUIDE LAYER</text>
+    </g>
+</svg>
