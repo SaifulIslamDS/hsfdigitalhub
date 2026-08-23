@@ -1,42 +1,32 @@
-# HSF Brand Design Stack v3.0.0
+# HSF Brand Design Stack v3.1.0
 
-**Platform-Native Social Production System**  
-Release date: 22 August 2026  
-Organization: Human Safety Foundation (HSF)
+## Image-First Storytelling Engine
 
-## What this is
-This is the production asset layer beneath HSF's frozen Knowledge Hub v1.4.0 baseline. It is aligned to **Social Communication Plan v3.2** and **Brand Identity & Social Design System v2.2**.
+This rebuild keeps the strong platform architecture of v3.0 but restores the visual energy of the v2.0.1 production stack. The photograph is now the primary storytelling surface.
 
-It replaces the old palette × size × layout duplication model with a platform-native architecture:
+**Policy alignment:** Social Communication Plan v3.2 + Brand Identity & Social Design System v2.2.
 
-**Platform → Format → Content Family → Communication Stream → Brand Expression → Output**
+### Core idea
+**Authentic image -> human context -> verified evidence -> HSF identity -> next step**
 
-## Platforms
-- Facebook
-- Instagram
-- LinkedIn
+### What is included
+- Facebook, Instagram and LinkedIn platform-specific masters
+- 14 image-first story archetypes
+- Core P01-P48 + OBS / HSF / FIELD / EVENT / MOMENT metadata
+- photographic carousel sequences
+- 9:16 Reel / vertical-video storyboards
+- Instagram 3:4 photo masters
+- Facebook album / cover assets
+- LinkedIn document/PDF, slide-deck, one-pager, report-card and article-cover systems
+- central square logo component placeholder
+- Python SVG generator architecture
+- design tokens and current platform registry
 
-Each platform has separate editable masters even where dimensions overlap. This allows platform-specific density, safe zones, photo behavior, and hierarchy.
+### Visual rule
+For photo-led work, image area should normally occupy **55-80%** of the composition. Empty space is not a goal. Whitespace is used only to clarify hierarchy.
 
-## Template inventory
-**195 editable SVG production masters** plus shared components, palette references, tokens, platform specifications, validation/recolour tools, and preview material.
+### Logo rule
+Replace `03_Brand/HSF_OFFICIAL_LOGO_MASTER_REPLACE_ME.svg` with the approved HSF vector logo. Production masters keep a square `LOGO_COMPONENT_SLOT` positioned on the image surface.
 
-## Logo rule
-Templates intentionally do **not** embed a recreated HSF logo. Every master contains `LOGO_COMPONENT_SLOT`. Replace `03_Shared/brand/HSF_OFFICIAL_LOGO_MASTER_REPLACE_ME.svg` with the approved HSF vector master and use that one authoritative source.
-
-## Brand expressions
-Evergreen is the default master. Trust Blue, Hope Gold, Care Red and Dignity Violet remain controlled expressions. Masters are not duplicated five times; use token-based recolouring.
-
-## Communication alignment
-Core: P01–P48, Issue → Resolution, 3+1 Special Engagement.  
-Overlay: `OBS`, `HSF`, `FIELD`, `EVENT`, `MOMENT`.
-
-## Key distinction
-- Album = documentation
-- Carousel = storytelling
-- Moment = human presence
-
-## Application profile
-Portable SVG 1.1, live Arial text, no external images, no embedded font binaries, no filters or `foreignObject`. Designed to be workable in Illustrator 2022 while remaining portable to other SVG-capable tools.
-
-See `01_Guidelines/` before production use.
+### Start here
+Read `01_Docs/STORYTELLING_SYSTEM.md` and `01_Docs/GENERATOR_GUIDE.md`.

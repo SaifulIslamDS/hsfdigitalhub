@@ -1,0 +1,117 @@
+{
+  "editorial_photo_story": {
+    "image_share": "60-70%",
+    "best_for": [
+      "HSF",
+      "FIELD",
+      "EVENT",
+      "CORE"
+    ],
+    "purpose": "Hero image + editorial story panel"
+  },
+  "human_moment": {
+    "image_share": "85-100%",
+    "best_for": [
+      "MOMENT",
+      "FIELD"
+    ],
+    "purpose": "Near-full-frame authentic moment"
+  },
+  "field_story": {
+    "image_share": "65-75%",
+    "best_for": [
+      "FIELD"
+    ],
+    "purpose": "Field image + location/date/context"
+  },
+  "evidence_story": {
+    "image_share": "65-80%",
+    "best_for": [
+      "CORE",
+      "FIELD",
+      "MEAL"
+    ],
+    "purpose": "Human image + verified number"
+  },
+  "quote_story": {
+    "image_share": "55-70%",
+    "best_for": [
+      "HSF",
+      "FIELD"
+    ],
+    "purpose": "Photo + authentic voice"
+  },
+  "photo_essay": {
+    "image_share": "65-80%",
+    "best_for": [
+      "FIELD",
+      "EVENT",
+      "HSF"
+    ],
+    "purpose": "Multi-image visual narrative"
+  },
+  "before_during_after": {
+    "image_share": "60-75%",
+    "best_for": [
+      "EVENT",
+      "FIELD"
+    ],
+    "purpose": "Three-stage documentation"
+  },
+  "event_story": {
+    "image_share": "60-75%",
+    "best_for": [
+      "EVENT"
+    ],
+    "purpose": "Event image + participation/context"
+  },
+  "institutional_memory": {
+    "image_share": "55-70%",
+    "best_for": [
+      "HSF"
+    ],
+    "purpose": "Then/now, archive/current, anniversaries"
+  },
+  "impact_journey": {
+    "image_share": "55-70%",
+    "best_for": [
+      "CORE",
+      "FIELD",
+      "MEAL"
+    ],
+    "purpose": "Context -> response -> result"
+  },
+  "report_insight": {
+    "image_share": "35-50%",
+    "best_for": [
+      "LINKEDIN",
+      "MEAL",
+      "CORE"
+    ],
+    "purpose": "Image + evidence + learning"
+  },
+  "observance_story": {
+    "image_share": "60-75%",
+    "best_for": [
+      "OBS"
+    ],
+    "purpose": "Observance + HSF relevance"
+  },
+  "practical_guide_photo": {
+    "image_share": "40-55%",
+    "best_for": [
+      "CORE",
+      "OBS"
+    ],
+    "purpose": "Image + concise action steps"
+  },
+  "call_to_action_photo": {
+    "image_share": "55-70%",
+    "best_for": [
+      "CORE",
+      "EVENT",
+      "HSF"
+    ],
+    "purpose": "Human image + next step"
+  }
+}

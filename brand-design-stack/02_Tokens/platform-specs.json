@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "version": "3.1.0",
+    "last_verified": "2026-08-23",
+    "principle": "Working canvases are implementation data, not permanent brand policy."
+  },
+  "facebook": {
+    "feed_4x5": {
+      "size": [
+        1080,
+        1350
+      ],
+      "purpose": "Primary image-led feed story"
+    },
+    "feed_square": {
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    "feed_landscape": {
+      "size": [
+        1200,
+        630
+      ]
+    },
+    "story_reel": {
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "page_cover": {
+      "working_canvas": [
+        1640,
+        624
+      ],
+      "note": "Responsive crop varies by device. Keep important people/text centered and test before publishing."
+    }
+  },
+  "instagram": {
+    "feed_4x5": {
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    "photo_3x4": {
+      "size": [
+        1080,
+        1440
+      ],
+      "purpose": "Photo-first portrait editorial"
+    },
+    "square": {
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    "story_reel": {
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "note": "Keep critical content inside central mobile-safe area; verify current Instagram rendering before campaign release."
+  },
+  "linkedin": {
+    "photo": {
+      "recommended_width": 1080,
+      "aspect_ratio_range": "3:1 to 4:5",
+      "source": "https://www.linkedin.com/help/linkedin/answer/a527229"
+    },
+    "multi_photo": {
+      "max_images": 20,
+      "max_render_ratio": "4:5",
+      "source": "https://www.linkedin.com/help/linkedin/answer/a527229"
+    },
+    "page_cover": {
+      "size": [
+        4200,
+        700
+      ],
+      "source": "https://www.linkedin.com/help/linkedin/answer/a563309"
+    },
+    "page_logo": {
+      "size": [
+        400,
+        400
+      ],
+      "source": "https://www.linkedin.com/help/linkedin/answer/a563309"
+    },
+    "url_preview": {
+      "size": [
+        1200,
+        627
+      ],
+      "ratio": "1.91:1",
+      "source": "https://www.linkedin.com/help/linkedin/answer/a563309"
+    },
+    "document": {
+      "supported": [
+        "PPT",
+        "PPTX",
+        "DOC",
+        "DOCX",
+        "PDF"
+      ],
+      "max_size_mb": 100,
+      "max_pages": 300,
+      "prefer": "PDF",
+      "source": "https://www.linkedin.com/help/linkedin/answer/a518909"
+    },
+    "document_working_page": [
+      1080,
+      1350
+    ],
+    "slides_working_page": [
+      1920,
+      1080
+    ],
+    "a4_working_page": [
+      2480,
+      3508
+    ]
+  }
+}

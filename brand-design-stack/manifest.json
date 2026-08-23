@@ -1,0 +1,43 @@
+{
+  "name": "HSF Brand Design Stack",
+  "version": "3.1.0",
+  "edition": "Image-First Storytelling Engine",
+  "platforms": [
+    "Facebook",
+    "Instagram",
+    "LinkedIn"
+  ],
+  "policy_alignment": {
+    "social_communication_plan": "v3.2 frozen baseline",
+    "brand_identity_system": "v2.2 frozen baseline"
+  },
+  "story_archetypes": [
+    "editorial_photo_story",
+    "human_moment",
+    "field_story",
+    "evidence_story",
+    "quote_story",
+    "photo_essay",
+    "before_during_after",
+    "event_story",
+    "institutional_memory",
+    "impact_journey",
+    "report_insight",
+    "observance_story",
+    "practical_guide_photo",
+    "call_to_action_photo"
+  ],
+  "sequences": [
+    "core_issue_resolution",
+    "field_event_story",
+    "observance",
+    "foundation_memory"
+  ],
+  "logo_strategy": "central authoritative vector asset + square component slot",
+  "status": "production candidate; validate representative SVGs in Adobe Illustrator 2022 before stable certification",
+  "platform_master_count": 182,
+  "linkedin_knowledge_master_count": 37,
+  "total_svg_count": 242,
+  "archetype_registry": "04_Archetypes/archetypes.json",
+  "sequence_registry": "04_Archetypes/sequence-presets.json"
+}

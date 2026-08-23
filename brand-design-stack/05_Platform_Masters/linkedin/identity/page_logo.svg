@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400" data-hsf-stack="3.1.0" data-title="Human Moment"><title>Human Moment</title><desc>{&quot;platform&quot;: &quot;linkedin&quot;, &quot;format&quot;: &quot;page_logo&quot;, &quot;archetype&quot;: &quot;human_moment&quot;, &quot;palette&quot;: &quot;evergreen&quot;, &quot;communication_stream&quot;: &quot;CORE/OVERLAY&quot;, &quot;story_engine&quot;: &quot;HSF Brand Design Stack v3.1.0&quot;, &quot;image_first&quot;: true, &quot;platform_density&quot;: 1.15}</desc><rect width="400" height="400" fill="#006B35"/><g data-role="IMAGE_PLACEHOLDER"><rect x="0" y="0" width="400" height="400" rx="0" fill="#DCE3DF"/>
+    <path d="M0 0 L400 400 M400 0 L0 400" stroke="#97A49D" stroke-width="2" opacity=".55"/>
+    <circle cx="200.0" cy="192.0" r="40.0" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".7"/>
+    <text x="200.0" y="280.0" font-family="Arial" font-size="18.0" fill="#5F6B65" text-anchor="middle" font-weight="700">DROP HSF PHOTO HERE</text></g>
+    <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".76"/></linearGradient></defs>
+    <rect x="0" y="224.00000000000003" width="400" height="175.99999999999997" fill="url(#g1)"/><g data-role="LOGO_COMPONENT_SLOT"><rect x="24.0" y="26.0" width="38.0" height="38.0" rx="4.56" fill="#000000" opacity=".10"/>
+    <rect x="20.0" y="20.0" width="38.0" height="38.0" rx="4.56" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="1.5"/>
+    <rect x="24.94" y="24.94" width="28.119999999999997" height="28.119999999999997" rx="3.8000000000000003" fill="#EFF8F3" stroke="#008C44" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="39.0" y="39.0" font-family="Arial" font-size="8.74" fill="#008C44" font-weight="700" text-anchor="middle">HSF</text>
+    <text x="39.0" y="46.599999999999994" font-family="Arial" font-size="3.04" fill="#65716B" font-weight="700" text-anchor="middle">LOGO SLOT</text></g>
+    <g><rect x="268.0" y="20.0" width="112.00000000000001" height="48" rx="24.0" fill="#008C44"/><text x="324.0" y="50.72" font-family="Arial" font-size="16.32" font-weight="700" fill="#FFFFFF" text-anchor="middle">HSF · IDENTITY</text></g>
+    <text x="20.0" y="304.0" font-family="Arial" font-size="20.0" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="20.0" dy="0.0">Linkedin Page Logo</tspan></text>
+    <text x="20.0" y="350.0" font-family="Arial" font-size="8.8" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="20.0" dy="0.0">Use a concise, evidence-aware narrative. Let the photograph carry emotion while</tspan><tspan x="20.0" dy="11.0">copy provides context, purpose and meaning.</tspan></text>
+    <text x="380.0" y="380.0" font-family="Arial" font-size="7.199999999999999" fill="#FFFFFF" text-anchor="end">hsfbd.org</text></svg>

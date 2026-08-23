@@ -1,0 +1,50 @@
+{
+  "core_issue_resolution": [
+    "Cover/Issue Hook",
+    "Issue Context",
+    "Why It Matters",
+    "HSF Response",
+    "Evidence/Result",
+    "Human Moment",
+    "Action/Source"
+  ],
+  "field_event_story": [
+    "Story Cover",
+    "Where/When",
+    "What Happened",
+    "People/Activity",
+    "Evidence/Result",
+    "Human Moment",
+    "Why It Matters",
+    "Closing/Source"
+  ],
+  "observance": [
+    "Observance Cover",
+    "Why It Matters to HSF",
+    "Fact/Issue",
+    "HSF Connection",
+    "What People Can Do",
+    "Source/Closing"
+  ],
+  "foundation_memory": [
+    "Anniversary Cover",
+    "Where We Began",
+    "People Behind Journey",
+    "Milestones",
+    "Programmes/Communities",
+    "What We Learned",
+    "Gratitude",
+    "Future/Source"
+  ],
+  "reel_vertical_storyboard": [
+    "Opening",
+    "Hero Moment",
+    "Context",
+    "Activity",
+    "Evidence",
+    "Voice/Quote",
+    "Why It Matters",
+    "Action/Source",
+    "Cover/Closing"
+  ]
+}

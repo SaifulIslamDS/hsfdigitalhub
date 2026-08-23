@@ -1,0 +1,44 @@
+campaign_id: HSF-DEMO-STORY-ENGINE
+communication_stream: HSF
+story_mode: editorial_photo_story
+palette: evergreen
+headline: 17 Years. One Mission.
+body: Seventeen years of purpose, carried by many hands - teachers, doctors, health
+  supervisors, volunteers, students, guardians, partners, and communities who have
+  quietly given their time, trust, and belief to keep this journey moving forward.
+label: HSF · Foundation Day
+location: Human Safety Foundation
+date: Foundation Day
+stat: '17'
+stat_label: years of purpose and continuity
+source: 'Source: HSF institutional archive'
+website: hsfbd.org
+tagline: Always we are...
+images:
+- path: REFERENCE_photo_crop_for_demo.jpg
+  focal:
+  - 0.5
+  - 0.38
+outputs:
+  facebook:
+  - feed_4x5
+  - story_9x16
+  instagram:
+  - feed_4x5
+  - photo_3x4
+  - story_9x16
+  linkedin:
+  - feed_4x5
+  - article_cover
+sequences:
+- type: foundation_memory
+  platforms:
+  - facebook
+  - instagram
+  - linkedin
+  export_pdf: true
+linkedin_documents:
+- report_brief
+- case_study
+linkedin_slide_deck: true
+render_png: false

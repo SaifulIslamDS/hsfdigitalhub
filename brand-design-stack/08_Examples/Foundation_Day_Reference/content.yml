@@ -1,0 +1,29 @@
+campaign_id: HSF-FOUNDATION-17
+communication_stream: HSF
+story_mode: editorial_photo_story
+palette: evergreen
+headline: 17 Years. One Mission.
+body: Seventeen years of purpose, carried by many hands - teachers, doctors, health
+  supervisors, volunteers, students, guardians, partners, and communities who have
+  quietly given their time, trust, and belief to keep this journey moving forward.
+label: HSF · Foundation Day
+date: 17 Years
+location: Human Safety Foundation
+website: hsfbd.org
+tagline: Always we are...
+images:
+- path: REFERENCE_photo_crop_for_demo.jpg
+  focal:
+  - 0.5
+  - 0.35
+outputs:
+  facebook:
+  - feed_4x5
+  - story_9x16
+  instagram:
+  - feed_4x5
+  - photo_3x4
+  - story_9x16
+  linkedin:
+  - feed_4x5
+  - article_cover

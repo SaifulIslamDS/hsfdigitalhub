@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080" data-hsf-stack="3.1.0" data-title="Field Story"><title>Field Story</title><desc>{&quot;platform&quot;: &quot;linkedin&quot;, &quot;format&quot;: &quot;slide_16x9&quot;, &quot;archetype&quot;: &quot;field_story&quot;, &quot;palette&quot;: &quot;evergreen&quot;, &quot;communication_stream&quot;: &quot;CORE/OVERLAY&quot;, &quot;story_engine&quot;: &quot;HSF Brand Design Stack v3.1.0&quot;, &quot;image_first&quot;: true, &quot;platform_density&quot;: 1.15}</desc><rect width="1920" height="1080" fill="#EFF8F3"/><g data-role="IMAGE_PLACEHOLDER"><rect x="0" y="0" width="1920" height="745.1999999999999" rx="0" fill="#DCE3DF"/>
+    <path d="M0 0 L1920 745.1999999999999 M1920 0 L0 745.1999999999999" stroke="#97A49D" stroke-width="2" opacity=".55"/>
+    <circle cx="960.0" cy="357.69599999999997" r="74.52" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".7"/>
+    <text x="960.0" y="521.6399999999999" font-family="Arial" font-size="26.1" fill="#5F6B65" text-anchor="middle" font-weight="700">DROP HSF PHOTO HERE</text></g>
+    <rect x="0" y="536.544" width="1920" height="208.656" fill="#006B35" opacity=".70"/>
+    <g data-role="LOGO_COMPONENT_SLOT"><rect x="100.0" y="102.0" width="108.0" height="108.0" rx="12.959999999999999" fill="#000000" opacity=".10"/>
+    <rect x="96.0" y="96.0" width="108.0" height="108.0" rx="12.959999999999999" fill="#FFFFFF" stroke="#D7DDD9" stroke-width="1.5"/>
+    <rect x="110.04" y="110.04" width="79.92" height="79.92" rx="10.8" fill="#EFF8F3" stroke="#008C44" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="150.0" y="150.0" font-family="Arial" font-size="24.84" fill="#008C44" font-weight="700" text-anchor="middle">HSF</text>
+    <text x="150.0" y="171.6" font-family="Arial" font-size="8.64" fill="#65716B" font-weight="700" text-anchor="middle">LOGO SLOT</text></g><g><rect x="1305.6" y="96.0" width="518.4000000000001" height="46" rx="23.0" fill="#008C44"/><text x="1564.8" y="125.44" font-family="Arial" font-size="15.64" font-weight="700" fill="#FFFFFF" text-anchor="middle">LINKEDIN · SLIDE DECK</text></g>
+    <text x="96.0" y="633.42" font-family="Arial" font-size="42.239999999999995" font-weight="700" fill="#FFF">Programme location · Reporting date</text>
+    <rect x="0" y="745.1999999999999" width="1920" height="334.80000000000007" fill="#FFFFFF"/>
+    <text x="96.0" y="820.8" font-family="Arial" font-size="76.8" font-weight="700" fill="#223029" text-anchor="start"><tspan x="96.0" dy="0.0">Context</tspan></text>
+    <text x="96.0" y="907.2" font-family="Arial" font-size="42.2" font-weight="400" fill="#223029" text-anchor="start"><tspan x="96.0" dy="0.0">Use a concise, evidence-aware narrative. Let the photograph carry emotion while</tspan><tspan x="96.0" dy="53.2">copy provides context, purpose and meaning.</tspan></text>
+    <rect x="1612.8" y="804.5999999999999" width="211.2" height="211.2" rx="34.559999999999995" fill="#EFF8F3"/><text x="1718.4" y="872.6399999999999" text-anchor="middle" font-family="Arial" font-weight="700" font-size="32.64" fill="#008C44">FIELD</text>
+    <g data-role="FOOTER"><line x1="105.6" y1="974" x2="1814.4" y2="974" stroke="#35A36C" stroke-width="1.5" opacity=".45"/>
+    <text x="105.6" y="1008" font-family="Arial" font-size="36.5" font-weight="700" fill="#008C44">Human Safety Foundation</text>
+    <text x="960.0" y="1008" font-family="Arial" font-size="32.6" fill="#223029" text-anchor="middle">hsfbd.org</text>
+    <text x="1814.4" y="1008" font-family="Arial" font-size="30.7" font-style="italic" fill="#65716B" text-anchor="end">Always we are...</text></g></svg>

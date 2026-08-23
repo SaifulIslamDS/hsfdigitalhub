@@ -1,0 +1,4 @@
+Pillow>=10
+PyYAML>=6
+CairoSVG>=2.7
+pypdf>=4

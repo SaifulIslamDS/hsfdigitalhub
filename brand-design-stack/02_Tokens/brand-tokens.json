@@ -1,0 +1,79 @@
+{
+  "version": "3.1.0",
+  "palettes": {
+    "evergreen": {
+      "name": "Evergreen",
+      "primary": "#008C44",
+      "deep": "#006B35",
+      "secondary": "#35A36C",
+      "accent": "#D9A62E",
+      "soft": "#EFF8F3",
+      "surface": "#FFFDE6",
+      "ink": "#223029",
+      "muted": "#65716B",
+      "light": "#FFFFFF"
+    },
+    "trust_blue": {
+      "name": "Trust Blue",
+      "primary": "#1769AA",
+      "deep": "#0E3F66",
+      "secondary": "#4F9ED6",
+      "accent": "#1E8E89",
+      "soft": "#EEF6FB",
+      "surface": "#F7FBFE",
+      "ink": "#1E2D3D",
+      "muted": "#607386",
+      "light": "#FFFFFF"
+    },
+    "hope_gold": {
+      "name": "Hope Gold",
+      "primary": "#D77A00",
+      "deep": "#8D4B00",
+      "secondary": "#F3B340",
+      "accent": "#3C74A8",
+      "soft": "#FFF7E6",
+      "surface": "#FFFBF2",
+      "ink": "#382B1B",
+      "muted": "#75654E",
+      "light": "#FFFFFF"
+    },
+    "care_red": {
+      "name": "Care Red",
+      "primary": "#C83A43",
+      "deep": "#7C1F26",
+      "secondary": "#E46970",
+      "accent": "#D98A24",
+      "soft": "#FFF0F1",
+      "surface": "#FFF8F8",
+      "ink": "#382325",
+      "muted": "#775A5D",
+      "light": "#FFFFFF"
+    },
+    "dignity_violet": {
+      "name": "Dignity Violet",
+      "primary": "#6F4A8E",
+      "deep": "#3F2B59",
+      "secondary": "#A678BC",
+      "accent": "#1D8A8A",
+      "soft": "#F6F0FA",
+      "surface": "#FCF9FD",
+      "ink": "#2C2632",
+      "muted": "#6E6674",
+      "light": "#FFFFFF"
+    }
+  },
+  "rules": {
+    "logo": "One central approved vector logo; templates contain square LOGO_COMPONENT_SLOT.",
+    "image_first": "For FIELD/EVENT/MOMENT/HSF and human stories, photo normally occupies 55-80% of the composition.",
+    "whitespace": "Use whitespace to clarify the story, never to shrink the story.",
+    "mobile_legibility": "Every output must remain readable without zooming on a phone.",
+    "core_overlay": [
+      "P01-P48",
+      "OBS",
+      "HSF",
+      "FIELD",
+      "EVENT",
+      "MOMENT"
+    ]
+  }
+}
