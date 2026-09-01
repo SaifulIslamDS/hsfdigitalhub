@@ -55,3 +55,7 @@ coverage/
 *.zip
 *.rar
 *.7z
+
+__pycache__/
+*.pyc
+*.pyo

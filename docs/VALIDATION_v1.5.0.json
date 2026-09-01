@@ -1,0 +1,22 @@
+{
+  "release": "v1.5.0",
+  "title": "Integrated 48-Day Communication Operating System",
+  "social_plan": "v3.3",
+  "brand_guide": "v2.3",
+  "status": "stable",
+  "applied_at_utc": "2026-09-01T18:13:40.181062+00:00",
+  "core_validation": {
+    "unique_core_posts": 48,
+    "special_engagement_markers": 12
+  },
+  "security_files_unchanged": true,
+  "security_sha256": {
+    "netlify.toml": "5e9f6f917338b3902a229cc34c4c9a38da8f85b046f4ba4658f895018a591d18",
+    "_redirects": "0340c1d1f81c0b04496c06428fb4954cefa6db1dfbe4ad79e1e27f4b4d3816c9",
+    "netlify\\edge-functions\\pin-gate.ts": "20653994e8d37bd5ab6bd19321fee6cff398580651da7a3be9517f134996d95d",
+    "netlify\\edge-functions\\pin-login.ts": "e4e5ed1b4bd7591ec80741cddf43add0f224fea61c8a69ff62392f14af66f0bf",
+    "netlify\\edge-functions\\pin-logout.ts": "0fb42d18a04da25c8d0d44d911ec87110b497283ad23db091a3ae9053f73e146"
+  },
+  "tracker": "communication\\registers\\HSF_Social_Communication_48-Day_Cycle_v3.3_Tracker.xlsx",
+  "brand_design_stack_status": "v3.1.0 production candidate; not promoted by this release"
+}
