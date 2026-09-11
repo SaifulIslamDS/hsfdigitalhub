@@ -1,93 +1,31 @@
 {
-  "package": "HSF Knowledge Hub v1.6.0 Repo-Ready",
-  "built": "2026-09-07",
-  "baseline": "v1.5.0",
-  "target": "v1.6.0",
-  "social_plan": "v4.0",
-  "brand_guide": "v2.3 unchanged",
-  "tracker": "v4.0",
-  "apply": "hsf_v160_release/APPLY_V1.6.0_STABLE.bat",
-  "security_scope": "No Netlify/auth/security files modified",
-  "payload_files": [
-    {
-      "path": "hsf_v160_release/APPLY_V1.6.0_STABLE.bat",
-      "sha256": "890ff194d1cb7104b1a83eb82be6aeaec171a5de3a13168fd828bb5db946d0f4",
-      "bytes": 363
-    },
-    {
-      "path": "hsf_v160_release/apply_v1_6_0.py",
-      "sha256": "7abccaedb6154e2a45fb57fa65566c2d51d3453d1fd4d7a43ddd2f9f526a3cbe",
-      "bytes": 13111
-    },
-    {
-      "path": "hsf_v160_release/payload/README_PASTE_IN_REPO_ROOT.md",
-      "sha256": "b5411879a7e19750b4c7cc6529ee806b1133a4a3fc1f13d8a3b374c2ad3db9b0",
-      "bytes": 492
-    },
-    {
-      "path": "hsf_v160_release/payload/communication/registers/HSF_Social_Communication_Programme-Aligned_Cycle_v4.0_Tracker.xlsx",
-      "sha256": "c7f9ce9e92e0ffff56d6f79240db4a8fd23660f3b1ec0c7763f512b4cd595eb4",
-      "bytes": 26251
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/APPLY_v1.6.0.md",
-      "sha256": "9ac9313c60b2cd978fc7601dacfe4da6d9a09b60ca1c25c46bf1b0b927f70773",
-      "bytes": 1315
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/GIT_RELEASE_COMMANDS_v1.6.0.md",
-      "sha256": "0fd0a77f60a55b77a7c5601a8a1517cb1a379e7fa755ab5868d7eb8959039667",
-      "bytes": 1304
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/RELEASE_v1.6.0.md",
-      "sha256": "3f495daef2b8c0fb6bc6c81f9338c820153835e5e38ef35ab710b32d26c6ae09",
-      "bytes": 3614
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/SOCIAL_48_DAY_OPERATING_MODEL.md",
-      "sha256": "cfbd5a8288f40d00d2da727e990ee677ee9e4ff852cb75315bd4a7ddbc2cbf22",
-      "bytes": 3530
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/SOCIAL_PROGRAMME_ALIGNED_OPERATING_MODEL_v2.0.md",
-      "sha256": "cfbd5a8288f40d00d2da727e990ee677ee9e4ff852cb75315bd4a7ddbc2cbf22",
-      "bytes": 3530
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/SOCIAL_SOURCE_REGISTER.md",
-      "sha256": "dbbda867565145f03059887b43a805d30e546357e1cb012e8a734a12d9e17ecc",
-      "bytes": 2447
-    },
-    {
-      "path": "hsf_v160_release/payload/docs/VALIDATION_v1.6.0.json",
-      "sha256": "fac8511f5e5e43b7adaae68b7b2a71f47f6b23d2b552bc3f96d9670f4b1d08a0",
-      "bytes": 1019
-    },
-    {
-      "path": "hsf_v160_release/payload/fragments/daily_model.html",
-      "sha256": "a47d6ff2bc53381c4263ffe6211c77bbc6f84dcfeea1216e70a562e04960d497",
-      "bytes": 2821
-    },
-    {
-      "path": "hsf_v160_release/payload/fragments/daily_operating_schedule.html",
-      "sha256": "7e6dd66562a8ccf5ba85c86beae725a72e3e5aa0e23382144758b4f183f66201",
-      "bytes": 14266
-    },
-    {
-      "path": "hsf_v160_release/payload/fragments/detailed_section.html",
-      "sha256": "b2162a3aad17284508618c42ffa9c51f25f572267dd89b9990ebf20317bb5e10",
-      "bytes": 1190
-    },
-    {
-      "path": "hsf_v160_release/payload/fragments/rhythm_section.html",
-      "sha256": "fd41f72f9355f8c66e593180daaf6b2c021bc4defbbefa36bffeddccd822b1c0",
-      "bytes": 2259
+  "repository": "SaifulIslamDS/hsfdigitalhub",
+  "repository_role": "HSF institutional Knowledge Hub",
+  "visibility": "public",
+  "manifest_date": "2026-09-11",
+  "current_stable_content_baseline": {
+    "knowledge_hub": "v1.5.0",
+    "release_date": "2026-09-01",
+    "social_communication_plan": "v3.3",
+    "brand_identity_design_system": "v2.3",
+    "brand_design_stack": {
+      "version": "v3.1.0",
+      "status": "production_candidate",
+      "policy_alignment": "Social v3.3 + Brand v2.3",
+      "remaining_qa": "Representative Adobe Illustrator 2022 validation"
     }
-  ],
-  "baseline_commit_sha": "3783f0a79a5afabc962fcf4e254e7e135a1fb3bd",
-  "baseline_annotated_tag": "v1.5.0",
-  "baseline_tag_object_sha": "ccb816eac63dab7ee124988d92969bf7bbc30d3d",
-  "validated_against_current_github_main": true,
-  "local_fixture_validation": "PASS"
+  },
+  "institutional_governance": {
+    "digital_system_contract": "1.0.0",
+    "effective_date": "2026-09-11",
+    "canonical_contract_path": "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json"
+  },
+  "archived_candidate_metadata": {
+    "proposed_target": "v1.6.0",
+    "proposed_social_plan": "v4.0",
+    "status": "historical repo-ready metadata only; payload absent from supplied snapshot; not canonical",
+    "path": "docs/archive/candidate-v1.6.0/"
+  },
+  "validation": "python scripts/validate_hub.py",
+  "public_repository_rule": "All committed content is treated as publicly accessible; restricted operational data is prohibited."
 }

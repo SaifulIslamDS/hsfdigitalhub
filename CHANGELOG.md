@@ -1,5 +1,17 @@
 # HSF Digital Transformation Knowledge Hub — Changelog
 
+## Unreleased — Institutional Alignment Baseline — 11 September 2026
+
+- Added HSF Digital Institutional System Contract v1.0.0.
+- Added source-of-truth, approved-information, public-repository and external-standards governance.
+- Added public asset register and automated repository validation.
+- Corrected root manifest so it describes the actual repository rather than an absent v1.6 installer payload.
+- Archived the supplied v1.6 repo-ready package metadata instead of presenting it as the live baseline.
+- Archived obsolete root pilot paste instructions.
+- Aligned Brand Design Stack v3.1.0 metadata to current Social v3.3 / Brand v2.3 while retaining production-candidate status and Illustrator 2022 QA requirement.
+- Added explicit public-repository security guidance and documented current technical-debt exceptions.
+- **No promotion of Social Communication Plan v4.0 was made.**
+
 ## v1.5.0 — 1 September 2026
 ### Integrated 48-Day Communication Operating System
 - Promoted Social Communication Plan v3.3 to stable.
@@ -24,4 +36,4 @@
 - See `docs/RELEASE_v1.3.2.md` for authoritative detail.
 
 ## Earlier releases
-See the versioned release notes under `docs/` for v1.3.1, v1.3.0, v1.2.1, v1.1.1, v1.1.0 and v1.0.0. This changelog does not reconstruct missing historical detail that is not supported by the existing release records.
+See the versioned release notes under `docs/`. Historical detail is not reconstructed where existing records do not support it.

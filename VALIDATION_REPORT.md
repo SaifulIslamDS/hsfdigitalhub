@@ -1,36 +1,34 @@
-# HSF Knowledge Hub v1.6.0 — Package Validation Report
+# HSF Knowledge Hub — Alignment Validation Report
 
-**Build date:** 7 September 2026
-**Target repository:** `SaifulIslamDS/hsfdigitalhub`
-**Verified remote baseline:** `main` at `3783f0a79a5afabc962fcf4e254e7e135a1fb3bd`
-**Verified annotated baseline tag:** `v1.5.0`
-**Target release:** `v1.6.0 — Programme-Aligned Communication Cycle`
-**Target Social Plan:** `v4.0`
-**Brand Guide:** `v2.3` unchanged
+**Snapshot:** 11 September 2026  
+**Stable content baseline:** Knowledge Hub v1.5.0 / Social v3.3 / Brand v2.3  
+**Governance contract:** HSF Digital Institutional System Contract v1.0.0
 
-## Validation completed
+## Result
 
-- Current GitHub `main` confirmed as the v1.5.0 release commit.
-- Annotated `v1.5.0` tag confirmed against the same release commit.
-- Current repository Social Plan v3.3 anchors reviewed before package design.
-- Installer tested against a v1.5-style local fixture.
-- Post-apply Social Plan title: v4.0 — PASS.
-- Programme-aligned daily operating model — PASS.
-- Approved schedule section — PASS.
-- Calendar rows: 57 — PASS.
-- Core library P48 terminal heading preserved — PASS.
-- v3.3 snapshot preserved — PASS.
-- v4.0 snapshot created — PASS.
-- v4.0 tracker installed — PASS.
-- Brand v2.3 retained — PASS.
-- README promoted to v1.6.0 — PASS.
-- Knowledge Hub index promoted to v4.0 communication wording — PASS.
-- `git diff --check` on fixture — PASS.
+**PASS — repository governance/version alignment checks.**
 
-## Intended repository changes
+Validated locally:
 
-The package updates communication governance and release metadata only. It does **not** intentionally modify Netlify authentication/security files, ERP files, Brand Guide v2.3, or historical v1.5.0 release notes/tags.
+- canonical stable versions in root manifest and live HTML;
+- current programme/evidence/classification contract;
+- Brand Design Stack metadata alignment to Social v3.3 / Brand v2.3;
+- production-candidate status retained for Brand Stack v3.1.0;
+- public asset register checksums for controlled XLSX/PDF assets;
+- prohibited secret/private-key file-type guard;
+- root packaging-residue check;
+- lightweight local HTML reference scan;
+- JSON parsing.
 
-## Application safeguard
+The HSF Digital System Contract file is byte-for-byte identical to the ERP mirror in the aligned repository package.
 
-The installer validates the live Social Plan v3.3 and key locked P01–P48 anchors before writing. It also refuses to proceed when Git reports unrelated local changes outside the installer folder.
+## Stable/candidate boundary
+
+The supplied snapshot contained root metadata describing a proposed v1.6.0 / Social v4.0 repo-ready package, but the referenced `hsf_v160_release/` payload was not present. The metadata has been archived under `docs/archive/candidate-v1.6.0/` and is not treated as the live baseline.
+
+## Known limitations / follow-up
+
+- Runtime Tailwind CDN remains in the static HTML stack; this is documented technical debt. CSP is currently report-only to avoid breaking the existing runtime compiler, and should become enforced after CSS is localized/compiled.
+- Brand Design Stack v3.1.0 still requires representative Adobe Illustrator 2022 QA before stable certification.
+- GitHub branch protection, secret-scanning settings and repository license selection must be configured/approved outside the ZIP.
+- This alignment does not promote Social Plan v4.0 or change the current stable social/brand policy versions.

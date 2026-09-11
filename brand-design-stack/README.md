@@ -4,7 +4,9 @@
 
 This rebuild keeps the strong platform architecture of v3.0 but restores the visual energy of the v2.0.1 production stack. The photograph is now the primary storytelling surface.
 
-**Policy alignment:** Social Communication Plan v3.2 + Brand Identity & Social Design System v2.2.
+**Policy alignment:** Social Communication Plan v3.3 + Brand Identity & Design System v2.3.
+
+**Status:** Production candidate. Repository metadata is aligned to the current stable governance baseline; representative Adobe Illustrator 2022 production QA is still required before stable certification.
 
 ### Core idea
 **Authentic image -> human context -> verified evidence -> HSF identity -> next step**

@@ -1,22 +1,22 @@
-# Proposed future governance adjustments - do not apply to frozen v1.4.0 yet
+# Brand Stack Governance Alignment Note
 
-The production rebuild suggests possible future updates, after real-world QA:
+**Updated:** 11 September 2026
 
-## Social Communication Plan v3.3 candidate additions
-- Platform selection logic
-- Cross-platform adaptation rather than resizing
-- Campaign-set concept
-- Image-first storytelling principle
-- LinkedIn document/PDF vs Instagram image-carousel distinction
-- Storyboard treatment for Reels/vertical video
+The Brand Design Stack v3.1.0 was originally built against Social Communication Plan v3.2 and Brand Identity & Social Design System v2.2. The Knowledge Hub later promoted Social v3.3 and Brand v2.3.
 
-## Brand Identity & Social Design System v2.3 candidate additions
-- Image-first story architecture and 55-80% photo guidance
-- Adaptive density by platform
-- Square logo tile on image surface
-- Focal-point/crop governance
-- Platform specification registry
-- Generator and design-token governance
-- SVG as master; PNG/PDF as derivatives
+The stack metadata is now aligned to those current stable governance versions. The production assets themselves remain **v3.1.0 production candidate** and are not silently promoted to a new stable stack release.
 
-Do not revise the frozen documents until the stack is tested in production and the changes are proven useful.
+The image-first storytelling rules, platform adaptation logic, campaign-set concepts, focal-point/crop governance and SVG-master approach remain valid design guidance where they do not conflict with the current stable Social v3.3 / Brand v2.3 documents.
+
+## Remaining certification step
+
+Representative production SVGs should be opened and checked in Adobe Illustrator 2022 for:
+
+- editability;
+- font/text handling;
+- clipping/masking;
+- linked/embedded image behavior;
+- logo replacement workflow;
+- platform export quality.
+
+Until that QA is documented, retain the status **production candidate**.

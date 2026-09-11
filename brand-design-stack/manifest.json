@@ -8,8 +8,8 @@
     "LinkedIn"
   ],
   "policy_alignment": {
-    "social_communication_plan": "v3.2 frozen baseline",
-    "brand_identity_system": "v2.2 frozen baseline"
+    "social_communication_plan": "v3.3 stable baseline",
+    "brand_identity_system": "v2.3 current baseline"
   },
   "story_archetypes": [
     "editorial_photo_story",
@@ -34,10 +34,11 @@
     "foundation_memory"
   ],
   "logo_strategy": "central authoritative vector asset + square component slot",
-  "status": "production candidate; validate representative SVGs in Adobe Illustrator 2022 before stable certification",
+  "status": "production candidate; governance metadata aligned 2026-09-11; validate representative SVGs in Adobe Illustrator 2022 before stable certification",
   "platform_master_count": 182,
   "linkedin_knowledge_master_count": 37,
   "total_svg_count": 242,
   "archetype_registry": "04_Archetypes/archetypes.json",
-  "sequence_registry": "04_Archetypes/sequence-presets.json"
+  "sequence_registry": "04_Archetypes/sequence-presets.json",
+  "governance_alignment_date": "2026-09-11"
 }

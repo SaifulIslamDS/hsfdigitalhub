@@ -1,0 +1,138 @@
+{
+  "contract_name": "HSF Digital Institutional System Contract",
+  "contract_version": "1.0.0",
+  "status": "approved_alignment_baseline",
+  "effective_date": "2026-09-11",
+  "organization": {
+    "name": "Human Safety Foundation",
+    "short_name": "HSF",
+    "timezone": "Asia/Dhaka",
+    "default_currency": "BDT"
+  },
+  "authority": {
+    "canonical_repository": "SaifulIslamDS/hsfdigitalhub",
+    "canonical_path": "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json",
+    "erp_mirror_repository": "SaifulIslamDS/HSF_ERP",
+    "erp_mirror_path": "docs/governance/HSF_DIGITAL_SYSTEM_CONTRACT.json",
+    "change_rule": "Institutional concepts in this contract change only through controlled HSF governance review. ERP implementation mirrors these concepts and does not redefine them independently."
+  },
+  "system_layers": {
+    "OPERATIONAL_ERP": {
+      "purpose": "Protected operational system of record for programme, finance, procurement, inventory, HR, payroll, MEAL-supporting and administrative records.",
+      "may_store_sensitive_records": true,
+      "public_by_default": false
+    },
+    "KNOWLEDGE_HUB": {
+      "purpose": "Controlled institutional knowledge for policies, frameworks, standards, SOPs, ERP documentation, MEAL, communication and brand governance.",
+      "may_store_sensitive_records": false,
+      "public_repository_safe_content_only": true
+    },
+    "PUBLIC_PLATFORM": {
+      "purpose": "Approved website content, public reports, approved statistics, stories and social communication.",
+      "may_store_sensitive_records": false,
+      "approved_information_only": true
+    }
+  },
+  "programmes": {
+    "E4BL": {
+      "canonical_name": "Education for Better Life",
+      "status": "current_programme",
+      "domain": "education_continuity"
+    },
+    "A2PHC": {
+      "canonical_name": "Access to Primary Healthcare",
+      "status": "current_programme",
+      "domain": "community_primary_healthcare"
+    },
+    "CLIMATE_ACTION": {
+      "canonical_name": "Climate Action",
+      "status": "current_programme",
+      "domain": "climate_awareness_and_community_engagement"
+    }
+  },
+  "noncanonical_or_unconfirmed_domains": {
+    "WOMEN_EMPOWERMENT": {
+      "status": "requires_management_confirmation",
+      "may_exist_in_ui_blueprint": true,
+      "may_be_treated_as_approved_active_programme": false
+    }
+  },
+  "evidence_states": {
+    "RAW": "Original operational information before cleaning or verification.",
+    "CLEANED": "Standardized or corrected information with transformations documented; not automatically verified.",
+    "VERIFIED": "Evidence checked against the approved verification method/source and accepted as verified.",
+    "CALCULATED": "Value derived mathematically from stated source data and methodology.",
+    "ESTIMATED": "Approximate value produced through a stated estimation method.",
+    "INFERRED": "Reconstructed or reasoned value not directly supported as a verified operational record."
+  },
+  "workflow_states": [
+    "DRAFT",
+    "SUBMITTED",
+    "UNDER_REVIEW",
+    "RETURNED",
+    "RECOMMENDED",
+    "APPROVED",
+    "VERIFIED",
+    "IN_PROGRESS",
+    "COMPLETED",
+    "CLOSED",
+    "SUPERSEDED"
+  ],
+  "data_classification": {
+    "PUBLIC": "Approved for public disclosure.",
+    "INTERNAL": "Routine internal information not intended for public publication.",
+    "CONFIDENTIAL": "Information requiring restricted organizational access.",
+    "RESTRICTED": "Highly sensitive operational or personal information requiring strict least-privilege access."
+  },
+  "publication_states": [
+    "NOT_FOR_PUBLICATION",
+    "ELIGIBLE_AFTER_APPROVAL",
+    "APPROVED_PUBLIC",
+    "SUPERSEDED_PUBLIC"
+  ],
+  "information_flow": [
+    "OPERATIONAL_RECORD",
+    "VERIFICATION",
+    "INDICATOR",
+    "ANALYSIS",
+    "LEARNING",
+    "MANAGEMENT_APPROVAL",
+    "REPORTING_OR_PUBLIC_COMMUNICATION"
+  ],
+  "approved_information_required_fields": [
+    "indicator_code",
+    "programme_code",
+    "reporting_period",
+    "value",
+    "unit",
+    "evidence_source",
+    "evidence_status",
+    "verification_status",
+    "approval_status",
+    "data_classification",
+    "publication_state",
+    "valid_from",
+    "supersedes"
+  ],
+  "public_repository_rule": {
+    "principle": "Anything committed to a public GitHub repository is treated as publicly accessible regardless of preview PINs or no-index controls.",
+    "prohibited": [
+      "secrets",
+      "passwords",
+      "private keys",
+      "real patient-level records",
+      "real learner registers",
+      "payroll records",
+      "staff personal records",
+      "bank credentials or restricted account data",
+      "donor personal data",
+      "safeguarding case data",
+      "restricted operational exports"
+    ],
+    "synthetic_or_anonymized_examples_allowed": true
+  },
+  "volatile_fact_rule": "Current programme counts, coverage figures, staffing figures, beneficiary totals and other changing operational values require a dated approved source and must not be embedded as timeless architecture facts.",
+  "programme_activation_rule": "A UI module, route, mock-up or draft document does not establish an active HSF programme. Programme activation requires management-approved institutional status.",
+  "publication_rule": "Public statistics and claims must pass evidence-status review, verification, management approval and publication permission before release.",
+  "safeguarding_rule": "Use the minimum necessary personal information, protect dignity and consent, and never expose identifiable learner, patient or vulnerable-person operational records through public systems."
+}
