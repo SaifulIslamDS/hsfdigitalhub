@@ -1,6 +1,8 @@
-# HSF Digital Transformation Knowledge Hub — Changelog
+# HSF Digital Transformation Knowledge Hub â€” Changelog
 
-## Unreleased — Institutional Alignment Baseline — 11 September 2026
+## Unreleased â€” Institutional Alignment Baseline â€” 11 September 2026
+
+- Added a management-review architecture proposal for an offline-first Field Data Gateway and updated ERP Overview section 39.5 from optional offline forms to the proposed core field-data architecture; stable Knowledge Hub and Digital Institutional System Contract versions remain unchanged pending management approval.
 
 - Added HSF Digital Institutional System Contract v1.0.0.
 - Added source-of-truth, approved-information, public-repository and external-standards governance.
@@ -12,11 +14,11 @@
 - Added explicit public-repository security guidance and documented current technical-debt exceptions.
 - **No promotion of Social Communication Plan v4.0 was made.**
 
-## v1.5.0 — 1 September 2026
+## v1.5.0 â€” 1 September 2026
 ### Integrated 48-Day Communication Operating System
 - Promoted Social Communication Plan v3.3 to stable.
 - Established morning HSF in Action and afternoon HSF Knowledge & Awareness.
-- Formalized Issue today → Resolution tomorrow across a 48-day P01–P48 cycle.
+- Formalized Issue today â†’ Resolution tomorrow across a 48-day P01â€“P48 cycle.
 - Added HSF Activity Communication Bank and stronger verification controls.
 - Added stable 48-day Excel tracker and cycle-close review framework.
 - Promoted Brand Identity & Social Design System v2.3 with dual-stream visual governance.
@@ -24,7 +26,7 @@
 - Left Netlify gate/security files unchanged.
 - Kept Brand Design Stack v3.1.0 as a production candidate pending Illustrator 2022 QA.
 
-## v1.4.0 — 22 August 2026
+## v1.4.0 â€” 22 August 2026
 ### Stable Communication System Update
 - Social Communication Plan v3.2.
 - Brand Identity & Social Design System v2.2.
