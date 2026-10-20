@@ -1,5 +1,7 @@
 # HSF Knowledge Hub — 6-Digit PIN Security Setup
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 ## What this build adds
 
 This build protects the full Netlify site with a Netlify Edge Function.

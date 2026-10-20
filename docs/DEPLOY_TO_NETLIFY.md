@@ -1,5 +1,7 @@
 # HSF Digital Transformation Knowledge Hub — Netlify Deployment
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 Static, no-build demonstration/reference site.
 
 Official public website: https://hsfbd.org/

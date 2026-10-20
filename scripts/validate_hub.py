@@ -59,12 +59,12 @@ for relative in required_files:
 # Canonical stable-state checks.
 try:
     stable = manifest["current_stable_content_baseline"]
-    if stable["knowledge_hub"] != "v1.5.0":
-        error("Manifest current stable Knowledge Hub must remain v1.5.0 until a controlled release promotes another version.")
-    if stable["social_communication_plan"] != "v3.3":
-        error("Manifest stable Social Communication Plan must be v3.3.")
-    if stable["brand_identity_design_system"] != "v2.3":
-        error("Manifest current Brand Identity system must be v2.3.")
+    if stable["knowledge_hub"] != "v1.6.0":
+        error("Manifest current stable Knowledge Hub must remain v1.6.0 (controlled stable release).")
+    if stable["social_communication_plan"] != "v4.0":
+        error("Manifest stable Social Communication Plan must be v4.0.")
+    if stable["brand_identity_design_system"] != "v2.4":
+        error("Manifest current Brand Identity system must be v2.4.")
 except Exception:
     error("Manifest stable-baseline structure is incomplete.")
 
@@ -81,19 +81,19 @@ social = (ROOT / "social_communication_plan.html").read_text(encoding="utf-8", e
 brand = (ROOT / "brand_identity_master_guide.html").read_text(encoding="utf-8", errors="ignore") if (ROOT / "brand_identity_master_guide.html").exists() else ""
 index = (ROOT / "index.html").read_text(encoding="utf-8", errors="ignore") if (ROOT / "index.html").exists() else ""
 
-if "v3.3" not in social:
-    error("Canonical social_communication_plan.html does not identify v3.3.")
-if "v2.3" not in brand:
-    error("Canonical brand_identity_master_guide.html does not identify v2.3.")
-if "Knowledge Hub v1.5.0" not in index:
-    error("index.html does not identify the current stable Knowledge Hub v1.5.0 baseline.")
+if "v4.0" not in social:
+    error("Canonical social_communication_plan.html does not identify v4.0.")
+if "v2.4" not in brand:
+    error("Canonical brand_identity_master_guide.html does not identify v2.4.")
+if "Knowledge Hub v1.6.0" not in index:
+    error("index.html does not identify the current stable Knowledge Hub v1.6.0 baseline.")
 
 # Brand stack policy alignment is metadata-only; stable certification remains pending.
 policy = brand_manifest.get("policy_alignment", {})
-if "v3.3" not in str(policy.get("social_communication_plan", "")):
-    error("Brand Design Stack metadata is not aligned to Social v3.3.")
-if "v2.3" not in str(policy.get("brand_identity_system", "")):
-    error("Brand Design Stack metadata is not aligned to Brand v2.3.")
+if "v4.0" not in str(policy.get("social_communication_plan", "")):
+    error("Brand Design Stack metadata is not aligned to Social v4.0.")
+if "v2.4" not in str(policy.get("brand_identity_system", "")):
+    error("Brand Design Stack metadata is not aligned to Brand v2.4.")
 if "production candidate" not in str(brand_manifest.get("status", "")).lower():
     error("Brand Design Stack must remain explicitly marked production candidate until Illustrator 2022 QA is documented.")
 
@@ -111,7 +111,7 @@ for item in asset_register.get("assets", []):
         error(f"Public asset register must explicitly record contains_personal_data=false: {relative}")
 
 # Reject obvious credential/private-key artifacts in this intentionally public repository.
-blocked_names = {".env", "id_rsa", "id_ed25519"}
+blocked_names = {".env", ".env.local", ".env.production", "id_rsa", "id_ed25519"}
 blocked_suffixes = {".pem", ".key", ".p12", ".pfx", ".dump", ".sql"}
 for path in ROOT.rglob("*"):
     if not path.is_file() or ".git" in path.parts:

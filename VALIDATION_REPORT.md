@@ -1,34 +1,28 @@
-# HSF Knowledge Hub — Alignment Validation Report
+# HSF Knowledge Hub v1.6.0 · Validation Report
 
-**Snapshot:** 11 September 2026  
-**Stable content baseline:** Knowledge Hub v1.5.0 / Social v3.3 / Brand v2.3  
-**Governance contract:** HSF Digital Institutional System Contract v1.0.0
+**Release status:** Approved & Stable · **Validated / last updated:** 20 October 2026  
+**Planning & Compiled by:** Saiful Islam
 
-## Result
+## Automated validation
 
-**PASS — repository governance/version alignment checks.**
+| Check | Result |
+|---|---|
+| `python scripts/validate_hub.py` | PASS |
+| `python scripts/validate_social_v4.py` | PASS |
+| `python brand-design-stack/07_Engine/validate_stack.py` | PASS (242/242 SVG files) |
+| KDI bank inventory / IDs | PASS (120/120 ideas) |
+| PSC bank inventory / IDs / editorial family distribution | PASS (120/120 ideas) |
+| Public asset register / checksums | PASS (4 assets) |
+| Removed historical master copies / active fixed-post tracker | PASS |
+| Homepage and content catalogue local-link resolution | PASS |
+| Cross-document case-study anchors and retired-pilot synchronization | PASS |
+| ERP, MEAL and Netlify gate baseline preservation | PASS by release integrity checks |
 
-Validated locally:
+## Conditions not yet certified
 
-- canonical stable versions in root manifest and live HTML;
-- current programme/evidence/classification contract;
-- Brand Design Stack metadata alignment to Social v3.3 / Brand v2.3;
-- production-candidate status retained for Brand Stack v3.1.0;
-- public asset register checksums for controlled XLSX/PDF assets;
-- prohibited secret/private-key file-type guard;
-- root packaging-residue check;
-- lightweight local HTML reference scan;
-- JSON parsing.
+- Live Netlify deployment and end-to-end PIN/session behavior in production.
+- Visual responsiveness and cross-browser/device screenshots.
+- Adobe Illustrator 2022 review of representative production SVGs.
+- Any individual statistical findings, beneficiary narratives, clinical advice, image permissions or public captions.
 
-The HSF Digital System Contract file is byte-for-byte identical to the ERP mirror in the aligned repository package.
-
-## Stable/candidate boundary
-
-The supplied snapshot contained root metadata describing a proposed v1.6.0 / Social v4.0 repo-ready package, but the referenced `hsf_v160_release/` payload was not present. The metadata has been archived under `docs/archive/candidate-v1.6.0/` and is not treated as the live baseline.
-
-## Known limitations / follow-up
-
-- Runtime Tailwind CDN remains in the static HTML stack; this is documented technical debt. CSP is currently report-only to avoid breaking the existing runtime compiler, and should become enforced after CSS is localized/compiled.
-- Brand Design Stack v3.1.0 still requires representative Adobe Illustrator 2022 QA before stable certification.
-- GitHub branch protection, secret-scanning settings and repository license selection must be configured/approved outside the ZIP.
-- This alignment does not promote Social Plan v4.0 or change the current stable social/brand policy versions.
+This is a stable **governance/documentation** release. Approval of idea banks does not approve publication of claims.

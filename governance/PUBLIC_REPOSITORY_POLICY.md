@@ -1,5 +1,7 @@
 # HSF Public Repository Policy
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Effective:** 11 September 2026  
 **Applies to:** `SaifulIslamDS/hsfdigitalhub` and `SaifulIslamDS/HSF_ERP`
 

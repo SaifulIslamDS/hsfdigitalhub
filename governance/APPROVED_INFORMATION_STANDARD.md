@@ -1,5 +1,7 @@
 # HSF Approved Information Standard
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Institutional baseline  
 **Effective:** 11 September 2026
 

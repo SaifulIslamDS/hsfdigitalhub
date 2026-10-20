@@ -1,10 +1,12 @@
 # HSF Field Data Gateway & Offline-First Architecture
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Management Review Draft  
 **Date:** 12 September 2026  
 **Owner:** Human Safety Foundation (HSF)  
 **Applies to:** HSF ERP architecture and related institutional governance  
-**Current Knowledge Hub baseline:** v1.5.0  
+**Current Knowledge Hub baseline:** v1.6.0 (communication governance only; ERP proposal otherwise unchanged)  
 **Current Digital Institutional System Contract:** v1.0.0  
 **Classification:** Public-safe architecture/governance document; no operational records
 

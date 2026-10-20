@@ -1,5 +1,7 @@
 # LinkedIn Knowledge Formats
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 LinkedIn is treated as HSF's institutional learning/evidence channel, not only as a single-image feed.
 
 Included systems:

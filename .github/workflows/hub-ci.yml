@@ -25,5 +25,5 @@ jobs:
       - name: Validate HSF Knowledge Hub
         run: python scripts/validate_hub.py
 
-      - name: Validate Social v4.0 Candidate
+      - name: Validate Approved Social v4.0
         run: python scripts/validate_social_v4.py

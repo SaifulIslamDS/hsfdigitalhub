@@ -1,5 +1,7 @@
 # HSF Source of Truth Matrix
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Controlled governance reference  
 **Effective:** 11 September 2026  
 **Digital System Contract:** v1.0.0
@@ -39,6 +41,8 @@ Unresolved conflicts are flagged and escalated. They are not reconciled by assum
 
 Changing figures such as beneficiary counts, enrolment, camp coverage, staff counts and service totals require a reporting period and source. Architecture documents should describe the model and source location rather than freeze a changing number as a permanent fact.
 
-## Social v4.0 candidate (20 October 2026)
+## Social Communication Ecosystem v4.0 (approved 20 October 2026)
 
-`social_communication_plan_v4.0_candidate.html` is a **review-stage controlled candidate**, not a new current stable policy. Its KDI 120-topic workbook has management approval as an **editorial idea inventory only**; the separate PSC 120-topic workbook is a draft pending idea approval. The old 48-post pilot has no active v4 content-bank status. Research source references, extracted statistics, publication graphics and live programme outcome claims must each be verified and approved under `APPROVED_INFORMATION_STANDARD.md` before use. Until controlled promotion, the canonical `social_communication_plan.html` remains v3.3 stable, and the approved Brand Guide remains v2.3.
+`social_communication_plan.html` is the sole **approved and stable** canonical communication framework. It supersedes the fixed pilot, with two public streams and seven reusable content families. The 120 KDI and 120 PSC ideas are approved as **editorial inventories only**. No statistical source, event, field case, clinical assertion, testimonial, beneficiary image, artwork or final caption becomes verified or approved for public release merely because an idea is listed. A named reviewer and management approval of the exact public-safe output is required under `APPROVED_INFORMATION_STANDARD.md`.
+
+Brand Identity & Design System v2.4 retains the same visual identity and aligns production to open-ended Social v4.0. Historical versions are available in Git history, not competing active copies. The HSF Digital System Contract v1.0.0, ERP, MEAL and confidential-data segregation remain intact.

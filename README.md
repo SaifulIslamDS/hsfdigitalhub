@@ -1,84 +1,49 @@
-# HSF Digital Transformation Knowledge Hub
+# Human Safety Foundation | Digital Transformation Knowledge Hub
 
-The **Human Safety Foundation (HSF) Digital Transformation Knowledge Hub** is HSF's controlled institutional knowledge layer for policies, frameworks, standards, MEAL, communication governance, brand governance, ERP documentation and approved institutional references.
+**Current stable Knowledge Hub:** v1.6.0 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
+**Status:** Management Approved / Stable · **Effective and last updated:** 20 October 2026  
+**Planning & Compiled by:** Saiful Islam
 
-## Current stable content baseline
+The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
 
-- **Knowledge Hub release:** `v1.5.0` — 1 September 2026
-- **Social Communication Plan:** `v3.3` — stable
-- **Brand Identity & Design System:** `v2.3` — current
-- **Brand Design Stack:** `v3.1.0` — production candidate; metadata aligned to Social v3.3 / Brand v2.3, with Adobe Illustrator 2022 production QA still required
-- **HSF Digital Institutional System Contract:** `v1.0.0` — governance alignment baseline effective 11 September 2026
+## Six current canonical master documents (one copy each)
 
-The repository previously contained root packaging metadata for a proposed `v1.6.0 / Social v4.0` upgrade, but the corresponding payload was not present in the uploaded repository snapshot. That packaging metadata is preserved under `docs/archive/candidate-v1.6.0/` for historical traceability and is **not** treated as the canonical live baseline.
+| Master document | Canonical file | Status |
+|---|---|---|
+| Institutional Digital Transformation | [digital_transformation_framework.html](digital_transformation_framework.html) | Stable; reviewed 20 October 2026 |
+| Social Communication Ecosystem v4.0 | [social_communication_plan.html](social_communication_plan.html) | Approved, stable |
+| Brand Identity & Design System v2.4 | [brand_identity_master_guide.html](brand_identity_master_guide.html) | Stable; same visual identity |
+| ERP High-Level Overview | [ERP_Overview.html](ERP_Overview.html) | Stable reference; operational code elsewhere |
+| Impact, MEAL & Learning Framework | [impact_meal_learning_framework.html](impact_meal_learning_framework.html) | Stable reference |
+| Website Content & Editorial Guidelines | [website_content_editorial_guidelines.html](website_content_editorial_guidelines.html) | Stable reference |
 
-## Social Communication Ecosystem v4.0 candidate (20 October 2026)
+## Social v4.0, two open-ended streams
 
-**Candidate only; the stable Hub v1.5.0 / Social v3.3 / Brand v2.3 policy remains in force until controlled approval and promotion.** Management has approved the **120 Knowledge, Data & Insight content IDEAS**, not verified source findings, public statistics or completed posts.
+- **HSF in Action**: field activity, moments, case studies, human experiences, progress/success, challenges/responses and institutional storytelling.
+- **HSF Knowledge & Awareness**: source-led statistics, insights, researched topics, awareness and optional Issue → Practical Response.
 
-- [Review Social Communication Ecosystem v4.0 candidate](social_communication_plan_v4.0_candidate.html)
-- [Browse 120 approved research ideas](communication/kdi-idea-bank.html) · [Browse 120 proposed story and response ideas](communication/psc-idea-bank.html)
-- [Read the detailed repository audit](docs/SOCIAL_V4_REPO_AUDIT.md)
-- [Review v4.0 implementation](docs/SOCIAL_V4_CANDIDATE_IMPLEMENTATION.md)
-- [Candidate migration / approval gates](docs/SOCIAL_V4_MIGRATION_AND_APPROVAL.md)
-- [Visual production alignment](docs/SOCIAL_V4_VISUAL_ALIGNMENT.md)
+**Two approved idea banks, not publication approvals:** [120 KDI](communication/kdi-idea-bank.html) and [120 PSC](communication/psc-idea-bank.html). Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
 
-The candidate retires the 48-post pilot and its archive map from active v4 planning; the Issue → Practical Response method is retained in the new PSC bank. It formalizes authentic FIELD cases, community voices, progress/success, challenge and response stories. `HSF in Action` and `HSF Knowledge & Awareness` remain the two editorial streams. Claims require rigorous verification and named management sign-off before public use.
+## Publication integrity
 
-Validate candidate with `python scripts/validate_social_v4.py` alongside the stable `python scripts/validate_hub.py`. Current brand and operational security files are unchanged.
+Programme evidence and confidential ERP data remain segregated. Approved Information Layer permits only verified, technically reviewed, safeguarded and management-approved public claims and media. An idea, source URL or testimonial proposal cannot be published as a fact. Do not place learner or patient records, consents, sensitive case studies, HR, finances, credentials or other confidential files in this publicly accessible repository.
 
-## HSF digital architecture
+## Brand stack certification
 
-HSF maintains three separate but connected layers:
+`brand-design-stack/` v3.1.0 retains its **production-candidate** status pending representative Adobe Illustrator 2022 compatibility checks. This is not a change to the approved HSF brand identity. Policy alignment is now Social v4.0 / Brand v2.4.
 
-1. **Operational ERP** — protected operational system of record for programme, finance, procurement, inventory, HR, payroll and sensitive records.
-2. **Knowledge Hub** — policies, standards, frameworks, SOPs, ERP documentation, MEAL, communication and brand governance.
-3. **Public Platform** — approved website content, reports, public statistics, stories and social communication.
-
-Preferred information flow:
-
-`ERP / Operational Dataset → Verification & MEAL → Approved Information → Reports / Website / Social Media`
-
-Raw operational records must never be exposed directly to public systems.
-
-## Canonical governance files
-
-- `governance/HSF_DIGITAL_SYSTEM_CONTRACT.json`
-- `governance/PROGRAMME_REGISTRY.md`
-- `governance/SOURCE_OF_TRUTH_MATRIX.md`
-- `governance/APPROVED_INFORMATION_STANDARD.md`
-- `governance/PUBLIC_REPOSITORY_POLICY.md`
-- `governance/EXTERNAL_STANDARDS.md`
-- `governance/GITHUB_SETTINGS_CHECKLIST.md`
-- `governance/PUBLIC_ASSET_REGISTER.json`
-- `governance/DOCUMENT_CONTROL_STANDARD.md`
-
-The HSF ERP repository mirrors the same contract version and must not independently redefine institutional concepts.
-
-## Evidence discipline
-
-HSF distinguishes:
-
-`RAW → CLEANED → VERIFIED / CALCULATED / ESTIMATED / INFERRED`
-
-These evidence states remain distinct from workflow approval. Calculated, estimated or inferred information must never be silently presented as verified operational evidence.
-
-## Public repository rule
-
-This repository is intentionally public. **Anything committed here must be treated as publicly accessible**, regardless of any PIN/no-index protection used by a deployed preview site.
-
-Do not commit passwords, secrets, private keys, patient records, learner registers, safeguarding cases, payroll/HR personal data, restricted finance/banking data, donor personal data or other restricted operational exports.
-
-## Validation
-
-Run:
+## Local validation
 
 ```bash
 python scripts/validate_hub.py
+python scripts/validate_social_v4.py
+python brand-design-stack/07_Engine/validate_stack.py
 ```
 
-GitHub Actions runs the same governance/version validation on pushes and pull requests to `main`.
+## Release & deployment
 
-## Release discipline
+See [Release v1.6.0](docs/RELEASE_v1.6.0.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
-Published stable releases and historical snapshots are not silently rewritten. Material work after the current stable content baseline is recorded under `CHANGELOG.md` until a controlled release is approved.
+## Full-repository replacement and Git history
+
+Use [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.6.0.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.

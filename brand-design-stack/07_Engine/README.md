@@ -1,5 +1,7 @@
 # HSF Storytelling Generator
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 Run from the stack root:
 
 ```bash

@@ -1,13 +1,15 @@
 # HSF Social Communication Overlay Register — Operating Guide
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Pilot guidance  
 **Effective:** September 2026
 
-The overlay register tracks `OBS / HSF / FIELD / EVENT / MOMENT` separately from P01–P48.
+The controlled content evidence register captures public-safe editorial classifications. Optional `OBS / HSF / FIELD / EVENT / MOMENT` tags can describe activity type, but no historical numbered pilot is active. Use new unique `HSF-COM-YYYY-0001` content IDs.
 
-## ID convention
+## Optional legacy classification codes (not the primary ID)
 
-Use a separate sequence by category:
+Past operational codes may be read for provenance but **new content must use the canonical content ID plus tags**:
 
 - `OBS-001`
 - `HSF-001`

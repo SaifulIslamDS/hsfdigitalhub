@@ -1,5 +1,7 @@
 # GitHub Repository Settings Checklist
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 These controls cannot be encoded fully inside a ZIP and should be configured in GitHub settings after upload/push.
 
 For both public repositories:

@@ -1,5 +1,7 @@
 # HSF Activity Communication Bank
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Controlled planning reference  
 **Governing principle:** Activity planning does not equal evidence of occurrence.
 

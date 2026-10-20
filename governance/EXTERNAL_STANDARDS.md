@@ -1,5 +1,7 @@
 # HSF External Alignment Baseline
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Baseline date:** 11 September 2026  
 **Purpose:** Practical external alignment for HSF digital governance and software development.  
 **Claim rule:** HSF may state that these are alignment baselines. This file does **not** establish certification.

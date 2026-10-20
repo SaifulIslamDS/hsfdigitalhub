@@ -8,8 +8,8 @@
     "LinkedIn"
   ],
   "policy_alignment": {
-    "social_communication_plan": "v3.3 stable baseline",
-    "brand_identity_system": "v2.3 current baseline"
+    "social_communication_plan": "v4.0 stable, approved 2026-10-20",
+    "brand_identity_system": "v2.4 stable (identity preserved; communication-mapping update)"
   },
   "story_archetypes": [
     "editorial_photo_story",
@@ -34,11 +34,12 @@
     "foundation_memory"
   ],
   "logo_strategy": "central authoritative vector asset + square component slot",
-  "status": "production candidate; governance metadata aligned 2026-09-11; validate representative SVGs in Adobe Illustrator 2022 before stable certification",
+  "status": "production candidate, policy-aligned 2026-10-20; representative Adobe Illustrator 2022 visual QA remains required before production certification",
   "platform_master_count": 182,
   "linkedin_knowledge_master_count": 37,
   "total_svg_count": 242,
   "archetype_registry": "04_Archetypes/archetypes.json",
   "sequence_registry": "04_Archetypes/sequence-presets.json",
-  "governance_alignment_date": "2026-09-11"
+  "governance_alignment_date": "2026-10-20",
+  "sequence_principle": "Archetype sequence presets are optional story composition guides; no 48-post or compulsory issue-response publishing cycle."
 }

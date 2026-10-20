@@ -1,5 +1,7 @@
 # Platform Behaviour
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 ## Facebook
 Community-oriented. Medium information density. Strong for event documentation, albums, FIELD posts and accessible human stories.
 

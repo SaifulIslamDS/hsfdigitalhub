@@ -2,55 +2,58 @@
   "repository": "SaifulIslamDS/hsfdigitalhub",
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
-  "manifest_date": "2026-09-11",
+  "current_status": "APPROVED_STABLE",
+  "release": "v1.6.0",
+  "release_date": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.5.0",
-    "release_date": "2026-09-01",
-    "social_communication_plan": "v3.3",
-    "brand_identity_design_system": "v2.3",
+    "knowledge_hub": "v1.6.0",
+    "release_date": "2026-10-20",
+    "social_communication_plan": "v4.0",
+    "brand_identity_design_system": "v2.4",
     "brand_design_stack": {
       "version": "v3.1.0",
       "status": "production_candidate",
-      "policy_alignment": "Social v3.3 + Brand v2.3",
+      "policy_alignment": "Social v4.0 + Brand v2.4",
       "remaining_qa": "Representative Adobe Illustrator 2022 validation"
     }
   },
   "institutional_governance": {
     "digital_system_contract": "1.0.0",
-    "effective_date": "2026-09-11",
     "canonical_contract_path": "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json"
   },
-  "archived_candidate_metadata": {
-    "proposed_target": "v1.6.0",
-    "proposed_social_plan": "v4.0",
-    "status": "historical repo-ready metadata only; payload absent from supplied snapshot; not canonical",
-    "path": "docs/archive/candidate-v1.6.0/"
-  },
-  "validation": "python scripts/validate_hub.py",
-  "public_repository_rule": "All committed content is treated as publicly accessible; restricted operational data is prohibited.",
-  "candidate_release": {
-    "version": "v1.6.0-candidate",
-    "prepared_on": "2026-10-20",
-    "status": "REVIEW_ONLY_NOT_DEPLOYED_AS_APPROVED_POLICY",
-    "candidate_social_plan": "v4.0",
-    "candidate_page": "social_communication_plan_v4.0_candidate.html",
-    "editorial_inventory_approved": true,
-    "ideas_count": 240,
-    "individual_statistics_verified": false,
-    "branding_or_erp_baseline_changes": false,
-    "management_approval_required_to_promote": true,
-    "governance_record": "governance/SOCIAL_V4_CANDIDATE_CONTROL.json",
-    "validation_command": "python scripts/validate_social_v4.py",
+  "canonical_master_documents": [
+    "digital_transformation_framework.html",
+    "social_communication_plan.html",
+    "brand_identity_master_guide.html",
+    "ERP_Overview.html",
+    "impact_meal_learning_framework.html",
+    "website_content_editorial_guidelines.html"
+  ],
+  "editorial": {
+    "streams": [
+      "HSF_IN_ACTION",
+      "HSF_KNOWLEDGE_AWARENESS"
+    ],
+    "issue_response_method": "OPTIONAL_OPEN_ENDED",
+    "historical_fixed_pilot": "RETIRED_GIT_HISTORY_ONLY",
     "idea_banks": {
       "KDI": {
         "count": 120,
-        "editorial_approval": "APPROVED"
+        "approval": "EDITORIAL_IDEAS_ONLY"
       },
       "PSC": {
         "count": 120,
-        "editorial_approval": "DRAFT"
+        "approval": "EDITORIAL_IDEAS_ONLY"
       }
     },
-    "initial_48_post_pilot": "RETIRED_FROM_ACTIVE_V4"
-  }
+    "individual_public_claims_approved": false
+  },
+  "privacy": "NO_RESTRICTED_ERP_DATA_IN_PUBLIC_REPOSITORY",
+  "control": "governance/SOCIAL_V4_STABLE_CONTROL.json",
+  "validation": [
+    "python scripts/validate_hub.py",
+    "python scripts/validate_social_v4.py"
+  ]
 }

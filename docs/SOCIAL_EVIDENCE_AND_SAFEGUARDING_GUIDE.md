@@ -1,5 +1,7 @@
 # HSF Social Evidence & Safeguarding Guide
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Applies to:** HSF in Action and HSF Knowledge & Awareness
 
 ## Evidence chain

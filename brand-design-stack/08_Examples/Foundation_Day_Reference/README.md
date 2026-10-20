@@ -1,5 +1,7 @@
 # Foundation Day reference demo
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 The JPEG in this folder is the user-supplied visual benchmark. It is included only to demonstrate the image-first archetype and should not be treated as an official reusable stock image.
 
 The generated SVG/PNG/PDF files demonstrate:

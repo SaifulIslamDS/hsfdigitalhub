@@ -1,5 +1,7 @@
 # HSF Image-First Storytelling System
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 ## Principle
 HSF designs should not look like UI cards with a photo attached. The photograph is the story surface. Text exists to make the image understandable, credible and useful.
 
@@ -25,7 +27,7 @@ HSF designs should not look like UI cards with a photo attached. The photograph 
 14. Call to Action Photo - human image + specific next step.
 
 ## Social Plan mapping
-- CORE P01-P48: issue/resolution can select any archetype appropriate to the message.
+- HSF Knowledge & Awareness: Issue → Practical Response, expert advice, research findings and explainers may select any suitable archetype without a mandatory paired publishing cycle.
 - OBS: Observance Story, Report Insight, Practical Guide.
 - HSF: Institutional Memory, Editorial Photo Story, Photo Essay.
 - FIELD: Field Story, Photo Essay, Evidence Story, Human Moment.

@@ -1,10 +1,12 @@
 # HSF Brand Design Stack v3.1.0
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 ## Image-First Storytelling Engine
 
 This rebuild keeps the strong platform architecture of v3.0 but restores the visual energy of the v2.0.1 production stack. The photograph is now the primary storytelling surface.
 
-**Policy alignment:** Social Communication Plan v3.3 + Brand Identity & Design System v2.3.
+**Policy alignment:** Social Communication Ecosystem v4.0 + Brand Identity & Design System v2.3.
 
 **Status:** Production candidate. Repository metadata is aligned to the current stable governance baseline; representative Adobe Illustrator 2022 production QA is still required before stable certification.
 
@@ -14,7 +16,7 @@ This rebuild keeps the strong platform architecture of v3.0 but restores the vis
 ### What is included
 - Facebook, Instagram and LinkedIn platform-specific masters
 - 14 image-first story archetypes
-- Core P01-P48 + OBS / HSF / FIELD / EVENT / MOMENT metadata
+- Open-ended v4.0 streams, editorial families and optional OBS / HSF / FIELD / EVENT / MOMENT tags
 - photographic carousel sequences
 - 9:16 Reel / vertical-video storyboards
 - Instagram 3:4 photo masters

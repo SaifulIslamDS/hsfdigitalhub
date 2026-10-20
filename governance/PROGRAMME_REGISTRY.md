@@ -1,5 +1,7 @@
 # HSF Programme Registry
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Status:** Canonical institutional programme registry  
 **Effective:** 11 September 2026
 

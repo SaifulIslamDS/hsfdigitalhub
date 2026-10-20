@@ -1,5 +1,7 @@
 # HSF Controlled Document Standard
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 Major HSF policies, frameworks, standards, SOPs, architecture baselines, MEAL frameworks, communication systems and brand standards should be treated as controlled records.
 
 Where appropriate, a controlled document should identify:

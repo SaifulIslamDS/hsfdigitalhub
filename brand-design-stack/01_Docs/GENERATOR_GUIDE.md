@@ -1,5 +1,7 @@
 # Python SVG Generator Guide
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 The stack is designed as **human-designed archetypes + machine-generated variants**. The engine should never invent a visual system from scratch.
 
 ## Content config

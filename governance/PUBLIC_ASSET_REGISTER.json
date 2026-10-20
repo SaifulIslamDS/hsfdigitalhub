@@ -1,19 +1,9 @@
 {
-  "register_version": "1.0.0",
-  "effective_date": "2026-09-11",
+  "register_version": "1.1.0",
+  "effective_date": "2026-10-20",
   "scope": "Controlled public-safe spreadsheet/PDF assets that could otherwise be mistaken for sensitive operational records.",
   "rule": "Presence in this register does not replace human data-classification review for future updates.",
   "assets": [
-    {
-      "path": "communication/registers/social-overlay-register.xlsx",
-      "classification": "PUBLIC",
-      "owner": "Communication",
-      "contains_personal_data": false,
-      "approval_status": "public-safe repository asset",
-      "review_date": "2026-09-11",
-      "sha256": "4821e219e0f6be99e354370cada1c96577375586da1bd5b976e6794bb3d0a0f4",
-      "note": "Controlled social overlay register/template; publication-oriented operational communication planning."
-    },
     {
       "path": "brand-design-stack/08_Examples/Foundation_Day_Reference/generated_demo/linkedin_report_brief_demo.pdf",
       "classification": "PUBLIC",
@@ -45,14 +35,16 @@
       "note": "120 conceptual research topics and source leads. Public-safe metadata, no learner/patient records. NOT an approved public statistics bank."
     },
     {
-      "path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_v4_Draft.xlsx",
+      "path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
       "owner": "Communication",
       "contains_personal_data": false,
-      "approval_status": "Public-safe DRAFT editorial ideas; management approval pending; NO verified cases",
+      "approval_status": "Management-approved conditional editorial ideas only; no verified cases/outcomes",
       "review_date": "2026-10-20",
       "sha256": "264892926009bcd69ee5c7a293a7dc3d6136b0e72874fb0f43a8abd1c44a273b",
-      "note": "120 conditional story/editorial ideas, no identifiable people or completed operational records, NOT a public claims bank."
+      "note": "120 conditional editorial concepts. Approval does NOT verify any field occurrence, personal story or beneficiary outcome."
     }
-  ]
+  ],
+  "last_updated": "2026-10-20",
+  "planning_and_compiled_by": "Saiful Islam"
 }

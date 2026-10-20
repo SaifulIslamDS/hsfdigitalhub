@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "HSF editorial content and evidence reference record v4.0 candidate (PUBLIC-SAFE METADATA ONLY)",
+  "title": "HSF editorial content and evidence reference v4.0 (approved POLICY; public-safe metadata only)",
   "type": "object",
   "required": [
     "content_id",

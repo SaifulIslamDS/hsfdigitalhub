@@ -1,13 +1,15 @@
-# HSF Social Communication Ecosystem v4.0: controlled candidate
+# HSF Social Communication Ecosystem v4.0 · Approved & Stable
 
-**Two public streams:** HSF in Action; HSF Knowledge & Awareness. **Two separate open-ended idea banks:**
+**Effective / last updated:** 20 October 2026  
+**Planning & Compiled by:** Saiful Islam
 
-- [Knowledge, Data & Insight, 120 ideas](kdi-idea-bank.html) (`KDI-001` to `KDI-120`): management-approved editorial inventory. All statistical claims remain unverified and not approved for publication.
-- [Programme Stories & Communication, 120 ideas](psc-idea-bank.html) (`PSC-001` to `PSC-120`): proposed for management review, not yet editorially approved. Describes conditional, authentic field/story/issue/engagement opportunities, not events presumed to have occurred.
+Two public editorial streams: **HSF in Action** and **HSF Knowledge & Awareness**. Seven reusable families; no mandatory publishing cadence, maximum idea count or fixed sequence.
 
-Together these provide **240 starting ideas**, no fixed content ceiling or publishing quota. The **48-post initial pilot is retired from the active v4 ecosystem**. No heritage map, mandatory pair tracking or numbered P01–P48 archive is part of the candidate. The evergreen **Issue → Practical Response** editorial method remains one of the content families.
+- [Knowledge, Data & Insight, 120 editorial ideas](kdi-idea-bank.html) (KDI-001…KDI-120)
+- [Programme Stories & Communication, 120 editorial ideas](psc-idea-bank.html) (PSC-001…PSC-120)
+- [Public-safe content evidence register](registers/content_evidence_register_TEMPLATE.csv) and [schema](registers/content_evidence_register_schema.json)
+- [Safeguarded case-story intake guidance](registers/case_study_intake_template.md)
 
-- [Content evidence register](registers/content_evidence_register_TEMPLATE.csv) and [schema](registers/content_evidence_register_schema.json).
-- [Safeguarded case-study intake guide](registers/case_study_intake_template.md).
+Both banks are approved as **ideas only**. KDI references are research leads; PSC scenarios are conditional prompts, not already observed events. Individual claims, figures, photos, testimonials, graphics and final posts must be verified and authorized. The retired fixed-post pilot remains only in version-control history; Issue → Practical Response survives as an optional editorial method.
 
-The old v3.3 historical source remains a previous stable version in Git history/repository for traceability, not an active idea bank. No sensitive completed case records, consent forms, learner/patient data or restricted ERP exports may be uploaded to this public GitHub repository. See [v4.0 candidate framework](../social_communication_plan_v4.0_candidate.html).
+[View the canonical Social v4.0 framework](../social_communication_plan.html). Never commit operationally sensitive material to this public repository.

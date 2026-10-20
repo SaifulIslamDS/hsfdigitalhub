@@ -1,5 +1,7 @@
 # HSF Field Case Study Intake and Review Template (BLANK)
 
+**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+
 **Public-safe template. Do NOT complete with identifiable child, patient, family or staff details in this public repository. Store completed records in authorised restricted programme systems only.**
 
 ## Editorial classification
