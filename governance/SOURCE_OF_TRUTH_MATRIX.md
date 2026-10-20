@@ -38,3 +38,7 @@ Unresolved conflicts are flagged and escalated. They are not reconciled by assum
 ## Volatile information
 
 Changing figures such as beneficiary counts, enrolment, camp coverage, staff counts and service totals require a reporting period and source. Architecture documents should describe the model and source location rather than freeze a changing number as a permanent fact.
+
+## Social v4.0 candidate (20 October 2026)
+
+`social_communication_plan_v4.0_candidate.html` is a **review-stage controlled candidate**, not a new current stable policy. Its KDI 120-topic workbook has management approval as an **editorial idea inventory only**; the separate PSC 120-topic workbook is a draft pending idea approval. The old 48-post pilot has no active v4 content-bank status. Research source references, extracted statistics, publication graphics and live programme outcome claims must each be verified and approved under `APPROVED_INFORMATION_STANDARD.md` before use. Until controlled promotion, the canonical `social_communication_plan.html` remains v3.3 stable, and the approved Brand Guide remains v2.3.

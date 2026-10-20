@@ -1,0 +1,68 @@
+{
+  "candidate_name": "HSF Social Communication Ecosystem v4.0",
+  "candidate_date": "2026-10-20",
+  "status": "CANDIDATE_NOT_STABLE",
+  "approved_decision": "KDI 120 research ideas management-approved; PSC 120 proposed and pending management review; fixed 48-post pilot retired from active v4 candidate; full v4 policy pending approval",
+  "stable_unchanged": {
+    "hub": "v1.5.0",
+    "social": "v3.3",
+    "brand": "v2.3",
+    "brand_stack": "v3.1.0 production candidate",
+    "digital_system_contract": "v1.0.0"
+  },
+  "candidate_page": "social_communication_plan_v4.0_candidate.html",
+  "published_claims_approved": false,
+  "topics_count": 240,
+  "workbook_path": "communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
+  "workbook_sha256": "8970b8f7e63d70e3c21f9395e366058e1ef57d6b48d3c83eac4328fc3e18b06c",
+  "immutable_stable_baseline_sha256": {
+    "social_communication_plan.html": "869b4e75587ef9caed595eb6d06daeef86bae3d825ea5ec50810c2901be9d5e2",
+    "social_communication_plan_v3.3.html": "869b4e75587ef9caed595eb6d06daeef86bae3d825ea5ec50810c2901be9d5e2",
+    "brand_identity_master_guide.html": "a070f3482ddd66ca59835f27f52c516eca479218b121ff3e7650a735ff709a0f",
+    "brand_identity_master_guide_v2.3.html": "a070f3482ddd66ca59835f27f52c516eca479218b121ff3e7650a735ff709a0f",
+    "ERP_Overview.html": "02651118ae50613fa81d1814362e725391f9675e244ab97a667c9c2875b2ceb9",
+    "impact_meal_learning_framework.html": "33729666773db3758de4741bf6ddb1dac34e995cdd34fa71bfcb0c03d34e180b",
+    "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json": "2323ea86e52783b87bfbc0c36e92746ec33d597a1fde869c612125cfc85121f6",
+    "netlify.toml": "e64cfa05fd933171712a9fcb1c31c4f023185fdee63f9589a30bc43f8d016967",
+    "_redirects": "0340c1d1f81c0b04496c06428fb4954cefa6db1dfbe4ad79e1e27f4b4d3816c9",
+    "netlify/edge-functions/pin-gate.ts": "20653994e8d37bd5ab6bd19321fee6cff398580651da7a3be9517f134996d95d",
+    "netlify/edge-functions/pin-login.ts": "e4e5ed1b4bd7591ec80741cddf43add0f224fea61c8a69ff62392f14af66f0bf",
+    "netlify/edge-functions/pin-logout.ts": "0fb42d18a04da25c8d0d44d911ec87110b497283ad23db091a3ae9053f73e146"
+  },
+  "editorial_streams": [
+    "HSF_IN_ACTION",
+    "HSF_KNOWLEDGE_AWARENESS"
+  ],
+  "required_families": [
+    "FIELD_MOMENT",
+    "CASE_STUDY",
+    "PROGRESS_SUCCESS",
+    "CHALLENGE_RESPONSE",
+    "ISSUE_RESOLUTION",
+    "KNOWLEDGE_DATA_INSIGHT",
+    "INSTITUTIONAL_ENGAGEMENT"
+  ],
+  "responsible_approval": "HSF management; exact asset and claim approval by appointed reviewers",
+  "notes": [
+    "Brand/ERP/MEAL/access-gate files deliberately unchanged.",
+    "No confidential operational records are included.",
+    "Candidate is public-safe editorial infrastructure only.",
+    "Earlier pilot/v3.3 remains in version history only; no active 48-post tracker, archive map or numbered cycle in Social v4 candidate."
+  ],
+  "idea_banks": [
+    {
+      "code": "KDI",
+      "ideas": 120,
+      "editorial_idea_status": "MANAGEMENT_APPROVED",
+      "claims_verified": false
+    },
+    {
+      "code": "PSC",
+      "ideas": 120,
+      "editorial_idea_status": "DRAFT_PENDING_MANAGEMENT_REVIEW",
+      "claims_verified": false
+    }
+  ],
+  "psc_workbook_path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_v4_Draft.xlsx",
+  "psc_workbook_sha256": "264892926009bcd69ee5c7a293a7dc3d6136b0e72874fb0f43a8abd1c44a273b"
+}

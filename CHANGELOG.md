@@ -1,3 +1,14 @@
+## Unreleased · Social Communication Ecosystem v4.0 Candidate · 20 October 2026
+
+- Added complete Social v4.0 candidate without silently overwriting the current stable Social v3.3 / Hub v1.5.0.
+- Copied management-approved 120 KDI ideas, with immutable source workbook checksum, public-safe JSON research index and static searchable catalogue; **no statistics or final posts approved**.
+- Retired the initial numbered 48-post pilot from active v4 operation and removed its active heritage-map/trackers. Issue → Practical Response remains an expandable content family.
+- Added a second searchable 120-idea **Programme Stories & Communication** bank (PSC; pending idea-level management approval). Together PSC+KDI offer **240 initial concepts** without a post quota.
+- Added seven content families, mandatory editorial capacity for real case studies, progress/success, challenge/response, two open-ended public streams and editorial taxonomy.
+- Added blank evidence/editorial metadata schema, safeguarding case-intake template, management approval and migration controls.
+- Added homepage candidate banner, repository audit, visual-brand compatibility mapping and dedicated CI validation.
+- **Stable files, ERP and MEAL frameworks, Brand v2.3, Netlify access controls, existing historical release notes and brand asset-stack production-candidate certification remain unchanged.**
+
 # HSF Digital Transformation Knowledge Hub â€” Changelog
 
 ## Unreleased â€” Institutional Alignment Baseline â€” 11 September 2026

@@ -12,6 +12,21 @@ The **Human Safety Foundation (HSF) Digital Transformation Knowledge Hub** is HS
 
 The repository previously contained root packaging metadata for a proposed `v1.6.0 / Social v4.0` upgrade, but the corresponding payload was not present in the uploaded repository snapshot. That packaging metadata is preserved under `docs/archive/candidate-v1.6.0/` for historical traceability and is **not** treated as the canonical live baseline.
 
+## Social Communication Ecosystem v4.0 candidate (20 October 2026)
+
+**Candidate only; the stable Hub v1.5.0 / Social v3.3 / Brand v2.3 policy remains in force until controlled approval and promotion.** Management has approved the **120 Knowledge, Data & Insight content IDEAS**, not verified source findings, public statistics or completed posts.
+
+- [Review Social Communication Ecosystem v4.0 candidate](social_communication_plan_v4.0_candidate.html)
+- [Browse 120 approved research ideas](communication/kdi-idea-bank.html) · [Browse 120 proposed story and response ideas](communication/psc-idea-bank.html)
+- [Read the detailed repository audit](docs/SOCIAL_V4_REPO_AUDIT.md)
+- [Review v4.0 implementation](docs/SOCIAL_V4_CANDIDATE_IMPLEMENTATION.md)
+- [Candidate migration / approval gates](docs/SOCIAL_V4_MIGRATION_AND_APPROVAL.md)
+- [Visual production alignment](docs/SOCIAL_V4_VISUAL_ALIGNMENT.md)
+
+The candidate retires the 48-post pilot and its archive map from active v4 planning; the Issue → Practical Response method is retained in the new PSC bank. It formalizes authentic FIELD cases, community voices, progress/success, challenge and response stories. `HSF in Action` and `HSF Knowledge & Awareness` remain the two editorial streams. Claims require rigorous verification and named management sign-off before public use.
+
+Validate candidate with `python scripts/validate_social_v4.py` alongside the stable `python scripts/validate_hub.py`. Current brand and operational security files are unchanged.
+
 ## HSF digital architecture
 
 HSF maintains three separate but connected layers:

@@ -27,5 +27,30 @@
     "path": "docs/archive/candidate-v1.6.0/"
   },
   "validation": "python scripts/validate_hub.py",
-  "public_repository_rule": "All committed content is treated as publicly accessible; restricted operational data is prohibited."
+  "public_repository_rule": "All committed content is treated as publicly accessible; restricted operational data is prohibited.",
+  "candidate_release": {
+    "version": "v1.6.0-candidate",
+    "prepared_on": "2026-10-20",
+    "status": "REVIEW_ONLY_NOT_DEPLOYED_AS_APPROVED_POLICY",
+    "candidate_social_plan": "v4.0",
+    "candidate_page": "social_communication_plan_v4.0_candidate.html",
+    "editorial_inventory_approved": true,
+    "ideas_count": 240,
+    "individual_statistics_verified": false,
+    "branding_or_erp_baseline_changes": false,
+    "management_approval_required_to_promote": true,
+    "governance_record": "governance/SOCIAL_V4_CANDIDATE_CONTROL.json",
+    "validation_command": "python scripts/validate_social_v4.py",
+    "idea_banks": {
+      "KDI": {
+        "count": 120,
+        "editorial_approval": "APPROVED"
+      },
+      "PSC": {
+        "count": 120,
+        "editorial_approval": "DRAFT"
+      }
+    },
+    "initial_48_post_pilot": "RETIRED_FROM_ACTIVE_V4"
+  }
 }

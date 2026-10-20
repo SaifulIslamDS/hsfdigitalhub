@@ -5,16 +5,6 @@
   "rule": "Presence in this register does not replace human data-classification review for future updates.",
   "assets": [
     {
-      "path": "communication/registers/HSF_Social_Communication_48_Core_Post_Cycle_Tracker_v3.3.xlsx",
-      "classification": "PUBLIC",
-      "owner": "Communication",
-      "contains_personal_data": false,
-      "approval_status": "public-safe repository asset",
-      "review_date": "2026-09-11",
-      "sha256": "7a8710321363d64fd6bac8425a372cc952a55c4c30e96da9b774f65b47842a3b",
-      "note": "Controlled social communication schedule/tracker; no beneficiary register."
-    },
-    {
       "path": "communication/registers/social-overlay-register.xlsx",
       "classification": "PUBLIC",
       "owner": "Communication",
@@ -43,6 +33,26 @@
       "review_date": "2026-09-11",
       "sha256": "d7b836097eab37a30134758bef598b87afcb71bb650aa3db6bb847539d7bfcd2",
       "note": "Generated demonstration design asset; not an operational beneficiary report."
+    },
+    {
+      "path": "communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
+      "classification": "PUBLIC",
+      "owner": "Communication / Research",
+      "contains_personal_data": false,
+      "approval_status": "Management-approved editorial idea inventory only; no validated statistical claims",
+      "review_date": "2026-10-20",
+      "sha256": "8970b8f7e63d70e3c21f9395e366058e1ef57d6b48d3c83eac4328fc3e18b06c",
+      "note": "120 conceptual research topics and source leads. Public-safe metadata, no learner/patient records. NOT an approved public statistics bank."
+    },
+    {
+      "path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_v4_Draft.xlsx",
+      "classification": "PUBLIC",
+      "owner": "Communication",
+      "contains_personal_data": false,
+      "approval_status": "Public-safe DRAFT editorial ideas; management approval pending; NO verified cases",
+      "review_date": "2026-10-20",
+      "sha256": "264892926009bcd69ee5c7a293a7dc3d6136b0e72874fb0f43a8abd1c44a273b",
+      "note": "120 conditional story/editorial ideas, no identifiable people or completed operational records, NOT a public claims bank."
     }
   ]
 }

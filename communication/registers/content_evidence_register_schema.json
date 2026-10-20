@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HSF editorial content and evidence reference record v4.0 candidate (PUBLIC-SAFE METADATA ONLY)",
+  "type": "object",
+  "required": [
+    "content_id",
+    "stream",
+    "content_family",
+    "programme_code",
+    "editorial_status",
+    "public_claim_status",
+    "safeguarding_review",
+    "management_approval"
+  ],
+  "properties": {
+    "content_id": {
+      "type": "string",
+      "pattern": "^HSF-COM-[0-9]{4}-[0-9]{4}$"
+    },
+    "legacy_or_idea_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stream": {
+      "enum": [
+        "HSF_IN_ACTION",
+        "HSF_KNOWLEDGE_AWARENESS"
+      ]
+    },
+    "content_family": {
+      "enum": [
+        "FIELD_MOMENT",
+        "CASE_STUDY",
+        "PROGRESS_SUCCESS",
+        "CHALLENGE_RESPONSE",
+        "ISSUE_RESOLUTION",
+        "KNOWLEDGE_DATA_INSIGHT",
+        "INSTITUTIONAL_ENGAGEMENT"
+      ]
+    },
+    "programme_code": {
+      "enum": [
+        "E4BL",
+        "A2PHC",
+        "CLIMATE_ACTION",
+        "CROSS"
+      ]
+    },
+    "editorial_domain": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "reporting_period": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_reference_public_safe": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_page_or_table": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_status": {
+      "enum": [
+        "RAW",
+        "CLEANED",
+        "VERIFIED",
+        "CALCULATED",
+        "ESTIMATED",
+        "INFERRED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "public_claim_status": {
+      "enum": [
+        "NO_CLAIM",
+        "UNVERIFIED",
+        "REVIEW_PENDING",
+        "APPROVED_PUBLIC",
+        "REJECTED",
+        "WITHDRAWN"
+      ]
+    },
+    "editorial_status": {
+      "enum": [
+        "IDEA",
+        "RESEARCH",
+        "DRAFT",
+        "REVIEW",
+        "APPROVED",
+        "SCHEDULED",
+        "PUBLISHED",
+        "ARCHIVED",
+        "WITHDRAWN"
+      ]
+    },
+    "technical_review": {
+      "enum": [
+        "NOT_REQUIRED",
+        "PENDING",
+        "PASSED",
+        "REJECTED"
+      ]
+    },
+    "safeguarding_review": {
+      "enum": [
+        "PENDING",
+        "PASSED",
+        "REJECTED"
+      ]
+    },
+    "management_approval": {
+      "enum": [
+        "NOT_APPROVED",
+        "APPROVED",
+        "REJECTED"
+      ]
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "LINKEDIN",
+          "WEBSITE",
+          "CHANNEL",
+          "OTHER"
+        ]
+      }
+    },
+    "public_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "correction_or_supersession_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "editorial_status": {
+            "const": "PUBLISHED"
+          }
+        },
+        "required": [
+          "editorial_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "management_approval": {
+            "const": "APPROVED"
+          },
+          "safeguarding_review": {
+            "const": "PASSED"
+          },
+          "public_claim_status": {
+            "enum": [
+              "NO_CLAIM",
+              "APPROVED_PUBLIC"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

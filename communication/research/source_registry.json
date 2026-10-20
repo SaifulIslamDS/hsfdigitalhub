@@ -1,0 +1,182 @@
+{
+  "status": "CANDIDATE_RESEARCH_SOURCES",
+  "notice": "Source titles/URLs are research leads and may be dated, moved, insufficient or outdated; verify each original publication and page/table before quoting.",
+  "sources": [
+    {
+      "id": "S01",
+      "name": "Bangladesh Multiple Indicator Cluster Survey 2025 Final Report",
+      "agency": "BBS and UNICEF",
+      "reference_period": "2025 survey, 2026 publication",
+      "candidate_url": "https://www.unicef.org/bangladesh/en/reports/bangladesh-multiple-indicator-cluster-survey-2025-0",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S02",
+      "name": "Annual Primary School Statistics 2024",
+      "agency": "Directorate of Primary Education",
+      "reference_period": "2024 statistics",
+      "candidate_url": "https://dpe.gov.bd/pages/publications/6919973d81fc96cef9e59551",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S03",
+      "name": "National Student Assessment 2022, Grades 3 and 5",
+      "agency": "Directorate of Primary Education",
+      "reference_period": "2022 assessment",
+      "candidate_url": "https://research.acer.edu.au/ar_misc/69",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S04",
+      "name": "Bangladesh Education Statistics 2024",
+      "agency": "BANBEIS",
+      "reference_period": "2024 statistics",
+      "candidate_url": "https://banbeis.gov.bd/pages/static-pages/6a338d7fcb6cb358ff185b6c",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S05",
+      "name": "Bangladesh Demographic and Health Survey 2022",
+      "agency": "NIPORT",
+      "reference_period": "2022 survey",
+      "candidate_url": "https://niport.gov.bd/pages/publications/bangladesh-demographic-and-health-survey-report-2022-a4a0e2-6922dad781fc96cef9eb753b",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S06",
+      "name": "Bangladesh STEPS 2018",
+      "agency": "WHO / NIPSOM",
+      "reference_period": "2018 survey",
+      "candidate_url": "https://www.who.int/teams/noncommunicable-diseases/surveillance/data/bangladesh",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S07",
+      "name": "Bangladesh Health Facility Survey 2022",
+      "agency": "NIPORT",
+      "reference_period": "2022 survey",
+      "candidate_url": "https://niport.gov.bd/pages/publications/bangladesh-health-facility-survey-bhfs-2022-final-report-4fc6e8-6922da4c81fc96cef9eb5e36",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S08",
+      "name": "JMP Household Water, Sanitation and Hygiene 2000-2024",
+      "agency": "WHO / UNICEF",
+      "reference_period": "2000-2024 estimates",
+      "candidate_url": "https://data.unicef.org/resources/jmp-report-2025/",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S09",
+      "name": "Dengue Dynamic Dashboard",
+      "agency": "DGHS",
+      "reference_period": "Live; record extraction date",
+      "candidate_url": "https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1.php",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S10",
+      "name": "Climate Risk Country Profile and CCDR, Bangladesh",
+      "agency": "World Bank",
+      "reference_period": "2022-2024 analyses",
+      "candidate_url": "https://www.worldbank.org/en/news/feature/2022/10/31/key-highlights-country-climate-and-development-report-for-bangladesh",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S11",
+      "name": "Changing Climate and Climate Reports",
+      "agency": "Bangladesh Meteorological Department",
+      "reference_period": "Source period varies",
+      "candidate_url": "https://www.bmd.gov.bd/web/en/p/Publications",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S12",
+      "name": "National Adaptation Plan of Bangladesh 2023-2050",
+      "agency": "Ministry of Environment, Forest and Climate Change",
+      "reference_period": "2023-2050 plan",
+      "candidate_url": "https://moef.gov.bd/site/news/110358e4-670c-4058-b20f-e7ab6c89feb9/National-Adaptation-Plan-of-bd-2023-2050",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S13",
+      "name": "Daily Air Quality Index Reports",
+      "agency": "Department of Environment",
+      "reference_period": "Daily; record extraction date",
+      "candidate_url": "https://doe.gov.bd/pages/static-pages/6922dfba933eb65569e23b0a",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S14",
+      "name": "Bangladesh SDG Tracker",
+      "agency": "BBS / a2i and contributing agencies",
+      "reference_period": "Indicator-specific",
+      "candidate_url": "https://sdg.gov.bd/sdg-dashboard",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S15",
+      "name": "Adolescent Mental Health Factsheet",
+      "agency": "WHO",
+      "reference_period": "2025 factsheet",
+      "candidate_url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S16",
+      "name": "Data on the Situation of Children in Bangladesh",
+      "agency": "UNICEF Bangladesh",
+      "reference_period": "MICS 2025 and other cited datasets",
+      "candidate_url": "https://www.unicef.org/bangladesh/en/data-situation-children-bangladesh",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S17",
+      "name": "Household Income and Expenditure Survey 2022",
+      "agency": "Bangladesh Bureau of Statistics",
+      "reference_period": "2022 survey",
+      "candidate_url": "https://bbs.gov.bd/site/page/648dd9f5-067b-4bcc-ba38-45bfb9b12394/Income%2C-Expenditure-%26-Poverty",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S18",
+      "name": "Latest BBS publications and child labour survey",
+      "agency": "Bangladesh Bureau of Statistics",
+      "reference_period": "Study-specific",
+      "candidate_url": "https://bbs.gov.bd/site/page/b588b454-0f88-4679-bf20-90e06dc1d10b/Latest-Publications",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S19",
+      "name": "Climate-related School Disruptions in 2024",
+      "agency": "UNICEF",
+      "reference_period": "2024 events, 2025 release",
+      "candidate_url": "https://www.unicef.org/bangladesh/en/press-releases/33-million-children-bangladesh-had-schooling-disrupted-climate-crises-2024unicef",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S20",
+      "name": "HSF approved project data and MEAL register",
+      "agency": "HSF Internal",
+      "reference_period": "Depends on approved reporting period",
+      "candidate_url": "INTERNAL: no public URL; requires approved disclosure",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S21",
+      "name": "WHO Health Topics and technical guidance",
+      "agency": "World Health Organization",
+      "reference_period": "Topic-specific, verify current guidance",
+      "candidate_url": "https://www.who.int/health-topics",
+      "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S22",
+      "name": "National Student Assessment platform",
+      "agency": "Directorate of Primary Education",
+      "reference_period": "Assessment-specific; verify publication",
+      "candidate_url": "https://nsa.ipemis.dpe.gov.bd/?lang=en_EN",
+      "status": "RESEARCH_ENTRY_ONLY"
+    }
+  ]
+}
