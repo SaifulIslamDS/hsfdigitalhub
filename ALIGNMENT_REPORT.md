@@ -1,4 +1,4 @@
-# HSF Knowledge Hub v1.6.0 · Institutional Alignment Report
+# HSF Knowledge Hub v1.7.0 · Institutional Alignment Report
 
 **Status:** Approved & Stable · **Updated:** 20 October 2026  
 **Planning & Compiled by:** Saiful Islam
@@ -7,11 +7,12 @@
 
 | Canonical component | Approved current reference |
 |---|---|
-| Knowledge Hub | v1.6.0 stable |
+| Knowledge Hub | v1.7.0 stable |
 | Social Communication Ecosystem | v4.0 approved; single `social_communication_plan.html` |
 | Brand Identity & Design System | v2.4 stable; identity/design rules preserved |
 | Knowledge, Data & Insight ideas | 120 approved editorial topics, individual claims not verified |
 | Programme Stories & Communication ideas | 120 approved conditional story ideas, individual events not verified |
+| Unified Content Idea Library | `communication/idea-library.html` with All / KDI / PSC tabs and shared search, programme and topic-family filters |
 | Digital Institutional System Contract | v1.0.0 unchanged |
 | ERP high-level overview and MEAL | Existing architecture preserved; reviewed 20 October 2026 |
 | Brand production stack | v3.1.0, structural validation passed, Illustrator 2022 QA pending |

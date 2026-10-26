@@ -59,8 +59,8 @@ for relative in required_files:
 # Canonical stable-state checks.
 try:
     stable = manifest["current_stable_content_baseline"]
-    if stable["knowledge_hub"] != "v1.6.0":
-        error("Manifest current stable Knowledge Hub must remain v1.6.0 (controlled stable release).")
+    if stable["knowledge_hub"] != "v1.7.1":
+        error("Manifest current stable Knowledge Hub must remain v1.7.1 (controlled stable release).")
     if stable["social_communication_plan"] != "v4.0":
         error("Manifest stable Social Communication Plan must be v4.0.")
     if stable["brand_identity_design_system"] != "v2.4":
@@ -85,8 +85,8 @@ if "v4.0" not in social:
     error("Canonical social_communication_plan.html does not identify v4.0.")
 if "v2.4" not in brand:
     error("Canonical brand_identity_master_guide.html does not identify v2.4.")
-if "Knowledge Hub v1.6.0" not in index:
-    error("index.html does not identify the current stable Knowledge Hub v1.6.0 baseline.")
+if "Knowledge Hub v1.7.1" not in index:
+    error("index.html does not identify the current stable Knowledge Hub v1.7.1 baseline.")
 
 # Brand stack policy alignment is metadata-only; stable certification remains pending.
 policy = brand_manifest.get("policy_alignment", {})

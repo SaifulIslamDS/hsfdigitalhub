@@ -3,9 +3,9 @@
   "version": "4.0",
   "status": "APPROVED_STABLE",
   "effective_date": "2026-10-20",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-26",
   "planning_and_compiled_by": "Saiful Islam",
-  "knowledge_hub_release": "v1.6.0",
+  "knowledge_hub_release": "v1.7.1",
   "social_canonical_path": "social_communication_plan.html",
   "brand_canonical_path": "brand_identity_master_guide.html",
   "brand_guide_version": "v2.4",
@@ -26,7 +26,7 @@
     "INSTITUTIONAL_ENGAGEMENT"
   ],
   "idea_bank_scope": "Management-approved editorial inventories only; actual cases and statistical claims require source verification, safeguards, and exact published-output approval.",
-  "ideas_total": 240,
+  "ideas_total": 254,
   "initial_fixed_pilot": "RETIRED_NO_ACTIVE_ARCHIVE_OR_TRACKER",
   "approval_boundary": {
     "editorial_ideas": "APPROVED",
@@ -36,9 +36,9 @@
   "banks": [
     {
       "code": "KDI",
-      "count": 120,
+      "count": 134,
       "status": "APPROVED_EDITORIAL_IDEAS_ONLY",
-      "source": "communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx"
+      "source": "communication/research/HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx"
     },
     {
       "code": "PSC",
@@ -87,5 +87,14 @@
   "source_policy_integrity": {
     "brand_identity_rule": "No new palette/logo/typeface policy; editorial mapping only",
     "evidence_standard": "No automatic publication permission; verification distinct from approval"
+  },
+  "canonical_idea_library_path": "communication/idea-library.html",
+  "new_editorial_research_batch": {
+    "id_range": "KDI-121..134",
+    "theme": "COP31 Bangladesh people-led climate-policy priorities",
+    "source_context": "Road to Antalya COP31: People-Led Policy booklet and user shared conversation",
+    "content_approval_only": true,
+    "statistical_claims_publication_approved": false,
+    "added_date": "2026-10-26"
   }
 }

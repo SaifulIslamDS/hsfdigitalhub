@@ -27,3 +27,6 @@ jobs:
 
       - name: Validate Approved Social v4.0
         run: python scripts/validate_social_v4.py
+
+      - name: Validate unified 240-idea content library
+        run: python scripts/validate_idea_library.py

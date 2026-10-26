@@ -13,18 +13,19 @@ def j(p):return json.loads((R/p).read_text(encoding='utf-8'))
 def sha(p):return hashlib.sha256((R/p).read_bytes()).hexdigest()
 def file(p):return (R/p).read_text(encoding='utf-8')
 m=j('MANIFEST.json');c=j('governance/SOCIAL_V4_STABLE_CONTROL.json');ar=j('governance/PUBLIC_ASSET_REGISTER.json')
-k=j('communication/research/kdi_120_ideas.json');p=j('communication/research/psc_120_ideas.json')
-test(m.get('release')=='v1.6.0' and m.get('current_status')=='APPROVED_STABLE','stable manifest state incorrect')
+k=j('communication/research/kdi_134_ideas.json');p=j('communication/research/psc_120_ideas.json')
+test(m.get('release')=='v1.7.1' and m.get('current_status')=='APPROVED_STABLE','stable manifest state incorrect')
 test(m['current_stable_content_baseline']['social_communication_plan']=='v4.0','social stable version mismatch')
 test(m['current_stable_content_baseline']['brand_identity_design_system']=='v2.4','brand alignment stable version mismatch')
 test(c.get('status')=='APPROVED_STABLE' and c.get('version')=='4.0','social control not approved/stable')
 test(c.get('planning_and_compiled_by')=='Saiful Islam','compiler attribution missing')
-test(c.get('ideas_total')==240,'240 editorial ideas not declared')
+test(c.get('ideas_total')==254,'254 editorial ideas not declared')
 for label,data,stem in [('KDI',k,'KDI'),('PSC',p,'PSC')]:
  ideas=data.get('ideas',[])
- test(len(ideas)==120,label+' must contain 120 ideas')
- test([x['id'] for x in ideas]==[f'{stem}-{i:03}' for i in range(1,121)],label+' IDs not stable')
- test(len({x['title'].casefold() for x in ideas})==120,label+' titles not unique')
+ required=134 if label=='KDI' else 120
+ test(len(ideas)==required,label+f' must contain {required} ideas')
+ test([x['id'] for x in ideas]==[f'{stem}-{i:03}' for i in range(1,required+1)],label+' IDs not stable')
+ test(len({x['title'].casefold() for x in ideas})==required,label+' titles not unique')
  test(all(x.get('publication_status')=='NOT_APPROVED' for x in ideas),label+' ideas falsely marked published/approved')
  if label=='KDI':test(all(x.get('approval_status')=='EDITORIAL_IDEA_APPROVED' and x.get('claim_verification_status')=='NOT_VERIFIED' for x in ideas),'KDI source-verification boundary breached')
  else:
@@ -47,7 +48,7 @@ for asset in c['banks']:
  test(asset.get('status')=='APPROVED_EDITORIAL_IDEAS_ONLY',f'Bank {asset["code"]} status wrong')
  test((R/asset['source']).is_file(),'workbook missing: '+asset['source'])
 page=file('social_communication_plan.html')
-for needle in ['APPROVED','v4.0','HSF in Action','HSF Knowledge','Issue → Practical Response','240','Case Study','Saiful Islam','20 October 2026']:
+for needle in ['APPROVED','v4.0','HSF in Action','HSF Knowledge','Issue → Practical Response','254','Case Study','Saiful Islam','26 October 2026']:
  test(needle.lower() in page.lower(),'Social v4 master missing '+needle)
 for old in ['P01–P48','fixed 48-post','mandatory 48-post','Version 4.0 · CANDIDATE']:
  test(old not in page,'legacy fixed cycle or candidate status in approved social master: '+old)
@@ -55,9 +56,10 @@ for old in ['social_communication_plan_v3.2.html','social_communication_plan_v3.
  test(not (R/old).exists(),'historical duplicate active: '+old)
 for base in ['social_communication_plan.html','brand_identity_master_guide.html','index.html','ERP_Overview.html','impact_meal_learning_framework.html','digital_transformation_framework.html','website_content_editorial_guidelines.html']:
  test('Planning &amp; Compiled by: Saiful Islam' in file(base) or 'Planning & Compiled by: Saiful Islam' in file(base),'document review credit absent: '+base)
- test('20 October 2026' in file(base),'current updated date absent: '+base)
+ test(('26 October 2026' if base in ['index.html','social_communication_plan.html'] else '20 October 2026') in file(base),'current updated date absent: '+base)
 for f in ['communication/kdi-idea-bank.html','communication/psc-idea-bank.html']:
- test(file(f).count('class="idea"')==120,f+' catalogue idea count wrong')
+ test('idea-library.html?bank=' in file(f) and 'class="idea"' not in file(f), f+' must be a lightweight link redirect only')
+test(file('communication/idea-library.html').count('class="idea"')==254, 'unified catalogue must display 254 idea records')
 class LocalHTML(HTMLParser):
  def __init__(self):super().__init__();self.paths=[]
  def handle_starttag(self,tag,attrs):
@@ -103,4 +105,4 @@ if errors:
  print('Social v4.0 stable validation FAIL:',len(errors),'errors')
  for e in errors:print(' -',e)
  sys.exit(1)
-print('Social v4.0 APPROVED stable validation PASS: 240 approved editorial ideas, 0 approved individual claims; legacy duplicates removed; all public-safe assets and links valid.')
+print('Social v4.0 APPROVED stable validation PASS: 254 approved editorial ideas, 0 approved individual claims; legacy duplicates removed; all public-safe assets and links valid.')

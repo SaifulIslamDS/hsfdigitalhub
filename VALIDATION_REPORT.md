@@ -1,4 +1,4 @@
-# HSF Knowledge Hub v1.6.0 · Validation Report
+# HSF Knowledge Hub v1.7.0 · Validation Report
 
 **Release status:** Approved & Stable · **Validated / last updated:** 20 October 2026  
 **Planning & Compiled by:** Saiful Islam
@@ -9,7 +9,9 @@
 |---|---|
 | `python scripts/validate_hub.py` | PASS |
 | `python scripts/validate_social_v4.py` | PASS |
+| `python scripts/validate_idea_library.py` | PASS: 240 cards, unchanged IDs/source inventory, accessible tab metadata and redirects |
 | `python brand-design-stack/07_Engine/validate_stack.py` | PASS (242/242 SVG files) |
+| Unified source-generated HTML / KDI-PSC tabs and shared filtering logic | PASS structural; browser-level interactive QA pending |
 | KDI bank inventory / IDs | PASS (120/120 ideas) |
 | PSC bank inventory / IDs / editorial family distribution | PASS (120/120 ideas) |
 | Public asset register / checksums | PASS (4 assets) |

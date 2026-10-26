@@ -3,13 +3,13 @@
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
   "current_status": "APPROVED_STABLE",
-  "release": "v1.6.0",
-  "release_date": "2026-10-20",
-  "last_updated": "2026-10-20",
+  "release": "v1.7.1",
+  "release_date": "2026-10-26",
+  "last_updated": "2026-10-26",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.6.0",
-    "release_date": "2026-10-20",
+    "knowledge_hub": "v1.7.1",
+    "release_date": "2026-10-26",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
     "brand_design_stack": {
@@ -40,7 +40,7 @@
     "historical_fixed_pilot": "RETIRED_GIT_HISTORY_ONLY",
     "idea_banks": {
       "KDI": {
-        "count": 120,
+        "count": 134,
         "approval": "EDITORIAL_IDEAS_ONLY"
       },
       "PSC": {
@@ -48,12 +48,38 @@
         "approval": "EDITORIAL_IDEAS_ONLY"
       }
     },
-    "individual_public_claims_approved": false
+    "individual_public_claims_approved": false,
+    "idea_library": {
+      "canonical_page": "communication/idea-library.html",
+      "banks": [
+        "KDI",
+        "PSC"
+      ],
+      "total_ideas": 254,
+      "views": [
+        "all",
+        "kdi",
+        "psc"
+      ],
+      "filters": [
+        "full_text",
+        "programme",
+        "topic_or_content_family"
+      ],
+      "source_data": [
+        "communication/research/kdi_134_ideas.json",
+        "communication/research/psc_120_ideas.json"
+      ],
+      "source_banks_unchanged": false,
+      "individual_public_claims_approved": false,
+      "new_concept_origin": "COP31 booklet/shared-chat editorial themes; 14 candidate ideas added 2026-10-26"
+    }
   },
   "privacy": "NO_RESTRICTED_ERP_DATA_IN_PUBLIC_REPOSITORY",
   "control": "governance/SOCIAL_V4_STABLE_CONTROL.json",
   "validation": [
     "python scripts/validate_hub.py",
-    "python scripts/validate_social_v4.py"
+    "python scripts/validate_social_v4.py",
+    "python scripts/validate_idea_library.py"
   ]
 }

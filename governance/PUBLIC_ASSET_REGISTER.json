@@ -25,14 +25,14 @@
       "note": "Generated demonstration design asset; not an operational beneficiary report."
     },
     {
-      "path": "communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
+      "path": "communication/research/HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
       "owner": "Communication / Research",
       "contains_personal_data": false,
       "approval_status": "Management-approved editorial idea inventory only; no validated statistical claims",
-      "review_date": "2026-10-20",
-      "sha256": "8970b8f7e63d70e3c21f9395e366058e1ef57d6b48d3c83eac4328fc3e18b06c",
-      "note": "120 conceptual research topics and source leads. Public-safe metadata, no learner/patient records. NOT an approved public statistics bank."
+      "review_date": "2026-10-26",
+      "sha256": "5bc3b0b0852b431ff6af2f42116ca910ba21ca713538f1c80484e35624cf96de",
+      "note": "134 editorial research topics, including 14 COP31 civil-society position-paper themes. No verified statistical claims or personal operational records; individual content requires separate approval."
     },
     {
       "path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
@@ -45,6 +45,6 @@
       "note": "120 conditional editorial concepts. Approval does NOT verify any field occurrence, personal story or beneficiary outcome."
     }
   ],
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-26",
   "planning_and_compiled_by": "Saiful Islam"
 }

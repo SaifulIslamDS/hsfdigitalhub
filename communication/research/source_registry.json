@@ -177,6 +177,15 @@
       "reference_period": "Assessment-specific; verify publication",
       "candidate_url": "https://nsa.ipemis.dpe.gov.bd/?lang=en_EN",
       "status": "RESEARCH_ENTRY_ONLY"
+    },
+    {
+      "id": "S23",
+      "name": "Road to Antalya COP31: People-Led Policy, Bangladesh Position @ COP31 (civil-society position paper)",
+      "agency": "Civil-society contributors to the Road to Antalya COP31 position paper; not an official Government of Bangladesh statement",
+      "reference_period": "COP31 policy dialogue, 2026",
+      "candidate_url": "https://chatgpt.com/share/6adf1905-1548-83e8-9a09-98ffefdba043",
+      "status": "DOCUMENTED_EDITORIAL_STARTING_POINT_ONLY",
+      "note": "The public ChatGPT shared page exposes user prompts, not the assistant intelligence-UI response or the original PDF bytes. The scanned source booklet is held in an earlier source context. Retrieve the relevant original page and up-to-date primary sources before citing any finding."
     }
   ]
 }

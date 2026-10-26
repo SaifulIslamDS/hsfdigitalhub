@@ -1,7 +1,7 @@
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Current stable Knowledge Hub:** v1.6.0 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
-**Status:** Management Approved / Stable · **Effective and last updated:** 20 October 2026  
+**Current stable Knowledge Hub:** v1.7.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
+**Status:** Management Approved / Stable · **Effective and last updated:** 26 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
@@ -10,7 +10,7 @@ The HSF Knowledge Hub is the controlled institutional governance and knowledge r
 
 | Master document | Canonical file | Status |
 |---|---|---|
-| Institutional Digital Transformation | [digital_transformation_framework.html](digital_transformation_framework.html) | Stable; reviewed 20 October 2026 |
+| Institutional Digital Transformation | [digital_transformation_framework.html](digital_transformation_framework.html) | Stable; reviewed 26 October 2026 |
 | Social Communication Ecosystem v4.0 | [social_communication_plan.html](social_communication_plan.html) | Approved, stable |
 | Brand Identity & Design System v2.4 | [brand_identity_master_guide.html](brand_identity_master_guide.html) | Stable; same visual identity |
 | ERP High-Level Overview | [ERP_Overview.html](ERP_Overview.html) | Stable reference; operational code elsewhere |
@@ -22,7 +22,7 @@ The HSF Knowledge Hub is the controlled institutional governance and knowledge r
 - **HSF in Action**: field activity, moments, case studies, human experiences, progress/success, challenges/responses and institutional storytelling.
 - **HSF Knowledge & Awareness**: source-led statistics, insights, researched topics, awareness and optional Issue → Practical Response.
 
-**Two approved idea banks, not publication approvals:** [120 KDI](communication/kdi-idea-bank.html) and [120 PSC](communication/psc-idea-bank.html). Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
+**Unified 254-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [134 KDI](communication/idea-library.html?bank=kdi) and [120 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
 
 ## Publication integrity
 
@@ -42,8 +42,8 @@ python brand-design-stack/07_Engine/validate_stack.py
 
 ## Release & deployment
 
-See [Release v1.6.0](docs/RELEASE_v1.6.0.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 
-Use [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.6.0.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+Use [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
