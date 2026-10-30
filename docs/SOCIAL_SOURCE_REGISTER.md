@@ -31,8 +31,12 @@ The preserved activity references include older/profile-derived descriptions of 
 
 - `social_communication_plan.html`: sole stable canonical editorial policy, version 4.0.
 - `communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx`: approved **idea topics only**, no verified statistical claims.
-- `communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx`: approved **conditional story ideas only**, not proof of activities, human statements or results.
+- `communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx`: approved **conditional story ideas only**, not proof of activities, human statements or results.
 - `communication/research/source_registry.json`: possible primary-source research leads, not validated citations until independently retrieved and checked.
 - `governance/SOCIAL_V4_STABLE_CONTROL.json`: status, ownership, two-bank approval boundaries, author and cross-layer safeguards.
 
 No retired fixed-post pilot, timetable, special-engagement quota or legacy map is an active v4 editorial authority. `Issue → Practical Response` remains an optional content family.
+
+## 30 October 2026 candidate source-bank update
+
+The controlled catalogue adds KDI-135–160 and PSC-121–140 as **proposed** content opportunities, retaining the previously approved editorial-idea status of KDI-001–134 and PSC-001–120. No source lead verifies a claim or proves a field occurrence. Current source workbooks are named `HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx` and `HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx`. No personal data may be stored in public Git.

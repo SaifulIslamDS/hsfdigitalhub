@@ -25,26 +25,26 @@
       "note": "Generated demonstration design asset; not an operational beneficiary report."
     },
     {
-      "path": "communication/research/HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx",
+      "path": "communication/research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
-      "owner": "Communication / Research",
+      "owner": "HSF Communication / Knowledge Hub",
       "contains_personal_data": false,
-      "approval_status": "Management-approved editorial idea inventory only; no validated statistical claims",
-      "review_date": "2026-10-26",
-      "sha256": "5bc3b0b0852b431ff6af2f42116ca910ba21ca713538f1c80484e35624cf96de",
-      "note": "134 editorial research topics, including 14 COP31 civil-society position-paper themes. No verified statistical claims or personal operational records; individual content requires separate approval."
+      "approval_status": "EDITORIAL_IDEAS_PARTLY_PROPOSED_NOT_PUBLICATION_APPROVED",
+      "review_date": "2026-10-30",
+      "sha256": "8f60c4ac8aa1baa63093a147db3ca0e01fb0ee0e5ecd481f031dfaf1d59ed7e3",
+      "note": "160 KDI ideas: 134 existing editorial-approved + 26 proposed; no personal operational records; no verified claims or events by virtue of inclusion."
     },
     {
-      "path": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
+      "path": "communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
-      "owner": "Communication",
+      "owner": "HSF Communication / Knowledge Hub",
       "contains_personal_data": false,
-      "approval_status": "Management-approved conditional editorial ideas only; no verified cases/outcomes",
-      "review_date": "2026-10-20",
-      "sha256": "264892926009bcd69ee5c7a293a7dc3d6136b0e72874fb0f43a8abd1c44a273b",
-      "note": "120 conditional editorial concepts. Approval does NOT verify any field occurrence, personal story or beneficiary outcome."
+      "approval_status": "EDITORIAL_IDEAS_PARTLY_PROPOSED_NOT_PUBLICATION_APPROVED",
+      "review_date": "2026-10-30",
+      "sha256": "408cab820f2495ad07f437530894374a5f76199f516ea81adc0815156c961887",
+      "note": "140 PSC ideas: 120 existing editorial-approved + 20 proposed; no personal operational records; no verified claims or events by virtue of inclusion."
     }
   ],
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam"
 }

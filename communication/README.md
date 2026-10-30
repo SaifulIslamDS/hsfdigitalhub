@@ -1,20 +1,15 @@
-# HSF Social Communication Ecosystem v4.0 · Approved & Stable
+# HSF Social Communication · 300-Idea Catalogue (v1.8.0 review candidate)
 
-**Effective / last updated:** 26 October 2026  
-**Planning & Compiled by:** Saiful Islam
+**Planning & Compiled by:** Saiful Islam · **Updated:** 30 October 2026
 
-Two public editorial streams: **HSF in Action** and **HSF Knowledge & Awareness**. Seven reusable families; no mandatory publishing cadence, maximum idea count or fixed sequence.
+The underlying Social Communication **policy remains v4.0 Approved & Stable**. The expanded catalogue is a **candidate** pending review and browser QA. It contains **254 previously editorial-approved ideas plus 46 proposed**; zero individual posts have publication approval by appearing here.
 
-- **[Unified Social Content Idea Library, 254 ideas](idea-library.html)**: All / KDI / PSC tabs, unified programme, topic/family and full-text filtering.
-- [KDI tab: 134 research ideas](idea-library.html?bank=kdi) (KDI-001…KDI-134)
-- [PSC tab: 120 programme story ideas](idea-library.html?bank=psc) (PSC-001…PSC-120)
-- [Public-safe content evidence register](registers/content_evidence_register_TEMPLATE.csv) and [schema](registers/content_evidence_register_schema.json)
-- [Safeguarded case-story intake guidance](registers/case_study_intake_template.md)
+- [One canonical unified Idea Library](idea-library.html): **All 300 / KDI 160 / PSC 140** tabs
+- Conditional filters: free text, primary programme, topic/family, cross-cutting multi-select tags, evidence route, idea-review status, format and sorting. Dropdown options disable unsupported combinations; each selected filter intersects with other dimensions except multiple tags, which use OR logic.
+- KDI: [160 concepts](idea-library.html?bank=kdi), source `research/kdi_160_ideas.json`, [Excel bank](research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx). New KDI-135–160 are proposed.
+- PSC: [140 concepts](idea-library.html?bank=psc), source `research/psc_140_ideas.json`, [Excel bank](research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx). New PSC-121–140 are proposed.
+- [Source leads registry](research/source_registry.json), [blank public-safe evidence register](registers/content_evidence_register_TEMPLATE.csv), and [story intake safeguards](registers/case_study_intake_template.md).
 
-Both banks are approved as **ideas only**. KDI references are research leads; PSC scenarios are conditional prompts, not already observed events. Individual claims, figures, photos, testimonials, graphics and final posts must be verified and authorized. The retired fixed-post pilot remains only in version-control history; Issue → Practical Response survives as an optional editorial method.
+Build: `python scripts/build_idea_library.py`. Validate: `python scripts/validate_idea_library.py`, `python scripts/validate_social_v4.py`, `python scripts/validate_hub.py`.
 
-[View the canonical Social v4.0 framework](../social_communication_plan.html). Never commit operationally sensitive material to this public repository.
-
-## Library implementation (Knowledge Hub v1.7.1)
-
-The single static page `idea-library.html` is **generated** from the two unchanged JSON inventories using `python scripts/build_idea_library.py`. The former KDI and PSC HTML paths are navigation/redirect compatibility stubs, not duplicate document copies. No external runtime JavaScript, network connection or sensitive ERP information is needed to browse the 254 static ideas.
+The former `kdi-idea-bank.html` and `psc-idea-bank.html` are compatibility redirects. The retired 48-post pilot remains outside active planning. No client-side filter accesses restricted ERP data.

@@ -3,9 +3,9 @@
   "version": "4.0",
   "status": "APPROVED_STABLE",
   "effective_date": "2026-10-20",
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "knowledge_hub_release": "v1.7.1",
+  "knowledge_hub_release": "v1.8.0-candidate",
   "social_canonical_path": "social_communication_plan.html",
   "brand_canonical_path": "brand_identity_master_guide.html",
   "brand_guide_version": "v2.4",
@@ -26,25 +26,29 @@
     "INSTITUTIONAL_ENGAGEMENT"
   ],
   "idea_bank_scope": "Management-approved editorial inventories only; actual cases and statistical claims require source verification, safeguards, and exact published-output approval.",
-  "ideas_total": 254,
+  "ideas_total": 300,
   "initial_fixed_pilot": "RETIRED_NO_ACTIVE_ARCHIVE_OR_TRACKER",
   "approval_boundary": {
-    "editorial_ideas": "APPROVED",
+    "editorial_ideas": "254_APPROVED_IDEAS_PLUS_46_PROPOSED",
     "underlying_events_and_statistics": "NOT_VERIFIED_BY_IDEA_APPROVAL",
     "publications": "INDIVIDUAL_APPROVAL_REQUIRED"
   },
   "banks": [
     {
       "code": "KDI",
-      "count": 134,
-      "status": "APPROVED_EDITORIAL_IDEAS_ONLY",
-      "source": "communication/research/HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx"
+      "count": 160,
+      "approved": 134,
+      "proposed": 26,
+      "status": "MIXED_APPROVED_AND_PROPOSED_IDEAS_ONLY",
+      "source": "communication/research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx"
     },
     {
       "code": "PSC",
-      "count": 120,
-      "status": "APPROVED_EDITORIAL_IDEAS_ONLY",
-      "source": "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx"
+      "count": 140,
+      "approved": 120,
+      "proposed": 20,
+      "status": "MIXED_APPROVED_AND_PROPOSED_IDEAS_ONLY",
+      "source": "communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx"
     }
   ],
   "privacy": "PUBLIC_SAFE_METADATA_ONLY; NO CONFIDENTIAL ERP/PATIENT/STUDENT DATA",
@@ -90,11 +94,14 @@
   },
   "canonical_idea_library_path": "communication/idea-library.html",
   "new_editorial_research_batch": {
-    "id_range": "KDI-121..134",
-    "theme": "COP31 Bangladesh people-led climate-policy priorities",
-    "source_context": "Road to Antalya COP31: People-Led Policy booklet and user shared conversation",
-    "content_approval_only": true,
-    "statistical_claims_publication_approved": false,
-    "added_date": "2026-10-26"
-  }
+    "id_ranges": [
+      "KDI-135..160",
+      "PSC-121..140"
+    ],
+    "new_ideas": 46,
+    "approval": "PROPOSED_NOT_APPROVED",
+    "added_date": "2026-10-30"
+  },
+  "ideas_approved_for_editorial_planning": 254,
+  "new_ideas_pending_approval": 46
 }

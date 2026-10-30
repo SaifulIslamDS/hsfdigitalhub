@@ -1,0 +1,12 @@
+{
+  "KDI-001..134": {
+    "sha256": "20edde6f69ed67d7031988c853d3bf649dbe9582df51096963ee8b842aba4199",
+    "count": 134
+  },
+  "PSC-001..120": {
+    "sha256": "e4a5570899e40b7e29be575ad9a6e1472a24980ea0d464b23a0167d653c5f0f6",
+    "count": 120
+  },
+  "source_release": "v1.7.1",
+  "purpose": "Guard existing 254 source records against silent alteration in v1.8.0 candidate."
+}

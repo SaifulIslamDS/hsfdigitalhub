@@ -1,10 +1,11 @@
-# HSF Social v4.0 · Approved Editorial Inventories
+# HSF Research and Story Idea Inventories · v1.8.0 Candidate
 
-**Status:** Stable editorial inventory reference · **Last updated:** 26 October 2026  
-**Planning & Compiled by:** Saiful Islam
+**Updated:** 30 October 2026 · **Planning & Compiled by:** Saiful Islam
 
-- **KDI, 134 ideas:** `HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx`, `kdi_134_ideas.json`. Statistics/research questions only; individual numbers and findings are NOT verified by idea approval.
-- **PSC, 120 ideas:** `HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx`, `psc_120_ideas.json`. Conditional HSF field/moment, case study, progress, challenge and Issue → Practical Response concepts; no occurrence, testimonial or effect is presumed true.
-- **Research source lead register:** `source_registry.json`; each source must be retrieved, checked for currency/validity and matched to the actual claim before publication.
+- `kdi_160_ideas.json` and its 160-idea Excel workbook: 134 previously approved editorial concepts, **26 newly proposed**.
+- `psc_140_ideas.json` and its 140-idea Excel workbook: 120 previously approved editorial concepts, **20 newly proposed**.
+- `source_registry.json`: research leads only; no individual claim verified by a source-key association.
 
-The original fixed-post pilot is not an active editorial register. Publication requires recorded source, period/denominator, ethics/safeguarding, appropriate technical review, exact narrative/graphic management signoff and correction readiness. Do not add patient, learner or confidential records to this repository.
+**Candidate ideas are not management-approved.** All completed posts still require verified sources, case occurrence, clinical/technical review where applicable, privacy/safeguarding review, and management approval of the exact final copy/visual.
+
+Superseded 134/120 banks remain in Git history, not active distribution. No public repository should hold raw ERP, clinical, child, consent or HR records.

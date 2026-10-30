@@ -1,6 +1,8 @@
+> **Review boundary (30 October 2026):** Current full-repository candidate v1.8.0 includes 300 ideas: 254 previously editorial-approved, 46 proposed. Social policy remains approved v4.0; browser QA and management review pending.
+
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Current stable Knowledge Hub:** v1.7.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
+**Latest candidate package:** v1.8.0 · **Last approved stable baseline:** v1.7.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
 **Status:** Management Approved / Stable · **Effective and last updated:** 26 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
@@ -22,7 +24,7 @@ The HSF Knowledge Hub is the controlled institutional governance and knowledge r
 - **HSF in Action**: field activity, moments, case studies, human experiences, progress/success, challenges/responses and institutional storytelling.
 - **HSF Knowledge & Awareness**: source-led statistics, insights, researched topics, awareness and optional Issue → Practical Response.
 
-**Unified 254-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [134 KDI](communication/idea-library.html?bank=kdi) and [120 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
+**Unified 300-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [160 KDI](communication/idea-library.html?bank=kdi) and [140 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
 
 ## Publication integrity
 
@@ -42,7 +44,7 @@ python brand-design-stack/07_Engine/validate_stack.py
 
 ## Release & deployment
 
-See [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Candidate release v1.8.0](docs/RELEASE_v1.8.0_CANDIDATE.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 

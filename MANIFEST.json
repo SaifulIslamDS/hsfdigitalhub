@@ -2,10 +2,10 @@
   "repository": "SaifulIslamDS/hsfdigitalhub",
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
-  "current_status": "APPROVED_STABLE",
-  "release": "v1.7.1",
-  "release_date": "2026-10-26",
-  "last_updated": "2026-10-26",
+  "current_status": "CANDIDATE_PENDING_MANAGEMENT_REVIEW_AND_BROWSER_QA",
+  "release": "v1.8.0-candidate",
+  "release_date": "2026-10-30",
+  "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
     "knowledge_hub": "v1.7.1",
@@ -40,12 +40,14 @@
     "historical_fixed_pilot": "RETIRED_GIT_HISTORY_ONLY",
     "idea_banks": {
       "KDI": {
-        "count": 134,
-        "approval": "EDITORIAL_IDEAS_ONLY"
+        "count": 160,
+        "approved_ideas": 134,
+        "proposed_ideas": 26
       },
       "PSC": {
-        "count": 120,
-        "approval": "EDITORIAL_IDEAS_ONLY"
+        "count": 140,
+        "approved_ideas": 120,
+        "proposed_ideas": 20
       }
     },
     "individual_public_claims_approved": false,
@@ -55,7 +57,7 @@
         "KDI",
         "PSC"
       ],
-      "total_ideas": 254,
+      "total_ideas": 300,
       "views": [
         "all",
         "kdi",
@@ -63,16 +65,26 @@
       ],
       "filters": [
         "full_text",
-        "programme",
-        "topic_or_content_family"
+        "primary_programme",
+        "topic_or_family",
+        "multi_topic_tags",
+        "evidence_route",
+        "idea_review_status",
+        "format",
+        "sorting",
+        "conditional_facet_counts",
+        "url_query_deeplinks"
       ],
       "source_data": [
-        "communication/research/kdi_134_ideas.json",
-        "communication/research/psc_120_ideas.json"
+        "communication/research/kdi_160_ideas.json",
+        "communication/research/psc_140_ideas.json"
       ],
       "source_banks_unchanged": false,
       "individual_public_claims_approved": false,
-      "new_concept_origin": "COP31 booklet/shared-chat editorial themes; 14 candidate ideas added 2026-10-26"
+      "new_concept_origin": "46 proposed, field-documentable and source-led research opportunities, 30 Oct 2026",
+      "approved_editorial_ideas": 254,
+      "proposed_editorial_ideas": 46,
+      "last_updated": "2026-10-30"
     }
   },
   "privacy": "NO_RESTRICTED_ERP_DATA_IN_PUBLIC_REPOSITORY",
@@ -81,5 +93,16 @@
     "python scripts/validate_hub.py",
     "python scripts/validate_social_v4.py",
     "python scripts/validate_idea_library.py"
-  ]
+  ],
+  "latest_candidate_release": {
+    "version": "v1.8.0",
+    "status": "REVIEW_CANDIDATE",
+    "release_date": "2026-10-30",
+    "scope": "46 proposed ideas + conditional multi-tag facet filters + Social v4 off-canvas contents panel",
+    "approvals_required": [
+      "46 editorial proposals",
+      "responsive browser QA",
+      "management release acceptance"
+    ]
+  }
 }

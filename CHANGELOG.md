@@ -1,3 +1,12 @@
+# v1.8.0 candidate · 30 October 2026
+
+- Added 46 **proposed** editorial ideas: KDI-135–160 (26), PSC-121–140 (20); prior 254 ideas unchanged.
+- Added conditional, multi-tag cross-programme filters to the 300-idea unified library, plus off-canvas section navigation to Social v4.0 master.
+- Social policy approval remains v4.0, while the new release is a review candidate. No new ideas or publications automatically approved.
+- Full repo validation and responsive browser QA are required before release promotion.
+
+---
+
 ## v1.7.1 · 26 October 2026 · COP31 KDI CONTENT EXPANSION
 
 - Added 14 editorial research topics, KDI-121 through KDI-134, based on themes in the user-provided *Road to Antalya COP31: People-Led Policy* civil-society booklet and linked chat context. The public share does not reproduce the original assistant's 14-item visual response; the ideas are careful editorial adaptations rather than claimed verbatim extractions.
