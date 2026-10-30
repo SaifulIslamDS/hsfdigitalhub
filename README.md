@@ -1,10 +1,12 @@
-> **Editorial boundary (30 October 2026):** Knowledge Hub v1.8.2 is the current internal source. The catalogue retains 254 editorial-approved ideas plus 46 proposed; no idea implies public-post approval.
+> **Editorial boundary (30 October 2026):** Knowledge Hub v1.8.3 is the current internal source. The catalogue retains 254 editorial-approved ideas plus 46 proposed; no idea implies public-post approval.
 
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Current internal version:** v1.8.2 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
+**Current internal version:** v1.8.3 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
 **Package status:** Active internal source · **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
+
+This v1.8.3 internal source includes an [SSOT stabilization checklist](docs/RELEASE_v1.8.3.md), [controlled-document metadata register](governance/CONTROLLED_DOCUMENT_REGISTER.json) and [retired-file deletion manifest](governance/RETIRED_ACTIVE_TREE_PATHS.json). Approval evidence for master documents must be verified in HSF-controlled institutional records; repository metadata alone does not prove approval.
 
 The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
 
@@ -14,7 +16,7 @@ The homepage and Social Communication master now share one logo/title navigation
 
 | Master document | Canonical file | Status |
 |---|---|---|
-| Institutional Digital Transformation | [digital_transformation_framework.html](digital_transformation_framework.html) | Stable; reviewed 26 October 2026 |
+| Institutional Digital Transformation | [digital_transformation_framework.html](digital_transformation_framework.html) | Stable reference; scope wording aligned 30 October 2026 |
 | Social Communication Ecosystem v4.0 | [social_communication_plan.html](social_communication_plan.html) | Approved, stable |
 | Brand Identity & Design System v2.4 | [brand_identity_master_guide.html](brand_identity_master_guide.html) | Stable; same visual identity |
 | ERP High-Level Overview | [ERP_Overview.html](ERP_Overview.html) | Stable reference; operational code elsewhere |
@@ -44,6 +46,9 @@ Programme evidence and confidential ERP data remain segregated. Approved Informa
 
 ```bash
 python scripts/validate_design_studio.py
+python scripts/validate_ssot_stability.py
+python scripts/validate_content_prompt_generator.py
+python scripts/validate_shared_header.py
 python scripts/validate_hub.py
 python scripts/validate_social_v4.py
 python scripts/validate_idea_library.py
@@ -53,8 +58,8 @@ python brand-design-stack/07_Engine/validate_stack.py
 
 ## Release & deployment
 
-See [Current internal release v1.8.2](docs/RELEASE_v1.8.2.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Current internal release v1.8.3](docs/RELEASE_v1.8.3.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 
-Use [the v1.8.2 release guide](docs/RELEASE_v1.8.2.md) and [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+Use [the current release guide](docs/RELEASE_v1.8.3.md) and [the v1.8.3 safe installation/deletion guide](docs/INSTALL_FULL_REPOSITORY_v1.8.3.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.

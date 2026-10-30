@@ -1,0 +1,93 @@
+{
+  "register_version": "1.0.0",
+  "repository_release": "v1.8.3",
+  "last_updated": "2026-10-30",
+  "scope": "Public-safe controlled-document metadata. Does not contain management signatures, private decision records or personal information.",
+  "approval_caution": "Source-declared status is not independent proof of a signed management approval. Where documentary evidence is missing, mark pending verification and retain existing institutional status without manufacturing approvals.",
+  "documents": [
+    {
+      "document_id": "HSF-DTF",
+      "canonical_path": "digital_transformation_framework.html",
+      "title": "Digital Transformation Framework",
+      "owner_role": "HSF Management / Digital Governance",
+      "source_declared_status": "STABLE_REFERENCE",
+      "recorded_approval_authority": "Management / designated document owner (not independently verified)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": "2026-10-30",
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "912d7e44160b1093d13aff060d763f292facc140ea0f1bdf0141a8eeb67e2dd6",
+      "note": "Review needed: alignment wording updated 2026-10-30"
+    },
+    {
+      "document_id": "HSF-SOCIAL",
+      "canonical_path": "social_communication_plan.html",
+      "title": "Social Communication Ecosystem v4.0",
+      "owner_role": "HSF Management / Communications",
+      "source_declared_status": "APPROVED_STABLE",
+      "recorded_approval_authority": "HSF Management (role; not an independently verified named approver)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": "2026-10-20",
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "e3ec08b91a665b8e9508f1f22b4d18f071024e11d8b6cce041da6fd64b770798",
+      "note": "Declared approved policy v4.0 effective 2026-10-20; approval record not independently provided"
+    },
+    {
+      "document_id": "HSF-BRAND",
+      "canonical_path": "brand_identity_master_guide.html",
+      "title": "Brand Identity & Design System v2.4",
+      "owner_role": "HSF Brand Governance",
+      "source_declared_status": "STABLE_REFERENCE",
+      "recorded_approval_authority": "Management / designated document owner (not independently verified)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": null,
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "37f22162f4e1b29e68187edd99796df5b30bc7d03aa3aa0ae835673d6fb209cf",
+      "note": "Approved master as declared; specific approval record not independently provided"
+    },
+    {
+      "document_id": "HSF-ERP",
+      "canonical_path": "ERP_Overview.html",
+      "title": "ERP High-Level Overview",
+      "owner_role": "HSF ERP Governance",
+      "source_declared_status": "STABLE_REFERENCE",
+      "recorded_approval_authority": "Management / designated document owner (not independently verified)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": "2026-10-30",
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "da051e44f0ce2e725dbc32067f7691809c0ab491399ce4c3b867237bfe0210ea",
+      "note": "Narrative Project count correction; operational ERP implementation is external"
+    },
+    {
+      "document_id": "HSF-MEAL",
+      "canonical_path": "impact_meal_learning_framework.html",
+      "title": "Impact, MEAL & Learning Framework",
+      "owner_role": "HSF MEAL Governance",
+      "source_declared_status": "STABLE_REFERENCE",
+      "recorded_approval_authority": "Management / designated document owner (not independently verified)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": "2026-10-30",
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "77620f168aaaac85a19f7526299cb5580c08cb4c0d9974cfdebdcb973303f607",
+      "note": "Three-Project alignment; no verified result values adopted"
+    },
+    {
+      "document_id": "HSF-WEB",
+      "canonical_path": "website_content_editorial_guidelines.html",
+      "title": "Website Content & Editorial Guidelines",
+      "owner_role": "HSF Communication / Website Governance",
+      "source_declared_status": "STABLE_REFERENCE",
+      "recorded_approval_authority": "Management / designated document owner (not independently verified)",
+      "approval_record_reference": null,
+      "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
+      "revision_or_review_date": "2026-10-30",
+      "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
+      "sha256": "726ba1cdb2898be7f1769ad4fe13f8439fcdf796781e55a6ee0240aeafda744b",
+      "note": "Project taxonomy and page examples corrected"
+    }
+  ]
+}

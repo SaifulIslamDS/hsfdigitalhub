@@ -1,6 +1,6 @@
 # HSF Design Studio | Internal Visual Production Tool
 
-**Knowledge Hub version:** v1.8.2 · **Updated:** 30 October 2026  
+**Knowledge Hub version:** v1.8.3 · **Updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 **Open app:** [Design Studio](index.html) (self-contained offline-capable HTML). To use without internet, download `index.html` with your browser's Save As function and open in desktop Chrome/Edge; photo data and designs remain on the current device. This is not the ERP and stores no central record. **Approved public-use visuals still require independent HSF review.**

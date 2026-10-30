@@ -26,6 +26,10 @@ This matrix defines which HSF source is authoritative for each information type.
 | Social communication operating model | Current stable Social Communication Plan | Tracker and communication registers | Candidate plans are not canonical until promoted |
 | Website/social/report copy | Approved public communication output | Approved Information Layer | Must not bypass verification/approval |
 
+## Project-name and scope resolution
+
+The **Digital System Contract v1.0.0** controls the three active programme codes; `governance/PROGRAMME_REGISTRY.md` controls how those codes are displayed to readers. Use **Climate Action & Resilience** for the full public Project name and **Climate Action** as the canonical internal contract name or shortened display label. Women and girls' empowerment remains cross-cutting and does not create a fourth current Project. The ERP's optional future modules are blueprints, not evidence of institutional programme activation. 
+
 ## Conflict rule
 
 When sources disagree, use the source appropriate to the information type above. In general:

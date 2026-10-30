@@ -1,3 +1,12 @@
+## v1.8.3 — 30 October 2026 · Institutional SSOT stabilization
+
+- Aligned the four relevant master narratives to three current Projects and kept optional ERP modules explicitly conditional.
+- Added Programme Registry public display name rule and synchronized Social v4.0 cross-release metadata.
+- Added six-master public-safe document metadata/checksum register without fabricating institutional approval evidence.
+- Listed six superseded communication research files for tracked deletion from the GitHub active tree.
+- Extended automated CI with SSOT, all XLSX/PDF public asset registration and 242-SVG Brand Stack structural checks.
+- Archived historical release-candidate-specific guides without rewriting Git history; preserved 300 KDI/PSC ideas and publication controls.
+
 ## v1.8.2 — 30 October 2026 · Continuous internal update
 
 - Integrated HSF Design Studio into the Knowledge Hub as an internal offline-capable design tool, with maintained source, generated standalone HTML and a homepage tool entry (six institutional masters unchanged).

@@ -95,7 +95,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style><link rel="stylesheet" href="assets/content-prompt-generator.css"><link rel="stylesheet" href="assets/design-brief-export.css"></head><body>
 <header><div class="wrap top"><strong>Human Safety Foundation · Digital Knowledge Hub</strong><nav aria-label="Hub navigation"><a href="../index.html">Hub Home</a><a href="../social_communication_plan.html">Social v4.0 Framework</a><a href="../brand_identity_master_guide.html">Brand Guide</a></nav></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.2 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
+<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.3 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
 <div class="notice"><b>Publication gate:</b> Editorial approval is never approval of a claim, event, case study, image or public post. Validate original evidence, apply technical and safeguarding reviews, and obtain management approval for each exact publication.</div>
 <div class="stats"><div class="stat"><strong>300</strong><small>All editorial concepts</small></div><div class="stat"><strong>160</strong><small>KDI ideas (26 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (20 new proposed)</small></div></div></section>
 <section class="wrap" aria-label="Unified idea catalogue"><div class="library">
@@ -133,7 +133,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
  </div>
 </dialog>
 
-<footer><div class="wrap">HSF Knowledge Hub v1.8.2 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
+<footer><div class="wrap">HSF Knowledge Hub v1.8.3 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
 <script>
 (function(){'use strict';
 const cards=Array.from(document.querySelectorAll('#ideas .idea'));

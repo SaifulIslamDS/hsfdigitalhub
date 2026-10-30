@@ -42,3 +42,9 @@ jobs:
 
       - name: Validate internal HSF Design Studio integration
         run: python scripts/validate_design_studio.py
+
+      - name: Validate institutional SSOT and controlled assets
+        run: python scripts/validate_ssot_stability.py
+
+      - name: Validate Brand Design Stack SVG structure
+        run: python brand-design-stack/07_Engine/validate_stack.py

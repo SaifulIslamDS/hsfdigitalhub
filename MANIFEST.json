@@ -2,13 +2,13 @@
   "repository": "SaifulIslamDS/hsfdigitalhub",
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
-  "current_status": "ACTIVE_INTERNAL",
-  "release": "v1.8.2",
+  "current_status": "ACTIVE_INTERNAL_STABILIZED_SOURCE",
+  "release": "v1.8.3",
   "release_date": "2026-10-30",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.8.2",
+    "knowledge_hub": "v1.8.3",
     "release_date": "2026-10-30",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
@@ -146,10 +146,10 @@
   },
   "release_method": "CONTINUOUS_INTERNAL_UPDATES; PUBLICATION_APPROVAL_SEPARATE",
   "latest_internal_update": {
-    "version": "v1.8.2",
+    "version": "v1.8.3",
     "date": "2026-10-30",
-    "summary": "HSF Design Studio integrated as internal offline-capable visual creation tool with Social v4.0 taxonomy, editorial governance metadata and public-safe 300-idea design-brief bridge. Current idea records unchanged.",
-    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_COMPLETE; LIVE_DEPLOYMENT_AND_FULL_EXPORT_QA_PENDING"
+    "summary": "Institutional SSOT alignment, three-Project narrative correction, retired-bank cleanup, governed document approval register and strengthened CI; 300 idea records and core institutional policies preserved.",
+    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_COMPLETE; LIVE_NETLIFY_AND_VISUAL_DESIGN_QA_PENDING"
   },
   "design_studio": {
     "status": "ACTIVE_INTERNAL_DRAFTING_TOOL_NOT_AUTOMATIC_PUBLICATION_APPROVAL",
@@ -162,5 +162,18 @@
     "design_approval_boundary": "HSF_AUTHORIZED_EXACT_OUTPUT_REVIEW_REQUIRED",
     "privacy": "NO_RESTRICTED_OPERATIONAL_DATA_IN_PUBLIC_SOURCE",
     "version": "1.0.0-hsf-internal-integration"
+  },
+  "institutional_alignment": {
+    "project_registry": "governance/PROGRAMME_REGISTRY.md",
+    "active_project_codes": [
+      "E4BL",
+      "A2PHC",
+      "CLIMATE_ACTION"
+    ],
+    "public_climate_name": "Climate Action & Resilience",
+    "social_policy": "v4.0",
+    "approval_register": "governance/CONTROLLED_DOCUMENT_REGISTER.json",
+    "stability_validator": "scripts/validate_ssot_stability.py",
+    "publication_approval_separate": true
   }
 }
