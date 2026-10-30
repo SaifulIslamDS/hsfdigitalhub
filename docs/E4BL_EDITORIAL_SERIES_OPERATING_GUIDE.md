@@ -1,13 +1,13 @@
 # E4BL Editorial Series | Operating Guide
 
 **HSF Social Communication Ecosystem:** v4.0 (approved framework)  
-**Knowledge Hub:** v1.9.0 (current internal version)  
+**Knowledge Hub:** v1.10.0 (current internal version)  
 **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 ## Purpose and scope
 
-Two reusable, optional editorial series help communicate real classroom practice and offer useful educational activities. They are **subseries**, not new streams or eighth/ninth content families. They do not impose daily publishing quotas or mandatory two-post cycles. Both sit within the current 400-idea catalogue. These labels are controlled through `communication/editorial_series.json`; the authoritative JSON and XLSX idea banks remain synchronized.
+Two reusable, optional editorial series help communicate real classroom practice and offer useful educational activities. They are **subseries**, not new streams or eighth/ninth content families. They do not impose daily publishing quotas or mandatory two-post cycles. Both sit within the current 500-idea catalogue. These labels are controlled through `communication/editorial_series.json`; the authoritative JSON and XLSX idea banks remain synchronized.
 
 | Subseries | Stream / bank | Intended output | Minimum pre-publication evidence |
 |---|---|---|---|

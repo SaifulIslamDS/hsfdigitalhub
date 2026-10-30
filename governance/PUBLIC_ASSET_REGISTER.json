@@ -25,14 +25,14 @@
       "note": "Generated demonstration design asset; not an operational beneficiary report."
     },
     {
-      "path": "communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx",
+      "path": "communication/research/HSF_Programme_Stories_Communication_240_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
       "owner": "HSF Communication / Knowledge Hub",
       "contains_personal_data": false,
-      "approval_status": "EDITORIAL_IDEAS_PARTLY_PROPOSED_NOT_PUBLICATION_APPROVED",
+      "approval_status": "EDITORIAL_IDEAS_140_APPROVED_100_PROPOSED_NOT_PUBLICATION_APPROVED",
       "review_date": "2026-10-30",
-      "sha256": "9fe82b0ded347f2847da81baa7732ff1f5cd65e3f99ca9c54842b3b6becb3fdd",
-      "note": "140 PSC ideas: 120 existing editorial-approved + 20 proposed; no personal operational records; no verified claims or events by virtue of inclusion."
+      "sha256": "16125221c9c3620454376ee435b27437df60eb24fe31115370b71c0700a76b5f",
+      "note": "240 conditional PSC ideas: 140 approved for editorial planning, 100 newly proposed; no field events, people or public claims verified by inclusion."
     },
     {
       "path": "communication/research/HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx",
@@ -44,5 +44,5 @@
   ],
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "release": "v1.9.0"
+  "release": "v1.10.0"
 }

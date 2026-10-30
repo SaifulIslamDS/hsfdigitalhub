@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check 400-idea governed library: provenance, approval boundaries, accessible facets, old links and controlled workbook paths."""
+"""Check 500-idea governed library: provenance, approval boundaries, accessible facets, old links and controlled workbook paths."""
 from pathlib import Path
 from html.parser import HTMLParser
 from collections import Counter
@@ -14,11 +14,11 @@ class Scan(HTMLParser):
   a=dict(attrs)
   if a.get('id'):self.ids.add(a['id'])
   if tag=='article' and 'idea' in a.get('class','').split():self.cards.append(a)
-K=load('communication/research/kdi_260_ideas.json')['ideas'];P=load('communication/research/psc_140_ideas.json')['ideas'];all_=K+P
+K=load('communication/research/kdi_260_ideas.json')['ideas'];P=load('communication/research/psc_240_ideas.json')['ideas'];all_=K+P
 ht=(R/'communication/idea-library.html').read_text();scan=Scan();scan.feed(ht)
-test(len(K)==260 and len(P)==140,'KDI/PSC counts must be 260/140')
-test(len(all_)==400 and len({i['id'] for i in all_})==400,'400 unique IDs required')
-test(len(scan.cards)==400,'400 rendered cards required')
+test(len(K)==260 and len(P)==240,'KDI/PSC counts must be 260/240')
+test(len(all_)==500 and len({i['id'] for i in all_})==500,'500 unique IDs required')
+test(len(scan.cards)==500,'500 rendered cards required')
 test([x.get('id') for x in scan.cards]==[i['id'] for i in all_],'Rendered order/source identity mismatch')
 for idx,(card,idea) in enumerate(zip(scan.cards,all_)):
  b='kdi' if idx<260 else 'psc'
@@ -33,7 +33,7 @@ test(series.get('status')=='ADOPTED_EDITORIAL_SERIES_NOT_PUBLICATION_APPROVAL','
 entries=series.get('editorial_series',[])
 test([x.get('id') for x in entries]==['inside-our-classroom','learn-with-e4bl'],'Series names or order inconsistent')
 map_={idea_id:x for x in entries for idea_id in x.get('idea_ids',[])}
-test(len(map_)==series.get('total_mapped_ideas')==64,'Series mapped idea count/duplicates mismatch')
+test(len(map_)==series.get('total_mapped_ideas')==79,'Series mapped idea count/duplicates mismatch')
 for x in K+P:
  mapped=map_.get(x['id'])
  test(bool(mapped)==bool(scan.cards[[y['id'] for y in K+P].index(x['id'])].get('data-series')),x['id']+' series attribute missing')
@@ -43,14 +43,15 @@ for x in K+P:
   test(scan.cards[[y['id'] for y in K+P].index(x['id'])].get('data-series')==mapped['id'],x['id']+' series facet mismatch')
 test('Inside Our Classroom' in ht and 'Learn with E4BL' in ht,'Series discovery labels missing')
 test([x['id'] for x in K]==[f'KDI-{i:03}' for i in range(1,261)],'KDI IDs not sequential')
-test([x['id'] for x in P]==[f'PSC-{i:03}' for i in range(1,141)],'PSC IDs not sequential')
-test(len({x['title'].casefold() for x in all_})==400,'Duplicate editorial titles')
-test(Counter(x['programme'] for x in all_)=={'A2PHC':121,'E4BL':113,'CAR':126,'CROSS':40},'Programme breakdown changed')
+test([x['id'] for x in P]==[f'PSC-{i:03}' for i in range(1,241)],'PSC IDs not sequential')
+test(len({x['title'].casefold() for x in all_})==500,'Duplicate editorial titles')
+test(Counter(x['programme'] for x in all_)=={'A2PHC':156,'E4BL':143,'CAR':151,'CROSS':50},'Programme breakdown changed')
 for bank,ideas,n in [('KDI',K,134),('PSC',P,120)]:
  approved='approval_status' if bank=='KDI' else 'idea_status';verify='claim_verification_status' if bank=='KDI' else 'fact_verification_status'
  test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:n]),bank+' original editorial approval missing')
- test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:160] if bank=='KDI') if bank=='KDI' else all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas),bank+' previous 46 idea promotion missing')
+ test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:160] if bank=='KDI') if bank=='KDI' else all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:140]),bank+' previous 46 idea promotion missing')
  if bank=='KDI':test(all(x[approved]=='EDITORIAL_IDEA_PROPOSED' for x in ideas[160:]),'New 100 KDI ideas falsely approved')
+ if bank=='PSC':test(all(x[approved]=='EDITORIAL_IDEA_PROPOSED' for x in ideas[140:]),'New 100 PSC ideas falsely approved')
  test(all(x[verify]=='NOT_VERIFIED' and x['publication_status']=='NOT_APPROVED' for x in ideas),bank+' false publication/evidence approval')
 # Exact snapshots of approved first 134/120 records from distributed v1.7.1, if available, are frozen in this release validator's SHA-256 checks.
 def snapshot(items):return hashlib.sha256(json.dumps(items,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
@@ -64,11 +65,11 @@ for key in ['function match(c,exclude',"match(c,'tags')",'opt.disabled','input.d
 for old,b in [('kdi','kdi'),('psc','psc')]:
  s=(R/f'communication/{old}-idea-bank.html').read_text()
  test('idea-library.html?bank='+b in s and '<meta http-equiv="refresh"' in s,'Legacy route broken: '+old)
-for name in ['HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx','HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx']:
+for name in ['HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx','HSF_Programme_Stories_Communication_240_Idea_Bank_Editorial_Inventory.xlsx']:
  fn=R/'communication/research'/name;test(fn.is_file(),name+' missing');
  if fn.is_file():
   with zipfile.ZipFile(fn) as w:test(w.testzip() is None,name+' ZIP/Excel integrity failed')
-m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.9.0' and lib['total_ideas']==400 and lib['approved_editorial_ideas']==300 and lib['proposed_editorial_ideas']==100,'Manifest release/internal count mismatch')
+m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.10.0' and lib['total_ideas']==500 and lib['approved_editorial_ideas']==300 and lib['proposed_editorial_ideas']==200,'Manifest release/internal count mismatch')
 test('100' in (R/'social_communication_plan.html').read_text(),'Social v4 control does not distinguish 100 new proposals')
 # R2 interface regression: do not expose zero-count choices and do not repeat the Social promo on the homepage.
 test('if(count===0)continue' in ht and 'label.hidden=count===0' in ht,'Zero-result filter choices must be removed/hidden')
@@ -76,7 +77,7 @@ home=(R/'index.html').read_text(encoding='utf-8')
 test('id="social-v4-approved"' not in home and 'Explore all 254 content ideas' not in home,'Obsolete social promotion banner still on homepage')
 test('href="social_communication_plan.html"' in home,'Canonical Social master is missing from homepage navigation')
 if errors:
- print('400-idea library validation FAILED:',len(errors))
+ print('500-idea library validation FAILED:',len(errors))
  for e in errors:print(' -',e)
  sys.exit(1)
-print('400-idea library PASS: 260 KDI + 140 PSC; 300 editorial-approved and 100 proposals; earlier 254 records protected; E4BL series maintained.')
+print('500-idea library PASS: 260 KDI + 240 PSC; 300 editorial-approved and 200 proposals; earlier 254 records protected; E4BL series maintained.')

@@ -34,11 +34,14 @@ jobs:
       - name: Validate shared institutional headers
         run: python scripts/validate_shared_header.py
 
-      - name: Validate unified 400-idea content library
+      - name: Validate unified 500-idea content library
         run: python scripts/validate_idea_library.py
 
       - name: Validate 100 newly proposed KDI ideas and originality evidence
         run: python scripts/validate_new_kdi_ideas.py
+
+      - name: Validate 100 newly proposed PSC field-story ideas and original 400-record integrity
+        run: python scripts/validate_new_psc_ideas.py
 
       - name: Validate per-idea content prompt generator
         run: python scripts/validate_content_prompt_generator.py

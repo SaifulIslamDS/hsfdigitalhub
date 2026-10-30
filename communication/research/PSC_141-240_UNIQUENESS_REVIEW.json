@@ -1,0 +1,4817 @@
+{
+  "title": "PSC-141–240 gap/overlap review",
+  "date": "2026-10-30",
+  "base": "KDI-001–260 and PSC-001–140 (400 previous concepts)",
+  "review_scope": "Machine-ranked closest titles and angles, followed by editorial field-evidence differentiation; no guarantee all conceptual overlap eliminated.",
+  "new_count": 100,
+  "project_distribution": {
+    "E4BL": 30,
+    "A2PHC": 35,
+    "CAR": 25,
+    "CROSS": 10
+  },
+  "approved_count": 0,
+  "individual_posts_verified": 0,
+  "records": [
+    {
+      "new_id": "PSC-141",
+      "title": "A word-card lesson prepared from reusable materials",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-122",
+        "PSC-004",
+        "KDI-231",
+        "PSC-121",
+        "PSC-110"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.2724
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.193
+        },
+        {
+          "id": "KDI-231",
+          "title": "Universal Design for Learning: how can one lesson offer different ways to participate?",
+          "title_angle_similarity": 0.1783
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.1723
+        },
+        {
+          "id": "PSC-110",
+          "title": "Why community resilience needs participation",
+          "title_angle_similarity": 0.1553
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-171",
+        "PSC-146",
+        "PSC-208"
+      ],
+      "different_field_record_or_observation_required": "Dated lesson plan, teacher confirmation, genuine images cleared for child safeguarding.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-142",
+      "title": "A classroom book-borrowing log reviewed without identifying readers",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-043",
+        "PSC-033",
+        "PSC-056",
+        "PSC-004",
+        "KDI-017"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-043",
+          "title": "When a follow-up conversation matters",
+          "title_angle_similarity": 0.1568
+        },
+        {
+          "id": "PSC-033",
+          "title": "The learner who loves storytelling",
+          "title_angle_similarity": 0.1454
+        },
+        {
+          "id": "PSC-056",
+          "title": "A learning routine strengthened over a term",
+          "title_angle_similarity": 0.1432
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.1407
+        },
+        {
+          "id": "KDI-017",
+          "title": "How does home reading exposure relate to learning?",
+          "title_angle_similarity": 0.1328
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-212",
+        "PSC-158",
+        "PSC-161"
+      ],
+      "different_field_record_or_observation_required": "Approved book-loan aggregate, date range, staff review, no individual pupil records.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-143",
+      "title": "A practical counting lesson using everyday objects",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-221",
+        "PSC-122",
+        "PSC-025",
+        "PSC-001",
+        "PSC-098"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-221",
+          "title": "How can a number line support mental arithmetic?",
+          "title_angle_similarity": 0.2011
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.2005
+        },
+        {
+          "id": "PSC-025",
+          "title": "A school-friendly environmental learning activity",
+          "title_angle_similarity": 0.1845
+        },
+        {
+          "id": "PSC-001",
+          "title": "Before the first lesson: a gentle classroom start",
+          "title_angle_similarity": 0.168
+        },
+        {
+          "id": "PSC-098",
+          "title": "How to notice learning difficulties without blame",
+          "title_angle_similarity": 0.1582
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-156",
+        "PSC-161",
+        "PSC-222"
+      ],
+      "different_field_record_or_observation_required": "Dated observed lesson, teacher-verified instruction, permitted materials-only photos.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-144",
+      "title": "How a teacher adapted a read-aloud for a noisy room",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-124",
+        "PSC-062",
+        "PSC-037",
+        "PSC-122",
+        "PSC-086"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.2345
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.2281
+        },
+        {
+          "id": "PSC-037",
+          "title": "Making room for a child's particular needs",
+          "title_angle_similarity": 0.2004
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.1707
+        },
+        {
+          "id": "PSC-086",
+          "title": "Medicine availability cannot be assumed",
+          "title_angle_similarity": 0.1701
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-153",
+        "PSC-166",
+        "PSC-196"
+      ],
+      "different_field_record_or_observation_required": "Class observation, teacher notes, safeguarding-cleared images without identifiable children.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-145",
+      "title": "Preparing a classroom notice in two languages",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-226",
+        "KDI-227",
+        "PSC-005",
+        "KDI-241",
+        "PSC-033"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-226",
+          "title": "How can a child's home language support classroom learning?",
+          "title_angle_similarity": 0.2752
+        },
+        {
+          "id": "KDI-227",
+          "title": "Listening comprehension before fluent reading: what can teachers notice?",
+          "title_angle_similarity": 0.1883
+        },
+        {
+          "id": "PSC-005",
+          "title": "The classroom as a place for expression",
+          "title_angle_similarity": 0.1845
+        },
+        {
+          "id": "KDI-241",
+          "title": "How can people understand a medicine label safely?",
+          "title_angle_similarity": 0.1592
+        },
+        {
+          "id": "PSC-033",
+          "title": "The learner who loves storytelling",
+          "title_angle_similarity": 0.1587
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-148",
+        "PSC-167",
+        "PSC-182"
+      ],
+      "different_field_record_or_observation_required": "Original approved notice, language review, installation date and staff explanation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-146",
+      "title": "Checking whether reading materials are usable, not merely delivered",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-060",
+        "PSC-121",
+        "KDI-009",
+        "PSC-004",
+        "PSC-093"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-060",
+          "title": "A materials support activity revisited",
+          "title_angle_similarity": 0.3117
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.2873
+        },
+        {
+          "id": "KDI-009",
+          "title": "How much do learning materials matter to participation?",
+          "title_angle_similarity": 0.2261
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.2082
+        },
+        {
+          "id": "PSC-093",
+          "title": "Climate information is difficult to explain simply",
+          "title_angle_similarity": 0.1896
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-163",
+        "PSC-141",
+        "PSC-213"
+      ],
+      "different_field_record_or_observation_required": "Inventory check, dated corrective record and approved non-identifying photographs.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-147",
+      "title": "A teacher demonstrates listening before correction",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-079",
+        "PSC-138",
+        "PSC-003",
+        "PSC-062",
+        "PSC-122"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-079",
+          "title": "A guardian concern that prompted review",
+          "title_angle_similarity": 0.2514
+        },
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.2494
+        },
+        {
+          "id": "PSC-003",
+          "title": "A small moment of teacher encouragement",
+          "title_angle_similarity": 0.2448
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.2228
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.199
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-200",
+        "PSC-231",
+        "PSC-158"
+      ],
+      "different_field_record_or_observation_required": "Lesson observation, teacher account, specific safeguarding clearance.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-148",
+      "title": "What a guardian needs to understand a school notice",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-031",
+        "PSC-034",
+        "PSC-079",
+        "PSC-006",
+        "PSC-058"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-031",
+          "title": "A family's pathway to continued learning",
+          "title_angle_similarity": 0.2511
+        },
+        {
+          "id": "PSC-034",
+          "title": "What a guardian meeting helped clarify",
+          "title_angle_similarity": 0.2468
+        },
+        {
+          "id": "PSC-079",
+          "title": "A guardian concern that prompted review",
+          "title_angle_similarity": 0.2353
+        },
+        {
+          "id": "PSC-006",
+          "title": "A guardian meeting beyond attendance",
+          "title_angle_similarity": 0.2275
+        },
+        {
+          "id": "PSC-058",
+          "title": "How a guardian concern was followed up",
+          "title_angle_similarity": 0.2202
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-145",
+        "PSC-169",
+        "PSC-193"
+      ],
+      "different_field_record_or_observation_required": "Documented guardian feedback, consent, reviewed notice, follow-up evidence.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-149",
+      "title": "Adjusting a lesson when the chalkboard cannot be seen clearly",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-070",
+        "PSC-085",
+        "PSC-122",
+        "PSC-062",
+        "PSC-108"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.2298
+        },
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.2176
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.2008
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1863
+        },
+        {
+          "id": "PSC-108",
+          "title": "Why flood preparedness cannot rely on one warning",
+          "title_angle_similarity": 0.154
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-214",
+        "PSC-166",
+        "PSC-144"
+      ],
+      "different_field_record_or_observation_required": "Teacher observation, dated adjustment note and safe photographs of environment only.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-150",
+      "title": "A lesson-planning checklist that was actually revised",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-062",
+        "PSC-137",
+        "KDI-217",
+        "PSC-074",
+        "KDI-190"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.2563
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.2278
+        },
+        {
+          "id": "KDI-217",
+          "title": "Why is specific feedback more useful than a vague 'good job'?",
+          "title_angle_similarity": 0.1981
+        },
+        {
+          "id": "PSC-074",
+          "title": "What an HSF climate session taught the team",
+          "title_angle_similarity": 0.1943
+        },
+        {
+          "id": "KDI-190",
+          "title": "What can a school energy audit measure without specialist equipment?",
+          "title_angle_similarity": 0.1884
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-231",
+        "PSC-167",
+        "PSC-149"
+      ],
+      "different_field_record_or_observation_required": "Earlier and updated checklist, supervisor signoff, effective dates.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-151",
+      "title": "A hands-on geometry activity at primary level",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-004",
+        "PSC-110",
+        "KDI-225",
+        "PSC-075",
+        "PSC-060"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.1822
+        },
+        {
+          "id": "PSC-110",
+          "title": "Why community resilience needs participation",
+          "title_angle_similarity": 0.1609
+        },
+        {
+          "id": "KDI-225",
+          "title": "How can spatial play prepare children for geometry?",
+          "title_angle_similarity": 0.1563
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.1444
+        },
+        {
+          "id": "PSC-060",
+          "title": "A materials support activity revisited",
+          "title_angle_similarity": 0.1323
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-141",
+        "PSC-208",
+        "PSC-163"
+      ],
+      "different_field_record_or_observation_required": "Dated lesson entry, teacher review, consented or objects-only media.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-152",
+      "title": "What happens when an essential classroom supply runs out?",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-121",
+        "PSC-124",
+        "KDI-138",
+        "PSC-086",
+        "PSC-016"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.2524
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.2098
+        },
+        {
+          "id": "KDI-138",
+          "title": "How can a teacher recognise and reduce barriers to classroom participation?",
+          "title_angle_similarity": 0.1812
+        },
+        {
+          "id": "PSC-086",
+          "title": "Medicine availability cannot be assumed",
+          "title_angle_similarity": 0.1694
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.169
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-160",
+        "PSC-204",
+        "PSC-153"
+      ],
+      "different_field_record_or_observation_required": "Stock record, lesson impact note, procurement/receipt evidence safe for release.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-153",
+      "title": "A classroom visual timetable explained by its teacher",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-007",
+        "PSC-121",
+        "KDI-138",
+        "PSC-122",
+        "PSC-062"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-007",
+          "title": "A school day across two learning shifts",
+          "title_angle_similarity": 0.2265
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.2006
+        },
+        {
+          "id": "KDI-138",
+          "title": "How can a teacher recognise and reduce barriers to classroom participation?",
+          "title_angle_similarity": 0.1943
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.1583
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1578
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-144",
+        "PSC-145",
+        "PSC-149"
+      ],
+      "different_field_record_or_observation_required": "Original timetable, date in use, approved teacher account and safe image.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-154",
+      "title": "Quality-checking attendance totals before any school statistic is shared",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-009",
+        "KDI-005",
+        "KDI-135",
+        "KDI-006",
+        "PSC-123"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-009",
+          "title": "How much do learning materials matter to participation?",
+          "title_angle_similarity": 0.153
+        },
+        {
+          "id": "KDI-005",
+          "title": "Child labour and school attendance: what does the evidence show?",
+          "title_angle_similarity": 0.1451
+        },
+        {
+          "id": "KDI-135",
+          "title": "A missed-week attendance pattern: what do school registers actually tell us?",
+          "title_angle_similarity": 0.137
+        },
+        {
+          "id": "KDI-006",
+          "title": "Are girls and boys progressing equally through primary school?",
+          "title_angle_similarity": 0.1347
+        },
+        {
+          "id": "PSC-123",
+          "title": "Attendance patterns over one complete reporting period",
+          "title_angle_similarity": 0.1343
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-231",
+        "PSC-191",
+        "PSC-171"
+      ],
+      "different_field_record_or_observation_required": "Anonymized reconciliation note, approved measure definitions, MEAL review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-155",
+      "title": "An emergency exit route checked at a learning centre",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-007",
+        "KDI-046",
+        "PSC-130",
+        "PSC-124",
+        "KDI-257"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-007",
+          "title": "A school day across two learning shifts",
+          "title_angle_similarity": 0.1819
+        },
+        {
+          "id": "KDI-046",
+          "title": "How much physical activity do adults get?",
+          "title_angle_similarity": 0.1759
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1508
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.1473
+        },
+        {
+          "id": "KDI-257",
+          "title": "Can heart attack symptoms look different from chest pain alone?",
+          "title_angle_similarity": 0.1426
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-228",
+        "PSC-175",
+        "PSC-169"
+      ],
+      "different_field_record_or_observation_required": "Dated safety walkthrough, approved checklist, responsible staff review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-156",
+      "title": "A teacher-led picture-sequencing activity",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-229",
+        "PSC-062",
+        "KDI-222",
+        "PSC-082",
+        "PSC-055"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-229",
+          "title": "How can oral rehearsal help a child plan a sentence?",
+          "title_angle_similarity": 0.179
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1615
+        },
+        {
+          "id": "KDI-222",
+          "title": "What do drawings reveal about early fraction misconceptions?",
+          "title_angle_similarity": 0.1291
+        },
+        {
+          "id": "PSC-082",
+          "title": "Managing a learning activity with modest facilities",
+          "title_angle_similarity": 0.1093
+        },
+        {
+          "id": "PSC-055",
+          "title": "A facilitator listens to differing climate concerns",
+          "title_angle_similarity": 0.0948
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-201",
+        "PSC-143",
+        "PSC-145"
+      ],
+      "different_field_record_or_observation_required": "Dated lesson plan, materials provenance, appropriate photo permission.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-157",
+      "title": "A teacher's account of learning to use a new classroom aid",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-038",
+        "PSC-004",
+        "PSC-003",
+        "PSC-122",
+        "PSC-078"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-038",
+          "title": "A teacher's experience across school years",
+          "title_angle_similarity": 0.2896
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.2222
+        },
+        {
+          "id": "PSC-003",
+          "title": "A small moment of teacher encouragement",
+          "title_angle_similarity": 0.2189
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.1889
+        },
+        {
+          "id": "PSC-078",
+          "title": "Adapting classroom activities to different learning levels",
+          "title_angle_similarity": 0.1865
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-220",
+        "PSC-153",
+        "PSC-145"
+      ],
+      "different_field_record_or_observation_required": "Consented educator interview, training/lesson log and independent activity confirmation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-158",
+      "title": "Checking workbooks without revealing a child's marks",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-140",
+        "PSC-062",
+        "PSC-037",
+        "PSC-091",
+        "KDI-020"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.2395
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.2313
+        },
+        {
+          "id": "PSC-037",
+          "title": "Making room for a child's particular needs",
+          "title_angle_similarity": 0.2228
+        },
+        {
+          "id": "PSC-091",
+          "title": "How field feedback changes a health-awareness topic",
+          "title_angle_similarity": 0.1868
+        },
+        {
+          "id": "KDI-020",
+          "title": "How can teachers use learning data without pressuring children?",
+          "title_angle_similarity": 0.1793
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-213",
+        "PSC-188",
+        "PSC-195"
+      ],
+      "different_field_record_or_observation_required": "Approved illustrative/redacted workbook sample, teacher approval, child protection review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-159",
+      "title": "How a classroom reading corner is kept accessible",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-121",
+        "KDI-138",
+        "KDI-187",
+        "PSC-002",
+        "PSC-004"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.1917
+        },
+        {
+          "id": "KDI-138",
+          "title": "How can a teacher recognise and reduce barriers to classroom participation?",
+          "title_angle_similarity": 0.1853
+        },
+        {
+          "id": "KDI-187",
+          "title": "What makes a neighbourhood cooling space accessible and safe?",
+          "title_angle_similarity": 0.1804
+        },
+        {
+          "id": "PSC-002",
+          "title": "A reading circle in progress",
+          "title_angle_similarity": 0.1678
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.1673
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-144",
+        "PSC-164",
+        "PSC-208"
+      ],
+      "different_field_record_or_observation_required": "Dated site photos, staff verification, permission and accessibility review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-160",
+      "title": "Supporting an unexpectedly crowded classroom session",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-124",
+        "PSC-005",
+        "PSC-099",
+        "PSC-121",
+        "PSC-096"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.2917
+        },
+        {
+          "id": "PSC-005",
+          "title": "The classroom as a place for expression",
+          "title_angle_similarity": 0.1907
+        },
+        {
+          "id": "PSC-099",
+          "title": "What makes a classroom emotionally safe?",
+          "title_angle_similarity": 0.1703
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.1659
+        },
+        {
+          "id": "PSC-096",
+          "title": "Why a child may stop attending regularly",
+          "title_angle_similarity": 0.1543
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-152",
+        "PSC-162",
+        "PSC-157"
+      ],
+      "different_field_record_or_observation_required": "Attendance totals approved for sharing, session notes, safety review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-161",
+      "title": "Building a lesson with children's questions, without quoting names",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-067",
+        "PSC-122",
+        "PSC-047",
+        "PSC-104",
+        "PSC-029"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.2112
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.2105
+        },
+        {
+          "id": "PSC-047",
+          "title": "A health educator answers a common question",
+          "title_angle_similarity": 0.1943
+        },
+        {
+          "id": "PSC-104",
+          "title": "What should a patient know after a consultation?",
+          "title_angle_similarity": 0.1825
+        },
+        {
+          "id": "PSC-029",
+          "title": "Small group questions about weather and climate",
+          "title_angle_similarity": 0.174
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-229",
+        "PSC-168",
+        "PSC-212"
+      ],
+      "different_field_record_or_observation_required": "Lesson record, anonymization method, teacher confirmation; no identifiable child quotations.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-162",
+      "title": "What a classroom display changed after teacher feedback",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-062",
+        "KDI-089",
+        "PSC-122",
+        "PSC-124",
+        "KDI-079"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.2988
+        },
+        {
+          "id": "KDI-089",
+          "title": "What does climate-related displacement evidence actually show?",
+          "title_angle_similarity": 0.2566
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.2253
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.2246
+        },
+        {
+          "id": "KDI-079",
+          "title": "How can river erosion affect community services?",
+          "title_angle_similarity": 0.2105
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-232",
+        "PSC-189",
+        "PSC-168"
+      ],
+      "different_field_record_or_observation_required": "Before/after dated photos, written teacher feedback, change approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-163",
+      "title": "Managing shared learning materials between two shifts",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-004",
+        "KDI-009",
+        "PSC-007",
+        "PSC-121",
+        "PSC-081"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.2797
+        },
+        {
+          "id": "KDI-009",
+          "title": "How much do learning materials matter to participation?",
+          "title_angle_similarity": 0.2661
+        },
+        {
+          "id": "PSC-007",
+          "title": "A school day across two learning shifts",
+          "title_angle_similarity": 0.2156
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.2077
+        },
+        {
+          "id": "PSC-081",
+          "title": "Balancing two learning shifts in limited space",
+          "title_angle_similarity": 0.1994
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-146",
+        "PSC-170",
+        "PSC-151"
+      ],
+      "different_field_record_or_observation_required": "Two-shift handover log, store checklist, responsible staff confirmation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-164",
+      "title": "How an older sibling helped a learner prepare for class",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-015",
+        "PSC-013",
+        "PSC-125",
+        "PSC-034",
+        "PSC-008"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.2222
+        },
+        {
+          "id": "PSC-013",
+          "title": "A physician listens before advising",
+          "title_angle_similarity": 0.2108
+        },
+        {
+          "id": "PSC-125",
+          "title": "When a learner misses several classes: a safe follow-up pathway",
+          "title_angle_similarity": 0.2023
+        },
+        {
+          "id": "PSC-034",
+          "title": "What a guardian meeting helped clarify",
+          "title_angle_similarity": 0.201
+        },
+        {
+          "id": "PSC-008",
+          "title": "Children helping keep their classroom ready",
+          "title_angle_similarity": 0.1966
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-199",
+        "PSC-214",
+        "PSC-215"
+      ],
+      "different_field_record_or_observation_required": "Voluntary guardian account, consent, child safeguarding approval, no family location clues.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-165",
+      "title": "A real classroom handwashing reminder in daily use",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-064",
+        "KDI-028",
+        "PSC-004",
+        "PSC-025",
+        "PSC-007"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-064",
+          "title": "How does handwashing protect health?",
+          "title_angle_similarity": 0.2279
+        },
+        {
+          "id": "KDI-028",
+          "title": "How important are school toilets and handwashing facilities?",
+          "title_angle_similarity": 0.2145
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.1804
+        },
+        {
+          "id": "PSC-025",
+          "title": "A school-friendly environmental learning activity",
+          "title_angle_similarity": 0.1801
+        },
+        {
+          "id": "PSC-007",
+          "title": "A school day across two learning shifts",
+          "title_angle_similarity": 0.1713
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-157",
+        "PSC-193",
+        "PSC-215"
+      ],
+      "different_field_record_or_observation_required": "Dated teacher activity record, suitable school setting, reviewed public-health text.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-166",
+      "title": "A lesson interrupted by excessive heat: the actual decision",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-086",
+        "PSC-080",
+        "PSC-027",
+        "PSC-130",
+        "PSC-062"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-086",
+          "title": "Can climate hazards interrupt primary healthcare?",
+          "title_angle_similarity": 0.2114
+        },
+        {
+          "id": "PSC-080",
+          "title": "Supporting continuity during disruption",
+          "title_angle_similarity": 0.2076
+        },
+        {
+          "id": "PSC-027",
+          "title": "Climate justice in plain language",
+          "title_angle_similarity": 0.198
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1822
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1811
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-179",
+        "PSC-144",
+        "PSC-224"
+      ],
+      "different_field_record_or_observation_required": "Dated incident or attendance note, staff approval, weather context and safeguarding review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-167",
+      "title": "A parent information sheet revised after comprehension feedback",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-226",
+        "PSC-062",
+        "PSC-067",
+        "PSC-093",
+        "PSC-126"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-226",
+          "title": "How can a child's home language support classroom learning?",
+          "title_angle_similarity": 0.2536
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.221
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.2066
+        },
+        {
+          "id": "PSC-093",
+          "title": "Climate information is difficult to explain simply",
+          "title_angle_similarity": 0.2056
+        },
+        {
+          "id": "PSC-126",
+          "title": "A centre’s transparent parent feedback summary",
+          "title_angle_similarity": 0.169
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-145",
+        "PSC-232",
+        "PSC-150"
+      ],
+      "different_field_record_or_observation_required": "Two document versions, verified feedback, dated approval and translation review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-168",
+      "title": "Preparing a child-safe art display with anonymous work",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-016",
+        "KDI-089",
+        "PSC-010",
+        "PSC-004",
+        "KDI-158"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1912
+        },
+        {
+          "id": "KDI-089",
+          "title": "What does climate-related displacement evidence actually show?",
+          "title_angle_similarity": 0.1579
+        },
+        {
+          "id": "PSC-010",
+          "title": "Preparing for an assessment without pressure",
+          "title_angle_similarity": 0.1367
+        },
+        {
+          "id": "PSC-004",
+          "title": "Learning materials, from preparation to classroom",
+          "title_angle_similarity": 0.1332
+        },
+        {
+          "id": "KDI-158",
+          "title": "What makes an NGO impact claim stronger than an activity report?",
+          "title_angle_similarity": 0.1278
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-162",
+        "PSC-183",
+        "PSC-161"
+      ],
+      "different_field_record_or_observation_required": "Event record, permissions, redacted/anonymous art images, owner signoff.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-169",
+      "title": "A school entryway that needed a practical accessibility adjustment",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "PSC-070",
+        "PSC-127",
+        "KDI-231",
+        "PSC-075",
+        "KDI-203"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.2388
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.1765
+        },
+        {
+          "id": "KDI-231",
+          "title": "Universal Design for Learning: how can one lesson offer different ways to participate?",
+          "title_angle_similarity": 0.1763
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.1739
+        },
+        {
+          "id": "KDI-203",
+          "title": "What makes a cyclone shelter accessible to people with disabilities?",
+          "title_angle_similarity": 0.1467
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-214",
+        "PSC-184",
+        "PSC-236"
+      ],
+      "different_field_record_or_observation_required": "Dated site observation, approved action log, accessibility/safeguarding review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-170",
+      "title": "Teacher handover notes that improved continuity between lessons",
+      "programme": "E4BL",
+      "closest_existing_ids": [
+        "KDI-037",
+        "PSC-064",
+        "PSC-100",
+        "PSC-058",
+        "PSC-122"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-037",
+          "title": "Why is continuity important after a consultation?",
+          "title_angle_similarity": 0.2941
+        },
+        {
+          "id": "PSC-064",
+          "title": "A health-camp follow-up process improves",
+          "title_angle_similarity": 0.2213
+        },
+        {
+          "id": "PSC-100",
+          "title": "Why Grade V should not mean the end of educational support",
+          "title_angle_similarity": 0.209
+        },
+        {
+          "id": "PSC-058",
+          "title": "How a guardian concern was followed up",
+          "title_angle_similarity": 0.1949
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.1638
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-163",
+        "PSC-150",
+        "PSC-177"
+      ],
+      "different_field_record_or_observation_required": "Approved anonymized lesson handover records, staff signoff, dates.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-171",
+      "title": "Checking the condition of reusable diagnostic equipment before camp",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-127",
+        "PSC-013",
+        "KDI-190",
+        "PSC-130",
+        "KDI-231"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.2266
+        },
+        {
+          "id": "PSC-013",
+          "title": "A physician listens before advising",
+          "title_angle_similarity": 0.1808
+        },
+        {
+          "id": "KDI-190",
+          "title": "What can a school energy audit measure without specialist equipment?",
+          "title_angle_similarity": 0.1663
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1612
+        },
+        {
+          "id": "KDI-231",
+          "title": "Universal Design for Learning: how can one lesson offer different ways to participate?",
+          "title_angle_similarity": 0.1422
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-174",
+        "PSC-183",
+        "PSC-141"
+      ],
+      "different_field_record_or_observation_required": "Equipment checklist, maintenance record, clinician/supervisor confirmation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-172",
+      "title": "A privacy screen changed the layout of an outreach venue",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-085",
+        "PSC-105",
+        "PSC-018",
+        "PSC-122",
+        "PSC-042"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.2388
+        },
+        {
+          "id": "PSC-105",
+          "title": "Why healthcare conversations require privacy",
+          "title_angle_similarity": 0.1722
+        },
+        {
+          "id": "PSC-018",
+          "title": "Care across changing community venues",
+          "title_angle_similarity": 0.1718
+        },
+        {
+          "id": "PSC-122",
+          "title": "A teacher explains a real lesson adaptation, with evidence",
+          "title_angle_similarity": 0.1556
+        },
+        {
+          "id": "PSC-042",
+          "title": "A community host's perspective",
+          "title_angle_similarity": 0.1526
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-193",
+        "PSC-186",
+        "PSC-182"
+      ],
+      "different_field_record_or_observation_required": "Site assessment, before/after safe photos, approved adjustment record.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-173",
+      "title": "Setting out a clinic wayfinding sign at a temporary camp",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-140",
+        "KDI-230",
+        "PSC-127",
+        "KDI-249",
+        "PSC-070"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-140",
+          "title": "How should a school plan for heat, flooding or temporary closure?",
+          "title_angle_similarity": 0.1838
+        },
+        {
+          "id": "KDI-230",
+          "title": "What is scaffolding, and when should a teacher remove support?",
+          "title_angle_similarity": 0.1813
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.15
+        },
+        {
+          "id": "KDI-249",
+          "title": "What respiratory warning signs should caregivers know?",
+          "title_angle_similarity": 0.15
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.1422
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-178",
+        "PSC-184",
+        "PSC-180"
+      ],
+      "different_field_record_or_observation_required": "Event preparation log, signage image, location permission, accessibility review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-174",
+      "title": "How blood-pressure equipment checks were documented",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-236",
+        "KDI-143",
+        "PSC-128",
+        "PSC-127",
+        "KDI-238"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-236",
+          "title": "How should a home blood-pressure reading be taken accurately?",
+          "title_angle_similarity": 0.275
+        },
+        {
+          "id": "KDI-143",
+          "title": "Why is blood-pressure measurement only one part of a health assessment?",
+          "title_angle_similarity": 0.2446
+        },
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.2362
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.2161
+        },
+        {
+          "id": "KDI-238",
+          "title": "Can the wrong blood-pressure cuff size change the result?",
+          "title_angle_similarity": 0.2038
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-171",
+        "PSC-183",
+        "PSC-180"
+      ],
+      "different_field_record_or_observation_required": "Equipment inventory, calibration/verification record where applicable, clinical reviewer.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-175",
+      "title": "A crowded waiting area required a safer circulation route",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-037",
+        "PSC-128",
+        "PSC-070",
+        "PSC-062",
+        "KDI-247"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-037",
+          "title": "Making room for a child's particular needs",
+          "title_angle_similarity": 0.2068
+        },
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.1855
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.1517
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1507
+        },
+        {
+          "id": "KDI-247",
+          "title": "What does a pulse oximeter measure and what can it miss?",
+          "title_angle_similarity": 0.1506
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-224",
+        "PSC-196",
+        "PSC-204"
+      ],
+      "different_field_record_or_observation_required": "Site layout notes, dated safety decision, no patient-identifying photographs.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-176",
+      "title": "An outreach-team briefing on infection prevention",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-019",
+        "PSC-014",
+        "PSC-132",
+        "PSC-102",
+        "KDI-253"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-019",
+          "title": "A team debrief after outreach",
+          "title_angle_similarity": 0.1882
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.1868
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.1614
+        },
+        {
+          "id": "PSC-102",
+          "title": "Medical misinformation spreads faster than corrections",
+          "title_angle_similarity": 0.1551
+        },
+        {
+          "id": "KDI-253",
+          "title": "How can families reduce the spread of diarrhoeal infections at home?",
+          "title_angle_similarity": 0.1372
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-222",
+        "PSC-237",
+        "PSC-182"
+      ],
+      "different_field_record_or_observation_required": "Dated briefing agenda, attendance confirmation, approved technical guidance.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-177",
+      "title": "Comparing scheduled and actual start times across camps",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-064",
+        "PSC-129",
+        "KDI-120",
+        "PSC-139",
+        "KDI-111"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-064",
+          "title": "A health-camp follow-up process improves",
+          "title_angle_similarity": 0.1916
+        },
+        {
+          "id": "PSC-129",
+          "title": "Consultations versus unique people in a monthly camp report",
+          "title_angle_similarity": 0.1765
+        },
+        {
+          "id": "KDI-120",
+          "title": "How should HSF communicate an improvement claim?",
+          "title_angle_similarity": 0.1644
+        },
+        {
+          "id": "PSC-139",
+          "title": "A quarter of evidence checks: what was accepted or returned for revision?",
+          "title_angle_similarity": 0.1643
+        },
+        {
+          "id": "KDI-111",
+          "title": "A consultation is not necessarily one patient: why it matters",
+          "title_angle_similarity": 0.1633
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-240",
+        "PSC-170",
+        "PSC-205"
+      ],
+      "different_field_record_or_observation_required": "Validated camp timestamp logs, period/denominator, supervisor and MEAL review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-178",
+      "title": "A community navigator describes how directions to the camp were shared",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-042",
+        "PSC-011",
+        "PSC-085",
+        "PSC-012",
+        "KDI-241"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-042",
+          "title": "A community host's perspective",
+          "title_angle_similarity": 0.1912
+        },
+        {
+          "id": "PSC-011",
+          "title": "From planning to a community health camp",
+          "title_angle_similarity": 0.1859
+        },
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.1851
+        },
+        {
+          "id": "PSC-012",
+          "title": "When the community offers a place to serve",
+          "title_angle_similarity": 0.1844
+        },
+        {
+          "id": "KDI-241",
+          "title": "How can people understand a medicine label safely?",
+          "title_angle_similarity": 0.1791
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-193",
+        "PSC-205",
+        "PSC-225"
+      ],
+      "different_field_record_or_observation_required": "Voluntary host/navigator interview, date and event record, safeguarding clearance.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-179",
+      "title": "Power interruption during outreach and the approved contingency",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-080",
+        "KDI-027",
+        "KDI-130",
+        "PSC-019",
+        "PSC-039"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-080",
+          "title": "Supporting continuity during disruption",
+          "title_angle_similarity": 0.2907
+        },
+        {
+          "id": "KDI-027",
+          "title": "How do floods and heat affect school continuity?",
+          "title_angle_similarity": 0.2509
+        },
+        {
+          "id": "KDI-130",
+          "title": "Children at the centre: education continuity under climate stress",
+          "title_angle_similarity": 0.1935
+        },
+        {
+          "id": "PSC-019",
+          "title": "A team debrief after outreach",
+          "title_angle_similarity": 0.1917
+        },
+        {
+          "id": "PSC-039",
+          "title": "The choice to remain in school",
+          "title_angle_similarity": 0.1908
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-166",
+        "PSC-196",
+        "PSC-170"
+      ],
+      "different_field_record_or_observation_required": "Dated incident note, device requirements, clinical review and authorized response record.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-180",
+      "title": "A clinician checks a public health message for clarity",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-093",
+        "PSC-128",
+        "PSC-132",
+        "PSC-014",
+        "KDI-248"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-093",
+          "title": "Climate information is difficult to explain simply",
+          "title_angle_similarity": 0.3028
+        },
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.2583
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.2435
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.2043
+        },
+        {
+          "id": "KDI-248",
+          "title": "Why does inhaler technique matter for people with asthma?",
+          "title_angle_similarity": 0.1858
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-232",
+        "PSC-201",
+        "PSC-194"
+      ],
+      "different_field_record_or_observation_required": "Versioned draft, clinician signoff, dated approved public copy.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-181",
+      "title": "How a medicine expiry-date check was logged",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-243",
+        "KDI-241",
+        "KDI-039",
+        "PSC-016",
+        "PSC-045"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-243",
+          "title": "Does an expiry date tell the whole story of medicine safety?",
+          "title_angle_similarity": 0.2008
+        },
+        {
+          "id": "KDI-241",
+          "title": "How can people understand a medicine label safely?",
+          "title_angle_similarity": 0.2004
+        },
+        {
+          "id": "KDI-039",
+          "title": "How should medicines be discussed in community health posts?",
+          "title_angle_similarity": 0.1921
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1907
+        },
+        {
+          "id": "PSC-045",
+          "title": "A day in a medical supervisor's work",
+          "title_angle_similarity": 0.1867
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-182",
+        "PSC-158",
+        "PSC-197"
+      ],
+      "different_field_record_or_observation_required": "Medicine batch/expiry control summarized safely, supervisor approval and pharmacy review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-182",
+      "title": "When an outreach medicine label is hard to understand",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-241",
+        "PSC-086",
+        "PSC-113",
+        "PSC-027",
+        "PSC-077"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-241",
+          "title": "How can people understand a medicine label safely?",
+          "title_angle_similarity": 0.2888
+        },
+        {
+          "id": "PSC-086",
+          "title": "Medicine availability cannot be assumed",
+          "title_angle_similarity": 0.1626
+        },
+        {
+          "id": "PSC-113",
+          "title": "One verified finding from an approved HSF report",
+          "title_angle_similarity": 0.1529
+        },
+        {
+          "id": "PSC-027",
+          "title": "Climate justice in plain language",
+          "title_angle_similarity": 0.1483
+        },
+        {
+          "id": "PSC-077",
+          "title": "When textbooks or materials arrive late",
+          "title_angle_similarity": 0.1417
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-180",
+        "PSC-181",
+        "PSC-172"
+      ],
+      "different_field_record_or_observation_required": "Redacted example, staff incident/feedback record, medical/pharmacy approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-183",
+      "title": "Preparing a clean consultation surface before the camp opens",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-016",
+        "PSC-127",
+        "PSC-010",
+        "PSC-013",
+        "PSC-087"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.2969
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.2893
+        },
+        {
+          "id": "PSC-010",
+          "title": "Preparing for an assessment without pressure",
+          "title_angle_similarity": 0.2285
+        },
+        {
+          "id": "PSC-013",
+          "title": "A physician listens before advising",
+          "title_angle_similarity": 0.1993
+        },
+        {
+          "id": "PSC-087",
+          "title": "A consultation needs further referral",
+          "title_angle_similarity": 0.1969
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-171",
+        "PSC-174",
+        "PSC-204"
+      ],
+      "different_field_record_or_observation_required": "Dated site checklist, staff verification, safe photographs.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-184",
+      "title": "Reviewing camp accessibility for people using mobility aids",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-203",
+        "PSC-070",
+        "PSC-127",
+        "PSC-055",
+        "PSC-076"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-203",
+          "title": "What makes a cyclone shelter accessible to people with disabilities?",
+          "title_angle_similarity": 0.2443
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.2337
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.1712
+        },
+        {
+          "id": "PSC-055",
+          "title": "A facilitator listens to differing climate concerns",
+          "title_angle_similarity": 0.1615
+        },
+        {
+          "id": "PSC-076",
+          "title": "Irregular attendance and a supportive response",
+          "title_angle_similarity": 0.1568
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-214",
+        "PSC-169",
+        "PSC-232"
+      ],
+      "different_field_record_or_observation_required": "Dated access checklist, permission-cleared empty-venue photos, action log.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-185",
+      "title": "A local interpreter helps explain a health-awareness session",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-095",
+        "PSC-023",
+        "PSC-027",
+        "PSC-014",
+        "PSC-132"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-095",
+          "title": "Separating observed weather from climate claims",
+          "title_angle_similarity": 0.2577
+        },
+        {
+          "id": "PSC-023",
+          "title": "A neighbourhood conversation about summer heat",
+          "title_angle_similarity": 0.2202
+        },
+        {
+          "id": "PSC-027",
+          "title": "Climate justice in plain language",
+          "title_angle_similarity": 0.2093
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.1997
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.1974
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-203",
+        "PSC-222",
+        "PSC-219"
+      ],
+      "different_field_record_or_observation_required": "Consented interpreter account, session log, clinician-reviewed message, safeguarding check.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-186",
+      "title": "A community venue lacked a private consultation corner",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-114",
+        "PSC-012",
+        "PSC-105",
+        "KDI-129",
+        "KDI-133"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-114",
+          "title": "How HSF decides whether a story is safe to share",
+          "title_angle_similarity": 0.1603
+        },
+        {
+          "id": "PSC-012",
+          "title": "When the community offers a place to serve",
+          "title_angle_similarity": 0.1592
+        },
+        {
+          "id": "PSC-105",
+          "title": "Why healthcare conversations require privacy",
+          "title_angle_similarity": 0.1513
+        },
+        {
+          "id": "KDI-129",
+          "title": "Youth participation in climate decisions: meaningful or symbolic?",
+          "title_angle_similarity": 0.1504
+        },
+        {
+          "id": "KDI-133",
+          "title": "Locally led adaptation: who makes climate-resilience decisions?",
+          "title_angle_similarity": 0.1498
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-172",
+        "PSC-233",
+        "PSC-196"
+      ],
+      "different_field_record_or_observation_required": "Site risk review, clinical supervisor approval, dated corrective action.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-187",
+      "title": "Confirming referral-directory contact details before a camp",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-128",
+        "PSC-015",
+        "PSC-087",
+        "KDI-034",
+        "KDI-141"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.3055
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.2494
+        },
+        {
+          "id": "PSC-087",
+          "title": "A consultation needs further referral",
+          "title_angle_similarity": 0.2048
+        },
+        {
+          "id": "KDI-034",
+          "title": "What is a referral, and when does it matter?",
+          "title_angle_similarity": 0.1781
+        },
+        {
+          "id": "KDI-141",
+          "title": "First contact versus referral: what can a primary care visit safely resolve?",
+          "title_angle_similarity": 0.1776
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-193",
+        "PSC-198",
+        "PSC-197"
+      ],
+      "different_field_record_or_observation_required": "Dated directory verification log, official receiving-facility confirmation, authorized contact list.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-188",
+      "title": "What an anonymized patient-feedback question revealed about signage",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-126",
+        "PSC-140",
+        "PSC-047",
+        "KDI-159",
+        "PSC-118"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-126",
+          "title": "A centre’s transparent parent feedback summary",
+          "title_angle_similarity": 0.2596
+        },
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.2569
+        },
+        {
+          "id": "PSC-047",
+          "title": "A health educator answers a common question",
+          "title_angle_similarity": 0.208
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1799
+        },
+        {
+          "id": "PSC-118",
+          "title": "What community feedback changed in a programme process",
+          "title_angle_similarity": 0.1774
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-158",
+        "PSC-195",
+        "PSC-199"
+      ],
+      "different_field_record_or_observation_required": "Consent-aware survey summary, sample/period, signage action record, MEAL review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-189",
+      "title": "A rain-damaged health poster had to be replaced",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-124",
+        "KDI-089",
+        "PSC-115",
+        "PSC-049",
+        "PSC-118"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.1642
+        },
+        {
+          "id": "KDI-089",
+          "title": "What does climate-related displacement evidence actually show?",
+          "title_angle_similarity": 0.1454
+        },
+        {
+          "id": "PSC-115",
+          "title": "A relevant observance connected to real HSF work",
+          "title_angle_similarity": 0.1389
+        },
+        {
+          "id": "PSC-049",
+          "title": "What one outreach location teaches the programme",
+          "title_angle_similarity": 0.1355
+        },
+        {
+          "id": "PSC-118",
+          "title": "What community feedback changed in a programme process",
+          "title_angle_similarity": 0.1267
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-162",
+        "PSC-215",
+        "PSC-233"
+      ],
+      "different_field_record_or_observation_required": "Dated site report, original and revised materials, approved photo documentation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-190",
+      "title": "How the team prepared a readable service-information board",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-116",
+        "KDI-031",
+        "KDI-079",
+        "PSC-065",
+        "PSC-130"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-116",
+          "title": "An exploratory partnership discussion, accurately described",
+          "title_angle_similarity": 0.1706
+        },
+        {
+          "id": "KDI-031",
+          "title": "Who can reach essential primary healthcare?",
+          "title_angle_similarity": 0.1599
+        },
+        {
+          "id": "KDI-079",
+          "title": "How can river erosion affect community services?",
+          "title_angle_similarity": 0.1528
+        },
+        {
+          "id": "PSC-065",
+          "title": "Service contacts across a reporting period",
+          "title_angle_similarity": 0.1523
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1441
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-141",
+        "PSC-228",
+        "PSC-145"
+      ],
+      "different_field_record_or_observation_required": "Approved exact service description, dated display photo, supervisor clearance.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-191",
+      "title": "A daily stock count reconciled without exposing medicine quantities",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-114",
+        "PSC-016",
+        "PSC-071",
+        "PSC-117",
+        "PSC-077"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-114",
+          "title": "How HSF decides whether a story is safe to share",
+          "title_angle_similarity": 0.2373
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1673
+        },
+        {
+          "id": "PSC-071",
+          "title": "How staff improve field reporting accuracy",
+          "title_angle_similarity": 0.1628
+        },
+        {
+          "id": "PSC-117",
+          "title": "An ECOSOC participation update without implying UN affiliation",
+          "title_angle_similarity": 0.1616
+        },
+        {
+          "id": "PSC-077",
+          "title": "When textbooks or materials arrive late",
+          "title_angle_similarity": 0.16
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-154",
+        "PSC-181",
+        "PSC-225"
+      ],
+      "different_field_record_or_observation_required": "Stock reconciliation/approval record, redacted example, pharmacy governance check.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-192",
+      "title": "A healthcare team member describes an ethical photography decision",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-128",
+        "PSC-041",
+        "PSC-015",
+        "PSC-134",
+        "KDI-031"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.2201
+        },
+        {
+          "id": "PSC-041",
+          "title": "What it takes to cross a river for care",
+          "title_angle_similarity": 0.2104
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.197
+        },
+        {
+          "id": "PSC-134",
+          "title": "A community member describes an observed seasonal change",
+          "title_angle_similarity": 0.1852
+        },
+        {
+          "id": "KDI-031",
+          "title": "Who can reach essential primary healthcare?",
+          "title_angle_similarity": 0.1841
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-231",
+        "PSC-220",
+        "PSC-234"
+      ],
+      "different_field_record_or_observation_required": "Consented staff account, safeguarding policy, incident documentation approved for public description.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-193",
+      "title": "A health-camp notice was sent to the wrong venue",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-071",
+        "PSC-064",
+        "PSC-138",
+        "KDI-075",
+        "PSC-104"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-071",
+          "title": "How staff improve field reporting accuracy",
+          "title_angle_similarity": 0.2144
+        },
+        {
+          "id": "PSC-064",
+          "title": "A health-camp follow-up process improves",
+          "title_angle_similarity": 0.1923
+        },
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.1806
+        },
+        {
+          "id": "KDI-075",
+          "title": "How do high temperatures affect schooling?",
+          "title_angle_similarity": 0.1788
+        },
+        {
+          "id": "PSC-104",
+          "title": "What should a patient know after a consultation?",
+          "title_angle_similarity": 0.1653
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-172",
+        "PSC-178",
+        "PSC-197"
+      ],
+      "different_field_record_or_observation_required": "Dated communications log, verified venue details, correction approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-194",
+      "title": "Preparing a clinician-reviewed referral information leaflet",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-128",
+        "PSC-067",
+        "PSC-043",
+        "PSC-015",
+        "PSC-014"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.2496
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.2233
+        },
+        {
+          "id": "PSC-043",
+          "title": "When a follow-up conversation matters",
+          "title_angle_similarity": 0.2186
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.1795
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.1779
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-180",
+        "PSC-201",
+        "PSC-228"
+      ],
+      "different_field_record_or_observation_required": "Version-controlled leaflet, clinical approval, dated distribution record.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-195",
+      "title": "Following up whether a public health explanation was understood",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-126",
+        "PSC-073",
+        "PSC-140",
+        "KDI-013",
+        "KDI-159"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-126",
+          "title": "A centre’s transparent parent feedback summary",
+          "title_angle_similarity": 0.2724
+        },
+        {
+          "id": "PSC-073",
+          "title": "A climate dialogue leads to a follow-up question",
+          "title_angle_similarity": 0.1931
+        },
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.1899
+        },
+        {
+          "id": "KDI-013",
+          "title": "Reading words versus understanding stories",
+          "title_angle_similarity": 0.1883
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1666
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-213",
+        "PSC-158",
+        "PSC-188"
+      ],
+      "different_field_record_or_observation_required": "Approved sample questionnaire, anonymized results with denominator, clinical/MEAL review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-196",
+      "title": "Making a camp waiting area safer during extreme heat",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-037",
+        "KDI-075",
+        "PSC-070",
+        "PSC-084",
+        "PSC-019"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-037",
+          "title": "Making room for a child's particular needs",
+          "title_angle_similarity": 0.1652
+        },
+        {
+          "id": "KDI-075",
+          "title": "How do high temperatures affect schooling?",
+          "title_angle_similarity": 0.1624
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.161
+        },
+        {
+          "id": "PSC-084",
+          "title": "When rain changes a planned outreach schedule",
+          "title_angle_similarity": 0.1498
+        },
+        {
+          "id": "PSC-019",
+          "title": "A team debrief after outreach",
+          "title_angle_similarity": 0.1466
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-175",
+        "PSC-179",
+        "PSC-144"
+      ],
+      "different_field_record_or_observation_required": "Site safety assessment, real action log, medical guidance, date/weather reference.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-197",
+      "title": "A staff member verifies the outreach roster before departure",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-066",
+        "PSC-019",
+        "PSC-127",
+        "PSC-045",
+        "PSC-016"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-066",
+          "title": "More predictable outreach coordination",
+          "title_angle_similarity": 0.1992
+        },
+        {
+          "id": "PSC-019",
+          "title": "A team debrief after outreach",
+          "title_angle_similarity": 0.198
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.1927
+        },
+        {
+          "id": "PSC-045",
+          "title": "A day in a medical supervisor's work",
+          "title_angle_similarity": 0.1641
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1573
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-181",
+        "PSC-193",
+        "PSC-225"
+      ],
+      "different_field_record_or_observation_required": "Dated approved checklist, general role categories, supervisor signoff.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-198",
+      "title": "Checking completeness of referral slips without publishing patient data",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-015",
+        "PSC-068",
+        "KDI-036",
+        "PSC-129",
+        "PSC-089"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.2337
+        },
+        {
+          "id": "PSC-068",
+          "title": "What recurring camp records reveal",
+          "title_angle_similarity": 0.2293
+        },
+        {
+          "id": "KDI-036",
+          "title": "What does a 'service contact' actually measure?",
+          "title_angle_similarity": 0.2231
+        },
+        {
+          "id": "PSC-129",
+          "title": "Consultations versus unique people in a monthly camp report",
+          "title_angle_similarity": 0.1655
+        },
+        {
+          "id": "PSC-089",
+          "title": "When connectivity complicates field records",
+          "title_angle_similarity": 0.1556
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-183",
+        "PSC-187",
+        "PSC-154"
+      ],
+      "different_field_record_or_observation_required": "Validated redacted QA aggregate, technical review, approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-199",
+      "title": "An older visitor's suggestion about walking distance to a venue",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-013",
+        "PSC-067",
+        "KDI-159",
+        "PSC-140",
+        "PSC-051"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-013",
+          "title": "A physician listens before advising",
+          "title_angle_similarity": 0.2076
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.1852
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1664
+        },
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.165
+        },
+        {
+          "id": "PSC-051",
+          "title": "A young participant reflects on climate responsibility",
+          "title_angle_similarity": 0.1516
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-164",
+        "PSC-188",
+        "PSC-214"
+      ],
+      "different_field_record_or_observation_required": "Documented voluntary feedback, permission, site-change log, safeguarding approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-200",
+      "title": "A wrong date in a community camp announcement was corrected",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-084",
+        "KDI-159",
+        "PSC-132",
+        "PSC-137",
+        "PSC-138"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-084",
+          "title": "When rain changes a planned outreach schedule",
+          "title_angle_similarity": 0.2769
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.2098
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.1946
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.176
+        },
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.1734
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-205",
+        "PSC-237",
+        "PSC-232"
+      ],
+      "different_field_record_or_observation_required": "Approved public notices, dated correction log, evidence of updated distribution.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-201",
+      "title": "Testing a pictorial instruction for a group health message",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "KDI-145",
+        "PSC-014",
+        "KDI-234",
+        "PSC-132",
+        "PSC-103"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-145",
+          "title": "Which warning signs call for urgent maternal health referral?",
+          "title_angle_similarity": 0.21
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.1822
+        },
+        {
+          "id": "KDI-234",
+          "title": "What makes a digital learning activity educational rather than just entertaining?",
+          "title_angle_similarity": 0.172
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.1707
+        },
+        {
+          "id": "PSC-103",
+          "title": "Why a single blood-glucose reading is not a diagnosis",
+          "title_angle_similarity": 0.1696
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-156",
+        "PSC-180",
+        "PSC-171"
+      ],
+      "different_field_record_or_observation_required": "Dated education session, original illustrations, professional signoff, permissions.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-202",
+      "title": "A camp feedback form redesigned for anonymous responses",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-140",
+        "KDI-159",
+        "PSC-067",
+        "PSC-136",
+        "PSC-085"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.2104
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1842
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.1609
+        },
+        {
+          "id": "PSC-136",
+          "title": "What a cancelled climate activity taught the organising team",
+          "title_angle_similarity": 0.1502
+        },
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.1498
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-172",
+        "PSC-195",
+        "PSC-188"
+      ],
+      "different_field_record_or_observation_required": "Previous/new form versions, approved change note, MEAL and safeguarding review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-203",
+      "title": "Community noise made a health talk difficult to hear",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-132",
+        "PSC-083",
+        "PSC-067",
+        "PSC-014",
+        "KDI-003"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.244
+        },
+        {
+          "id": "PSC-083",
+          "title": "Reaching a char community despite difficult roads",
+          "title_angle_similarity": 0.2051
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.196
+        },
+        {
+          "id": "PSC-014",
+          "title": "Health education alongside a medical camp",
+          "title_angle_similarity": 0.19
+        },
+        {
+          "id": "KDI-003",
+          "title": "Do rural and urban children face different school barriers?",
+          "title_angle_similarity": 0.1563
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-226",
+        "PSC-144",
+        "PSC-185"
+      ],
+      "different_field_record_or_observation_required": "Session record, facilitator notes, approved corrective action, clinical signoff.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-204",
+      "title": "Protecting supplies from rain during travel to an outreach venue",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-016",
+        "PSC-041",
+        "PSC-130",
+        "PSC-127",
+        "KDI-030"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.3892
+        },
+        {
+          "id": "PSC-041",
+          "title": "What it takes to cross a river for care",
+          "title_angle_similarity": 0.2111
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1821
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.1772
+        },
+        {
+          "id": "KDI-030",
+          "title": "What protects adolescents during the secondary transition?",
+          "title_angle_similarity": 0.1596
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-183",
+        "PSC-175",
+        "PSC-224"
+      ],
+      "different_field_record_or_observation_required": "Trip preparation checklist, safe process photos, field supervisor review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-205",
+      "title": "Mapping the communication chain for a changed camp schedule",
+      "programme": "A2PHC",
+      "closest_existing_ids": [
+        "PSC-084",
+        "PSC-064",
+        "PSC-085",
+        "PSC-138",
+        "KDI-255"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-084",
+          "title": "When rain changes a planned outreach schedule",
+          "title_angle_similarity": 0.3889
+        },
+        {
+          "id": "PSC-064",
+          "title": "A health-camp follow-up process improves",
+          "title_angle_similarity": 0.2087
+        },
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.193
+        },
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.1563
+        },
+        {
+          "id": "KDI-255",
+          "title": "If a vaccine dose is missed, where should a family obtain reliable catch-up guidance?",
+          "title_angle_similarity": 0.1376
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-200",
+        "PSC-178",
+        "PSC-172"
+      ],
+      "different_field_record_or_observation_required": "Dated approved announcements, verified contact/channel mapping, correction record.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-206",
+      "title": "A youth group records shade conditions during a site walk",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "KDI-092",
+        "PSC-133",
+        "PSC-057",
+        "PSC-052",
+        "PSC-021"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-092",
+          "title": "How can shade change outdoor thermal comfort?",
+          "title_angle_similarity": 0.2394
+        },
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.2236
+        },
+        {
+          "id": "PSC-057",
+          "title": "Progress in participation, not only test marks",
+          "title_angle_similarity": 0.2188
+        },
+        {
+          "id": "PSC-052",
+          "title": "A community member's observations about tree care",
+          "title_angle_similarity": 0.2128
+        },
+        {
+          "id": "PSC-021",
+          "title": "Youth voices in a climate dialogue",
+          "title_angle_similarity": 0.1969
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-216",
+        "PSC-211",
+        "PSC-196"
+      ],
+      "different_field_record_or_observation_required": "Dated activity plan, anonymized participant notes, approved non-identifying site photos.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-207",
+      "title": "Selecting a tree species after checking local site constraints",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-070",
+        "PSC-018",
+        "PSC-115",
+        "PSC-026",
+        "PSC-072"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.2211
+        },
+        {
+          "id": "PSC-018",
+          "title": "Care across changing community venues",
+          "title_angle_similarity": 0.1712
+        },
+        {
+          "id": "PSC-115",
+          "title": "A relevant observance connected to real HSF work",
+          "title_angle_similarity": 0.1394
+        },
+        {
+          "id": "PSC-026",
+          "title": "How a tree-care site is revisited",
+          "title_angle_similarity": 0.1392
+        },
+        {
+          "id": "PSC-072",
+          "title": "Tree care after the planting day",
+          "title_angle_similarity": 0.1371
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-224",
+        "PSC-158",
+        "PSC-213"
+      ],
+      "different_field_record_or_observation_required": "Site check, species recommendation record, permission and maintenance plan.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-208",
+      "title": "An actual tree tag links planting to later maintenance",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-072",
+        "PSC-022",
+        "KDI-091",
+        "PSC-106",
+        "KDI-155"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-072",
+          "title": "Tree care after the planting day",
+          "title_angle_similarity": 0.3614
+        },
+        {
+          "id": "PSC-022",
+          "title": "From plantation to tree care",
+          "title_angle_similarity": 0.2924
+        },
+        {
+          "id": "KDI-091",
+          "title": "Does planting a tree guarantee environmental benefit?",
+          "title_angle_similarity": 0.2332
+        },
+        {
+          "id": "PSC-106",
+          "title": "Planting versus keeping a tree alive",
+          "title_angle_similarity": 0.223
+        },
+        {
+          "id": "KDI-155",
+          "title": "Does tree planting automatically count as climate impact?",
+          "title_angle_similarity": 0.1542
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-224",
+        "PSC-141",
+        "PSC-174"
+      ],
+      "different_field_record_or_observation_required": "Anonymized tree-tag register, permitted site photos, approved monitoring plan.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-209",
+      "title": "A resident points out where pavement shade is most needed",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-133",
+        "KDI-158",
+        "PSC-110",
+        "PSC-051",
+        "PSC-032"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.2067
+        },
+        {
+          "id": "KDI-158",
+          "title": "What makes an NGO impact claim stronger than an activity report?",
+          "title_angle_similarity": 0.1553
+        },
+        {
+          "id": "PSC-110",
+          "title": "Why community resilience needs participation",
+          "title_angle_similarity": 0.1497
+        },
+        {
+          "id": "PSC-051",
+          "title": "A young participant reflects on climate responsibility",
+          "title_angle_similarity": 0.1494
+        },
+        {
+          "id": "PSC-032",
+          "title": "An educator's approach to a hesitant learner",
+          "title_angle_similarity": 0.145
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-225",
+        "PSC-211",
+        "PSC-236"
+      ],
+      "different_field_record_or_observation_required": "Consented account, site notes, action status and contextual climate sources separated.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-210",
+      "title": "Weighing litter collected during a real neighbourhood cleanup",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-023",
+        "KDI-148",
+        "KDI-187",
+        "PSC-079",
+        "PSC-124"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-023",
+          "title": "A neighbourhood conversation about summer heat",
+          "title_angle_similarity": 0.2902
+        },
+        {
+          "id": "KDI-148",
+          "title": "A neighbourhood heat-risk map: what evidence is needed before publishing?",
+          "title_angle_similarity": 0.1634
+        },
+        {
+          "id": "KDI-187",
+          "title": "What makes a neighbourhood cooling space accessible and safe?",
+          "title_angle_similarity": 0.158
+        },
+        {
+          "id": "PSC-079",
+          "title": "A guardian concern that prompted review",
+          "title_angle_similarity": 0.1323
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.1319
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-221",
+        "PSC-195",
+        "PSC-176"
+      ],
+      "different_field_record_or_observation_required": "Dated cleanup log, calibrated/identified weighing method, safe disposal receipt.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-211",
+      "title": "A public drain was discussed without blaming a single flood event on it",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "KDI-095",
+        "PSC-133",
+        "PSC-030",
+        "PSC-024",
+        "PSC-015"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-095",
+          "title": "How does waste blocking drains affect flood risk?",
+          "title_angle_similarity": 0.3248
+        },
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.2055
+        },
+        {
+          "id": "PSC-030",
+          "title": "Community experience as climate knowledge",
+          "title_angle_similarity": 0.205
+        },
+        {
+          "id": "PSC-024",
+          "title": "Listening to local views on flood preparedness",
+          "title_angle_similarity": 0.1894
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.1782
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-206",
+        "PSC-209",
+        "PSC-171"
+      ],
+      "different_field_record_or_observation_required": "Dated site observations, responsible authority information, weather attribution disclaimer.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-212",
+      "title": "A climate session uses a daily weather observation diary",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "KDI-235",
+        "PSC-134",
+        "KDI-072",
+        "PSC-052",
+        "PSC-095"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-235",
+          "title": "How can pupils keep a simple weather observation journal responsibly?",
+          "title_angle_similarity": 0.2685
+        },
+        {
+          "id": "PSC-134",
+          "title": "A community member describes an observed seasonal change",
+          "title_angle_similarity": 0.2448
+        },
+        {
+          "id": "KDI-072",
+          "title": "What is the difference between weather and climate?",
+          "title_angle_similarity": 0.2097
+        },
+        {
+          "id": "PSC-052",
+          "title": "A community member's observations about tree care",
+          "title_angle_similarity": 0.1956
+        },
+        {
+          "id": "PSC-095",
+          "title": "Separating observed weather from climate claims",
+          "title_angle_similarity": 0.1944
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-230",
+        "PSC-161",
+        "PSC-229"
+      ],
+      "different_field_record_or_observation_required": "Dated learning diary examples, facilitator report, child consent where relevant.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-213",
+      "title": "Checking whether climate workshop participants understood warning terms",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-135",
+        "PSC-032",
+        "PSC-110",
+        "PSC-137",
+        "PSC-062"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-135",
+          "title": "Did a preparedness practice improve after a workshop?",
+          "title_angle_similarity": 0.1677
+        },
+        {
+          "id": "PSC-032",
+          "title": "An educator's approach to a hesitant learner",
+          "title_angle_similarity": 0.1667
+        },
+        {
+          "id": "PSC-110",
+          "title": "Why community resilience needs participation",
+          "title_angle_similarity": 0.1632
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.1598
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1571
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-195",
+        "PSC-158",
+        "PSC-146"
+      ],
+      "different_field_record_or_observation_required": "Approved question set, anonymized aggregate, number of respondents and verification.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-214",
+      "title": "Making a climate event accessible to an attendee with mobility barriers",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-076",
+        "PSC-015",
+        "PSC-117",
+        "PSC-055",
+        "PSC-085"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-076",
+          "title": "Irregular attendance and a supportive response",
+          "title_angle_similarity": 0.2683
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.2501
+        },
+        {
+          "id": "PSC-117",
+          "title": "An ECOSOC participation update without implying UN affiliation",
+          "title_angle_similarity": 0.2315
+        },
+        {
+          "id": "PSC-055",
+          "title": "A facilitator listens to differing climate concerns",
+          "title_angle_similarity": 0.2164
+        },
+        {
+          "id": "PSC-085",
+          "title": "A camp venue needs adjustment",
+          "title_angle_similarity": 0.2159
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-184",
+        "PSC-169",
+        "PSC-164"
+      ],
+      "different_field_record_or_observation_required": "Venue assessment, action record, consent/safeguarding review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-215",
+      "title": "A household describes why they keep water containers covered",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-053",
+        "KDI-102",
+        "PSC-095",
+        "KDI-186",
+        "KDI-185"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-053",
+          "title": "A participant describes changing seasonal routines",
+          "title_angle_similarity": 0.2571
+        },
+        {
+          "id": "KDI-102",
+          "title": "Where do education and health costs meet household hardship?",
+          "title_angle_similarity": 0.1961
+        },
+        {
+          "id": "PSC-095",
+          "title": "Separating observed weather from climate claims",
+          "title_angle_similarity": 0.193
+        },
+        {
+          "id": "KDI-186",
+          "title": "Does wastewater treatment create or prevent greenhouse gas emissions?",
+          "title_angle_similarity": 0.1712
+        },
+        {
+          "id": "KDI-185",
+          "title": "Why does wasted food create a climate problem?",
+          "title_angle_similarity": 0.1693
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-220",
+        "PSC-164",
+        "PSC-189"
+      ],
+      "different_field_record_or_observation_required": "Voluntary interview, consent, safeguarding and technically reviewed context.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-216",
+      "title": "A local biodiversity walk records insects without disturbing habitats",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-133",
+        "KDI-169",
+        "KDI-126",
+        "PSC-044",
+        "KDI-202"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.3032
+        },
+        {
+          "id": "KDI-169",
+          "title": "What counts as a carbon sink and can a sink become a source?",
+          "title_angle_similarity": 0.1725
+        },
+        {
+          "id": "KDI-126",
+          "title": "Why the Bay of Bengal matters in COP31 climate discussions",
+          "title_angle_similarity": 0.1477
+        },
+        {
+          "id": "PSC-044",
+          "title": "A doctor's view of access barriers",
+          "title_angle_similarity": 0.1448
+        },
+        {
+          "id": "KDI-202",
+          "title": "How can farmers use seasonal outlooks without mistaking them for guarantees?",
+          "title_angle_similarity": 0.1436
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-206",
+        "PSC-240",
+        "PSC-208"
+      ],
+      "different_field_record_or_observation_required": "Dated site notes, original photo provenance, species expert review where relevant.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-217",
+      "title": "A tree-care volunteer roster did not work as planned",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-026",
+        "PSC-076",
+        "KDI-090",
+        "PSC-106",
+        "PSC-055"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-026",
+          "title": "How a tree-care site is revisited",
+          "title_angle_similarity": 0.1602
+        },
+        {
+          "id": "PSC-076",
+          "title": "Irregular attendance and a supportive response",
+          "title_angle_similarity": 0.1555
+        },
+        {
+          "id": "KDI-090",
+          "title": "What role do local volunteers play in resilience?",
+          "title_angle_similarity": 0.1553
+        },
+        {
+          "id": "PSC-106",
+          "title": "Planting versus keeping a tree alive",
+          "title_angle_similarity": 0.1512
+        },
+        {
+          "id": "PSC-055",
+          "title": "A facilitator listens to differing climate concerns",
+          "title_angle_similarity": 0.1483
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-223",
+        "PSC-184",
+        "PSC-202"
+      ],
+      "different_field_record_or_observation_required": "Original and revised care rota, dated maintenance records and participant permissions.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-218",
+      "title": "A follow-up visit checks what happened to a community action list",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-026",
+        "PSC-073",
+        "PSC-058",
+        "KDI-002",
+        "PSC-137"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-026",
+          "title": "How a tree-care site is revisited",
+          "title_angle_similarity": 0.2384
+        },
+        {
+          "id": "PSC-073",
+          "title": "A climate dialogue leads to a follow-up question",
+          "title_angle_similarity": 0.2249
+        },
+        {
+          "id": "PSC-058",
+          "title": "How a guardian concern was followed up",
+          "title_angle_similarity": 0.2121
+        },
+        {
+          "id": "KDI-002",
+          "title": "From enrolment to completion: where do learners leave?",
+          "title_angle_similarity": 0.1969
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.1962
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-230",
+        "PSC-200",
+        "PSC-226"
+      ],
+      "different_field_record_or_observation_required": "Approved meeting minutes, action tracker, evidence of completed steps.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-219",
+      "title": "A climate-awareness poster tested with a real local audience",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-023",
+        "PSC-028",
+        "PSC-070",
+        "PSC-091",
+        "KDI-133"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-023",
+          "title": "A neighbourhood conversation about summer heat",
+          "title_angle_similarity": 0.2019
+        },
+        {
+          "id": "PSC-028",
+          "title": "Preparing materials for a climate-awareness meeting",
+          "title_angle_similarity": 0.171
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.1651
+        },
+        {
+          "id": "PSC-091",
+          "title": "How field feedback changes a health-awareness topic",
+          "title_angle_similarity": 0.15
+        },
+        {
+          "id": "KDI-133",
+          "title": "Locally led adaptation: who makes climate-resilience decisions?",
+          "title_angle_similarity": 0.1406
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-236",
+        "PSC-185",
+        "PSC-226"
+      ],
+      "different_field_record_or_observation_required": "Original and revised poster, anonymized feedback, editorial approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-220",
+      "title": "A local trader describes heat concerns at an outdoor workplace",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-134",
+        "PSC-087",
+        "PSC-052",
+        "PSC-041",
+        "PSC-024"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-134",
+          "title": "A community member describes an observed seasonal change",
+          "title_angle_similarity": 0.3438
+        },
+        {
+          "id": "PSC-087",
+          "title": "A consultation needs further referral",
+          "title_angle_similarity": 0.2215
+        },
+        {
+          "id": "PSC-052",
+          "title": "A community member's observations about tree care",
+          "title_angle_similarity": 0.2083
+        },
+        {
+          "id": "PSC-041",
+          "title": "What it takes to cross a river for care",
+          "title_angle_similarity": 0.1995
+        },
+        {
+          "id": "PSC-024",
+          "title": "Listening to local views on flood preparedness",
+          "title_angle_similarity": 0.1928
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-215",
+        "PSC-192",
+        "PSC-214"
+      ],
+      "different_field_record_or_observation_required": "Voluntary interview, date/location permission, reviewed heat-safety sources.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-221",
+      "title": "A public cleanup finds unsafe waste: what was done?",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-128",
+        "PSC-130",
+        "PSC-015",
+        "PSC-079",
+        "KDI-034"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.1518
+        },
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1344
+        },
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.1299
+        },
+        {
+          "id": "PSC-079",
+          "title": "A guardian concern that prompted review",
+          "title_angle_similarity": 0.1241
+        },
+        {
+          "id": "KDI-034",
+          "title": "What is a referral, and when does it matter?",
+          "title_angle_similarity": 0.1241
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-210",
+        "PSC-196",
+        "PSC-162"
+      ],
+      "different_field_record_or_observation_required": "Dated safety/incident note, qualified disposal guidance, approved public account.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-222",
+      "title": "An inclusive cyclone-warning explanation practised in a group",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-137",
+        "KDI-088",
+        "KDI-104",
+        "KDI-189",
+        "KDI-203"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.2613
+        },
+        {
+          "id": "KDI-088",
+          "title": "What makes early warning information accessible?",
+          "title_angle_similarity": 0.2462
+        },
+        {
+          "id": "KDI-104",
+          "title": "What does disability inclusion mean in practice?",
+          "title_angle_similarity": 0.2074
+        },
+        {
+          "id": "KDI-189",
+          "title": "How can communities rehearse a safe evacuation before a hazard?",
+          "title_angle_similarity": 0.1979
+        },
+        {
+          "id": "KDI-203",
+          "title": "What makes a cyclone shelter accessible to people with disabilities?",
+          "title_angle_similarity": 0.1938
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-180",
+        "PSC-236",
+        "PSC-185"
+      ],
+      "different_field_record_or_observation_required": "Session record, official warning source, participant consent, accessibility review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-223",
+      "title": "A climate dialogue identifies one question requiring further research",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-021",
+        "PSC-073",
+        "PSC-055",
+        "PSC-120",
+        "PSC-047"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-021",
+          "title": "Youth voices in a climate dialogue",
+          "title_angle_similarity": 0.2283
+        },
+        {
+          "id": "PSC-073",
+          "title": "A climate dialogue leads to a follow-up question",
+          "title_angle_similarity": 0.2124
+        },
+        {
+          "id": "PSC-055",
+          "title": "A facilitator listens to differing climate concerns",
+          "title_angle_similarity": 0.2082
+        },
+        {
+          "id": "PSC-120",
+          "title": "A quarter of institutional learning in three questions",
+          "title_angle_similarity": 0.1929
+        },
+        {
+          "id": "PSC-047",
+          "title": "A health educator answers a common question",
+          "title_angle_similarity": 0.1904
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-214",
+        "PSC-217",
+        "PSC-161"
+      ],
+      "different_field_record_or_observation_required": "Question log, cited response, reviewer signoff and feedback record.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-224",
+      "title": "Why a sapling needed shade or protection after planting",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-072",
+        "PSC-070",
+        "PSC-092",
+        "PSC-062",
+        "KDI-091"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-072",
+          "title": "Tree care after the planting day",
+          "title_angle_similarity": 0.2763
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.2251
+        },
+        {
+          "id": "PSC-092",
+          "title": "A tree needs care through the dry season",
+          "title_angle_similarity": 0.2032
+        },
+        {
+          "id": "PSC-062",
+          "title": "What teachers changed after feedback",
+          "title_angle_similarity": 0.1995
+        },
+        {
+          "id": "KDI-091",
+          "title": "Does planting a tree guarantee environmental benefit?",
+          "title_angle_similarity": 0.184
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-175",
+        "PSC-208",
+        "PSC-207"
+      ],
+      "different_field_record_or_observation_required": "Dated plant-care record, caretaker notes, species/site expertise.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-225",
+      "title": "Women participants describe safe routes during an evacuation discussion",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-116",
+        "KDI-189",
+        "PSC-117",
+        "PSC-053",
+        "PSC-051"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-116",
+          "title": "An exploratory partnership discussion, accurately described",
+          "title_angle_similarity": 0.2579
+        },
+        {
+          "id": "KDI-189",
+          "title": "How can communities rehearse a safe evacuation before a hazard?",
+          "title_angle_similarity": 0.2125
+        },
+        {
+          "id": "PSC-117",
+          "title": "An ECOSOC participation update without implying UN affiliation",
+          "title_angle_similarity": 0.2066
+        },
+        {
+          "id": "PSC-053",
+          "title": "A participant describes changing seasonal routines",
+          "title_angle_similarity": 0.1827
+        },
+        {
+          "id": "PSC-051",
+          "title": "A young participant reflects on climate responsibility",
+          "title_angle_similarity": 0.168
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-236",
+        "PSC-209",
+        "PSC-197"
+      ],
+      "different_field_record_or_observation_required": "Approved anonymized consultation notes, permission, action-tracking status.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-226",
+      "title": "A community group compares two ways to communicate heat precautions",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-140",
+        "PSC-133",
+        "PSC-137",
+        "KDI-159",
+        "PSC-074"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-140",
+          "title": "Community feedback: the response loop, not a promotional quote",
+          "title_angle_similarity": 0.2082
+        },
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.2062
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.2011
+        },
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1841
+        },
+        {
+          "id": "PSC-074",
+          "title": "What an HSF climate session taught the team",
+          "title_angle_similarity": 0.1837
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-203",
+        "PSC-234",
+        "PSC-199"
+      ],
+      "different_field_record_or_observation_required": "Two verified scripts/materials, dated session notes, health technical approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-227",
+      "title": "A waste-separation practice reviewed after one month",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-133",
+        "KDI-143",
+        "PSC-075",
+        "KDI-144",
+        "KDI-199"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.1878
+        },
+        {
+          "id": "KDI-143",
+          "title": "Why is blood-pressure measurement only one part of a health assessment?",
+          "title_angle_similarity": 0.1651
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.1523
+        },
+        {
+          "id": "KDI-144",
+          "title": "What does travel time reveal about access to essential primary care?",
+          "title_angle_similarity": 0.1509
+        },
+        {
+          "id": "KDI-199",
+          "title": "How can the Global Goal on Adaptation be measured locally?",
+          "title_angle_similarity": 0.1499
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-213",
+        "PSC-218",
+        "PSC-232"
+      ],
+      "different_field_record_or_observation_required": "Dated baseline/follow-up observation method, audit summary and disposal records.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-228",
+      "title": "A flood-preparedness map left out an important access route",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-024",
+        "PSC-067",
+        "KDI-152",
+        "PSC-016",
+        "KDI-037"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-024",
+          "title": "Listening to local views on flood preparedness",
+          "title_angle_similarity": 0.2486
+        },
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.2468
+        },
+        {
+          "id": "KDI-152",
+          "title": "What should a family flood-preparedness plan include?",
+          "title_angle_similarity": 0.2279
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1862
+        },
+        {
+          "id": "KDI-037",
+          "title": "Why is continuity important after a consultation?",
+          "title_angle_similarity": 0.1795
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-155",
+        "PSC-190",
+        "PSC-200"
+      ],
+      "different_field_record_or_observation_required": "Versioned map, official risk information, approval and accessibility review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-229",
+      "title": "A school environmental club makes a climate question wall",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-067",
+        "PSC-025",
+        "PSC-029",
+        "PSC-075",
+        "KDI-191"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-067",
+          "title": "Community questions inform a health session",
+          "title_angle_similarity": 0.2509
+        },
+        {
+          "id": "PSC-025",
+          "title": "A school-friendly environmental learning activity",
+          "title_angle_similarity": 0.2425
+        },
+        {
+          "id": "PSC-029",
+          "title": "Small group questions about weather and climate",
+          "title_angle_similarity": 0.2287
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.2119
+        },
+        {
+          "id": "KDI-191",
+          "title": "How do we know whether an environmental action made a difference?",
+          "title_angle_similarity": 0.1782
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-161",
+        "PSC-168",
+        "PSC-183"
+      ],
+      "different_field_record_or_observation_required": "Dated school session, anonymous questions, teacher confirmation and permissions.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-230",
+      "title": "A local climate session records what participants will actually do next",
+      "programme": "CAR",
+      "closest_existing_ids": [
+        "PSC-073",
+        "PSC-075",
+        "PSC-133",
+        "PSC-134",
+        "KDI-036"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-073",
+          "title": "A climate dialogue leads to a follow-up question",
+          "title_angle_similarity": 0.2497
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.2167
+        },
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.1987
+        },
+        {
+          "id": "PSC-134",
+          "title": "A community member describes an observed seasonal change",
+          "title_angle_similarity": 0.1967
+        },
+        {
+          "id": "KDI-036",
+          "title": "What does a 'service contact' actually measure?",
+          "title_angle_similarity": 0.1895
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-212",
+        "PSC-218",
+        "PSC-166"
+      ],
+      "different_field_record_or_observation_required": "Session notes, consent, action tracker, later evidence where available.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-231",
+      "title": "A consent-review checklist applied before photographing a public event",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-137",
+        "KDI-190",
+        "PSC-031",
+        "PSC-016",
+        "PSC-132"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.2054
+        },
+        {
+          "id": "KDI-190",
+          "title": "What can a school energy audit measure without specialist equipment?",
+          "title_angle_similarity": 0.1847
+        },
+        {
+          "id": "PSC-031",
+          "title": "A family's pathway to continued learning",
+          "title_angle_similarity": 0.1493
+        },
+        {
+          "id": "PSC-016",
+          "title": "Preparing supplies for the day's outreach",
+          "title_angle_similarity": 0.1336
+        },
+        {
+          "id": "PSC-132",
+          "title": "A real preventive-health message at an outreach session",
+          "title_angle_similarity": 0.1287
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-150",
+        "PSC-192",
+        "PSC-154"
+      ],
+      "different_field_record_or_observation_required": "Approved procedure version, event clearance note, safeguarding authorization.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-232",
+      "title": "A public flyer revised after a Bangla accessibility review",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "KDI-084",
+        "PSC-070",
+        "PSC-124",
+        "PSC-127",
+        "KDI-226"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-084",
+          "title": "What happens to safe water access after floods?",
+          "title_angle_similarity": 0.1575
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.1408
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.1392
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.124
+        },
+        {
+          "id": "KDI-226",
+          "title": "How can a child's home language support classroom learning?",
+          "title_angle_similarity": 0.1221
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-180",
+        "PSC-162",
+        "PSC-184"
+      ],
+      "different_field_record_or_observation_required": "Versioned flyer, qualified Bangla review and publication approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-233",
+      "title": "A proposed social post was paused because a statistic lacked a source",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-128",
+        "PSC-124",
+        "PSC-121",
+        "KDI-114",
+        "PSC-139"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-128",
+          "title": "A clinician explains a real referral decision without patient details",
+          "title_angle_similarity": 0.1625
+        },
+        {
+          "id": "PSC-124",
+          "title": "What happened after an unexpected classroom disruption?",
+          "title_angle_similarity": 0.1502
+        },
+        {
+          "id": "PSC-121",
+          "title": "A classroom materials inventory, documented without staging",
+          "title_angle_similarity": 0.1481
+        },
+        {
+          "id": "KDI-114",
+          "title": "Why should every statistical graphic show a year?",
+          "title_angle_similarity": 0.148
+        },
+        {
+          "id": "PSC-139",
+          "title": "A quarter of evidence checks: what was accepted or returned for revision?",
+          "title_angle_similarity": 0.1405
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-186",
+        "PSC-189",
+        "PSC-238"
+      ],
+      "different_field_record_or_observation_required": "Review log, redacted claim, source-check outcome, management approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-234",
+      "title": "A volunteer orientation explains why patient photos are not mandatory",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-015",
+        "PSC-022",
+        "PSC-045",
+        "PSC-133",
+        "PSC-050"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-015",
+          "title": "A referral pathway explained on the ground",
+          "title_angle_similarity": 0.251
+        },
+        {
+          "id": "PSC-022",
+          "title": "From plantation to tree care",
+          "title_angle_similarity": 0.2217
+        },
+        {
+          "id": "PSC-045",
+          "title": "A day in a medical supervisor's work",
+          "title_angle_similarity": 0.2053
+        },
+        {
+          "id": "PSC-133",
+          "title": "A local risk walk before community planning",
+          "title_angle_similarity": 0.1982
+        },
+        {
+          "id": "PSC-050",
+          "title": "When a patient asks for further guidance",
+          "title_angle_similarity": 0.1909
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-192",
+        "PSC-226",
+        "PSC-158"
+      ],
+      "different_field_record_or_observation_required": "Approved orientation materials, dated session, consented staff participation.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-235",
+      "title": "A cross-project meeting improved a shared data definition",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-111",
+        "KDI-096",
+        "PSC-045",
+        "KDI-036"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-034",
+          "title": "What is a referral, and when does it matter?",
+          "title_angle_similarity": 0.2482
+        },
+        {
+          "id": "KDI-111",
+          "title": "A consultation is not necessarily one patient: why it matters",
+          "title_angle_similarity": 0.177
+        },
+        {
+          "id": "KDI-096",
+          "title": "What is the difference between mitigation and adaptation?",
+          "title_angle_similarity": 0.1599
+        },
+        {
+          "id": "PSC-045",
+          "title": "A day in a medical supervisor's work",
+          "title_angle_similarity": 0.155
+        },
+        {
+          "id": "KDI-036",
+          "title": "What does a 'service contact' actually measure?",
+          "title_angle_similarity": 0.1481
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-240",
+        "PSC-236",
+        "PSC-181"
+      ],
+      "different_field_record_or_observation_required": "Before/after indicator definitions, minutes, management/MEAL signoff.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-236",
+      "title": "A partner explains an accessible meeting practice that was actually adopted",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-116",
+        "PSC-006",
+        "PSC-127",
+        "PSC-034",
+        "PSC-070"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-116",
+          "title": "An exploratory partnership discussion, accurately described",
+          "title_angle_similarity": 0.3414
+        },
+        {
+          "id": "PSC-006",
+          "title": "A guardian meeting beyond attendance",
+          "title_angle_similarity": 0.2025
+        },
+        {
+          "id": "PSC-127",
+          "title": "Preparing a medical outreach site before patients arrive",
+          "title_angle_similarity": 0.1582
+        },
+        {
+          "id": "PSC-034",
+          "title": "What a guardian meeting helped clarify",
+          "title_angle_similarity": 0.1564
+        },
+        {
+          "id": "PSC-070",
+          "title": "Lessons from changing camp locations",
+          "title_angle_similarity": 0.155
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-225",
+        "PSC-235",
+        "PSC-169"
+      ],
+      "different_field_record_or_observation_required": "Partner confirmation, meeting record, exact collaboration status, management review.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-237",
+      "title": "A translated public caption contained a meaning error: the correction",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-138",
+        "PSC-113",
+        "PSC-102",
+        "PSC-137",
+        "PSC-095"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.4645
+        },
+        {
+          "id": "PSC-113",
+          "title": "One verified finding from an approved HSF report",
+          "title_angle_similarity": 0.2053
+        },
+        {
+          "id": "PSC-102",
+          "title": "Medical misinformation spreads faster than corrections",
+          "title_angle_similarity": 0.1773
+        },
+        {
+          "id": "PSC-137",
+          "title": "A community checklist for an actual heat alert",
+          "title_angle_similarity": 0.1639
+        },
+        {
+          "id": "PSC-095",
+          "title": "Separating observed weather from climate claims",
+          "title_angle_similarity": 0.1306
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-200",
+        "PSC-193",
+        "PSC-205"
+      ],
+      "different_field_record_or_observation_required": "Draft/final translations, review trail, publication correction approval.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-238",
+      "title": "Tracking which content drafts need evidence before design",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "KDI-159",
+        "PSC-037",
+        "PSC-139",
+        "PSC-064",
+        "PSC-119"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-159",
+          "title": "What counts as meaningful community feedback?",
+          "title_angle_similarity": 0.1635
+        },
+        {
+          "id": "PSC-037",
+          "title": "Making room for a child's particular needs",
+          "title_angle_similarity": 0.1524
+        },
+        {
+          "id": "PSC-139",
+          "title": "A quarter of evidence checks: what was accepted or returned for revision?",
+          "title_angle_similarity": 0.1503
+        },
+        {
+          "id": "PSC-064",
+          "title": "A health-camp follow-up process improves",
+          "title_angle_similarity": 0.1436
+        },
+        {
+          "id": "PSC-119",
+          "title": "A volunteer or community collaborator's contribution",
+          "title_angle_similarity": 0.1402
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-181",
+        "PSC-201",
+        "PSC-158"
+      ],
+      "different_field_record_or_observation_required": "Approved QA counts by period, status definitions, review signoff.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-239",
+      "title": "Design Studio creates a draft without becoming publication approval",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "PSC-130",
+        "PSC-089",
+        "PSC-138",
+        "PSC-117",
+        "PSC-050"
+      ],
+      "closest_existing": [
+        {
+          "id": "PSC-130",
+          "title": "When equipment is unavailable: what mitigation actually occurred?",
+          "title_angle_similarity": 0.1568
+        },
+        {
+          "id": "PSC-089",
+          "title": "When connectivity complicates field records",
+          "title_angle_similarity": 0.1486
+        },
+        {
+          "id": "PSC-138",
+          "title": "How HSF corrected a public communication error",
+          "title_angle_similarity": 0.1486
+        },
+        {
+          "id": "PSC-117",
+          "title": "An ECOSOC participation update without implying UN affiliation",
+          "title_angle_similarity": 0.1268
+        },
+        {
+          "id": "PSC-050",
+          "title": "When a patient asks for further guidance",
+          "title_angle_similarity": 0.1252
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-211",
+        "PSC-231",
+        "PSC-147"
+      ],
+      "different_field_record_or_observation_required": "Training/demo record, screenshot containing no sensitive data, governance reviewer.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    },
+    {
+      "new_id": "PSC-240",
+      "title": "An approved project update identifies what remains unverified",
+      "programme": "CROSS",
+      "closest_existing_ids": [
+        "KDI-188",
+        "KDI-167",
+        "KDI-089",
+        "PSC-075",
+        "PSC-112"
+      ],
+      "closest_existing": [
+        {
+          "id": "KDI-188",
+          "title": "How should a public climate graphic show uncertainty?",
+          "title_angle_similarity": 0.1659
+        },
+        {
+          "id": "KDI-167",
+          "title": "What is the remaining carbon budget and why is it uncertain?",
+          "title_angle_similarity": 0.1563
+        },
+        {
+          "id": "KDI-089",
+          "title": "What does climate-related displacement evidence actually show?",
+          "title_angle_similarity": 0.1559
+        },
+        {
+          "id": "PSC-075",
+          "title": "An environmental activity's next practical step",
+          "title_angle_similarity": 0.1552
+        },
+        {
+          "id": "PSC-112",
+          "title": "What an HSF field team learned this month",
+          "title_angle_similarity": 0.1465
+        }
+      ],
+      "nearest_other_proposed_ids": [
+        "PSC-235",
+        "PSC-216",
+        "PSC-177"
+      ],
+      "different_field_record_or_observation_required": "Controlled project update, evidence gap log, approval for public description.",
+      "distinct_story_outcome": "Document the particular conditional event/process, verify its exact occurrence and resulting action or limitation; this is distinct from a general topic explainer or a pre-existing generic story.",
+      "review_decision": "PROPOSED_DISTINCT_FIELD_ROUTE_SUBJECT_TO_EDITORIAL_REVIEW",
+      "publication_status": "NOT_APPROVED"
+    }
+  ]
+}

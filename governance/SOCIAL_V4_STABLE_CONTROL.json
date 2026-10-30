@@ -5,7 +5,7 @@
   "effective_date": "2026-10-20",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "knowledge_hub_release": "v1.9.0",
+  "knowledge_hub_release": "v1.10.0",
   "social_canonical_path": "social_communication_plan.html",
   "brand_canonical_path": "brand_identity_master_guide.html",
   "brand_guide_version": "v2.4",
@@ -26,10 +26,10 @@
     "INSTITUTIONAL_ENGAGEMENT"
   ],
   "idea_bank_scope": "Management-approved editorial inventories only; actual cases and statistical claims require source verification, safeguards, and exact published-output approval.",
-  "ideas_total": 400,
+  "ideas_total": 500,
   "initial_fixed_pilot": "RETIRED_NO_ACTIVE_ARCHIVE_OR_TRACKER",
   "approval_boundary": {
-    "editorial_ideas": "300_EXISTING_APPROVED_FOR_PLANNING_PLUS_100_NEW_PROPOSED",
+    "editorial_ideas": "300_APPROVED_FOR_PLANNING_PLUS_200_NEW_PROPOSED_ACROSS_KDI_AND_PSC",
     "underlying_events_and_statistics": "NOT_VERIFIED_BY_IDEA_APPROVAL",
     "publications": "INDIVIDUAL_APPROVAL_REQUIRED"
   },
@@ -44,11 +44,11 @@
     },
     {
       "code": "PSC",
-      "count": 140,
+      "count": 240,
       "approved": 140,
-      "proposed": 0,
-      "status": "ALL_EDITORIAL_IDEAS_APPROVED_NOT_FOR_PUBLICATION",
-      "source": "communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx"
+      "proposed": 100,
+      "status": "MIXED_APPROVED_AND_PROPOSED_IDEAS_ONLY",
+      "source": "communication/research/HSF_Programme_Stories_Communication_240_Idea_Bank_Editorial_Inventory.xlsx"
     }
   ],
   "privacy": "PUBLIC_SAFE_METADATA_ONLY; NO CONFIDENTIAL ERP/PATIENT/STUDENT DATA",
@@ -105,9 +105,18 @@
     "review": "communication/research/KDI_161-260_UNIQUENESS_REVIEW.json"
   },
   "ideas_approved_for_editorial_planning": 300,
-  "new_ideas_pending_approval": 100,
+  "new_ideas_pending_approval": 200,
   "editorial_series_overlay": "communication/editorial_series.json",
   "editorial_series_status": "ADOPTED_EDITORIAL_LABELS_NO_PUBLICATION_PERMISSION",
   "note_on_release_field": "Current Knowledge Hub software release; Social Communication v4.0 policy approval date and status are unchanged.",
-  "earlier_46_ideas_approval_transition": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.9.0.json"
+  "earlier_46_ideas_approval_transition": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.9.0.json",
+  "new_editorial_psc_batch": {
+    "id_ranges": [
+      "PSC-141..240"
+    ],
+    "new_ideas": 100,
+    "approval": "PROPOSED_NOT_APPROVED",
+    "added_date": "2026-10-30",
+    "review": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+  }
 }

@@ -3,12 +3,12 @@
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
   "current_status": "ACTIVE_INTERNAL_STABILIZED_SOURCE",
-  "release": "v1.9.0",
+  "release": "v1.10.0",
   "release_date": "2026-10-30",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.9.0",
+    "knowledge_hub": "v1.10.0",
     "release_date": "2026-10-30",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
@@ -45,9 +45,9 @@
         "proposed_ideas": 100
       },
       "PSC": {
-        "count": 140,
+        "count": 240,
         "approved_ideas": 140,
-        "proposed_ideas": 0
+        "proposed_ideas": 100
       }
     },
     "individual_public_claims_approved": false,
@@ -57,7 +57,7 @@
         "KDI",
         "PSC"
       ],
-      "total_ideas": 400,
+      "total_ideas": 500,
       "views": [
         "all",
         "kdi",
@@ -78,13 +78,13 @@
       ],
       "source_data": [
         "communication/research/kdi_260_ideas.json",
-        "communication/research/psc_140_ideas.json"
+        "communication/research/psc_240_ideas.json"
       ],
       "source_banks_unchanged": false,
       "individual_public_claims_approved": false,
-      "new_concept_origin": "100 gap-screened KDI research proposals (45 CAR, 30 E4BL, 25 A2PHC); 46 prior ideas promoted to planning-approved per user instruction on 2026-10-30",
+      "new_concept_origin": "100 proposed PSC field-documentable concepts, conditional on occurrence and evidence (30 E4BL, 35 A2PHC, 25 CAR, 10 CROSS); previous KDI batch and 46 approval transitions preserved.",
       "approved_editorial_ideas": 300,
-      "proposed_editorial_ideas": 100,
+      "proposed_editorial_ideas": 200,
       "last_updated": "2026-10-30",
       "editorial_series_overlay": "communication/editorial_series.json",
       "content_prompt_generator": {
@@ -115,7 +115,8 @@
         "approval_boundary": "IDEA_AND_PROMPT_NOT_VERIFIED_NOT_PUBLICATION_APPROVED"
       },
       "uniqueness_review": "communication/research/KDI_161-260_UNIQUENESS_REVIEW.json",
-      "editorial_approval_transition": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.9.0.json"
+      "editorial_approval_transition": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.9.0.json",
+      "psc_uniqueness_review": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
     },
     "editorial_series": {
       "status": "ADOPTED_SERIES_LABELS",
@@ -125,9 +126,9 @@
         "Learn with E4BL"
       ],
       "programme": "E4BL",
-      "total_ideas_unchanged": 400,
+      "total_ideas_unchanged": 500,
       "individual_public_claims_approved": false,
-      "mapped_ideas": 64
+      "mapped_ideas": 79
     }
   },
   "privacy": "NO_RESTRICTED_ERP_DATA_IN_PUBLIC_REPOSITORY",
@@ -139,7 +140,8 @@
     "python scripts/validate_shared_header.py",
     "python scripts/validate_content_prompt_generator.py",
     "python scripts/validate_design_studio.py",
-    "python scripts/validate_new_kdi_ideas.py"
+    "python scripts/validate_new_kdi_ideas.py",
+    "python scripts/validate_new_psc_ideas.py"
   ],
   "shared_navigation_design": {
     "header_stylesheet": "assets/styles/hsf-shared-header.css",
@@ -150,10 +152,10 @@
   },
   "release_method": "CONTINUOUS_INTERNAL_UPDATES; PUBLICATION_APPROVAL_SEPARATE",
   "latest_internal_update": {
-    "version": "v1.9.0",
+    "version": "v1.10.0",
     "date": "2026-10-30",
-    "summary": "100 new gap-reviewed KDI knowledge concepts, earlier 46 planning-level editorial approvals, 400-card unified catalogue, Excel inventories and governed source-of-truth controls. No individual post, claim or media is verified for publication.",
-    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_PENDING_LIVE_DEPLOYMENT_AND_FULL_EXPORT_QA"
+    "summary": "100 proposed, conditional, field-evidence-gated PSC concepts (30 E4BL,35 A2PHC,25 CAR,10 CROSS); 500-card unified library; KDI 260 and prior approvals preserved; no field event or publication independently verified.",
+    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_COMPLETE_LIVE_DEPLOYMENT_AND_FULL_EXPORT_QA_PENDING"
   },
   "design_studio": {
     "status": "ACTIVE_INTERNAL_DRAFTING_TOOL_NOT_AUTOMATIC_PUBLICATION_APPROVAL",

@@ -1,3 +1,13 @@
+## v1.10.0 — 30 October 2026 · 500-idea library with 100 conditional PSC proposals
+
+- Added PSC-141..240: 30 E4BL, 35 A2PHC, 25 Climate Action & Resilience and 10 cross-project ideas; all **proposed, not field-verified or publication-approved**.
+- Preserved every previous KDI-001..260 and PSC-001..140 record exactly; new balance 300 editorial-approved and 200 proposed across 500 ideas.
+- Rebuilt 500-card searchable catalogue, per-idea AI prompt/Design Studio briefs, PSC 240-idea Excel review workbook, and 100-row overlap/evidence review.
+- Expanded optional Inside Our Classroom map to 34 PSC items (79 total E4BL mappings with 45 KDI tips).
+- Updated current SSOT, registered assets, protected validators and GitHub CI; retired previous PSC-140 JSON/workbook current-tree paths without deleting Git history.
+- Retained Social v4.0, Brand v2.4, Digital Contract v1.0.0, Brand Stack v3.1.0 candidate and existing Netlify controls.
+- Release notes `docs/RELEASE_v1.10.0.md`; install and `gh release create/edit` guide `docs/INSTALL_FULL_REPOSITORY_v1.10.0.md`.
+
 ## v1.9.0 — 30 October 2026 · 400-idea expansion and editorial approval governance
 
 - Promoted the earlier 46 proposed records to editorial-planning-approved (not publication-approved), with a preserved audit transition.

@@ -31,7 +31,22 @@
         "PSC-098",
         "PSC-099",
         "PSC-121",
-        "PSC-122"
+        "PSC-122",
+        "PSC-141",
+        "PSC-142",
+        "PSC-143",
+        "PSC-144",
+        "PSC-145",
+        "PSC-146",
+        "PSC-147",
+        "PSC-150",
+        "PSC-151",
+        "PSC-153",
+        "PSC-158",
+        "PSC-159",
+        "PSC-161",
+        "PSC-166",
+        "PSC-167"
       ],
       "evidence_rule": "Confirmed class activity/time/location; teacher signoff; original media provenance; informed permission and child safeguarding before publication.",
       "publication_rule": "No identifying learner data, no unapproved faces/voices, no inference of improved proficiency from participation."
@@ -94,11 +109,11 @@
       "publication_rule": "Distinguish practical activity from research claim; education/technical review and final copy approval required."
     }
   ],
-  "total_mapped_ideas": 64,
+  "total_mapped_ideas": 79,
   "mapping_is_not_new_idea_or_claim": true,
   "source_record_sha256": {
     "communication/research/kdi_260_ideas.json": "690ca9367b90ceefdcdc2a771e46eba87203cef32764eacc6bf4c6b85c40ae35",
-    "communication/research/psc_140_ideas.json": "6ad7301152c08d1d1f5316ce037258a921c4d39b8241c20cbd325b0fd3daaa40"
+    "communication/research/psc_240_ideas.json": "8b9fcc958f400b203d268a2d19a85aac5a7fe434a1fa53a1f8235c6ca93f61ee"
   },
   "example_post": {
     "topic": "Animal Sounds",

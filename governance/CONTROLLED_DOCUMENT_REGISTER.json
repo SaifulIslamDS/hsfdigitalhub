@@ -1,6 +1,6 @@
 {
   "register_version": "1.0.0",
-  "repository_release": "v1.9.0",
+  "repository_release": "v1.10.0",
   "last_updated": "2026-10-30",
   "scope": "Public-safe controlled-document metadata. Does not contain management signatures, private decision records or personal information.",
   "approval_caution": "Source-declared status is not independent proof of a signed management approval. Where documentary evidence is missing, mark pending verification and retain existing institutional status without manufacturing approvals.",
@@ -16,7 +16,7 @@
       "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
       "revision_or_review_date": "2026-10-30",
       "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
-      "sha256": "9a35841898c83e7dfb712a90b42c1882ceca02d6e5d76224514b7ec830aa42dd",
+      "sha256": "e676b0762848754df1641cb27df27ab1982858377baf028f55002ec7521befea",
       "note": "v1.9.0: current idea-library counts/status references aligned. Underlying approved framework and operating principles unchanged; individual content approval still required."
     },
     {
@@ -30,7 +30,7 @@
       "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
       "revision_or_review_date": "2026-10-30",
       "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
-      "sha256": "e788ef21030d6c9025fb2ba1e0bbbd8bd9d2ad7a1158b57fac92375f17aa950a",
+      "sha256": "c05ebbffec852d12d2522244a0f78b6c68b3584b910bf8a9f1e41284ed1914fb",
       "note": "v1.9.0: current idea-library counts/status references aligned. Underlying approved framework and operating principles unchanged; individual content approval still required."
     },
     {

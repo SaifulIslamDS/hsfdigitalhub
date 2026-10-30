@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HSF v1.9.0 cross-document single-source-of-truth stability validation.
+"""HSF v1.10.0 cross-document single-source-of-truth stability validation.
 
 Source-based, dependency-free. Does NOT attest management approval, live Netlify
 security, or Adobe Illustrator compatibility. Historical release notes are exempt.
@@ -20,7 +20,7 @@ reg=load('governance/CONTROLLED_DOCUMENT_REGISTER.json')
 assets=load('governance/PUBLIC_ASSET_REGISTER.json')
 retired=load('governance/RETIRED_ACTIVE_TREE_PATHS.json')
 release=manifest.get('release')
-check(release=='v1.9.0','Release must be v1.9.0')
+check(release=='v1.10.0','Release must be v1.10.0')
 check(manifest.get('current_status')=='ACTIVE_INTERNAL_STABILIZED_SOURCE','Repository status not synchronized')
 check(manifest.get('current_stable_content_baseline',{}).get('knowledge_hub')==release,'Stable manifest release mismatch')
 check(manifest.get('latest_internal_update',{}).get('version')==release,'Latest manifest release mismatch')
@@ -30,9 +30,9 @@ check(set(contract.get('programmes',{}))=={'E4BL','A2PHC','CLIMATE_ACTION'},'Thr
 check(contract.get('contract_version')=='1.0.0','Institutional Contract was renumbered')
 check(manifest.get('current_stable_content_baseline',{}).get('brand_identity_design_system')=='v2.4','Brand guide was renumbered')
 check(manifest.get('current_stable_content_baseline',{}).get('social_communication_plan')=='v4.0','Social v4 policy was renumbered')
-check(manifest['editorial']['idea_library']['total_ideas']==400,'Idea count changed')
+check(manifest['editorial']['idea_library']['total_ideas']==500,'Idea count changed')
 check(manifest['editorial']['idea_library']['approved_editorial_ideas']==300,'Approved idea count changed')
-check(manifest['editorial']['idea_library']['proposed_editorial_ideas']==100,'Proposed idea count changed')
+check(manifest['editorial']['idea_library']['proposed_editorial_ideas']==200,'Proposed idea count changed')
 check(control.get('status')=='APPROVED_STABLE','Existing Social-policy status changed')
 check(len(reg.get('documents',[]))==6,'Exactly six controlled master documents required')
 check(len({x['canonical_path'] for x in reg['documents']})==6,'Duplicate master entries')
@@ -43,21 +43,23 @@ for item in reg['documents']:
  if (R/path).is_file():check(item['sha256']==digest(path),f'Master changed without updating document register: {path}')
  check(item.get('approval_evidence_status')=='NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD',f'Unverified approval evidence status changed: {path}')
 for path in retired.get('paths',[]):check(not (R/path).exists(),f'Retired bank remains in active repository tree: {path}')
-check(len(retired.get('paths',[]))==8,'Retired source inventory expected to contain eight files')
-active={'communication/research/kdi_260_ideas.json','communication/research/psc_140_ideas.json'}
+check(len(retired.get('paths',[]))==10,'Retired source inventory expected to contain eight files')
+active={'communication/research/kdi_260_ideas.json','communication/research/psc_240_ideas.json'}
 check(set(manifest['editorial']['idea_library']['source_data'])==active,'Current idea bank source paths have changed')
 for x in active:check((R/x).is_file(),f'Missing active data: {x}')
 K=load('communication/research/kdi_260_ideas.json')['ideas']
-P=load('communication/research/psc_140_ideas.json')['ideas']
-check(len(K)==260 and len(P)==140,'Current editorial bank counts not 260/140')
+P=load('communication/research/psc_240_ideas.json')['ideas']
+check(len(K)==260 and len(P)==240,'Current editorial bank counts not 260/240')
 check([x['id'] for x in K]==[f'KDI-{i:03}' for i in range(1,261)],'KDI IDs not sequential')
-check([x['id'] for x in P]==[f'PSC-{i:03}' for i in range(1,141)],'PSC IDs not sequential')
+check([x['id'] for x in P]==[f'PSC-{i:03}' for i in range(1,241)],'PSC IDs not sequential')
 check(all(x['approval_status']=='EDITORIAL_IDEA_APPROVED' for x in K[:160]),'Existing 160 KDI must be planning-approved')
 check(all(x['approval_status']=='EDITORIAL_IDEA_PROPOSED' for x in K[160:]),'100 new KDI concepts must remain proposed')
-check(all(x['idea_status']=='EDITORIAL_IDEA_APPROVED' for x in P),'Existing 140 PSC must be planning-approved')
+check(all(x['idea_status']=='EDITORIAL_IDEA_APPROVED' for x in P[:140]),'Existing 140 PSC must be planning-approved')
+check(all(x['idea_status']=='EDITORIAL_IDEA_PROPOSED' for x in P[140:]),'New 100 PSC proposals must NOT be approved')
 check(all(x['publication_status']=='NOT_APPROVED' for x in K+P),'Editorial approval incorrectly promoted a publication')
 check(all(x.get('claim_verification_status' if x['id'].startswith('KDI-') else 'fact_verification_status')=='NOT_VERIFIED' for x in K+P),'Editorial approval incorrectly verified a claim')
-check(len(load('communication/research/KDI_161-260_UNIQUENESS_REVIEW.json')['records'])==100,'Unique review audit missing 100 records')
+check(len(load('communication/research/KDI_161-260_UNIQUENESS_REVIEW.json')['records'])==100,'KDI originality review missing 100 records')
+check(len(load('communication/research/PSC_141-240_UNIQUENESS_REVIEW.json')['records'])==100,'PSC originality review missing 100 records')
 check(load('governance/EDITORIAL_APPROVAL_TRANSITION_v1.9.0.json')['promoted_count']==46,'Prior 46 approval provenance missing')
 
 # All XLSX/PDF are public-safe and checksum registered (no old spreadsheet leak).
@@ -94,4 +96,4 @@ if errors:
  print('HSF SSOT stability FAILED',len(errors))
  for x in errors:print(' -',x)
  sys.exit(1)
-print('HSF v1.9.0 SSOT stability PASS: six master documents; three current Projects; 400 ideas; retired sources absent; four registered binary assets; approval and design boundaries preserved.')
+print('HSF v1.10.0 SSOT stability PASS: six master documents; three current Projects; 500 ideas; retired sources absent; four registered binary assets; approval and design boundaries preserved.')

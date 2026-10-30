@@ -1,0 +1,6 @@
+{
+  "release": "v1.9.0",
+  "PSC-001..140": "f2c0fee0f76c0e888b1a5ea80cb82dd76deccd109522f09dcd9ca8b86795764d",
+  "KDI-001..260": "6c7e581a4d8306ad316c2a0ff1525ca30b5edf820aff4f425f534e742dabe1d9",
+  "scope": "Exact original idea records SHA256, excluding source-wrapper metadata; retained to ensure 500-idea expansion does not mutate earlier approved/proposed records."
+}

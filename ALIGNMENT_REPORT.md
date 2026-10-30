@@ -1,30 +1,28 @@
-# HSF Knowledge Hub v1.7.0 · Institutional Alignment Report
+# HSF Knowledge Hub v1.10.0 — Current Institutional Alignment
 
-**Status:** Approved & Stable · **Updated:** 20 October 2026  
+**Updated:** 30 October 2026 · **Status:** Internal source baseline; individual social content not publication-approved  
 **Planning & Compiled by:** Saiful Islam
 
-## Aligned institutional components
+## Single Source of Truth
 
-| Canonical component | Approved current reference |
-|---|---|
-| Knowledge Hub | v1.7.0 stable |
-| Social Communication Ecosystem | v4.0 approved; single `social_communication_plan.html` |
-| Brand Identity & Design System | v2.4 stable; identity/design rules preserved |
-| Knowledge, Data & Insight ideas | 120 approved editorial topics, individual claims not verified |
-| Programme Stories & Communication ideas | 120 approved conditional story ideas, individual events not verified |
-| Unified Content Idea Library | `communication/idea-library.html` with All / KDI / PSC tabs and shared search, programme and topic-family filters |
-| Digital Institutional System Contract | v1.0.0 unchanged |
-| ERP high-level overview and MEAL | Existing architecture preserved; reviewed 20 October 2026 |
-| Brand production stack | v3.1.0, structural validation passed, Illustrator 2022 QA pending |
+- Six canonical master documents are listed in `MANIFEST.json` and `governance/CONTROLLED_DOCUMENT_REGISTER.json`.
+- Three current Projects: E4BL, A2PHC, Climate Action & Resilience (internal code `CLIMATE_ACTION`). Women and girls' empowerment is cross-cutting.
+- Operational ERP owns sensitive records; verified MEAL/evidence and the Approved Information Layer gate public facts; the Knowledge Hub owns controlled governance definitions.
+- Social Communication policy remains v4.0 with two streams, seven families, optional series and no fixed posting quota.
+- The idea library has 500 public-safe concept records. **300 editorial-approved and 200 proposed; zero fact or publication approvals granted by the catalogue.**
+- Data bank source of truth: `communication/research/kdi_260_ideas.json` and `communication/research/psc_240_ideas.json`, not historical source JSON or XLSX files.
+- Brand Guide remains v2.4; Brand Stack v3.1.0 is a production-candidate with Illustrator QA outstanding; Design Studio is an offline production tool, not an evidence repository.
 
-## Controlled changes
+## Controlled changes in v1.10.0
 
-Superseded Social/Brand root HTML copies, old pilots and 48-post trackers have been removed from the stable distribution. The optional Issue → Practical Response method remains available without imposed sequence. Git history is the authoritative archive of old releases. No changes have been made to operational ERP, MEAL indicator definitions, HSF programme baselines, Netlify access-gate or official logo/colour policy.
+Added 100 conditional proposed PSC records. Did not edit any of the 400 previous idea records; source record snapshots are checked. Updated 240-idea PSC workbook, 500-card library, prompt and design brief contexts, current controlled inventory metadata, CI and reviewer audit.
 
-## Security boundary
+## Limits
 
-All source records and published claims require review and authorization through the Approved Information Layer. This public repository contains no authorized storage for identifiable students, patients, case consent, confidential HR/finance data, passwords or ERP extracts.
+Automated source validation does not prove management approval, a documented field event, actual consent, a verified quantitative claim, live deployment integrity, or Illustrator export compatibility. These require separate governed review.
 
-## Deployment boundary
+---
 
-This report covers the delivered complete repository files and source-level checks; it does not certify deployment, browser/device rendering or Illustrator 2022 production compatibility.
+## Historical context
+
+The former v1.7.0 alignment overview is preserved in Git history. It is not an alternative current source of truth.
