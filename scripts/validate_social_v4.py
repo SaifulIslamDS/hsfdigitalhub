@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate approved Social policy v4.0 with current internal Knowledge Hub v1.8.0."""
+"""Validate approved Social policy v4.0 with current internal Knowledge Hub v1.8.1."""
 from pathlib import Path
 from html.parser import HTMLParser
 from collections import Counter
@@ -11,7 +11,7 @@ def file(p):return (R/p).read_text(encoding='utf-8')
 def j(p):return json.loads(file(p))
 def sha(p):return hashlib.sha256((R/p).read_bytes()).hexdigest()
 m=j('MANIFEST.json');control=j('governance/SOCIAL_V4_STABLE_CONTROL.json');assets=j('governance/PUBLIC_ASSET_REGISTER.json')
-test(m['release']=='v1.8.0' and m['current_stable_content_baseline']['knowledge_hub']=='v1.8.0','current internal release incorrectly recorded')
+test(m['release']=='v1.8.1' and m['current_stable_content_baseline']['knowledge_hub']=='v1.8.1','current internal release incorrectly recorded')
 test(m['current_stable_content_baseline']['social_communication_plan']=='v4.0','social-policy version changed')
 test(m['current_stable_content_baseline']['brand_identity_design_system']=='v2.4','brand guide changed')
 test(control['status']=='APPROVED_STABLE' and control['version']=='4.0','approved social v4.0 policy not preserved')

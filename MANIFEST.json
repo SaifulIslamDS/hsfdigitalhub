@@ -3,12 +3,12 @@
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
   "current_status": "ACTIVE_INTERNAL",
-  "release": "v1.8.0",
+  "release": "v1.8.1",
   "release_date": "2026-10-30",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.8.0",
+    "knowledge_hub": "v1.8.1",
     "release_date": "2026-10-30",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
@@ -86,7 +86,34 @@
       "approved_editorial_ideas": 254,
       "proposed_editorial_ideas": 46,
       "last_updated": "2026-10-30",
-      "editorial_series_overlay": "communication/editorial_series.json"
+      "editorial_series_overlay": "communication/editorial_series.json",
+      "content_prompt_generator": {
+        "mode": "CLIENT_SIDE_LOCAL_STATIC",
+        "button_per_idea": true,
+        "source": "communication/assets/content-prompt-generator.js",
+        "stylesheet": "communication/assets/content-prompt-generator.css",
+        "formats": [
+          "complete",
+          "recommended",
+          "post",
+          "carousel",
+          "reel",
+          "learning"
+        ],
+        "platforms": [
+          "Facebook",
+          "Instagram",
+          "LinkedIn",
+          "Facebook + Instagram"
+        ],
+        "languages": [
+          "Bangla",
+          "English",
+          "Bilingual"
+        ],
+        "purpose": "Generate copy-paste-ready content-creation briefs using public-safe editorial idea context only; no automatic publication or SEO ranking guarantee",
+        "approval_boundary": "IDEA_AND_PROMPT_NOT_VERIFIED_NOT_PUBLICATION_APPROVED"
+      }
     },
     "editorial_series": {
       "status": "ADOPTED_SERIES_LABELS",
@@ -106,7 +133,8 @@
     "python scripts/validate_hub.py",
     "python scripts/validate_social_v4.py",
     "python scripts/validate_idea_library.py",
-    "python scripts/validate_shared_header.py"
+    "python scripts/validate_shared_header.py",
+    "python scripts/validate_content_prompt_generator.py"
   ],
   "shared_navigation_design": {
     "header_stylesheet": "assets/styles/hsf-shared-header.css",
@@ -117,9 +145,9 @@
   },
   "release_method": "CONTINUOUS_INTERNAL_UPDATES; PUBLICATION_APPROVAL_SEPARATE",
   "latest_internal_update": {
-    "version": "v1.8.0",
+    "version": "v1.8.1",
     "date": "2026-10-30",
-    "summary": "Two E4BL series and series-aware conditional filter; original 300 ideas unchanged",
-    "software_review_state": "LOCAL_VALIDATED_NOT_LIVE_DEPLOYED"
+    "summary": "Per-idea evidence-gated AI content prompt creator for all 300 cards; local popup, platform/language/format options and one-click copy; datasets unchanged",
+    "software_review_state": "LOCAL_VALIDATION_PENDING_LIVE_DEPLOYMENT"
   }
 }

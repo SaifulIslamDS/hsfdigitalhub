@@ -67,7 +67,7 @@ for name in ['HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx'
  fn=R/'communication/research'/name;test(fn.is_file(),name+' missing');
  if fn.is_file():
   with zipfile.ZipFile(fn) as w:test(w.testzip() is None,name+' ZIP/Excel integrity failed')
-m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.8.0' and lib['total_ideas']==300 and lib['proposed_editorial_ideas']==46,'Manifest release/internal count mismatch')
+m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.8.1' and lib['total_ideas']==300 and lib['proposed_editorial_ideas']==46,'Manifest release/internal count mismatch')
 test('46' in (R/'social_communication_plan.html').read_text(),'Social v4 control does not distinguish 46 proposed ideas')
 # R2 interface regression: do not expose zero-count choices and do not repeat the Social promo on the homepage.
 test('if(count===0)continue' in ht and 'label.hidden=count===0' in ht,'Zero-result filter choices must be removed/hidden')

@@ -1,4 +1,4 @@
-# HSF Social Communication · 300-Idea Catalogue (v1.8.0 internal)
+# HSF Social Communication · 300-Idea Catalogue (v1.8.1 internal)
 
 **Planning & Compiled by:** Saiful Islam · **Updated:** 30 October 2026
 
@@ -20,3 +20,11 @@ The former `kdi-idea-bank.html` and `psc-idea-bank.html` are compatibility redir
 - **Learn with E4BL**: teacher-reviewed age-appropriate learning tips under HSF Knowledge & Awareness / KDI. [Open filtered library](idea-library.html?bank=kdi&series=learn-with-e4bl).
 
 The [editorial-series mapping](editorial_series.json) references existing idea IDs without changing KDI/PSC source records, approval status or the **300-idea total**. The [operating guide](../docs/E4BL_EDITORIAL_SERIES_OPERATING_GUIDE.md) distinguishes authentic classroom evidence from learning tips and enforces child safeguarding.
+
+## Per-idea Content Production Prompt (v1.8.1)
+
+All 300 idea cards contain a **Create AI content prompt** button. A local-only popup builds a copy-and-paste professional brief tailored to that idea's programme, source/evidence requirement, editorial series, status and suggested format. Editors can choose Facebook, Instagram, LinkedIn, Bangla/English and a complete package, feed post, carousel, short-form Reel or educational activity. An optional field accepts only public-safe evidence notes or source links; it is not stored or sent anywhere by the Knowledge Hub.
+
+The popup generates **instructions for an external AI assistant**, not a published post, external search, image or video. All outputs must undergo primary-source verification, technical review, safeguarding and final management publication approval. The generator cannot guarantee visibility, shares, reach or search rankings. Implementation guide: [`docs/CONTENT_PROMPT_GENERATOR_v1.8.1.md`](../docs/CONTENT_PROMPT_GENERATOR_v1.8.1.md).
+
+Check: `python scripts/validate_content_prompt_generator.py`.

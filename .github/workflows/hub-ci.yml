@@ -36,3 +36,6 @@ jobs:
 
       - name: Validate unified 300-idea content library
         run: python scripts/validate_idea_library.py
+
+      - name: Validate per-idea content prompt generator
+        run: python scripts/validate_content_prompt_generator.py

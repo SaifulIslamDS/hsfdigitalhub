@@ -1,3 +1,11 @@
+# 30 October 2026 | Knowledge Hub v1.8.1 · AI Content Prompt Creator
+
+- Added an accessible **Create AI content prompt** action to all 300 idea cards, with a local modal for copying an idea-specific production brief.
+- Included Facebook/Instagram/LinkedIn, Bangla/English, complete post packages and tailored feed/carousel/Reel/learning options.
+- Protected factual claims and field stories with explicit source-verification, review, informed-consent, safeguarding and publication-approval requirements; no automated publishing and no promise of reach.
+- Preserved all 160 KDI + 140 PSC records, source hashes, classification, 34 E4BL series mappings, conditional filters, Social policy v4.0, Brand v2.4, and existing ERP/MEAL/Netlify controls.
+- Continued HSF's normal internal development process without an RC designation. **Planning & Compiled by: Saiful Islam.**
+
 # 30 October 2026 | Knowledge Hub v1.8.0 current internal update: E4BL Editorial Series
 
 - Integrated **Inside Our Classroom** (19 mapped PSC ideas) and **Learn with E4BL** (15 mapped KDI ideas) in the Social Communication v4.0 master and unified library.

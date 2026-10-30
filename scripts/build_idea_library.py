@@ -71,7 +71,7 @@ def card(bank,x):
   return f'''<article class="idea" id="{E(x['id'])}" data-bank="{bank}" data-programme="{E(x['programme'])}" data-group="{E(group)}" data-tags="{E('|'.join(tags))}" data-evidence="{E(evidence)}" data-format="{E(fmt)}" data-status="{status}" data-series="{E(editorial_id)}" data-search="{search}">
  <div class="cardmeta"><strong>{E(x['id'])}</strong><span class="label">{'KDI' if k else 'PSC'}</span><span class="label secondary">{E(x['programme'])}</span><span class="label {'proposal' if proposed else 'approved'}">{'PROPOSED' if proposed else 'IDEA APPROVED'}</span>{series_badge}</div>
  <div class="group-label">{E(group)}</div><h3><a href="#{E(x['id'])}">{E(x['title'])}</a></h3>{det}
- <div class="chips" aria-label="Editorial discovery tags">{chips}</div><div class="warning">{E(state)} · {E(evidence)} · Publication NOT approved</div>
+ <div class="chips" aria-label="Editorial discovery tags">{chips}</div><div class="idea-actions"><button type="button" class="idea-prompt-trigger" data-prompt-id="{E(x['id'])}" aria-label="Create AI content prompt for {E(x['id'])}: {E(x['title'])}">✦ Create AI content prompt</button></div><div class="warning">{E(state)} · {E(evidence)} · Publication NOT approved</div>
  </article>'''
 cards='\n'.join(card(b,x) for b,items in [('kdi',K),('psc',P)] for x in items)
 html='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -93,9 +93,9 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 .empty{border:1px dashed #8fbaa2;padding:22px;text-align:center;border-radius:14px}.empty[hidden]{display:none}.resources{padding:12px 0 40px}.links{display:flex;flex-wrap:wrap;gap:9px}.links a{border:1px solid #aecdbb;border-radius:9px;background:#fff;padding:9px 12px;text-decoration:none;font-size:14px;font-weight:bold}footer{background:#eaf4ee;padding:22px 0;color:#405e4c;font-size:12px}
 @media(max-width:900px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.ideas{grid-template-columns:1fr}}@media(max-width:560px){.filters,.stats{grid-template-columns:1fr}.field.search{grid-column:span 1}.library{padding:15px}.tab{width:100%;text-align:left}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style></head><body>
+</style><link rel="stylesheet" href="assets/content-prompt-generator.css"></head><body>
 <header><div class="wrap top"><strong>Human Safety Foundation · Digital Knowledge Hub</strong><nav aria-label="Hub navigation"><a href="../index.html">Hub Home</a><a href="../social_communication_plan.html">Social v4.0 Framework</a><a href="../brand_identity_master_guide.html">Brand Guide</a></nav></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.0 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
+<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.1 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
 <div class="notice"><b>Publication gate:</b> Editorial approval is never approval of a claim, event, case study, image or public post. Validate original evidence, apply technical and safeguarding reviews, and obtain management approval for each exact publication.</div>
 <div class="stats"><div class="stat"><strong>300</strong><small>All editorial concepts</small></div><div class="stat"><strong>160</strong><small>KDI ideas (26 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (20 new proposed)</small></div></div></section>
 <section class="wrap" aria-label="Unified idea catalogue"><div class="library">
@@ -116,7 +116,24 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 </div></div></section>
 <section class="wrap resources" aria-label="Governance and source bank downloads"><h2>Controlled source inventories</h2><p><b>Inside Our Classroom</b> (PSC) and <b>Learn with E4BL</b> (KDI) are discovery labels over selected E4BL records; other ideas remain discoverable through All series. Read the <a href="../docs/E4BL_EDITORIAL_SERIES_OPERATING_GUIDE.md">series guidance</a>. These are editorial research/story opportunities. No external statistic, service activity or case outcome is verified by this catalogue. Discovery tags on older records are suggested editorial topics for filtering, not independently verified factual classifications.</p>
 <div class="links"><a href="research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx">KDI 160 workbook</a><a href="research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx">PSC 140 workbook</a><a href="research/source_registry.json">Research source registry</a><a href="registers/content_evidence_register_TEMPLATE.csv">Evidence register template</a><a href="../governance/APPROVED_INFORMATION_STANDARD.md">Approved Information Standard</a></div></section></main>
-<footer><div class="wrap">HSF Knowledge Hub v1.8.0 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
+<dialog id="hsf-prompt-dialog" class="prompt-dialog" aria-labelledby="hsf-prompt-dialog-title" aria-describedby="hsf-prompt-intro">
+ <div class="prompt-content">
+ <div class="prompt-head"><div><h2 id="hsf-prompt-dialog-title">Create an evidence-led content prompt</h2><p id="hsf-prompt-intro">Copy this tailored brief into ChatGPT or another research/content assistant. It does not generate or publish a post in the Hub.</p></div><button class="prompt-close" type="button" id="hsf-prompt-close" aria-label="Close content prompt">×</button></div>
+ <strong id="hsf-prompt-title">Selected idea</strong>
+ <div class="prompt-notice"><b>Evidence first:</b> Editorial ideas are not proof that activities happened or claims are true. Verify primary sources, get appropriate safeguarding/technical review and HSF publication approval before publishing. Do not paste confidential participant or patient data.</div>
+ <div class="prompt-controls">
+   <div><label for="hsf-prompt-platform">Target channel</label><select id="hsf-prompt-platform"><option>Facebook</option><option>Instagram</option><option>LinkedIn</option><option>Facebook + Instagram</option></select></div>
+   <div><label for="hsf-prompt-format">Deliverable</label><select id="hsf-prompt-format"><option value="complete">Complete content package</option><option value="recommended">Recommended for this idea</option><option value="post">Feed post + visual</option><option value="carousel">5–7-slide carousel</option><option value="reel">Reel / short video</option><option value="learning">Teaching tip / learner activity</option></select></div>
+   <div><label for="hsf-prompt-language">Language</label><select id="hsf-prompt-language"><option value="Bangla">Bangla</option><option value="English">English</option><option value="Bilingual">Bangla + English</option></select></div>
+ </div>
+ <div><label class="prompt-evidence-label" for="hsf-prompt-evidence">Optional public-safe evidence notes or source URLs (not saved)</label><textarea class="prompt-evidence" id="hsf-prompt-evidence" placeholder="E.g., approved public report link, teacher-confirmed lesson description, source document page. No names, patient records, or identifiable child details."></textarea></div>
+ <div><label class="prompt-output-label" for="hsf-prompt-output">Ready-to-copy professional prompt</label><textarea class="prompt-output" id="hsf-prompt-output" spellcheck="false" readonly></textarea></div>
+ <div class="prompt-actions"><button type="button" class="prompt-copy" id="hsf-prompt-copy">Copy professional prompt</button><span class="prompt-status" id="hsf-prompt-status" role="status" aria-live="polite">Prompt prepared locally</span></div>
+ <p class="prompt-help">Prompts optimize clarity, originality and discoverability, not guaranteed reach. If evidence is missing, the AI should output a clearly marked draft and verification questions.</p>
+ </div>
+</dialog>
+
+<footer><div class="wrap">HSF Knowledge Hub v1.8.1 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
 <script>
 (function(){'use strict';
 const cards=Array.from(document.querySelectorAll('#ideas .idea'));
@@ -206,7 +223,30 @@ for(const id of ['search','programme','series','group','evidence','status','form
 els['reset'].addEventListener('click',()=>{for(const id of ['search','programme','series','group','evidence','status','format'])els[id].value='';els.sort.value='id';tagState.clear();for(const l of tags)l.querySelector('input').checked=false;chooseBank('all');});
 const q=new URLSearchParams(location.search);const hash=location.hash.substring(1).toUpperCase();const linked=cards.find(c=>c.id===hash);for(const id of ['search','programme','series','group','evidence','status','format','sort']){if(q.has(id)){if(['series','group','format'].includes(id)){const option=document.createElement('option');option.value=q.get(id);option.textContent=q.get(id);els[id].append(option);}els[id].value=q.get(id)}}for(const tag of (q.get('tags')||'').split('|')){if(allTags.includes(tag)){tagState.add(tag);tags.find(l=>l.querySelector('input').value===tag).querySelector('input').checked=true;}}currentBank=['kdi','psc'].includes(q.get('bank'))?q.get('bank'):linked?linked.dataset.bank:'all';render();if(linked){linked.hidden=false;linked.scrollIntoView({block:'start'})}
 })();
-</script><noscript><div class="wrap notice">All 300 cards are available without JavaScript. Live conditional filters, including the editorial-series selector, require JavaScript.</div></noscript>
+</script><noscript><style>.idea-prompt-trigger{display:none}</style><div class="wrap notice">All 300 cards are available without JavaScript. Live conditional filters and per-idea content prompts require JavaScript.</div></noscript>
 </body></html>'''
+# Embed *public-safe editorial metadata only*, not any operational or personal data.
+# The JSON block makes the prompt modal work on static/offline previews with no API calls.
+contexts=[]
+for bank,records in [('KDI',K),('PSC',P)]:
+ for idea in records:
+  k=bank=='KDI'
+  series=SERIES_BY_ID.get(idea['id'])
+  contexts.append(dict(
+   id=idea['id'],bank=bank,programme=idea['programme'],title=idea['title'],
+   group=idea['series'] if k else idea['content_family'],
+   focus=idea['research_question'] if k else idea['editorial_angle'],
+   response=idea['possible_response'] if k else idea['minimum_evidence'],
+   suggestedFormat=idea.get('visual_format','') if k else idea.get('suggested_format',''),
+   sourcesOrReview=(str(idea.get('source_keys',''))+'; '+str(idea.get('source_names',''))) if k else idea.get('review_risk',''),
+   editorialSeries=series['name'] if series else '',
+   status='proposed' if idea.get('approval_status' if k else 'idea_status')=='EDITORIAL_IDEA_PROPOSED' else 'approved',
+   tags=tags_for(idea,bank)
+  ))
+assert len(contexts)==300
+safejson=json.dumps(contexts,ensure_ascii=False,separators=(',',':')).replace('<',r'\u003c').replace('>',r'\u003e').replace('&',r'\u0026')
+needle='</script><noscript>'
+assert needle in html
+html=html.replace(needle,'</script><script type="application/json" id="hsf-idea-prompt-context">'+safejson+'</script><script src="assets/content-prompt-generator.js"></script><noscript>',1)
 out=R/'communication/idea-library.html';out.write_text(html,encoding='utf-8')
 print('Built',len(K)+len(P),'cards',out.stat().st_size,'bytes')

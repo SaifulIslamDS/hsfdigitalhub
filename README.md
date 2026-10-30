@@ -1,8 +1,8 @@
-> **Editorial boundary (30 October 2026):** Knowledge Hub v1.8.0 is the current internal source. The catalogue retains 254 editorial-approved ideas plus 46 proposed; no idea implies public-post approval.
+> **Editorial boundary (30 October 2026):** Knowledge Hub v1.8.1 is the current internal source. The catalogue retains 254 editorial-approved ideas plus 46 proposed; no idea implies public-post approval.
 
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Current internal version:** v1.8.0 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
+**Current internal version:** v1.8.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
 **Package status:** Active internal source · **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
@@ -26,7 +26,7 @@ The homepage and Social Communication master now share one logo/title navigation
 - **HSF in Action**: field activity, moments, case studies, human experiences, progress/success, challenges/responses and institutional storytelling.
 - **HSF Knowledge & Awareness**: source-led statistics, insights, researched topics, awareness and optional Issue → Practical Response.
 
-**Unified 300-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [160 KDI](communication/idea-library.html?bank=kdi) and [140 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Two additional E4BL editorial series, **Inside Our Classroom** and **Learn with E4BL**, are mapped through `communication/editorial_series.json` and searchable with the series filter without changing 300 source ideas. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
+**Unified 300-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [160 KDI](communication/idea-library.html?bank=kdi) and [140 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. **Each card now offers a local Create AI content prompt popup for content-production briefs (not posts); evidence verification and final publication approval remain mandatory.** Two additional E4BL editorial series, **Inside Our Classroom** and **Learn with E4BL**, are mapped through `communication/editorial_series.json` and searchable with the series filter without changing 300 source ideas. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
 
 ## Publication integrity
 
@@ -48,8 +48,8 @@ python brand-design-stack/07_Engine/validate_stack.py
 
 ## Release & deployment
 
-See [Current internal release v1.8.0](docs/RELEASE_v1.8.0.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Current internal release v1.8.1](docs/RELEASE_v1.8.1.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 
-Use [the v1.8.0 release guide](docs/RELEASE_v1.8.0.md) and [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+Use [the v1.8.1 release guide](docs/RELEASE_v1.8.1.md) and [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
