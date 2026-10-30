@@ -1,14 +1,14 @@
-> **Review boundary (30 October 2026):** Current full-repository candidate v1.8.0 includes 300 ideas: 254 previously editorial-approved, 46 proposed. Social policy remains approved v4.0; browser QA and management review pending.
+> **Editorial boundary (30 October 2026):** Knowledge Hub v1.8.0 is the current internal source. The catalogue retains 254 editorial-approved ideas plus 46 proposed; no idea implies public-post approval.
 
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Latest candidate package:** v1.8.0 · **Last approved stable baseline:** v1.7.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
-**Package status:** v1.8.0 review candidate; last approved stable Knowledge Hub v1.7.1 · **Last updated:** 30 October 2026  
+**Current internal version:** v1.8.0 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
+**Package status:** Active internal source · **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
 
-The homepage and Social Communication master now share one logo/title navigation component in `assets/styles/hsf-shared-header.css` (v1.8.0-rc.3); each retains its document-specific links and the Social page retains its off-canvas Contents menu.
+The homepage and Social Communication master now share one logo/title navigation component in `assets/styles/hsf-shared-header.css` (shared header integrated); each retains its document-specific links and the Social page retains its off-canvas Contents menu.
 
 ## Six current canonical master documents (one copy each)
 
@@ -26,7 +26,7 @@ The homepage and Social Communication master now share one logo/title navigation
 - **HSF in Action**: field activity, moments, case studies, human experiences, progress/success, challenges/responses and institutional storytelling.
 - **HSF Knowledge & Awareness**: source-led statistics, insights, researched topics, awareness and optional Issue → Practical Response.
 
-**Unified 300-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [160 KDI](communication/idea-library.html?bank=kdi) and [140 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
+**Unified 300-idea library:** [Open the one-page catalogue](communication/idea-library.html), featuring All / KDI / PSC tabs with a unified search, programme and topic/family filtering. The original [160 KDI](communication/idea-library.html?bank=kdi) and [140 PSC](communication/idea-library.html?bank=psc) views are available within the same page. Neither bank provides publication approval. Two additional E4BL editorial series, **Inside Our Classroom** and **Learn with E4BL**, are mapped through `communication/editorial_series.json` and searchable with the series filter without changing 300 source ideas. Each is an initial expandable editorial inventory. The earlier fixed-post pilot, tracker and duplicated historical policy HTML are **not included** in this stable distribution. Git preserves historical version traceability.
 
 ## Publication integrity
 
@@ -41,13 +41,15 @@ Programme evidence and confidential ERP data remain segregated. Approved Informa
 ```bash
 python scripts/validate_hub.py
 python scripts/validate_social_v4.py
+python scripts/validate_idea_library.py
+python scripts/validate_e4bl_series.py
 python brand-design-stack/07_Engine/validate_stack.py
 ```
 
 ## Release & deployment
 
-See [Candidate release v1.8.0](docs/RELEASE_v1.8.0_CANDIDATE.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Current internal release v1.8.0](docs/RELEASE_v1.8.0.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 
-Use [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+Use [the v1.8.0 release guide](docs/RELEASE_v1.8.0.md) and [the safe full-repository installation guide](docs/INSTALL_FULL_REPOSITORY_v1.7.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.

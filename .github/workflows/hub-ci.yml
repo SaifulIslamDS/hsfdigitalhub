@@ -28,6 +28,9 @@ jobs:
       - name: Validate Approved Social v4.0
         run: python scripts/validate_social_v4.py
 
+      - name: Validate E4BL editorial series
+        run: python scripts/validate_e4bl_series.py
+
       - name: Validate shared institutional headers
         run: python scripts/validate_shared_header.py
 

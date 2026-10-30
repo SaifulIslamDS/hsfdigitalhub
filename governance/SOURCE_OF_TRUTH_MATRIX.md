@@ -1,6 +1,6 @@
 # HSF Source of Truth Matrix
 
-**Document review:** Stable reference · **Last updated:** 20 October 2026 · **Planning & Compiled by:** Saiful Islam
+**Document review:** Stable reference · **Last updated:** 30 October 2026 · **Planning & Compiled by:** Saiful Islam
 
 **Status:** Controlled governance reference  
 **Effective:** 11 September 2026  
@@ -44,5 +44,7 @@ Changing figures such as beneficiary counts, enrolment, camp coverage, staff cou
 ## Social Communication Ecosystem v4.0 (approved 20 October 2026)
 
 `social_communication_plan.html` is the sole **approved and stable** canonical communication framework. It supersedes the fixed pilot, with two public streams and seven reusable content families. The unified library contains 160 KDI and 140 PSC ideas. The earlier 254 ideas have **editorial idea approval only**; the 46 additions dated 30 October 2026 are proposals awaiting management review. Neither category implies verified facts or publication approval. No statistical source, event, field case, clinical assertion, testimonial, beneficiary image, artwork or final caption becomes verified or approved for public release merely because an idea is listed. A named reviewer and management approval of the exact public-safe output is required under `APPROVED_INFORMATION_STANDARD.md`.
+
+**E4BL editorial subseries (30 October 2026):** `communication/editorial_series.json` is a secondary, curated discovery mapping for **Inside Our Classroom** (PSC) and **Learn with E4BL** (KDI). Its labels are not source-of-truth for an event, learning result, curriculum claim, consent or publication approval. The 300 source idea records remain unchanged; review exact content in the controlled operational flow.
 
 Brand Identity & Design System v2.4 retains the same visual identity and aligns production to open-ended Social v4.0. Historical versions are available in Git history, not competing active copies. The HSF Digital System Contract v1.0.0, ERP, MEAL and confidential-data segregation remain intact.

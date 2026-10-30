@@ -28,6 +28,20 @@ for idx,(card,idea) in enumerate(zip(scan.cards,all_)):
  test(bool(card.get('data-tags')) and bool(card.get('data-search')),idea['id']+' facet/search metadata missing')
  status=idea['approval_status' if b=='kdi' else 'idea_status']
  test(card.get('data-status')==('proposed' if status=='EDITORIAL_IDEA_PROPOSED' else 'approved'),idea['id']+' approval facet error')
+series=load('communication/editorial_series.json')
+test(series.get('status')=='ADOPTED_EDITORIAL_SERIES_NOT_PUBLICATION_APPROVAL','Series approval boundary missing')
+entries=series.get('editorial_series',[])
+test([x.get('id') for x in entries]==['inside-our-classroom','learn-with-e4bl'],'Series names or order inconsistent')
+map_={idea_id:x for x in entries for idea_id in x.get('idea_ids',[])}
+test(len(map_)==series.get('total_mapped_ideas')==34,'Series mapped idea count/duplicates mismatch')
+for x in K+P:
+ mapped=map_.get(x['id'])
+ test(bool(mapped)==bool(scan.cards[[y['id'] for y in K+P].index(x['id'])].get('data-series')),x['id']+' series attribute missing')
+ if mapped:
+  test(x['programme']=='E4BL','Non-E4BL idea assigned to E4BL editorial series: '+x['id'])
+  test(mapped['bank']==('KDI' if x['id'].startswith('KDI-') else 'PSC'),'Series-bank mapping mismatch: '+x['id'])
+  test(scan.cards[[y['id'] for y in K+P].index(x['id'])].get('data-series')==mapped['id'],x['id']+' series facet mismatch')
+test('Inside Our Classroom' in ht and 'Learn with E4BL' in ht,'Series discovery labels missing')
 test([x['id'] for x in K]==[f'KDI-{i:03}' for i in range(1,161)],'KDI IDs not sequential')
 test([x['id'] for x in P]==[f'PSC-{i:03}' for i in range(1,141)],'PSC IDs not sequential')
 test(len({x['title'].casefold() for x in all_})==300,'Duplicate editorial titles')
@@ -42,7 +56,7 @@ def snapshot(items):return hashlib.sha256(json.dumps(items,ensure_ascii=False,so
 expected=json.loads((R/'governance/IDEA_LIBRARY_v1.8.0_SOURCE_SNAPSHOTS.json').read_text())
 test(snapshot(K[:134])==expected['KDI-001..134']['sha256'],'Earlier 134 KDI records mutated')
 test(snapshot(P[:120])==expected['PSC-001..120']['sha256'],'Earlier 120 PSC records mutated')
-for id in ['tab-all','tab-kdi','tab-psc','search','programme','group','tag-picker','tag-options','evidence','status','format','sort','reset','count','empty']:
+for id in ['tab-all','tab-kdi','tab-psc','search','programme','series','group','tag-picker','tag-options','evidence','status','format','sort','reset','count','empty']:
  test(id in scan.ids,'Missing interactive control: '+id)
 for key in ['function match(c,exclude',"match(c,'tags')",'opt.disabled','input.disabled','history.replaceState','aria-live','role="tabpanel"','aria-selected','No matching ideas']:
  test(key in ht,'Expected conditional filtering/accessibility logic missing: '+key)
@@ -53,7 +67,7 @@ for name in ['HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx'
  fn=R/'communication/research'/name;test(fn.is_file(),name+' missing');
  if fn.is_file():
   with zipfile.ZipFile(fn) as w:test(w.testzip() is None,name+' ZIP/Excel integrity failed')
-m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.8.0-candidate' and lib['total_ideas']==300 and lib['proposed_editorial_ideas']==46,'Manifest release/candidate count mismatch')
+m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.8.0' and lib['total_ideas']==300 and lib['proposed_editorial_ideas']==46,'Manifest release/internal count mismatch')
 test('46' in (R/'social_communication_plan.html').read_text(),'Social v4 control does not distinguish 46 proposed ideas')
 # R2 interface regression: do not expose zero-count choices and do not repeat the Social promo on the homepage.
 test('if(count===0)continue' in ht and 'label.hidden=count===0' in ht,'Zero-result filter choices must be removed/hidden')
@@ -61,7 +75,7 @@ home=(R/'index.html').read_text(encoding='utf-8')
 test('id="social-v4-approved"' not in home and 'Explore all 254 content ideas' not in home,'Obsolete social promotion banner still on homepage')
 test('href="social_communication_plan.html"' in home,'Canonical Social master is missing from homepage navigation')
 if errors:
- print('300-idea candidate validation FAILED:',len(errors))
+ print('300-idea internal library validation FAILED:',len(errors))
  for e in errors:print(' -',e)
  sys.exit(1)
-print('300-idea library PASS: 160 KDI + 140 PSC; 254 previous records protected, 46 proposals; conditional facets and links present.')
+print('300-idea library PASS: 160 KDI + 140 PSC; 254 previous records protected, 46 proposals; editorial-series conditional facet present.')

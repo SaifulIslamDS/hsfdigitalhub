@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-10-30",
+  "planning_and_compiled_by": "Saiful Islam",
+  "purpose": "Public-safe editorial discovery overlay: maps existing approved/proposed idea records to repeatable E4BL series without altering the source banks or approving posts.",
+  "status": "ADOPTED_EDITORIAL_SERIES_NOT_PUBLICATION_APPROVAL",
+  "editorial_series": [
+    {
+      "id": "inside-our-classroom",
+      "name": "Inside Our Classroom",
+      "programme": "E4BL",
+      "stream": "HSF in Action",
+      "bank": "PSC",
+      "description": "Actual, dated and evidenced teacher-led classroom moments, lessons and learner participation without staging or learning-outcome claims.",
+      "idea_ids": [
+        "PSC-001",
+        "PSC-002",
+        "PSC-003",
+        "PSC-004",
+        "PSC-005",
+        "PSC-007",
+        "PSC-008",
+        "PSC-032",
+        "PSC-036",
+        "PSC-057",
+        "PSC-061",
+        "PSC-062",
+        "PSC-078",
+        "PSC-081",
+        "PSC-082",
+        "PSC-098",
+        "PSC-099",
+        "PSC-121",
+        "PSC-122"
+      ],
+      "evidence_rule": "Confirmed class activity/time/location; teacher signoff; original media provenance; informed permission and child safeguarding before publication.",
+      "publication_rule": "No identifying learner data, no unapproved faces/voices, no inference of improved proficiency from participation."
+    },
+    {
+      "id": "learn-with-e4bl",
+      "name": "Learn with E4BL",
+      "programme": "E4BL",
+      "stream": "HSF Knowledge & Awareness",
+      "bank": "KDI",
+      "description": "Age-appropriate English, Bangla, literacy, numeracy and home-learning tips developed from sound educational practice and checked references.",
+      "idea_ids": [
+        "KDI-009",
+        "KDI-011",
+        "KDI-012",
+        "KDI-013",
+        "KDI-014",
+        "KDI-015",
+        "KDI-016",
+        "KDI-017",
+        "KDI-018",
+        "KDI-020",
+        "KDI-023",
+        "KDI-025",
+        "KDI-136",
+        "KDI-138",
+        "KDI-139"
+      ],
+      "evidence_rule": "Teaching/curriculum objective and independently reviewed source or teacher-approved example; accurate age/grade scope, child-friendly presentation.",
+      "publication_rule": "Distinguish practical activity from research claim; education/technical review and final copy approval required."
+    }
+  ],
+  "total_mapped_ideas": 34,
+  "mapping_is_not_new_idea_or_claim": true,
+  "source_record_sha256": {
+    "communication/research/kdi_160_ideas.json": "0c007a1b7e851cf34d481d4d0c2ba994fbec4c503677c79fc581f1c0ef95d1e0",
+    "communication/research/psc_140_ideas.json": "dea1c02c09653f115b2eadf1ea464899dc589d3e2641046958c8ae52d3210457"
+  },
+  "example_post": {
+    "topic": "Animal Sounds",
+    "title": "Woof Woof! Meow Meow! Who's in the Classroom?",
+    "reporter": "User described this as published on the preceding day",
+    "published_url": "NOT_PROVIDED",
+    "evidence_and_permissions": "NOT_IN_THIS_REPOSITORY",
+    "publication_verification": "SELF_REPORTED_NOT_INDEPENDENTLY_VERIFIED"
+  }
+}

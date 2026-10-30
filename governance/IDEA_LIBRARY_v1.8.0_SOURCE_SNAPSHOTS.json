@@ -8,5 +8,5 @@
     "count": 120
   },
   "source_release": "v1.7.1",
-  "purpose": "Guard existing 254 source records against silent alteration in v1.8.0 candidate."
+  "purpose": "Guard previously editorial-approved 254 idea records against silent alteration in the current internal v1.8.0 library."
 }

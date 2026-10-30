@@ -29,11 +29,11 @@ for name in ['index.html','social_communication_plan.html']:
     test('30 October 2026' in s and 'Saiful Islam' in s,name+': control attribution/date missing')
     test(s.count('<header class="hsf-site-header"')==1,name+': shared top header duplicated')
     if name=='index.html':
-        test('Status: Candidate · Pending management review' in s,'Homepage falsely claims stable release')
+        test('Status: Current internal version' in s,'Homepage does not indicate current internal version')
         test('href="#documents"' in s, 'Homepage browse-documents link missing')
-        test('Knowledge Hub v1.7.1' in s,'Stable baseline must remain discoverable')
+        test('Knowledge Hub v1.8.0' in s,'Current Knowledge Hub version not shown')
     else:
-        test('Status: Approved &amp; Stable (Knowledge Hub v1.8.0 candidate)' in s,'Social policy approval distinction missing')
+        test('Status: Approved &amp; Stable (Knowledge Hub v1.8.0 internal)' in s,'Social policy approval distinction missing')
         for x in ['socialMenu','socialMenuOpen','socialMenuBackdrop','socialTocList','socialTocSearch']:
             test(x in o.ids,'Social navigation component missing '+x)
         test('href="index.html"' in s and 'href="communication/idea-library.html"' in s,'Social navigation links missing')
@@ -42,4 +42,4 @@ if err:
     print('SHARED HEADER QA FAILED')
     for e in err:print(' -',e)
     sys.exit(1)
-print('Shared HSF header PASS: logo, brand, sticky navigation, candidate vs policy status, mobile navigation, drawer and links aligned.')
+print('Shared HSF header PASS: logo, brand, sticky navigation, internal vs policy status, mobile navigation, drawer and links aligned.')

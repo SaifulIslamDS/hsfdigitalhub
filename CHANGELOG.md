@@ -1,3 +1,10 @@
+# 30 October 2026 | Knowledge Hub v1.8.0 current internal update: E4BL Editorial Series
+
+- Integrated **Inside Our Classroom** (19 mapped PSC ideas) and **Learn with E4BL** (15 mapped KDI ideas) in the Social Communication v4.0 master and unified library.
+- Added a conditional **E4BL editorial series** filter, stable IDs, linkable views, mapped-card badges and content safety guidance. No changes to the 300 original idea records or XLSX source banks; 46 ideas remain proposed.
+- Added public-safe `communication/editorial_series.json`, operating guide, blank publication-series register, validation script, and current internal release note.
+- Adopted continuous internal repo updating with publication approval remaining independent. Planning & Compiled by: **Saiful Islam**.
+
 # v1.8.0 candidate UI alignment (rc.3) · 30 October 2026
 
 - Aligned homepage and Social Communication v4.0 top bars through one shared CSS component: identical HSF logo, institution name, current document title, white sticky header, border, shadow, responsive sizing and accessible navigation.
