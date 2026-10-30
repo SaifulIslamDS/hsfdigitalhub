@@ -37,11 +37,14 @@ jobs:
       - name: Validate unified 500-idea content library
         run: python scripts/validate_idea_library.py
 
-      - name: Validate 100 newly proposed KDI ideas and originality evidence
+      - name: Validate original 100 KDI concepts and evidence routes and originality evidence
         run: python scripts/validate_new_kdi_ideas.py
 
-      - name: Validate 100 newly proposed PSC field-story ideas and original 400-record integrity
+      - name: Validate original 100 PSC field-story routes and original 400-record integrity
         run: python scripts/validate_new_psc_ideas.py
+
+      - name: Verify 200 user-reviewed editorial approvals and unchanged evidence gates
+        run: python scripts/validate_editorial_approval_200.py
 
       - name: Validate per-idea content prompt generator
         run: python scripts/validate_content_prompt_generator.py

@@ -40,7 +40,7 @@ if start in ht:
    require(x['title']==(K+P)[i]['title'],'Prompt title mismatch '+x['id'])
    require(x['bank']==('KDI' if i<260 else 'PSC'),'Bank mismatch '+x['id'])
    require(x['programme']==(K+P)[i]['programme'],'Programme mismatch '+x['id'])
-   require(x['status']==('proposed' if 160<=i<260 or i>=400 else 'approved'),'Idea approval state mismatch '+x['id'])
+   require(x['status']=='approved','Idea approval state mismatch '+x['id'])
   require(all(x.get('focus') and x.get('response') and x.get('suggestedFormat') for x in ctx),'Context missing idea-specific content')
  require('<script' not in serialized and '</script' not in serialized.lower(),'Unsafe HTML/script markup found in context data')
 script=(R/'communication/assets/content-prompt-generator.js').read_text(encoding='utf-8')
@@ -49,7 +49,7 @@ for phrase in ['navigator.clipboard','document.execCommand','[FIELD EVIDENCE REQ
 require('Facebook' in ht and 'LinkedIn' in ht,'Target channel options missing from modal')
 require('fetch(' not in script and 'localStorage' not in script and 'sessionStorage' not in script,'Prompt builder must not access remote services or local storage')
 manifest=json.loads((R/'MANIFEST.json').read_text(encoding='utf-8'))
-require(manifest['release']=='v1.10.0','Current release must be v1.10.0')
+require(manifest['release']=='v1.10.1','Current release must be v1.10.1')
 require(manifest['editorial']['idea_library']['content_prompt_generator']['button_per_idea'],'Manifest feature flag missing')
 if issues:
  print('CONTENT PROMPT GENERATOR VALIDATION FAILED:')

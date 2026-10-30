@@ -1,6 +1,6 @@
 # New PSC-141–240 — Editorial Scope and Evidence Boundary
 
-**Status:** 100 proposed conditional story concepts, awaiting HSF editorial review. **Not** verified HSF field occurrences, public findings, approved participant quotations or publishable posts. Date: 30 October 2026.
+**Status:** 100 conditional story concepts approved for editorial planning following user review (v1.10.1). **Not** verified HSF field occurrences, public findings, approved participant quotations or publishable posts. Date: 30 October 2026.
 
 | Project | Added | Documentation priorities |
 |---|---:|---|
@@ -16,3 +16,5 @@ The [`100-idea originality review`](PSC_141-240_UNIQUENESS_REVIEW.json) records 
 **PSC is field-evidence-led.** Source-led climate literacy and medical/education explainers belong in KDI, not disguised as HSF field events. Never invent a beneficiary, quote, impact result, referral, clinical action, event, partnership or consent.
 
 After HSF idea approval, work must still go through: occurrence record → source/MEAL verification → technical/clinical check as applicable → safeguarding/permission → reviewed exact caption + media → management-approved publication record.
+
+**Updated 30 October 2026:** These 100 concepts are editorial-approved for planning only. Original proposal and uniqueness reviews are historical records. No statistics, field events, clinical assertions or final publications were verified or authorized through this status change.

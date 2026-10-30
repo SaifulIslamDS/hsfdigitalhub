@@ -1,5 +1,5 @@
 {
-  "release": "v1.10.0",
+  "release": "v1.10.1",
   "date": "2026-10-30",
   "action": "REMOVE_FROM_WORKING_TREE_KEEP_IN_GIT_HISTORY",
   "paths": [

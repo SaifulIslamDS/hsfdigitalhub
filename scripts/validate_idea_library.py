@@ -50,8 +50,8 @@ for bank,ideas,n in [('KDI',K,134),('PSC',P,120)]:
  approved='approval_status' if bank=='KDI' else 'idea_status';verify='claim_verification_status' if bank=='KDI' else 'fact_verification_status'
  test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:n]),bank+' original editorial approval missing')
  test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:160] if bank=='KDI') if bank=='KDI' else all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[:140]),bank+' previous 46 idea promotion missing')
- if bank=='KDI':test(all(x[approved]=='EDITORIAL_IDEA_PROPOSED' for x in ideas[160:]),'New 100 KDI ideas falsely approved')
- if bank=='PSC':test(all(x[approved]=='EDITORIAL_IDEA_PROPOSED' for x in ideas[140:]),'New 100 PSC ideas falsely approved')
+ if bank=='KDI':test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[160:]),'KDI 100 user-reviewed planning approvals missing')
+ if bank=='PSC':test(all(x[approved]=='EDITORIAL_IDEA_APPROVED' for x in ideas[140:]),'PSC 100 user-reviewed planning approvals missing')
  test(all(x[verify]=='NOT_VERIFIED' and x['publication_status']=='NOT_APPROVED' for x in ideas),bank+' false publication/evidence approval')
 # Exact snapshots of approved first 134/120 records from distributed v1.7.1, if available, are frozen in this release validator's SHA-256 checks.
 def snapshot(items):return hashlib.sha256(json.dumps(items,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
@@ -69,8 +69,8 @@ for name in ['HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx'
  fn=R/'communication/research'/name;test(fn.is_file(),name+' missing');
  if fn.is_file():
   with zipfile.ZipFile(fn) as w:test(w.testzip() is None,name+' ZIP/Excel integrity failed')
-m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.10.0' and lib['total_ideas']==500 and lib['approved_editorial_ideas']==300 and lib['proposed_editorial_ideas']==200,'Manifest release/internal count mismatch')
-test('100' in (R/'social_communication_plan.html').read_text(),'Social v4 control does not distinguish 100 new proposals')
+m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.10.1' and lib['total_ideas']==500 and lib['approved_editorial_ideas']==500 and lib['proposed_editorial_ideas']==0,'Manifest release/internal count mismatch')
+test('500 editorial-approved for planning' in (R/'social_communication_plan.html').read_text(),'Social v4 public copy must distinguish planning-only approval')
 # R2 interface regression: do not expose zero-count choices and do not repeat the Social promo on the homepage.
 test('if(count===0)continue' in ht and 'label.hidden=count===0' in ht,'Zero-result filter choices must be removed/hidden')
 home=(R/'index.html').read_text(encoding='utf-8')
@@ -80,4 +80,4 @@ if errors:
  print('500-idea library validation FAILED:',len(errors))
  for e in errors:print(' -',e)
  sys.exit(1)
-print('500-idea library PASS: 260 KDI + 240 PSC; 300 editorial-approved and 200 proposals; earlier 254 records protected; E4BL series maintained.')
+print('500-idea library PASS: 260 KDI + 240 PSC; 500 editorial-approved and 0 proposed; earlier 254 records protected; E4BL series maintained.')

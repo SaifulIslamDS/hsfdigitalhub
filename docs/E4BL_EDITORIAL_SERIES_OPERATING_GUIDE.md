@@ -1,7 +1,7 @@
 # E4BL Editorial Series | Operating Guide
 
 **HSF Social Communication Ecosystem:** v4.0 (approved framework)  
-**Knowledge Hub:** v1.10.0 (current internal version)  
+**Knowledge Hub:** v1.10.1 (current internal version)  
 **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 

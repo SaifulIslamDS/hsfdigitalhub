@@ -1,3 +1,10 @@
+## v1.10.1 — 30 October 2026 · 200 editorial idea approvals (KDI + PSC)
+- User-confirmed editorial review promotes KDI-161..260 (100) and PSC-141..240 (100) from proposed to approved **for planning only**.
+- All 500 ideas remain intact with original IDs, evidence routes, reviewed-source context and concept provenance. Zero verified public claims, zero confirmed new PSC field occurrences, zero post approvals.
+- Approval transition register preserves original 200 proposal hashes and distinct source-review requirements. Original 46-idea transition remains untouched.
+- Updated JSON source banks, XLSX inventories, library/cards/prompts/briefs, master-policy counts, controlled registers and CI regression safeguards. No change to Social v4.0, Brand v2.4 or protected ERP/Netlify controls.
+- Release notes: `docs/RELEASE_v1.10.1.md`, installation and GitHub Release CLI guide: `docs/INSTALL_FULL_REPOSITORY_v1.10.1.md`.
+
 ## v1.10.0 — 30 October 2026 · 500-idea library with 100 conditional PSC proposals
 
 - Added PSC-141..240: 30 E4BL, 35 A2PHC, 25 Climate Action & Resilience and 10 cross-project ideas; all **proposed, not field-verified or publication-approved**.

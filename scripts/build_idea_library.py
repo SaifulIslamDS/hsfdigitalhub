@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build HSF's 500-idea library with conditional filters from public-safe editorial JSON.
 
-300 existing ideas are editorial-approved. 100 new KDI research proposals remain pending.
+All 500 ideas are editorial-approved for planning only. Facts and publications are not approved.
 No source lead verifies a claim or authorizes a public post.
 """
 from pathlib import Path
@@ -77,7 +77,7 @@ cards='\n'.join(card(b,x) for b,items in [('kdi',K),('psc',P)] for x in items)
 html='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#008C44">
 <title>HSF Social Content Idea Library | 500 Ideas + E4BL Series</title>
-<meta name="description" content="500 HSF editorial concepts: 300 editorial-approved ideas and 200 proposals. Not verified claims or approved publications.">
+<meta name="description" content="500 HSF editorial concepts: all editorial-approved for planning only. Zero verified claims or approved publications.">
 <style>
 :root{--green:#008C44;--deep:#163F2A;--ink:#263e32;--muted:#546c60;--pale:#EFF8F3;--line:#c9dfd0;--blue:#1769AA;--page:#f7faf8}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--ink);font:16px/1.56 Arial,'Noto Sans Bengali',sans-serif}a{color:var(--blue)}button,select,input{font:inherit}button{cursor:pointer}
@@ -95,9 +95,9 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style><link rel="stylesheet" href="assets/content-prompt-generator.css"><link rel="stylesheet" href="assets/design-brief-export.css"></head><body>
 <header><div class="wrap top"><strong>Human Safety Foundation · Digital Knowledge Hub</strong><nav aria-label="Hub navigation"><a href="../index.html">Hub Home</a><a href="../social_communication_plan.html">Social v4.0 Framework</a><a href="../brand_identity_master_guide.html">Brand Guide</a></nav></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.10.0 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 300 earlier ideas are approved for editorial planning; 100 new research-led KDI ideas remain proposals pending review. Two E4BL learning series now help find related existing ideas.</p>
+<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.10.1 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. All 500 KDI and PSC ideas are editorial-approved for planning after review. Evidence verification, field-occurrence confirmation and final publication approval remain mandatory. Two E4BL learning series now help find related existing ideas.</p>
 <div class="notice"><b>Publication gate:</b> Editorial approval is never approval of a claim, event, case study, image or public post. Validate original evidence, apply technical and safeguarding reviews, and obtain management approval for each exact publication.</div>
-<div class="stats"><div class="stat"><strong>500</strong><small>All editorial concepts</small></div><div class="stat"><strong>260</strong><small>KDI ideas (100 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (all editorial-approved)</small></div></div></section>
+<div class="stats"><div class="stat"><strong>500</strong><small>All editorial-approved for planning</small></div><div class="stat"><strong>260</strong><small>KDI ideas · approved for planning</small></div><div class="stat"><strong>240</strong><small>PSC ideas · approved for planning</small></div></div></section>
 <section class="wrap" aria-label="Unified idea catalogue"><div class="library">
 <div role="tablist" class="tabs" aria-label="Idea banks"><button class="tab" type="button" id="tab-all" data-bank="all" role="tab" aria-controls="idea-panel" aria-selected="true">All ideas (500)</button><button class="tab" type="button" id="tab-kdi" data-bank="kdi" role="tab" aria-controls="idea-panel" aria-selected="false">Knowledge &amp; Insight (260)</button><button class="tab" type="button" id="tab-psc" data-bank="psc" role="tab" aria-controls="idea-panel" aria-selected="false">Programme Stories (240)</button></div>
 <div id="idea-panel" role="tabpanel" aria-labelledby="tab-all"><form id="idea-filters" class="filters" role="search" onsubmit="return false">
@@ -111,7 +111,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 <div class="field"><label for="format">Visual / media family</label><select id="format"><option value="">All formats</option></select></div>
 <div class="field"><label for="sort">Sort ideas</label><select id="sort"><option value="id">Idea ID (ascending)</option><option value="new">Newest additions first</option><option value="title">Title A–Z</option><option value="programme">Programme</option></select></div></form>
 <div class="filter-actions"><div class="active-filters" id="active-filters" aria-label="Active filters"></div><button class="reset" id="reset" type="button">Clear all filters</button></div>
-<div class="resultbar"><strong id="count" aria-live="polite" role="status">Showing 500 of 500 ideas</strong><span id="context">300 editorial-approved · 200 proposed · zero publication-ready claims</span></div>
+<div class="resultbar"><strong id="count" aria-live="polite" role="status">Showing 500 of 500 ideas</strong><span id="context">500 editorial-approved · 0 proposed · zero publication-ready claims</span></div>
 <div class="ideas" id="ideas">''' +cards+'''</div><div id="empty" class="empty" hidden><strong>No matching ideas.</strong><p>Broaden the filters or clear one of your selected tags.</p></div>
 </div></div></section>
 <section class="wrap resources" aria-label="Governance and source bank downloads"><h2>Controlled source inventories</h2><p><b>Inside Our Classroom</b> (PSC) and <b>Learn with E4BL</b> (KDI) are discovery labels over selected E4BL records; other ideas remain discoverable through All series. Read the <a href="../docs/E4BL_EDITORIAL_SERIES_OPERATING_GUIDE.md">series guidance</a>. These are editorial research/story opportunities. No external statistic, service activity or case outcome is verified by this catalogue. Discovery tags on older records are suggested editorial topics for filtering, not independently verified factual classifications.</p>
@@ -133,7 +133,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
  </div>
 </dialog>
 
-<footer><div class="wrap">HSF Knowledge Hub v1.10.0 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
+<footer><div class="wrap">HSF Knowledge Hub v1.10.1 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
 <script>
 (function(){'use strict';
 const cards=Array.from(document.querySelectorAll('#ideas .idea'));

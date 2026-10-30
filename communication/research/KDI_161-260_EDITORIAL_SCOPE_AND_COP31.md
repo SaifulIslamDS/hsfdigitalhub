@@ -10,7 +10,7 @@ The 100 new concepts KDI-161 to KDI-260 are **proposed editorial ideas**, not ve
 | Existing vs new status | Editorial approval | Publication approval |
 |---|---|---|
 | Previous 300 records | Approved for planning, including 46 promoted on 30 October 2026 | No |
-| New 100 KDI records | Proposed, awaiting individual review | No |
+| New 100 KDI records | Editorial-approved for planning, awaiting individual review | No |
 
 ## COP31: avoid repeating the existing 14 broad concepts
 
@@ -29,3 +29,5 @@ Their conceptual seed is the previously supplied 46-page *Road to Antalya COP31:
 ## Publication gates
 
 Climate: exact source, reporting period, geography, scientific uncertainty and civil-society vs official position. Education: pedagogy/age/grade technical review. Healthcare: licensed clinical review, local clinical guidance, no personalized diagnosis or prescription. All: safeguarding, brand checks, source verification and final management approval of the exact public output.
+
+**Updated 30 October 2026:** These 100 concepts are editorial-approved for planning only. Original proposal and uniqueness reviews are historical records. No statistics, field events, clinical assertions or final publications were verified or authorized through this status change.

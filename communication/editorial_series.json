@@ -112,8 +112,8 @@
   "total_mapped_ideas": 79,
   "mapping_is_not_new_idea_or_claim": true,
   "source_record_sha256": {
-    "communication/research/kdi_260_ideas.json": "690ca9367b90ceefdcdc2a771e46eba87203cef32764eacc6bf4c6b85c40ae35",
-    "communication/research/psc_240_ideas.json": "8b9fcc958f400b203d268a2d19a85aac5a7fe434a1fa53a1f8235c6ca93f61ee"
+    "communication/research/kdi_260_ideas.json": "9cb6bf075cca35c00b969e65709f052039d08f155d2b01c4871cf8f3ff247b7d",
+    "communication/research/psc_240_ideas.json": "b0438f982130f706dff7b753f24092995ab23e1ece682258a0ccfa21cb9e014d"
   },
   "example_post": {
     "topic": "Animal Sounds",
@@ -122,5 +122,6 @@
     "published_url": "NOT_PROVIDED",
     "evidence_and_permissions": "NOT_IN_THIS_REPOSITORY",
     "publication_verification": "SELF_REPORTED_NOT_INDEPENDENTLY_VERIFIED"
-  }
+  },
+  "source_integrity_note": "SHA256 refreshed in v1.10.1 solely for the 200 user-reviewed planning-approval status transitions, with preserved before/after fingerprints in governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json. The 79 E4BL idea mappings are unchanged."
 }

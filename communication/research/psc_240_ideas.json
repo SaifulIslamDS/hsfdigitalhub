@@ -1,7 +1,7 @@
 {
-  "name": "HSF Programme Stories & Communication, 240 concepts (140 editorial-approved + 100 proposed)",
+  "name": "HSF Programme Stories & Communication, 240 editorial ideas (all approved for planning, all field claims unverified)",
   "version": "4.0",
-  "status": "MIXED_EDITORIAL_APPROVAL_140_APPROVED_100_PROPOSED",
+  "status": "EDITORIAL_IDEAS_240_APPROVED_FOR_PLANNING_ONLY",
   "total": 240,
   "stream_principle": "Two streams, open-ended; no compulsory 48-post pilot",
   "ideas": [
@@ -2876,7 +2876,7 @@
       "suggested_format": "Process photo story",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2892,7 +2892,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-142",
@@ -2905,7 +2906,7 @@
       "suggested_format": "Simple process carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2921,7 +2922,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-143",
@@ -2934,7 +2936,7 @@
       "suggested_format": "Reel or instructional photo steps",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2950,7 +2952,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-144",
@@ -2963,7 +2966,7 @@
       "suggested_format": "Challenge-and-response card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2979,7 +2982,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-145",
@@ -2992,7 +2996,7 @@
       "suggested_format": "Before-and-after document card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3008,7 +3012,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-146",
@@ -3021,7 +3026,7 @@
       "suggested_format": "Learning note carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3037,7 +3042,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-147",
@@ -3050,7 +3056,7 @@
       "suggested_format": "Short educator interview",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3066,7 +3072,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-148",
@@ -3079,7 +3086,7 @@
       "suggested_format": "Anonymized communication story",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3095,7 +3102,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-149",
@@ -3108,7 +3116,7 @@
       "suggested_format": "Problem-solving photo card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3124,7 +3132,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-150",
@@ -3137,7 +3146,7 @@
       "suggested_format": "Version-comparison carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3153,7 +3162,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-151",
@@ -3166,7 +3176,7 @@
       "suggested_format": "Learning activity Reel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3182,7 +3192,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-152",
@@ -3195,7 +3206,7 @@
       "suggested_format": "Timeline card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3211,7 +3222,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-153",
@@ -3224,7 +3236,7 @@
       "suggested_format": "Annotated photo story",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3240,7 +3252,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-154",
@@ -3253,7 +3266,7 @@
       "suggested_format": "Evidence workflow infographic",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3269,7 +3282,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-155",
@@ -3282,7 +3296,7 @@
       "suggested_format": "Site safety learning card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3298,7 +3312,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-156",
@@ -3311,7 +3326,7 @@
       "suggested_format": "Five-frame photo sequence",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3327,7 +3342,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-157",
@@ -3340,7 +3356,7 @@
       "suggested_format": "Teacher voice card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3356,7 +3372,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-158",
@@ -3369,7 +3386,7 @@
       "suggested_format": "Education practice carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3385,7 +3402,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-159",
@@ -3398,7 +3416,7 @@
       "suggested_format": "Environmental photo story",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3414,7 +3432,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-160",
@@ -3427,7 +3446,7 @@
       "suggested_format": "Operational lesson card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3443,7 +3462,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-161",
@@ -3456,7 +3476,7 @@
       "suggested_format": "Teacher-led explainer",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3472,7 +3492,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-162",
@@ -3485,7 +3506,7 @@
       "suggested_format": "Before-and-after visual",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3501,7 +3522,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-163",
@@ -3514,7 +3536,7 @@
       "suggested_format": "Handover process carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3530,7 +3552,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-164",
@@ -3543,7 +3566,7 @@
       "suggested_format": "Anonymized human-interest card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3559,7 +3582,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-165",
@@ -3572,7 +3596,7 @@
       "suggested_format": "Classroom routine photo sequence",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3588,7 +3612,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-166",
@@ -3601,7 +3626,7 @@
       "suggested_format": "Response timeline",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3617,7 +3642,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-167",
@@ -3630,7 +3656,7 @@
       "suggested_format": "Plain-language before-after",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3646,7 +3672,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-168",
@@ -3659,7 +3686,7 @@
       "suggested_format": "Photo essay",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3675,7 +3702,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-169",
@@ -3688,7 +3716,7 @@
       "suggested_format": "Accessibility issue-response card",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3704,7 +3732,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-170",
@@ -3717,7 +3746,7 @@
       "suggested_format": "Process learning carousel",
       "review_risk": "HIGH: child safeguarding; no identifying learner media or family details; do not infer learning gains or programme outcomes.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3733,7 +3762,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-171",
@@ -3746,7 +3776,7 @@
       "suggested_format": "Equipment readiness photo essay",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3762,7 +3792,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-172",
@@ -3775,7 +3806,7 @@
       "suggested_format": "Venue before-after",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3791,7 +3822,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-173",
@@ -3804,7 +3836,7 @@
       "suggested_format": "Setup photo guide",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3820,7 +3852,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-174",
@@ -3833,7 +3866,7 @@
       "suggested_format": "Quality-control explainer",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3849,7 +3882,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-175",
@@ -3862,7 +3896,7 @@
       "suggested_format": "Operational issue-response card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3878,7 +3912,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-176",
@@ -3891,7 +3926,7 @@
       "suggested_format": "Staff practice photo story",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3907,7 +3942,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-177",
@@ -3920,7 +3956,7 @@
       "suggested_format": "Small data card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3936,7 +3972,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-178",
@@ -3949,7 +3986,7 @@
       "suggested_format": "Community voice photo card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3965,7 +4002,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-179",
@@ -3978,7 +4016,7 @@
       "suggested_format": "Response timeline",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -3994,7 +4032,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-180",
@@ -4007,7 +4046,7 @@
       "suggested_format": "Before-and-after explainer",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4023,7 +4062,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-181",
@@ -4036,7 +4076,7 @@
       "suggested_format": "Inventory control card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4052,7 +4092,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-182",
@@ -4065,7 +4106,7 @@
       "suggested_format": "Patient-safety response card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4081,7 +4122,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-183",
@@ -4094,7 +4136,7 @@
       "suggested_format": "Behind-the-scenes Reel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4110,7 +4152,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-184",
@@ -4123,7 +4166,7 @@
       "suggested_format": "Accessibility audit carousel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4139,7 +4182,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-185",
@@ -4152,7 +4196,7 @@
       "suggested_format": "Community collaborator interview",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4168,7 +4212,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-186",
@@ -4181,7 +4226,7 @@
       "suggested_format": "Privacy-first learning note",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4197,7 +4242,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-187",
@@ -4210,7 +4256,7 @@
       "suggested_format": "Referral preparedness card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4226,7 +4272,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-188",
@@ -4239,7 +4286,7 @@
       "suggested_format": "Feedback loop carousel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4255,7 +4302,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-189",
@@ -4268,7 +4316,7 @@
       "suggested_format": "Practical-response post",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4284,7 +4332,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-190",
@@ -4297,7 +4346,7 @@
       "suggested_format": "Service information photo card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4313,7 +4362,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-191",
@@ -4326,7 +4376,7 @@
       "suggested_format": "Accountability process card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4342,7 +4392,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-192",
@@ -4355,7 +4406,7 @@
       "suggested_format": "Safeguarding staff voice",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4371,7 +4422,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-193",
@@ -4384,7 +4436,7 @@
       "suggested_format": "Operational correction timeline",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4400,7 +4452,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-194",
@@ -4413,7 +4466,7 @@
       "suggested_format": "Leaflet design/process carousel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4429,7 +4482,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-195",
@@ -4442,7 +4496,7 @@
       "suggested_format": "Health literacy feedback card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4458,7 +4512,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-196",
@@ -4471,7 +4526,7 @@
       "suggested_format": "Heat preparedness field story",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4487,7 +4542,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-197",
@@ -4500,7 +4556,7 @@
       "suggested_format": "Behind-the-scenes preparation",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4516,7 +4572,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-198",
@@ -4529,7 +4586,7 @@
       "suggested_format": "Service-quality data card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4545,7 +4602,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-199",
@@ -4558,7 +4616,7 @@
       "suggested_format": "Anonymized community voice",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4574,7 +4632,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-200",
@@ -4587,7 +4646,7 @@
       "suggested_format": "Public-information correction card",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4603,7 +4662,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-201",
@@ -4616,7 +4676,7 @@
       "suggested_format": "Visual literacy photo sequence",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4632,7 +4692,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-202",
@@ -4645,7 +4706,7 @@
       "suggested_format": "Privacy by design carousel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4661,7 +4722,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-203",
@@ -4674,7 +4736,7 @@
       "suggested_format": "Field challenge-response Reel",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4690,7 +4752,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-204",
@@ -4703,7 +4766,7 @@
       "suggested_format": "Preparation photo story",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4719,7 +4782,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-205",
@@ -4732,7 +4796,7 @@
       "suggested_format": "Communication flow infographic",
       "review_risk": "HIGH: patient privacy, licensed clinical/medical review and informed permissions; no identifying records or medical outcome claims.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4748,7 +4812,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-206",
@@ -4761,7 +4826,7 @@
       "suggested_format": "Community observation photo series",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4777,7 +4842,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-207",
@@ -4790,7 +4856,7 @@
       "suggested_format": "Site decision carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4806,7 +4872,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-208",
@@ -4819,7 +4886,7 @@
       "suggested_format": "Monitoring process card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4835,7 +4902,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-209",
@@ -4848,7 +4916,7 @@
       "suggested_format": "Community voice portrait-free card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4864,7 +4932,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-210",
@@ -4877,7 +4946,7 @@
       "suggested_format": "Evidence-led activity infographic",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4893,7 +4962,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-211",
@@ -4906,7 +4976,7 @@
       "suggested_format": "Local-risk issue card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4922,7 +4992,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-212",
@@ -4935,7 +5006,7 @@
       "suggested_format": "Learning activity carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4951,7 +5022,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-213",
@@ -4964,7 +5036,7 @@
       "suggested_format": "Measured learning card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -4980,7 +5052,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-214",
@@ -4993,7 +5066,7 @@
       "suggested_format": "Inclusive-event learning post",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5009,7 +5082,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-215",
@@ -5022,7 +5096,7 @@
       "suggested_format": "Community practice photo story",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5038,7 +5112,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-216",
@@ -5051,7 +5126,7 @@
       "suggested_format": "Photo-led nature story",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5067,7 +5142,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-217",
@@ -5080,7 +5156,7 @@
       "suggested_format": "Lessons-learned carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5096,7 +5172,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-218",
@@ -5109,7 +5186,7 @@
       "suggested_format": "Accountability scorecard",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5125,7 +5202,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-219",
@@ -5138,7 +5216,7 @@
       "suggested_format": "Poster before-and-after",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5154,7 +5232,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-220",
@@ -5167,7 +5246,7 @@
       "suggested_format": "Anonymized worker voice",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5183,7 +5262,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-221",
@@ -5196,7 +5276,7 @@
       "suggested_format": "Safety-first response card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5212,7 +5292,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-222",
@@ -5225,7 +5306,7 @@
       "suggested_format": "Community rehearsal Reel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5241,7 +5322,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-223",
@@ -5254,7 +5336,7 @@
       "suggested_format": "Question-to-evidence carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5270,7 +5352,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-224",
@@ -5283,7 +5366,7 @@
       "suggested_format": "Practical field photo notes",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5299,7 +5382,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-225",
@@ -5312,7 +5396,7 @@
       "suggested_format": "Participatory planning story",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5328,7 +5412,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-226",
@@ -5341,7 +5426,7 @@
       "suggested_format": "Communication experiment carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5357,7 +5442,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-227",
@@ -5370,7 +5456,7 @@
       "suggested_format": "Monthly follow-up data card",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5386,7 +5472,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-228",
@@ -5399,7 +5486,7 @@
       "suggested_format": "Map revision story",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5415,7 +5502,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-229",
@@ -5428,7 +5516,7 @@
       "suggested_format": "Education photo carousel",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5444,7 +5532,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-230",
@@ -5457,7 +5546,7 @@
       "suggested_format": "Intention-versus-action follow-up",
       "review_risk": "MODERATE/HIGH: preserve informed participation, community dignity and accurate environmental attribution; technical review for science or safety.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5473,7 +5562,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-231",
@@ -5486,7 +5576,7 @@
       "suggested_format": "Institutional practice card",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5502,7 +5592,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-232",
@@ -5515,7 +5606,7 @@
       "suggested_format": "Before-and-after design carousel",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5531,7 +5622,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-233",
@@ -5544,7 +5636,7 @@
       "suggested_format": "Evidence governance explainer",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5560,7 +5652,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-234",
@@ -5573,7 +5666,7 @@
       "suggested_format": "Staff learning Reel",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5589,7 +5682,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-235",
@@ -5602,7 +5696,7 @@
       "suggested_format": "Institutional learning card",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5618,7 +5712,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-236",
@@ -5631,7 +5726,7 @@
       "suggested_format": "Collaborator interview card",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5647,7 +5742,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-237",
@@ -5660,7 +5756,7 @@
       "suggested_format": "Translation quality case",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5676,7 +5772,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-238",
@@ -5689,7 +5786,7 @@
       "suggested_format": "Workflow scorecard",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5705,7 +5802,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-239",
@@ -5718,7 +5816,7 @@
       "suggested_format": "Workflow tutorial carousel",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5734,7 +5832,8 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     },
     {
       "id": "PSC-240",
@@ -5747,7 +5846,7 @@
       "suggested_format": "Transparent learning card",
       "review_risk": "HIGH where applicable: respect consent, governance and confidential institutional data; publish no private records or unapproved commitments.",
       "optional_kdi_crosslink": "Link to a thematically related KDI item only if its separate evidence is verified; do not treat a research lead as an HSF occurrence.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -5763,10 +5862,11 @@
       "approval_origin": "NEW_EDITORIAL_PROPOSAL_V1.10.0",
       "suggested_channel": "Facebook / Instagram / website after documented occurrence, safeguarding, technical/MEAL and management review",
       "date_added": "2026-10-30",
-      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
+      "originality_review_ref": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json",
+      "editorial_approval_record": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
     }
   ],
   "approval_date": "2026-10-30",
   "approved_for_publication": false,
-  "notes": "New PSC-141..240 ideas are conditional field-documentable prompts only. None asserts a real HSF event; fact verification, safeguarding and publication approval remain separate."
+  "notes": "PSC-141..240 received editorial planning approval following explicit user review on 30 October 2026. These remain conditional field-story opportunities, NOT evidence that HSF activities, participants, quotes, outcomes or occurrences actually exist. Factual verification, field records, informed consent and final output approval are required."
 }

@@ -29,20 +29,21 @@
       "classification": "PUBLIC",
       "owner": "HSF Communication / Knowledge Hub",
       "contains_personal_data": false,
-      "approval_status": "EDITORIAL_IDEAS_140_APPROVED_100_PROPOSED_NOT_PUBLICATION_APPROVED",
+      "approval_status": "EDITORIAL_IDEAS_240_APPROVED_FOR_PLANNING_NOT_PUBLICATION_APPROVED",
       "review_date": "2026-10-30",
-      "sha256": "16125221c9c3620454376ee435b27437df60eb24fe31115370b71c0700a76b5f",
-      "note": "240 conditional PSC ideas: 140 approved for editorial planning, 100 newly proposed; no field events, people or public claims verified by inclusion."
+      "sha256": "575dc5578d44e9e6fd494aaa98ee9920e8137c325e5bcd89004eda342d91517b",
+      "note": "240 conditional PSC story ideas all approved for planning; none confirms a field occurrence, person, outcome or public claim."
     },
     {
       "path": "communication/research/HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
       "contains_personal_data": false,
-      "purpose": "Public-safe editorial idea inventory; proposed/approved idea statuses do not authorize posting",
-      "sha256": "db7968cba8356a105172623ac9bb2589d0b3bc4b56fa16d83b7808d759713465"
+      "purpose": "260 editorial ideas approved for planning only; source research, figures and final posts need independent checks.",
+      "sha256": "22d1bc2c65818af7681f74032505e4f77d45052b78b16a359a14875077a1710e"
     }
   ],
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "release": "v1.10.0"
+  "release": "v1.10.1",
+  "version_note": "v1.10.1: only two canonical editorial XLSX inventories changed for 500 editorial idea approvals; no field, clinical or other personal data added."
 }

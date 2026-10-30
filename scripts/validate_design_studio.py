@@ -8,7 +8,7 @@ def verify(ok,msg):
 def text(p):return (ROOT/p).read_text(encoding='utf-8')
 try:
     meta=json.loads(text('MANIFEST.json'))
-    verify(meta['release']=='v1.10.0','Knowledge Hub release must be v1.10.0')
+    verify(meta['release']=='v1.10.1','Knowledge Hub release must be v1.10.1')
     verify(meta['design_studio']['entry_page']=='design-studio/index.html','Design Studio entry path missing')
     compiled=(S/'index.html').read_bytes()
     verify(b'fabric.min.js' not in compiled[:2500], 'No unexpected unexpanded dependency in HTML head')

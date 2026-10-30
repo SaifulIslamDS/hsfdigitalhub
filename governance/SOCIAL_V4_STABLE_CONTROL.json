@@ -5,7 +5,7 @@
   "effective_date": "2026-10-20",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "knowledge_hub_release": "v1.10.0",
+  "knowledge_hub_release": "v1.10.1",
   "social_canonical_path": "social_communication_plan.html",
   "brand_canonical_path": "brand_identity_master_guide.html",
   "brand_guide_version": "v2.4",
@@ -25,11 +25,11 @@
     "KNOWLEDGE_DATA_INSIGHT",
     "INSTITUTIONAL_ENGAGEMENT"
   ],
-  "idea_bank_scope": "Management-approved editorial inventories only; actual cases and statistical claims require source verification, safeguards, and exact published-output approval.",
+  "idea_bank_scope": "500 user-reviewed editorial idea concepts approved for planning only. No field occurrence, claim, source, final content or publication is approved by catalogue inclusion.",
   "ideas_total": 500,
   "initial_fixed_pilot": "RETIRED_NO_ACTIVE_ARCHIVE_OR_TRACKER",
   "approval_boundary": {
-    "editorial_ideas": "300_APPROVED_FOR_PLANNING_PLUS_200_NEW_PROPOSED_ACROSS_KDI_AND_PSC",
+    "editorial_ideas": "500_APPROVED_FOR_EDITORIAL_PLANNING_ONLY; ZERO_PROPOSED; ZERO_VERIFIED_PUBLIC_CLAIMS",
     "underlying_events_and_statistics": "NOT_VERIFIED_BY_IDEA_APPROVAL",
     "publications": "INDIVIDUAL_APPROVAL_REQUIRED"
   },
@@ -37,17 +37,17 @@
     {
       "code": "KDI",
       "count": 260,
-      "approved": 160,
-      "proposed": 100,
-      "status": "MIXED_APPROVED_AND_PROPOSED_IDEAS_ONLY",
+      "approved": 260,
+      "proposed": 0,
+      "status": "EDITORIAL_IDEAS_ALL_APPROVED_FOR_PLANNING_NOT_PUBLICATION",
       "source": "communication/research/HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx"
     },
     {
       "code": "PSC",
       "count": 240,
-      "approved": 140,
-      "proposed": 100,
-      "status": "MIXED_APPROVED_AND_PROPOSED_IDEAS_ONLY",
+      "approved": 240,
+      "proposed": 0,
+      "status": "EDITORIAL_IDEAS_ALL_APPROVED_FOR_PLANNING_NOT_PUBLICATION",
       "source": "communication/research/HSF_Programme_Stories_Communication_240_Idea_Bank_Editorial_Inventory.xlsx"
     }
   ],
@@ -100,12 +100,12 @@
       "KDI-161..260"
     ],
     "new_ideas": 100,
-    "approval": "PROPOSED_NOT_APPROVED",
+    "approval": "APPROVED_FOR_EDITORIAL_PLANNING_ONLY_NOT_VERIFIED",
     "added_date": "2026-10-30",
     "review": "communication/research/KDI_161-260_UNIQUENESS_REVIEW.json"
   },
-  "ideas_approved_for_editorial_planning": 300,
-  "new_ideas_pending_approval": 200,
+  "ideas_approved_for_editorial_planning": 500,
+  "new_ideas_pending_approval": 0,
   "editorial_series_overlay": "communication/editorial_series.json",
   "editorial_series_status": "ADOPTED_EDITORIAL_LABELS_NO_PUBLICATION_PERMISSION",
   "note_on_release_field": "Current Knowledge Hub software release; Social Communication v4.0 policy approval date and status are unchanged.",
@@ -115,8 +115,9 @@
       "PSC-141..240"
     ],
     "new_ideas": 100,
-    "approval": "PROPOSED_NOT_APPROVED",
+    "approval": "APPROVED_FOR_EDITORIAL_PLANNING_ONLY; FIELD_OCCURRENCE_NOT_CONFIRMED",
     "added_date": "2026-10-30",
     "review": "communication/research/PSC_141-240_UNIQUENESS_REVIEW.json"
-  }
+  },
+  "latest_200_ideas_approval_transition": "governance/EDITORIAL_APPROVAL_TRANSITION_v1.10.1.json"
 }

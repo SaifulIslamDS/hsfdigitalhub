@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate approved Social policy v4.0 with current internal Knowledge Hub v1.10.0."""
+"""Validate approved Social policy v4.0 with current internal Knowledge Hub v1.10.1."""
 from pathlib import Path
 from html.parser import HTMLParser
 from collections import Counter
@@ -11,11 +11,11 @@ def file(p):return (R/p).read_text(encoding='utf-8')
 def j(p):return json.loads(file(p))
 def sha(p):return hashlib.sha256((R/p).read_bytes()).hexdigest()
 m=j('MANIFEST.json');control=j('governance/SOCIAL_V4_STABLE_CONTROL.json');assets=j('governance/PUBLIC_ASSET_REGISTER.json')
-test(m['release']=='v1.10.0' and m['current_stable_content_baseline']['knowledge_hub']=='v1.10.0','current internal release incorrectly recorded')
+test(m['release']=='v1.10.1' and m['current_stable_content_baseline']['knowledge_hub']=='v1.10.1','current internal release incorrectly recorded')
 test(m['current_stable_content_baseline']['social_communication_plan']=='v4.0','social-policy version changed')
 test(m['current_stable_content_baseline']['brand_identity_design_system']=='v2.4','brand guide changed')
 test(control['status']=='APPROVED_STABLE' and control['version']=='4.0','approved social v4.0 policy not preserved')
-test(control['ideas_total']==500 and control['ideas_approved_for_editorial_planning']==300 and control['new_ideas_pending_approval']==200,'300/46 control counts wrong')
+test(control['ideas_total']==500 and control['ideas_approved_for_editorial_planning']==500 and control['new_ideas_pending_approval']==0,'500/0 control counts wrong')
 test(control.get('editorial_series_overlay')=='communication/editorial_series.json','series overlay missing from approved social control')
 for a in assets.get('assets',[]):
  path=a['path'];test((R/path).is_file(),'registered public asset missing: '+path)
@@ -25,7 +25,7 @@ for path,data in control['sensitive_system_baseline_integrity'].items():
  test((R/path).is_file(),'protected path missing: '+path)
  if (R/path).is_file():test(sha(path)==data.get('sha256',data.get('reviewed_sha256')),'protected baseline modified: '+path)
 social=file('social_communication_plan.html')
-for val in ['v4.0','APPROVED','500','300','200','260','240','Saiful Islam','30 October 2026','Issue → Practical Response','Inside Our Classroom','Learn with E4BL','e4bl-series','socialMenuOpen','socialMenuBackdrop','socialTocList','socialTocSearch','aria-hidden','inert']:
+for val in ['v4.0','APPROVED','500','260','240','Saiful Islam','30 October 2026','Issue → Practical Response','Inside Our Classroom','Learn with E4BL','e4bl-series','socialMenuOpen','socialMenuBackdrop','socialTocList','socialTocSearch','aria-hidden','inert']:
  test(val in social,'missing current policy/nav token '+val)
 for x in ['P01–P48','fixed 48-post','mandatory 48-post','Version 4.0 · CANDIDATE']:
  test(x not in social,'old pilot/candidate policy reference in active social page: '+x)
