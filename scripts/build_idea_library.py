@@ -93,9 +93,9 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 .empty{border:1px dashed #8fbaa2;padding:22px;text-align:center;border-radius:14px}.empty[hidden]{display:none}.resources{padding:12px 0 40px}.links{display:flex;flex-wrap:wrap;gap:9px}.links a{border:1px solid #aecdbb;border-radius:9px;background:#fff;padding:9px 12px;text-decoration:none;font-size:14px;font-weight:bold}footer{background:#eaf4ee;padding:22px 0;color:#405e4c;font-size:12px}
 @media(max-width:900px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.ideas{grid-template-columns:1fr}}@media(max-width:560px){.filters,.stats{grid-template-columns:1fr}.field.search{grid-column:span 1}.library{padding:15px}.tab{width:100%;text-align:left}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style><link rel="stylesheet" href="assets/content-prompt-generator.css"></head><body>
+</style><link rel="stylesheet" href="assets/content-prompt-generator.css"><link rel="stylesheet" href="assets/design-brief-export.css"></head><body>
 <header><div class="wrap top"><strong>Human Safety Foundation · Digital Knowledge Hub</strong><nav aria-label="Hub navigation"><a href="../index.html">Hub Home</a><a href="../social_communication_plan.html">Social v4.0 Framework</a><a href="../brand_identity_master_guide.html">Brand Guide</a></nav></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.1 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
+<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.2 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
 <div class="notice"><b>Publication gate:</b> Editorial approval is never approval of a claim, event, case study, image or public post. Validate original evidence, apply technical and safeguarding reviews, and obtain management approval for each exact publication.</div>
 <div class="stats"><div class="stat"><strong>300</strong><small>All editorial concepts</small></div><div class="stat"><strong>160</strong><small>KDI ideas (26 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (20 new proposed)</small></div></div></section>
 <section class="wrap" aria-label="Unified idea catalogue"><div class="library">
@@ -133,7 +133,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
  </div>
 </dialog>
 
-<footer><div class="wrap">HSF Knowledge Hub v1.8.1 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
+<footer><div class="wrap">HSF Knowledge Hub v1.8.2 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
 <script>
 (function(){'use strict';
 const cards=Array.from(document.querySelectorAll('#ideas .idea'));
@@ -247,6 +247,6 @@ assert len(contexts)==300
 safejson=json.dumps(contexts,ensure_ascii=False,separators=(',',':')).replace('<',r'\u003c').replace('>',r'\u003e').replace('&',r'\u0026')
 needle='</script><noscript>'
 assert needle in html
-html=html.replace(needle,'</script><script type="application/json" id="hsf-idea-prompt-context">'+safejson+'</script><script src="assets/content-prompt-generator.js"></script><noscript>',1)
+html=html.replace(needle,'</script><script type="application/json" id="hsf-idea-prompt-context">'+safejson+'</script><script src="assets/content-prompt-generator.js"></script><script src="assets/design-brief-export.js" defer></script><noscript>',1)
 out=R/'communication/idea-library.html';out.write_text(html,encoding='utf-8')
 print('Built',len(K)+len(P),'cards',out.stat().st_size,'bytes')

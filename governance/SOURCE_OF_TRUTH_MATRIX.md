@@ -22,6 +22,7 @@ This matrix defines which HSF source is authoritative for each information type.
 | Calculated/estimated/inferred values | Documented analysis with source and methodology | MEAL review | Evidence state must remain explicit |
 | Public statistics | Approved Information Layer | Management approval + MEAL evidence | Publication state must be `APPROVED_PUBLIC` |
 | Brand rules | Current approved Brand Identity & Design System | Production asset stack | Public-facing design should conform |
+| Social visual production tool | `design-studio/source/` and generated `design-studio/index.html` | Approved Brand Identity Guide and Brand Stack remain authoritative | Draft creation does not establish public-use approval |
 | Social communication operating model | Current stable Social Communication Plan | Tracker and communication registers | Candidate plans are not canonical until promoted |
 | Website/social/report copy | Approved public communication output | Approved Information Layer | Must not bypass verification/approval |
 

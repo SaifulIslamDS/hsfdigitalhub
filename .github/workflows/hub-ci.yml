@@ -39,3 +39,6 @@ jobs:
 
       - name: Validate per-idea content prompt generator
         run: python scripts/validate_content_prompt_generator.py
+
+      - name: Validate internal HSF Design Studio integration
+        run: python scripts/validate_design_studio.py

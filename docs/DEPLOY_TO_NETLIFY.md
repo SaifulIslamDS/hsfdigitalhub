@@ -46,3 +46,7 @@ The site intentionally fails closed when these values are not configured.
 Full setup and testing instructions are available in:
 
 `SECURITY_PIN_GATE.md`
+
+## Design Studio internal tool · v1.8.2
+
+The Knowledge Hub now publishes `design-studio/index.html` as a **self-contained, offline-capable authoring tool** and `design-studio/source/` for source-controlled maintenance. The existing Netlify Edge PIN gate is configured with a catch-all path; verify an unauthenticated request to `/design-studio/index.html` is blocked in the deployed environment, and a signed-in staff session can load it. A deployment PIN does **not** hide files in the public GitHub repository. Never commit identifiable HSF learner/patient photographs, consent files, unpublished confidential content, passwords or private assets. Staff must review the exact exported artifact before public use.

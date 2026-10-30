@@ -1,0 +1,605 @@
+<title>HSF Design Studio</title>
+<style>
+__FONTCSS__
+</style>
+<style>
+/* Layout: full-screen editor like Canva. Brand bar on top; icon rail + collapsible library on the left; canvas workspace with contextual toolbar and page strip; collapsible inspector on the right. App colours follow the chosen HSF palette. */
+:root{
+  --brand:#008C44; --brand-deep:#006B35; --brand-2:#35A36C; --brand-soft:#EFF8F3; --brand-ink:#FFFFFF;
+  --bg:#F2F4F3; --surface:#FFFFFF; --sunk:#EDF1EF; --raise:#F8FAF9; --fg:#1D2723; --muted:#5D6A64; --line:#D9E0DC; --line2:#E7ECE9;
+  --rail:#1E2A25; --rail-fg:#C9D6CF; --stage:#E3E8E5;
+  --ok:#0F7A3E; --ok-bg:#E1F3E8; --warn:#8A5A00; --warn-bg:#FFF1D2; --bad:#A3262E; --bad-bg:#FBE4E6;
+  --ui:"Poppins","Segoe UI",system-ui,sans-serif; --mono:ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --fw:320px; --iw:330px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1512; --surface:#161E1A; --sunk:#1C2621; --raise:#19221E; --fg:#E5ECE8; --muted:#9BA8A1; --line:#2B3832; --line2:#23302A; --rail:#0B110E; --rail-fg:#B9C7C0; --stage:#0C120F;
+  --ok:#6FD39A; --ok-bg:#163224; --warn:#F2C46B; --warn-bg:#2E2614; --bad:#F09097; --bad-bg:#3A1C1F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1512; --surface:#161E1A; --sunk:#1C2621; --raise:#19221E; --fg:#E5ECE8; --muted:#9BA8A1; --line:#2B3832; --line2:#23302A; --rail:#0B110E; --rail-fg:#B9C7C0; --stage:#0C120F;
+  --ok:#6FD39A; --ok-bg:#163224; --warn:#F2C46B; --warn-bg:#2E2614; --bad:#F09097; --bad-bg:#3A1C1F; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font:13px/1.5 var(--ui);overflow:hidden}
+[hidden]{display:none!important}
+button,input,select,textarea{font:inherit;color:inherit}
+svg{flex:0 0 auto}
+.app{height:100%;display:grid;grid-template-rows:auto 1fr;min-height:0}
+/* top bar */
+.top{display:flex;align-items:center;gap:10px;padding:8px 12px;padding-top:calc(8px + env(safe-area-inset-top,0px));background:linear-gradient(90deg,var(--brand-deep),var(--brand));color:var(--brand-ink);flex-wrap:wrap;min-width:0}
+.top h1{font:700 16px/1 var(--ui);margin:0;white-space:nowrap;letter-spacing:-.01em}
+.top .ver{font:600 10px var(--mono);opacity:.85;border:1px solid rgba(255,255,255,.4);border-radius:5px;padding:2px 5px;white-space:nowrap}
+.top .grow{flex:1}
+.top .seg{background:rgba(255,255,255,.14);border-radius:999px;display:inline-flex;padding:2px}
+.top .seg button{border:0;background:none;color:inherit;padding:5px 12px;border-radius:999px;cursor:pointer;font-weight:500;white-space:nowrap}
+.top .seg button[aria-pressed="true"]{background:var(--surface);color:var(--fg)}
+.top .lbl{font-size:11px;opacity:.85}
+.top select{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:inherit;border-radius:8px;padding:4px 8px;min-height:30px}
+.top select option{color:#1D2723}
+.top .tbtn{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:inherit;border-radius:8px;padding:4px 10px;min-height:30px;cursor:pointer;font-weight:500;display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
+.top .tbtn svg{width:16px;height:16px}
+.pal{display:flex;gap:5px;align-items:center}
+.pal button{width:22px;height:22px;border-radius:50%;border:2px solid rgba(255,255,255,.9);cursor:pointer;padding:0}
+.pal button[aria-pressed="true"]{outline:2px solid #fff;outline-offset:2px}
+.menu{position:relative}
+.menu .pop{position:absolute;right:0;top:calc(100% + 6px);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.22);padding:6px;display:grid;gap:2px;min-width:270px;z-index:40}
+.menu .pop button{text-align:left;border:0;background:none;padding:8px 10px;border-radius:7px;cursor:pointer}
+.menu .pop button:hover{background:var(--sunk)}
+.menu .pop small{display:block;color:var(--muted);font-size:11px}
+/* main */
+.main{display:flex;min-height:0;min-width:0;position:relative}
+.side{width:72px;flex:0 0 72px;background:var(--rail);display:flex;flex-direction:column;gap:2px;padding:8px 6px;overflow-y:auto}
+.side button{border:0;background:none;color:var(--rail-fg);border-radius:10px;padding:8px 2px;display:grid;justify-items:center;gap:3px;cursor:pointer;font-size:10.5px;font-weight:500}
+.side button svg{width:22px;height:22px}
+.side button:hover{background:rgba(255,255,255,.07);color:#fff}
+.side button[aria-pressed="true"]{background:rgba(255,255,255,.12);color:#fff;box-shadow:inset 3px 0 0 var(--brand-2)}
+.side .spacer{flex:1}
+.fly{width:var(--fw);flex:0 0 var(--fw);background:var(--surface);border-right:1px solid var(--line);overflow-y:auto;padding:12px;display:grid;gap:8px;align-content:start;transition:width .18s ease,flex-basis .18s ease,padding .18s ease;position:relative}
+.fly.collapsed{width:0;flex-basis:0;padding:0;overflow:hidden;border:0}
+.fly .flyhead{display:flex;justify-content:space-between;align-items:center;gap:6px;position:sticky;top:-12px;background:var(--surface);padding:6px 0;z-index:2}
+.fly .flyhead h2{margin:0;font:600 14px var(--ui)}
+.iconbtn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:4px;cursor:pointer;display:inline-grid;place-items:center;color:var(--muted);min-width:30px;min-height:30px}
+.iconbtn svg{width:16px;height:16px}
+.iconbtn:hover{color:var(--brand);border-color:var(--brand)}
+.work{flex:1;min-width:0;display:flex;flex-direction:column;min-height:0}
+.ctx{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;background:var(--surface);border-bottom:1px solid var(--line);padding:6px 10px;min-height:46px}
+.ctx .sep{width:1px;height:22px;background:var(--line)}
+.docinfo{display:flex;flex-direction:column;line-height:1.2;min-width:0;max-width:260px}
+.docinfo b{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.docinfo small{font:11px var(--mono);color:var(--muted)}
+.tb{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:4px 9px;cursor:pointer;min-height:30px;font-weight:500;white-space:nowrap;display:inline-flex;gap:5px;align-items:center}
+.tb svg{width:16px;height:16px}
+.tb:disabled{opacity:.4;cursor:not-allowed}
+.tb[aria-pressed="true"]{background:var(--brand-soft);border-color:var(--brand);color:var(--brand-deep)}
+.tb.primary,.btn.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.tb.danger{color:var(--bad)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:5px 11px;cursor:pointer;font-weight:500;min-height:30px;white-space:nowrap;display:inline-flex;gap:5px;align-items:center}
+.seg button svg{width:15px;height:15px}
+.seg button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+.seg.sm button{padding:3px 9px;min-height:28px;font-size:12px}
+.stage{flex:1;min-height:0;background:var(--stage);overflow:auto;display:grid;place-items:center;padding:8px;position:relative}
+.cwrap{position:relative}
+.cwrap .canvas-container{position:relative;z-index:1}
+.paper{position:absolute;z-index:0;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.18),0 12px 34px rgba(0,0,0,.16)}
+.paper.alpha{background-color:#fff;background-image:linear-gradient(45deg,#ddd 25%,transparent 25%),linear-gradient(-45deg,#ddd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ddd 75%),linear-gradient(-45deg,transparent 75%,#ddd 75%);background-size:16px 16px;background-position:0 0,0 8px,8px -8px,-8px 0}
+.cwrap.drop .paper{outline:4px dashed var(--brand);outline-offset:6px}
+.guides{position:absolute;pointer-events:none;overflow:hidden;z-index:2}
+.guide{position:absolute;border:2px dashed rgba(255,72,0,.85)}
+.guide.circle{border-radius:50%}
+.guide span{position:absolute;left:4px;top:4px;background:rgba(255,72,0,.92);color:#fff;font:600 10px var(--ui);padding:1px 6px;border-radius:4px;white-space:nowrap}
+.toolhint{position:sticky;top:0;justify-self:center;align-self:start;background:var(--fg);color:var(--bg);font-size:12px;padding:5px 12px;border-radius:99px;z-index:5;pointer-events:none;grid-area:1/1;margin-top:-16px}
+.pagebar{background:var(--surface);border-top:1px solid var(--line);padding:6px 10px;display:grid;gap:4px}
+.pagebar .row{justify-content:space-between}
+.pages{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 4px;align-items:stretch}
+.pg{flex:0 0 auto;border:2px solid transparent;border-radius:9px;padding:3px;cursor:pointer;background:var(--raise);display:grid;gap:2px;justify-items:center;width:104px}
+.pg[aria-pressed="true"]{border-color:var(--brand)}
+.pg .im{height:52px;display:grid;place-items:center}
+.pg img{max-height:52px;max-width:96px;display:block;border-radius:4px}
+.pg span{font-size:10px;color:var(--muted);text-align:center;line-height:1.2;max-width:96px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pagebar.collapsed .pages{display:none}
+.insp{width:var(--iw);flex:0 0 var(--iw);background:var(--surface);border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0;transition:width .18s ease,flex-basis .18s ease}
+.insp.collapsed{width:44px;flex-basis:44px}
+.insp.collapsed .ibody,.insp.collapsed .itabs{display:none}
+.ihead{display:flex;align-items:center;gap:6px;padding:8px;border-bottom:1px solid var(--line2)}
+.itabs{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:2px;background:var(--sunk);border-radius:9px;padding:3px;flex:1}
+.itabs button{border:0;background:none;border-radius:7px;padding:5px 2px;cursor:pointer;font-size:11.5px;font-weight:500;color:var(--muted);position:relative}
+.itabs button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.badge{position:absolute;top:-4px;right:-2px;background:var(--bad);color:#fff;font:700 9.5px var(--ui);border-radius:99px;padding:0 5px;line-height:15px}
+.ibody{flex:1;overflow-y:auto;padding:10px 12px 20px;display:grid;gap:8px;align-content:start}
+@media (max-width:1366px){:root{--fw:290px;--iw:300px}.top .lbl{display:none}.top select{max-width:180px}.top .ver{display:none}}
+@media (max-width:1180px){.fly{position:absolute;left:72px;top:0;bottom:0;z-index:20;box-shadow:8px 0 30px rgba(0,0,0,.2)}}
+@media (max-width:980px){.fly{position:absolute;left:72px;top:0;bottom:0;z-index:20;box-shadow:8px 0 30px rgba(0,0,0,.2)}.insp:not(.collapsed){position:absolute;right:0;top:0;bottom:0;z-index:20;box-shadow:-8px 0 30px rgba(0,0,0,.2)}}
+@media (max-width:620px){.side{width:56px;flex-basis:56px}.side button{font-size:9px}.fly{left:56px;width:min(var(--fw),calc(100vw - 72px))}.insp:not(.collapsed){width:min(var(--iw),calc(100vw - 60px))}.top h1{font-size:14px}}
+/* panels content */
+.panel h2{font:600 11px/1 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:2px 0}
+h3.cap{font:600 11px var(--ui);color:var(--brand-deep);margin:8px 0 0;letter-spacing:.05em;text-transform:uppercase}
+:root[data-theme="dark"] h3.cap{color:var(--brand-2)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) h3.cap{color:var(--brand-2)}}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 9px;cursor:pointer;font-size:11.5px;font-weight:500;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.chip.ghost[aria-pressed="true"]{background:var(--brand-soft);color:var(--brand-deep);border-color:var(--brand)}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px}
+.tcard{border:1px solid var(--line);background:var(--raise);border-radius:9px;padding:5px;cursor:pointer;display:grid;gap:4px;text-align:left;position:relative}
+.tcard:hover{border-color:var(--brand)}
+.tcard.rec{border-color:var(--brand-2)}
+.tcard .th{background:var(--sunk);border-radius:6px;display:grid;place-items:center;overflow:hidden}
+.tcard .th img{width:100%;height:100%;object-fit:contain;display:block}
+.tcard b{font-size:11.5px;font-weight:600;line-height:1.25}
+.tcard small{font:10.5px var(--mono);color:var(--muted)}
+.tcard .star{position:absolute;top:8px;right:8px;background:var(--brand);color:var(--brand-ink);font:600 9.5px var(--ui);border-radius:99px;padding:1px 6px}
+.tcard .recb{position:absolute;top:8px;left:8px;background:#D9A62E;color:#1D2A23;font:600 9.5px var(--ui);border-radius:99px;padding:1px 6px}
+.tlist{display:grid;gap:5px}
+.trow{display:grid;grid-template-columns:64px 1fr;gap:8px;align-items:center;border:1px solid var(--line);background:var(--raise);border-radius:9px;padding:5px;cursor:pointer;text-align:left}
+.trow:hover{border-color:var(--brand)}
+.trow .th{background:var(--sunk);border-radius:5px;height:56px;display:grid;place-items:center;overflow:hidden}
+.trow .th img{max-width:100%;max-height:100%}
+.trow b{font-size:12px;font-weight:600;display:block}
+.trow small{font-size:11px;color:var(--muted);display:block;line-height:1.35}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.addbtn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 8px;cursor:pointer;text-align:left;font-size:12px;display:flex;gap:6px;align-items:center;min-height:36px}
+.addbtn:hover{border-color:var(--brand)}
+.icons{display:grid;grid-template-columns:repeat(auto-fill,minmax(36px,1fr));gap:4px}
+.icons button{aspect-ratio:1;border:1px solid var(--line);background:var(--surface);border-radius:7px;cursor:pointer;display:grid;place-items:center;padding:5px;color:var(--fg)}
+.icons button:hover{border-color:var(--brand);color:var(--brand)}
+.icons svg{width:18px;height:18px}
+.lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:6px}
+.lib button{border:1px solid var(--line);border-radius:8px;padding:0;overflow:hidden;cursor:grab;background:var(--sunk);aspect-ratio:1;position:relative}
+.lib img{width:100%;height:100%;object-fit:cover;display:block}
+.lib span{position:absolute;left:0;right:0;bottom:0;background:rgba(0,0,0,.55);color:#fff;font-size:9.5px;padding:1px 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.drophint{border:2px dashed var(--line);border-radius:10px;padding:14px;text-align:center;color:var(--muted);font-size:12px}
+.field{display:grid;gap:3px;min-width:0}
+.field label,.field .lbl{font-size:11px;color:var(--muted);font-weight:500}
+input[type=text],input[type=number],select,textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:5px 7px;min-height:32px}
+textarea{min-height:58px;resize:vertical}
+input[type=range]{width:100%;accent-color:var(--brand)}
+input[type=color]{width:30px;height:26px;border:1px solid var(--line);border-radius:6px;padding:0;background:none}
+.row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.swatches{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.sw{width:20px;height:20px;border-radius:5px;border:1px solid rgba(0,0,0,.18);cursor:pointer;padding:0;position:relative}
+.sw[aria-pressed="true"]::after{content:"";position:absolute;inset:-4px;border:2px solid var(--fg);border-radius:7px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;font-weight:600;min-height:34px;display:inline-flex;gap:6px;align-items:center;position:relative}
+.btn svg{width:16px;height:16px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.file input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.note{font-size:11.5px;color:var(--muted);margin:0}
+.msg{font-size:11.5px;color:var(--muted);margin:0;min-height:1.1em}
+.msg.err{color:var(--bad)}
+.pill{font:600 11px var(--ui);padding:2px 8px;border-radius:99px;display:inline-flex;font-variant-numeric:tabular-nums}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}.pill.bad{background:var(--bad-bg);color:var(--bad)}.pill.idle{background:var(--sunk);color:var(--muted)}
+.qa{display:grid;gap:5px}
+.qa div{display:grid;grid-template-columns:auto 1fr;gap:7px;align-items:start;font-size:12px;line-height:1.35}
+.qa i{font-style:normal;width:16px;height:16px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:700;margin-top:1px}
+.qa .ok i{background:var(--ok-bg);color:var(--ok)}.qa .warn i{background:var(--warn-bg);color:var(--warn)}.qa .bad i{background:var(--bad-bg);color:var(--bad)}
+.layers{display:grid;gap:2px}
+.dl{display:flex;gap:4px;align-items:center;padding-left:6px;border-left:1px solid var(--line)}
+.dl .dlq{font-weight:600;min-width:44px;justify-content:center}
+.dlpop{min-width:310px;gap:8px!important;padding:12px!important}
+.dlhead{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.dlhead small{color:var(--muted);font-size:11px}
+.dlgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.menu .pop .dlgrid button{border:1px solid var(--line);text-align:center;font-weight:600;padding:8px 4px;background:var(--sunk)}
+.menu .pop .dlgrid button:hover{border-color:var(--brand);background:var(--brand-soft)}
+.dllist{display:grid;gap:2px;border-top:1px solid var(--line);padding-top:6px}
+.menu .pop .dllist button{display:grid;grid-template-columns:20px 1fr;column-gap:8px;align-items:center}
+.menu .pop .dllist button svg{width:16px;height:16px;grid-row:span 2}
+.layers{display:grid;gap:2px}
+.layer{display:grid;grid-template-columns:14px 34px minmax(0,1fr) auto auto auto;gap:6px;align-items:center;border:1px solid transparent;border-radius:6px;padding:3px 4px;cursor:pointer;font-size:12px;background:var(--surface)}
+.layer:hover{background:var(--sunk)}
+.layer[aria-selected="true"]{background:var(--brand-soft);border-color:var(--brand)}
+.layer .grip{cursor:grab;color:var(--muted);display:flex}.layer .grip svg{width:14px;height:14px}
+.layer .lth{width:34px;height:26px;border-radius:4px;border:1px solid var(--line);background:repeating-conic-gradient(#ddd 0 25%,#fff 0 50%) 0 0/8px 8px;display:flex;align-items:center;justify-content:center;overflow:hidden;color:var(--muted);font:700 11px var(--ui)}
+.layer .lth img{max-width:100%;max-height:100%;display:block}
+.layer .lnm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.layer .lnm small{display:block;color:var(--muted);font-size:10px}
+.layer input.ren{font-size:12px;padding:2px 4px}
+.layer .ib{border:0;background:none;cursor:pointer;color:var(--muted);padding:3px;border-radius:5px;display:flex}
+.layer .ib:hover{background:var(--line);color:var(--fg)}.layer .ib svg{width:14px;height:14px}
+.layer .ib.on{color:var(--brand)}.layer .ib.danger:hover{color:#B3261E}
+.layer.hid .lnm,.layer.hid .lth{opacity:.4}
+.layer.child{margin-left:22px;grid-template-columns:34px minmax(0,1fr) auto}
+.layer.dragging{opacity:.4}.layer.dropb{box-shadow:0 2px 0 0 var(--brand)}.layer.dropt{box-shadow:0 -2px 0 0 var(--brand)}
+.laytools{display:flex;flex-wrap:wrap;gap:2px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:3px;background:var(--sunk)}
+.laytools button{border:0;background:none;cursor:pointer;color:var(--fg);padding:5px;border-radius:6px;display:flex}
+.laytools button:hover:not(:disabled){background:var(--surface)}.laytools button:disabled{opacity:.35;cursor:default}
+.laytools button svg{width:16px;height:16px}.laytools .sep{width:1px;height:18px;background:var(--line);margin:0 2px}
+.laytools .danger:hover:not(:disabled){color:#B3261E}
+.cmenu{position:fixed;z-index:60;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.25);padding:5px;min-width:220px;display:grid;gap:1px;font-size:13px}
+.cmenu button{display:flex;align-items:center;gap:8px;border:0;background:none;text-align:left;padding:6px 8px;border-radius:6px;cursor:pointer;color:inherit}
+.cmenu button:hover:not(:disabled),.cmenu button:focus-visible{background:var(--sunk);outline:none}.cmenu button:disabled{opacity:.4;cursor:default}
+.cmenu button svg{width:15px;height:15px;color:var(--muted)}.cmenu kbd{margin-left:auto;font:11px var(--ui);color:var(--muted)}
+.cmenu hr{border:0;border-top:1px solid var(--line);margin:3px 0}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:70;background:var(--fg);color:var(--bg);padding:9px 14px;border-radius:9px;font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,.25);max-width:min(560px,92vw)}
+.chk.flag{outline:2px solid #B3261E;outline-offset:2px;border-radius:6px}
+.toast.err{background:#B3261E;color:#fff}
+@media (max-width:1366px){.dl .dlq{min-width:38px;padding-left:6px;padding-right:6px}}
+.chk{display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:start;font-size:12px;cursor:pointer}
+.chk input{margin-top:3px;accent-color:var(--brand)}
+.sect{border-top:1px solid var(--line2);padding-top:8px;display:grid;gap:7px}
+.sect>h4{margin:0;font:600 11.5px var(--ui);display:flex;justify-content:space-between;align-items:center}
+.palgrid{display:grid;gap:6px}
+.palrow{display:grid;grid-template-columns:86px 1fr;gap:6px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:5px;cursor:pointer;background:var(--surface);text-align:left}
+.palrow[aria-pressed="true"]{border-color:var(--brand);box-shadow:0 0 0 1px var(--brand) inset}
+.palrow b{font-size:11.5px}
+.palrow .cells{display:grid;grid-template-columns:repeat(9,1fr);gap:2px}
+.palrow .cells i{height:18px;border-radius:3px;border:1px solid rgba(0,0,0,.08)}
+.bench{display:grid;grid-template-columns:340px minmax(0,1fr);gap:12px;align-items:start;padding:14px;overflow:auto;height:100%;align-content:start}
+@media (max-width:860px){.bench{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:grid;gap:8px;min-width:0;align-content:start}
+.otable{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+.otable th,.otable td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+.otable img{width:56px;height:42px;object-fit:cover;border-radius:4px;display:block}
+.tablewrap{overflow-x:auto}
+.favs{display:flex;flex-wrap:wrap;gap:16px;align-items:end}
+.favs figure{margin:0;display:grid;gap:4px;justify-items:center;font-size:11px;color:var(--muted)}
+.favs canvas{border:1px solid var(--line);background-color:#fff;background-image:linear-gradient(45deg,#e5e5e5 25%,transparent 25%),linear-gradient(-45deg,#e5e5e5 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e5e5e5 75%),linear-gradient(-45deg,transparent 75%,#e5e5e5 75%);background-size:10px 10px;background-position:0 0,0 5px,5px -5px,-5px 0}
+.tabmock{display:flex;align-items:center;gap:8px;background:#DEE1E6;border-radius:10px 10px 0 0;padding:8px 14px;width:260px;color:#202124;font:13px system-ui,sans-serif}
+.player{position:fixed;inset:0;background:rgba(8,14,11,.84);display:grid;place-items:center;z-index:60;padding:16px}
+.player .box{background:var(--surface);border-radius:14px;padding:14px;display:grid;gap:10px;max-width:96vw}
+.player canvas{max-width:90vw;max-height:72vh;display:block;border-radius:6px;background:#000}
+.progress{height:6px;background:var(--sunk);border-radius:99px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--brand);width:0}
+.confirm{background:var(--bad-bg)!important;color:var(--bad)!important;border-color:var(--bad)!important}
+.sizepanel{background:var(--surface);border-bottom:1px solid var(--line);padding:8px 10px;display:grid;gap:6px}
+.tb:focus-visible,.btn:focus-visible,.seg button:focus-visible,.itabs button:focus-visible,.side button:focus-visible,.chip:focus-visible,.tcard:focus-visible,.trow:focus-visible,.addbtn:focus-visible,.icons button:focus-visible,.lib button:focus-visible,.sw:focus-visible,.pg:focus-visible,.palrow:focus-visible,.iconbtn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.pal button:focus-visible,.file:focus-within,.menu .pop button:focus-visible,.layer:focus-visible,.dl button:focus-visible,.laytools button:focus-visible,.layer .ib:focus-visible,.top .tbtn:focus-visible{outline:3px solid var(--brand-2);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="app">
+  <header class="top">
+    <h1>HSF Design Studio</h1><span class="ver" title="Aligned with HSF Brand Design Stack v3.1.0 and Website PRD v1.0">Stack v3.1.0 · PRD v1.0</span>
+    <div class="seg" role="group" aria-label="Mode">
+      <button type="button" data-mode="design" aria-pressed="true">Design</button>
+      <button type="button" data-mode="optimise" aria-pressed="false">Optimise</button>
+      <button type="button" data-mode="favicon" aria-pressed="false">Favicon</button>
+    </div>
+    <span class="grow"></span>
+    <div class="pal" role="group" aria-label="Design palette" id="palbar"><span class="lbl">Palette</span></div>
+    <label class="row" style="gap:4px"><span class="lbl">App colours</span><select id="uitheme" aria-label="App colours"></select></label>
+    <label class="row" style="gap:4px"><span class="lbl">Type</span><select id="typeset" aria-label="Typography set"></select></label>
+    <div class="menu">
+      <button type="button" class="tbtn" id="resetbtn" aria-haspopup="true" aria-expanded="false">Reset ▾</button>
+      <div class="pop" id="resetpop" hidden role="menu">
+        <button type="button" data-reset="element" role="menuitem">Selected item<small>Back to its template default</small></button>
+        <button type="button" data-reset="layout" role="menuitem">Page layout<small>Rebuild this page; keep its text and photos</small></button>
+        <button type="button" data-reset="page" role="menuitem">Page to template default<small>Default text, empty photo frames</small></button>
+        <button type="button" data-reset="colours" role="menuitem">Colours<small>Return every item to the palette roles</small></button>
+        <button type="button" data-reset="type" role="menuitem">Text styles<small>Default fonts, sizes and spacing; keep wording</small></button>
+        <button type="button" data-reset="pages" role="menuitem">All pages layout<small>Rebuild every page; keep text and photos</small></button>
+        <button type="button" data-reset="panels" role="menuitem">Panels<small>Reopen the side panels and fit the canvas</small></button>
+        <button type="button" data-reset="export" role="menuitem">Save settings<small>Format, size target, video options</small></button>
+        <button type="button" data-reset="all" role="menuitem">Start over<small>Clears this design and the saved session</small></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="main" id="mode-design">
+    <nav class="side" aria-label="Library">
+      <button type="button" data-tab="tpl" aria-pressed="true" data-icon="layout-template">Templates</button>
+      <button type="button" data-tab="photos" aria-pressed="false" data-icon="images">Photos</button>
+      <button type="button" data-tab="add" aria-pressed="false" data-icon="shapes">Elements</button>
+      <button type="button" data-tab="text" aria-pressed="false" data-icon="type">Text</button>
+      <button type="button" data-tab="content" aria-pressed="false" data-icon="file-text">Content</button>
+      <button type="button" data-tab="brand" aria-pressed="false" data-icon="palette">Brand</button>
+      <span class="spacer"></span>
+      <button type="button" id="flytoggle" data-icon="panel-left-close" aria-label="Collapse library panel">Hide</button>
+    </nav>
+
+    <aside class="fly" id="fly" aria-label="Library panel">
+      <div class="flyhead"><h2 id="flytitle">Templates</h2><button type="button" class="iconbtn" id="flyclose" data-icon="panel-left-close" aria-label="Collapse library panel"></button></div>
+
+      <div data-pane="tpl" style="display:grid;gap:8px">
+        <div class="seg" role="group" aria-label="Channel" style="display:grid;grid-template-columns:1fr 1fr">
+          <button type="button" data-chan="social" aria-pressed="true">Social media</button>
+          <button type="button" data-chan="web" aria-pressed="false">Website</button>
+        </div>
+        <div id="socialNav" style="display:grid;gap:8px">
+          <div class="seg sm" role="group" aria-label="Platform" id="platNav" style="display:grid;grid-template-columns:repeat(3,1fr)"></div>
+          <div><span class="note">Format</span><div class="chips" id="fmtNav" role="group" aria-label="Format"></div></div>
+          <div id="streamWrap"><span class="note">What are you posting? (Social Plan stream)</span><div class="chips" id="streamNav" role="group" aria-label="Communication stream"></div></div>
+        </div>
+        <div id="webNav" hidden><span class="note">Website section</span><div class="chips" id="webCatNav" role="group" aria-label="Website section"></div></div>
+        <p class="note" id="tplNote"></p>
+        <div id="tplArea"></div>
+      </div>
+
+      <div data-pane="photos" hidden style="display:grid;gap:8px">
+        <label class="btn primary file"><span data-icon="upload"></span>Upload photos<input type="file" id="libfiles" accept="image/*" multiple></label>
+        <p class="note">Photos stay on this device. Click a photo to fill the selected frame (or add it free). Drag a photo onto any frame on the canvas. You can also drop files straight from your computer onto a frame.</p>
+        <div class="lib" id="lib"></div>
+        <div class="drophint" id="libempty">No photos yet. Use real HSF photos with consent cleared.</div>
+      </div>
+
+      <div data-pane="text" hidden style="display:grid;gap:6px">
+        <button type="button" class="addbtn" data-add="h1" style="font-size:20px;font-weight:700;min-height:48px">Add a headline</button>
+        <button type="button" class="addbtn" data-add="sub" style="font-size:15px;font-weight:600">Add a subheading</button>
+        <button type="button" class="addbtn" data-add="body">Add body text</button>
+        <button type="button" class="addbtn" data-add="bn" style="font-family:'Hind Siliguri';font-size:15px">বাংলা লেখা যোগ করুন</button>
+        <button type="button" class="addbtn" data-add="quoteT" style="font-family:Georgia,'Playfair Display';font-style:italic;font-size:15px">“ Add a quote</button>
+        <h3 class="cap">Story blocks</h3>
+        <div class="grid2">
+          <button type="button" class="addbtn" data-add="stat"><b>123</b>&nbsp;Figure + label</button>
+          <button type="button" class="addbtn" data-add="steps">1·2·3 Steps</button>
+          <button type="button" class="addbtn" data-add="pill">Label pill</button>
+          <button type="button" class="addbtn" data-add="cta">CTA button</button>
+          <button type="button" class="addbtn" data-add="footer">Footer</button>
+          <button type="button" class="addbtn" data-add="ecosoc">ECOSOC line</button>
+          <button type="button" class="addbtn" data-add="projects">Project names</button>
+          <button type="button" class="addbtn" data-add="datebox">Date box</button>
+        </div>
+      </div>
+
+      <div data-pane="add" hidden style="display:grid;gap:4px">
+        <h3 class="cap">Photo frames</h3>
+        <div class="grid3">
+          <button type="button" class="addbtn" data-add="f-rect">Rectangle</button>
+          <button type="button" class="addbtn" data-add="f-round">Rounded</button>
+          <button type="button" class="addbtn" data-add="f-circle">Circle</button>
+          <button type="button" class="addbtn" data-add="f-arch">Arch</button>
+          <button type="button" class="addbtn" data-add="f-quarter">Quarter</button>
+          <button type="button" class="addbtn" data-add="f-hex">Hexagon</button>
+        </div>
+        <h3 class="cap">Brand</h3>
+        <div class="grid2">
+          <button type="button" class="addbtn" data-add="logo">Logo tile</button>
+          <button type="button" class="addbtn" data-add="motif">Motif circles</button>
+        </div>
+        <h3 class="cap">Overlays &amp; panels</h3>
+        <div class="grid2">
+          <button type="button" class="addbtn" data-add="ov-bottom">Bottom fade</button>
+          <button type="button" class="addbtn" data-add="ov-left">Side fade</button>
+          <button type="button" class="addbtn" data-add="ov-band">Colour band</button>
+          <button type="button" class="addbtn" data-add="ov-full">Full tint</button>
+          <button type="button" class="addbtn" data-add="panel">Lower panel</button>
+          <button type="button" class="addbtn" data-add="card">Card</button>
+        </div>
+        <h3 class="cap">Shapes &amp; drawing</h3>
+        <div class="grid3">
+          <button type="button" class="addbtn" data-add="rect">Box</button>
+          <button type="button" class="addbtn" data-add="ellipse">Ellipse</button>
+          <button type="button" class="addbtn" data-add="ring">Ring</button>
+          <button type="button" class="addbtn" data-add="triangle">Triangle</button>
+          <button type="button" class="addbtn" data-add="star">Star</button>
+          <button type="button" class="addbtn" data-add="line">Line</button>
+          <button type="button" class="addbtn" data-add="arrow">Arrow</button>
+          <button type="button" class="addbtn" data-tool="pen">Pen</button>
+          <button type="button" class="addbtn" data-tool="draw">Freehand</button>
+        </div>
+        <h3 class="cap">Icons</h3>
+        <input type="text" id="iconq" placeholder="Search icons" aria-label="Search icons">
+        <div class="icons" id="iconlist"></div>
+        <p class="note">Line icons: Lucide (ISC licence). Facebook and LinkedIn marks only for linking to HSF's own pages.</p>
+      </div>
+
+      <div data-pane="content" hidden style="display:grid;gap:8px">
+        <p class="note">Story content fills every linked text on the page, like the stack's campaign file. Typing on the canvas updates these fields too.</p>
+        <div class="grid2">
+          <div class="field"><label for="m_stream">Stream</label><select id="m_stream"></select></div>
+          <div class="field"><label for="m_code">HSF content ID</label><input type="text" id="m_code" placeholder="HSF-COM-2026-0001" pattern="HSF-COM-[0-9]{4}-[0-9]{4}"></div>
+          <div class="field"><label for="m_project">Project</label><select id="m_project"><option value="">HSF (general)</option><option>E4BL</option><option>A2PHC</option><option>Climate Action &amp; Resilience</option></select></div>
+          <div class="field"><label for="m_family">Editorial content family</label><select id="m_family"></select></div>
+          <div class="field"><label for="m_idea_id">Source idea ID (optional)</label><input type="text" id="m_idea_id" placeholder="KDI-001 or PSC-001" pattern="(KDI|PSC)-[0-9]{3}"></div>
+          <div class="field"><label for="m_series">E4BL editorial series</label><select id="m_series"><option value="">No dedicated series</option><option value="inside-our-classroom">Inside Our Classroom</option><option value="learn-with-e4bl">Learn with E4BL</option></select></div>
+        </div>
+        <div class="note" role="note">EDITORIAL CONTROL: This tool prepares drafts only. A selected source idea and a ticked consent box do not grant public-use approval. Exported records identify verification and review status; final artwork needs authorized review.</div>
+        <div class="field"><label for="m_brief">Import public-safe Communication Hub design brief (.json)</label><input type="file" id="m_brief" accept="application/json,.json"></div>
+        <div class="grid2">
+          <div class="field"><label for="m_evidence_status">Evidence status</label><select id="m_evidence_status"><option value="NOT_VERIFIED">Not verified</option><option value="VERIFIED_PUBLIC">Verified public information</option><option value="NEEDS_RECHECK">Needs recheck</option></select></div>
+          <div class="field"><label for="m_public_claim_status">Public claim status</label><select id="m_public_claim_status"><option value="NOT_APPROVED">Not approved</option><option value="APPROVED_PUBLIC">Approved public information</option></select></div>
+          <div class="field"><label for="m_technical_review">Technical review</label><select id="m_technical_review"><option value="PENDING">Pending</option><option value="CLEARED">Cleared</option></select></div>
+          <div class="field"><label for="m_safeguarding_review">Safeguarding review</label><select id="m_safeguarding_review"><option value="PENDING">Pending</option><option value="CLEARED">Cleared</option></select></div>
+          <div class="field"><label for="m_management_approval">Management approval of exact output</label><select id="m_management_approval"><option value="PENDING">Pending</option><option value="APPROVED_PUBLIC">Approved for public use</option></select></div>
+        </div>
+        <div id="contentFields" style="display:grid;gap:7px"></div>
+        <div class="field"><label for="c_alt">Alt text for this page</label><textarea id="c_alt" placeholder="Describe the photo and the key message for screen readers."></textarea></div>
+        <div class="grid2">
+          <div class="field"><label for="m_consent">Consent / public use</label><select id="m_consent"><option>Not checked</option><option>Cleared</option><option>Pending</option><option>Not cleared</option><option>No identifiable people</option></select></div>
+          <div class="field"><label for="m_review">Reviewed by</label><input type="text" id="m_review"></div>
+        </div>
+      </div>
+
+      <div data-pane="brand" hidden style="display:grid;gap:8px">
+        <h3 class="cap">Official logo · central component</h3>
+        <div class="row">
+          <label class="btn file">Upload logo<input type="file" id="logofile" accept="image/svg+xml,image/png,image/webp"></label>
+          <button type="button" class="btn" id="logoclear">Remove</button>
+        </div>
+        <button type="button" class="btn" id="hsf-clear-private-data" style="margin:8px 0">Clear saved design, photos and logo from this browser</button><div id="logoprev" class="note">No logo yet. Every template shows the stack's square LOGO SLOT until you upload the approved vector logo (SVG). It's kept in this browser and fills every logo tile.</div>
+        <h3 class="cap">Palettes · brand-tokens.json</h3>
+        <div class="palgrid" id="palgrid"></div>
+        <h3 class="cap">Website design system · PRD §15</h3>
+        <div class="palgrid" id="prdgrid"></div>
+        <h3 class="cap">Brand rules</h3>
+        <ul class="note" style="padding-left:16px;margin:0;display:grid;gap:3px">
+          <li>Authentic image → human context → verified evidence → HSF identity → next step.</li>
+          <li>Photo-led work: image normally 55–80% of the composition.</li>
+          <li>One approved vector logo, square tile on the image surface.</li>
+          <li>Readable on a phone without zooming.</li>
+          <li>Platforms are siblings, not clones: adapt, don't just resize.</li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="work" aria-label="Workspace">
+      <div class="ctx" role="toolbar" aria-label="Canvas tools">
+        <div class="docinfo"><b id="docname">Design</b><small id="docsize"></small></div>
+        <span class="sep"></span>
+        <button type="button" class="tb" id="undo" title="Undo (Ctrl+Z)" data-icon="undo-2" aria-label="Undo"></button>
+        <button type="button" class="tb" id="redo" title="Redo (Ctrl+Y)" data-icon="redo-2" aria-label="Redo"></button>
+        <span class="sep"></span>
+        <div class="seg sm" role="group" aria-label="Tool">
+          <button type="button" data-tool="select" aria-pressed="true" title="Select (V)" data-icon="mouse-pointer-2">Select</button>
+          <button type="button" data-tool="pen" aria-pressed="false" title="Pen: click points, double-click to finish (P)" data-icon="pen-tool">Pen</button>
+          <button type="button" data-tool="draw" aria-pressed="false" title="Freehand (B)" data-icon="pencil">Draw</button>
+        </div>
+        <span class="sep"></span>
+        <button type="button" class="tb" id="zout" aria-label="Zoom out" data-icon="zoom-out"></button>
+        <button type="button" class="tb" id="zfit" data-icon="maximize">Fit</button>
+        <button type="button" class="tb" id="zin" aria-label="Zoom in" data-icon="zoom-in"></button>
+        <span class="note" id="zoomlbl"></span>
+        <label class="row" style="gap:4px"><input type="checkbox" id="showguides" checked> <span>Guides</span></label>
+        <span style="flex:1"></span>
+        <button type="button" class="tb" id="sizebtn" data-icon="scaling">Resize</button>
+        <button type="button" class="tb" id="play" data-icon="play">Preview</button>
+        <div class="dl" role="group" aria-label="Download this page">
+          <button type="button" class="tb dlq" data-q="jpeg" data-icon="image-down" title="Download JPG · web-optimised, smallest for photos">JPG</button>
+          <button type="button" class="tb dlq" data-q="png" title="Download PNG · lossless, keeps transparency">PNG</button>
+          <button type="button" class="tb dlq" data-q="webp" title="Download WebP · best for the website">WebP</button>
+          <div class="menu">
+            <button type="button" class="tb primary" id="dlmore" data-icon="download" aria-haspopup="true" aria-expanded="false">Download ▾</button>
+            <div class="pop dlpop" id="dlpop" hidden>
+              <div class="dlhead"><b>Download</b><small id="dlinfo"></small></div>
+              <div class="grid2">
+                <div class="field"><label for="dlopt">Quality</label><select id="dlopt"><option value="web">Web-optimised</option><option value="max">Best quality</option></select></div>
+                <div class="field"><label for="dlscale">Size</label><select id="dlscale"><option value="1">1× (as sized)</option><option value="2">2× (retina)</option><option value="0.5">0.5×</option></select></div>
+              </div>
+              <label class="chk" id="dlgatebox"><input type="checkbox" id="dlgate"> <span>Photos are cleared for public use, keep dignity and are not AI-altered.</span></label>
+              <div class="dlgrid">
+                <button type="button" data-q="jpeg">JPG<small>Photos · social</small></button>
+                <button type="button" data-q="png">PNG<small>Transparency · logos</small></button>
+                <button type="button" data-q="webp">WebP<small>Website · smallest</small></button>
+              </div>
+              <div class="dllist">
+                <button type="button" data-run="saveall" data-icon="file-archive">All pages (ZIP)<small>Every page + content record</small></button>
+                <button type="button" data-run="savepdf" data-icon="file-down">PDF<small>Print or share · all pages</small></button>
+                <button type="button" data-run="savesvg" data-icon="file-down">SVG<small>Vector for Illustrator</small></button>
+                <button type="button" data-run="recvid" data-icon="play">Video (animation)<small>Uses the Animation settings</small></button>
+                <button type="button" data-run="savejson" data-icon="file-text">Design file<small>Re-open and edit later</small></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sizepanel" id="sizepanel" hidden>
+        <div class="row">
+          <select id="sizesel" aria-label="Preset size" style="width:auto;min-width:220px;max-width:100%"></select>
+          <input type="number" id="cw" aria-label="Width in pixels" style="width:88px" min="16" max="8000"><span>×</span><input type="number" id="ch" aria-label="Height in pixels" style="width:88px" min="16" max="8000">
+          <label class="row" style="gap:4px"><input type="checkbox" id="scalecontent" checked> <span>Scale content</span></label>
+          <button type="button" class="tb primary" id="applysize">Apply</button>
+          <button type="button" class="tb" id="rebuildsize">Rebuild template at this size</button>
+        </div>
+        <p class="note">Platforms are siblings, not clones: “Rebuild template” re-lays out the archetype for the new shape.</p>
+      </div>
+      <div class="stage" id="stage"><div class="toolhint" id="toolhint" hidden></div><div class="cwrap" id="cwrap"><div class="paper" id="paper"></div><canvas id="c"></canvas><div class="guides" id="guides"></div></div></div>
+      <div class="pagebar" id="pagebar">
+        <div class="row">
+          <button type="button" class="tb" id="pagetoggle" aria-expanded="true"><span id="pagelbl">Pages</span> ▾</button>
+          <div class="row"><button type="button" class="tb" id="pgadd">+ Duplicate</button><button type="button" class="tb" id="pgblank">+ Blank</button><button type="button" class="tb" id="pgdel">Delete</button><button type="button" class="tb" id="pgleft" aria-label="Move page earlier">◀</button><button type="button" class="tb" id="pgright" aria-label="Move page later">▶</button></div>
+        </div>
+        <div class="pages" id="pages" role="group" aria-label="Pages"></div>
+      </div>
+    </section>
+
+    <aside class="insp" id="insp" aria-label="Inspector">
+      <div class="ihead">
+        <button type="button" class="iconbtn" id="insptoggle" data-icon="panel-right-close" aria-label="Collapse inspector"></button>
+        <div class="itabs" role="group" aria-label="Inspector">
+          <button type="button" data-itab="props" aria-pressed="true">Design</button>
+          <button type="button" data-itab="anim" aria-pressed="false">Animate</button>
+          <button type="button" data-itab="layers" aria-pressed="false">Layers</button>
+          <button type="button" data-itab="check" aria-pressed="false">Check<span class="badge" id="qabadge" hidden></span></button>
+          <button type="button" data-itab="save" aria-pressed="false">Save</button>
+        </div>
+      </div>
+      <div class="ibody">
+        <div data-ipane="props"><h2 id="propsTitle" style="margin:0 0 4px;font:600 13px var(--ui)">Page</h2><div id="props" style="display:grid;gap:8px"></div></div>
+        <div data-ipane="anim" hidden><div id="anim" style="display:grid;gap:8px"></div></div>
+        <div data-ipane="layers" hidden style="display:grid;gap:8px">
+          <div class="laytools" role="toolbar" aria-label="Arrange selected layer">
+            <button type="button" data-lay="front" data-icon="chevrons-up" title="Bring to front (Ctrl+Shift+])" aria-label="Bring to front"></button>
+            <button type="button" data-lay="up" data-icon="chevron-up" title="Forward (Ctrl+])" aria-label="Bring forward"></button>
+            <button type="button" data-lay="down" data-icon="chevron-down" title="Backward (Ctrl+[)" aria-label="Send backward"></button>
+            <button type="button" data-lay="back" data-icon="chevrons-down" title="Send to back (Ctrl+Shift+[)" aria-label="Send to back"></button>
+            <span class="sep"></span>
+            <button type="button" data-lay="dup" data-icon="copy" title="Duplicate (Ctrl+D)" aria-label="Duplicate"></button>
+            <button type="button" data-lay="group" data-icon="group" title="Group (Ctrl+G)" aria-label="Group"></button>
+            <button type="button" data-lay="ungroup" data-icon="ungroup" title="Ungroup (Ctrl+Shift+G)" aria-label="Ungroup"></button>
+            <button type="button" data-lay="del" data-icon="trash-2" title="Delete (Del)" aria-label="Delete" class="danger"></button>
+          </div>
+          <div class="layers" id="layers" role="listbox" aria-multiselectable="true" aria-label="Layers, top first"></div>
+          <p class="note">Drag rows to reorder · Shift/Ctrl-click to select several · double-click a name to rename · right-click the canvas for more.</p>
+        </div>
+        <div data-ipane="check" hidden style="display:grid;gap:8px"><h2 style="margin:0;font:600 13px var(--ui)">Brand check</h2><div class="qa" id="qa"></div><p class="note">Checks the current page against Brand Design Stack v3.1.0 and HSF safeguarding rules.</p></div>
+        <div data-ipane="save" hidden style="display:grid;gap:8px">
+          <label class="chk" id="gatebox"><input type="checkbox" id="gate"> <span>Photos have consent or public-use clearance, show no registers, prescriptions or addresses, keep people's dignity, and are not AI-altered.</span></label>
+          <div class="grid2">
+            <div class="field"><label for="xfmt">Image format</label><select id="xfmt"><option value="auto">Auto</option><option value="webp">WebP</option><option value="jpeg">JPEG</option><option value="png">PNG</option></select></div>
+            <div class="field"><label for="xscale">Scale</label><select id="xscale"><option value="1">1× (as sized)</option><option value="2">2× (sharper)</option><option value="0.5">0.5×</option></select></div>
+          </div>
+          <div class="field"><label for="xkb">Target max size (KB · blank = best quality)</label><input type="number" id="xkb" min="10" step="10"></div>
+          <div class="row"><span class="pill idle" id="xsize">Size: –</span><span class="note" id="xfmtnote"></span></div>
+          <div class="row"><button type="button" class="btn primary" id="saveimg" data-icon="download">Save this page</button><button type="button" class="btn" id="saveall">All pages (ZIP)</button></div>
+          <div class="row"><button type="button" class="btn" id="savepdf">PDF document</button><button type="button" class="btn" id="savesvg">SVG master</button><button type="button" class="btn" id="saverec">Content record</button></div>
+          <p class="note">LinkedIn documents: upload the PDF. SVG is the editable master (open in Illustrator with the fonts installed).</p>
+          <h3 class="cap">Video</h3>
+          <div class="grid3">
+            <div class="field"><label for="vfmt">Format</label><select id="vfmt"></select></div>
+            <div class="field"><label for="vfps">Frames/s</label><select id="vfps"><option>24</option><option selected>30</option></select></div>
+            <div class="field"><label for="vq">Quality</label><select id="vq"><option value="2500000">Small</option><option value="5000000" selected>Standard</option><option value="9000000">High</option></select></div>
+          </div>
+          <div class="field"><label for="vsize">Video size</label><select id="vsize"><option value="1">100%</option><option value="0.75">75%</option><option value="0.5">50%</option></select></div>
+          <div class="row"><button type="button" class="btn primary" id="recvid">Record video</button><span class="note" id="vlen"></span></div>
+          <h3 class="cap">Design file</h3>
+          <div class="row"><button type="button" class="btn" id="savejson">Save design</button><label class="btn file">Open design<input type="file" id="openjson" accept=".json,application/json"></label><button type="button" class="btn" id="restore" hidden>Restore last session</button></div>
+          <div id="fallback" hidden><p class="note">If the download didn't start, right-click the preview and choose “Save as”.</p><img id="fbimg" alt="Saved file preview" style="max-width:100%;border-radius:6px;border:1px solid var(--line)"></div>
+        </div>
+        <p class="msg" id="savemsg" role="status"></p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ================= OPTIMISE ================= -->
+  <div class="bench" id="mode-optimise" hidden>
+    <div class="card">
+      <h2 style="margin:0;font:600 14px var(--ui)">Optimise images</h2>
+      <p class="note">Resize, crop to a shape, convert, and remove camera and GPS data. Photos stay on this device.</p>
+      <label class="btn primary file">Choose images<input type="file" id="ofiles" accept="image/*" multiple></label>
+      <div class="grid2">
+        <div class="field"><label for="omax">Longest side</label><select id="omax"><option value="0">Keep original</option><option>2560</option><option selected>1920</option><option>1600</option><option>1200</option><option>1080</option><option>800</option><option>600</option></select></div>
+        <div class="field"><label for="ocrop">Crop to</label><select id="ocrop"><option value="0">No crop</option><option value="1.7778">16:9</option><option value="1.3333">4:3</option><option value="1.5">3:2</option><option value="1">1:1</option><option value="0.8">4:5</option><option value="0.75">3:4</option></select></div>
+        <div class="field"><label for="ofmt">Format</label><select id="ofmt"><option value="webp">WebP</option><option value="jpeg">JPEG</option><option value="png">PNG</option></select></div>
+        <div class="field"><label for="okb">Target max KB</label><input type="number" id="okb" value="150" min="10" step="10"></div>
+      </div>
+      <div class="field"><label for="oq">Quality when no target: <span id="oqv">80</span></label><input type="range" id="oq" min="40" max="95" value="80"></div>
+      <div class="row"><button type="button" class="btn" id="orun" disabled>Re-run</button><button type="button" class="btn primary" id="ozip" disabled>Save all (ZIP)</button><button type="button" class="btn" id="oreset">Reset settings</button></div>
+      <p class="msg" id="omsg" role="status"></p>
+    </div>
+    <div class="card"><h2 style="margin:0;font:600 14px var(--ui)">Results</h2><div class="tablewrap"><table class="otable"><thead><tr><th>Image</th><th>Name</th><th>Before</th><th>After</th><th>Saved</th><th></th></tr></thead><tbody id="obody"><tr><td colspan="6" class="note">Choose images to start. Targets: hero 200 KB, news and story 100 KB, cards 70 KB.</td></tr></tbody></table></div></div>
+  </div>
+
+  <!-- ================= FAVICON ================= -->
+  <div class="bench" id="mode-favicon" hidden>
+    <div class="card">
+      <h2 style="margin:0;font:600 14px var(--ui)">Favicon and site icon</h2>
+      <div class="row"><label class="btn primary file">Choose image<input type="file" id="ffile" accept="image/*"></label><button type="button" class="btn" id="fuselogo">Use brand logo</button><button type="button" class="btn" id="fusepage">Use current page</button></div>
+      <div class="field"><label for="fshape">Background shape</label><select id="fshape"><option value="none">None (transparent)</option><option value="circle">Circle</option><option value="rounded" selected>Rounded square</option><option value="square">Square</option></select></div>
+      <div class="field"><span class="lbl">Background colour</span><div id="fsw"></div></div>
+      <div class="field"><label for="fpad">Padding: <span id="fpadv">12</span>%</label><input type="range" id="fpad" min="0" max="30" value="12"></div>
+      <div class="field"><label for="fzoom">Zoom into image: <span id="fzoomv">100</span>%</label><input type="range" id="fzoom" min="100" max="300" value="100"></div>
+      <div class="row"><button type="button" class="btn primary" id="fsave512">Site icon (512 PNG)</button><button type="button" class="btn" id="fsavezip">Favicon pack (ZIP)</button><button type="button" class="btn" id="freset">Reset</button></div>
+      <p class="msg" id="fmsg" role="status"></p>
+      <p class="note">WordPress: Appearance → Customize → Site Identity → Site Icon, or Elementor Site Settings → Site Identity. Upload the 512 px PNG.</p>
+    </div>
+    <div class="card"><h2 style="margin:0;font:600 14px var(--ui)">Preview</h2><div class="tabmock"><canvas id="ftab" width="16" height="16" style="width:16px;height:16px;border:0;background:none"></canvas><span>Human Safety Foundation</span></div><div class="favs" id="favs"></div><p class="note">Check 16 and 32 px: fine detail and small text disappear. A simple mark on a solid shape reads best.</p></div>
+  </div>
+</div>
+
+<div class="player" id="player" hidden role="dialog" aria-modal="true" aria-label="Animation preview">
+  <div class="box">
+    <div class="row" style="justify-content:space-between"><b id="ptitle">Preview</b><span class="note" id="ptime"></span></div>
+    <canvas id="pcv"></canvas>
+    <div class="progress"><i id="pbar"></i></div>
+    <div class="row"><button type="button" class="btn" id="pclose">Close</button><button type="button" class="btn primary" id="precord">Record video</button><span class="msg" id="pmsg"></span></div>
+  </div>
+</div>
+<input type="file" id="photofile" accept="image/*" hidden>
+__LIBS__
+<script>
+__ICONS__
+__UIICONS__
+const MASK="data:image/png;base64,__MASK__";
+</script>
+<script>
+__ENGINE__
+</script>

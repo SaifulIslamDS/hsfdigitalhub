@@ -3,12 +3,12 @@
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
   "current_status": "ACTIVE_INTERNAL",
-  "release": "v1.8.1",
+  "release": "v1.8.2",
   "release_date": "2026-10-30",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.8.1",
+    "knowledge_hub": "v1.8.2",
     "release_date": "2026-10-30",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
@@ -134,7 +134,8 @@
     "python scripts/validate_social_v4.py",
     "python scripts/validate_idea_library.py",
     "python scripts/validate_shared_header.py",
-    "python scripts/validate_content_prompt_generator.py"
+    "python scripts/validate_content_prompt_generator.py",
+    "python scripts/validate_design_studio.py"
   ],
   "shared_navigation_design": {
     "header_stylesheet": "assets/styles/hsf-shared-header.css",
@@ -145,9 +146,21 @@
   },
   "release_method": "CONTINUOUS_INTERNAL_UPDATES; PUBLICATION_APPROVAL_SEPARATE",
   "latest_internal_update": {
-    "version": "v1.8.1",
+    "version": "v1.8.2",
     "date": "2026-10-30",
-    "summary": "Per-idea evidence-gated AI content prompt creator for all 300 cards; local popup, platform/language/format options and one-click copy; datasets unchanged",
-    "software_review_state": "LOCAL_VALIDATION_PENDING_LIVE_DEPLOYMENT"
+    "summary": "HSF Design Studio integrated as internal offline-capable visual creation tool with Social v4.0 taxonomy, editorial governance metadata and public-safe 300-idea design-brief bridge. Current idea records unchanged.",
+    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_COMPLETE; LIVE_DEPLOYMENT_AND_FULL_EXPORT_QA_PENDING"
+  },
+  "design_studio": {
+    "status": "ACTIVE_INTERNAL_DRAFTING_TOOL_NOT_AUTOMATIC_PUBLICATION_APPROVAL",
+    "entry_page": "design-studio/index.html",
+    "source_root": "design-studio/source",
+    "brand_authority": "brand_identity_master_guide.html",
+    "stack_authority": "brand-design-stack/",
+    "social_authority": "social_communication_plan.html",
+    "brief_transfer": "MANUAL_PUBLIC_SAFE_JSON_DOWNLOAD_IMPORT",
+    "design_approval_boundary": "HSF_AUTHORIZED_EXACT_OUTPUT_REVIEW_REQUIRED",
+    "privacy": "NO_RESTRICTED_OPERATIONAL_DATA_IN_PUBLIC_SOURCE",
+    "version": "1.0.0-hsf-internal-integration"
   }
 }

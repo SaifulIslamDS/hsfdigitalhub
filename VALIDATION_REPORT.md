@@ -28,3 +28,7 @@
 - Any individual statistical findings, beneficiary narratives, clinical advice, image permissions or public captions.
 
 This is a stable **governance/documentation** release. Approval of idea banks does not approve publication of claims.
+
+## 30 October 2026 · v1.8.2 internal integration addendum
+
+HSF Design Studio source and rebuilds were integrated with the current Social Communication v4.0 taxonomy, Design Stack v3.1.0 tokens and governance metadata. The six master documents remain controlled. Additional check: `python scripts/validate_design_studio.py`; full deployed-browser testing, real SVG/MP4 export, native offline compatibility, Illustrator 2022 checks and verification of individual-publication approvals remain outstanding. No private ERP or participant material was intentionally added to the public source.

@@ -1,3 +1,12 @@
+## v1.8.2 — 30 October 2026 · Continuous internal update
+
+- Integrated HSF Design Studio into the Knowledge Hub as an internal offline-capable design tool, with maintained source, generated standalone HTML and a homepage tool entry (six institutional masters unchanged).
+- Replaced the obsolete fixed 48-post design taxonomy with the current two Social v4.0 streams and seven families; retained the optional Issue → Practical Response visual sequence; aligned two E4BL editorial series.
+- Added idea-origin, controlled content IDs, evidence/public-claim status, safeguarding/technical/management review fields, export record transparency and safer local-storage cleanup controls. These fields are editor assertions, **not verified approval**.
+- Added public-safe design-brief JSON downloads for each of 300 KDI/PSC ideas, and explicit file import to the offline studio; no private ERP, photo or consent data is transferred.
+- Documented original source/build provenance, limitations, privacy and third-party notices; integrated validation into CI. Live deployment and full browser/export/Illustrator QA remain separate.
+- Preserved all 300 idea records and existing Knowledge Hub security configuration unchanged.
+
 # 30 October 2026 | Knowledge Hub v1.8.1 · AI Content Prompt Creator
 
 - Added an accessible **Create AI content prompt** action to all 300 idea cards, with a local modal for copying an idea-specific production brief.
