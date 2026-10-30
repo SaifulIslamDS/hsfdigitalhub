@@ -3,10 +3,12 @@
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
 **Latest candidate package:** v1.8.0 · **Last approved stable baseline:** v1.7.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity &amp; Design System:** v2.4 (visual identity unchanged)  
-**Status:** Management Approved / Stable · **Effective and last updated:** 26 October 2026  
+**Package status:** v1.8.0 review candidate; last approved stable Knowledge Hub v1.7.1 · **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
+
+The homepage and Social Communication master now share one logo/title navigation component in `assets/styles/hsf-shared-header.css` (v1.8.0-rc.3); each retains its document-specific links and the Social page retains its off-canvas Contents menu.
 
 ## Six current canonical master documents (one copy each)
 

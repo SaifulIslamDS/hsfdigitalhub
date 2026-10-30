@@ -92,18 +92,26 @@
   "validation": [
     "python scripts/validate_hub.py",
     "python scripts/validate_social_v4.py",
-    "python scripts/validate_idea_library.py"
+    "python scripts/validate_idea_library.py",
+    "python scripts/validate_shared_header.py"
   ],
   "latest_candidate_release": {
     "version": "v1.8.0",
     "status": "REVIEW_CANDIDATE",
     "release_date": "2026-10-30",
-    "scope": "46 proposed ideas + conditional multi-tag facet filters + Social v4 off-canvas contents panel",
+    "scope": "46 proposed ideas + conditional multi-tag facets + Social v4 right drawer + shared HSF homepage and Social master header",
     "approvals_required": [
       "46 editorial proposals",
       "responsive browser QA",
       "management release acceptance"
     ]
   },
-  "candidate_revision": "rc.2"
+  "candidate_revision": "rc.3",
+  "shared_navigation_design": {
+    "header_stylesheet": "assets/styles/hsf-shared-header.css",
+    "aligned_pages": [
+      "index.html",
+      "social_communication_plan.html"
+    ]
+  }
 }

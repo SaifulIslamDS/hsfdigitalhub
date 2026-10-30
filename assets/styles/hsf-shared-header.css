@@ -1,0 +1,24 @@
+/* HSF shared institutional chrome: Homepage and Social Communication master. */
+:root{--hsf-header-green:#008C44;--hsf-header-deep:#163F2A;--hsf-header-line:#c6e6d1}
+.hsf-site-header,.hsf-site-header *{box-sizing:border-box}
+.hsf-document-control{margin:0;padding:10px 18px;text-align:center;background:#eef8f2;color:#164b34;border-bottom:1px solid #b8d9c6;font:600 13px/1.55 Arial,'Noto Sans Bengali',sans-serif}
+.hsf-document-control strong{font-weight:800}
+.hsf-site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid #dcf2e5;box-shadow:0 2px 12px rgba(22,63,42,.07);backdrop-filter:blur(10px);font-family:Arial,'Noto Sans Bengali',sans-serif}
+.hsf-site-header__inner{width:100%;max-width:1400px;min-height:76px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.hsf-site-header__brand{display:inline-flex;align-items:center;gap:12px;min-width:0;text-decoration:none;color:#1e293b!important}
+.hsf-site-header__logo{height:52px;width:52px;flex:0 0 52px;border:1px solid #d9f0e3;background:#fff;border-radius:14px;padding:5px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(22,63,42,.06)}
+.hsf-site-header__logo img{width:100%;height:100%;object-fit:contain}
+.hsf-site-header__identity{min-width:0;display:flex;flex-direction:column;gap:3px}
+.hsf-site-header__org{color:var(--hsf-header-green);font-size:11px;font-weight:900;line-height:1.35;text-transform:uppercase;letter-spacing:.17em}
+.hsf-site-header__title{display:block;color:#1e293b;font-size:16px;font-weight:900;line-height:1.28;max-width:38ch}
+.hsf-site-header__actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex:0 0 auto}
+.hsf-site-header__action,.hsf-site-header__menu-button{min-height:42px;padding:9px 15px;border:1px solid #b9e3cd;border-radius:12px;background:#fff;color:#006b35!important;text-decoration:none;font:800 14px/1.35 Arial,'Noto Sans Bengali',sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:9px;white-space:nowrap;box-shadow:none;transition:background .15s ease,border-color .15s ease;cursor:pointer}
+.hsf-site-header__action:hover,.hsf-site-header__menu-button:hover{background:#eff8f3;border-color:#008c44}
+.hsf-site-header__action--muted{border-color:transparent;background:transparent}
+.hsf-site-header__menu-button{margin:0}
+.hsf-site-header__menu-button svg{height:18px;width:18px;flex:0 0 18px}
+.hsf-site-header a:focus-visible,.hsf-site-header button:focus-visible{outline:3px solid #d99a17;outline-offset:3px}
+@media(max-width:850px){.hsf-site-header__action--muted{display:none}}
+@media(max-width:600px){.hsf-site-header__inner{min-height:70px;padding:10px 15px;gap:9px}.hsf-site-header__logo{height:44px;width:44px;flex-basis:44px;border-radius:12px}.hsf-site-header__brand{gap:8px}.hsf-site-header__org{font-size:9px;letter-spacing:.10em}.hsf-site-header__title{font-size:13px;max-width:200px}.hsf-site-header__menu-button{min-height:41px;padding:9px 10px}.hsf-site-header__menu-button .hsf-menu-label{display:none}.hsf-site-header__action--ideas{display:none}.hsf-document-control{padding:8px 12px;font-size:11px;line-height:1.5}}
+@media(prefers-reduced-motion:reduce){.hsf-site-header__action,.hsf-site-header__menu-button{transition:none}}
+@media print{.hsf-site-header__menu-button{display:none}}

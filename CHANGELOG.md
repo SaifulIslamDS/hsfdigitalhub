@@ -1,3 +1,16 @@
+# v1.8.0 candidate UI alignment (rc.3) · 30 October 2026
+
+- Aligned homepage and Social Communication v4.0 top bars through one shared CSS component: identical HSF logo, institution name, current document title, white sticky header, border, shadow, responsive sizing and accessible navigation.
+- Made the full-width institutional control strip consistent on both pages while clearly distinguishing Knowledge Hub v1.8.0 **candidate** from the approved Social Communication **v4.0 policy** and stable v1.7.1 Knowledge Hub baseline.
+- Maintained the right-side Social Contents drawer, 300-idea navigation, all idea data, approval statuses, security architecture and existing Brand/ERP/MEAL files.
+- Adjusted Social hero background, heading scale and two CTA treatments to match the homepage's shared design principles without altering approved policy copy.
+- Fixed a pre-existing homepage toast-helper JavaScript syntax error and added shared-header validation to CI.
+- This is a candidate refinement only; preserve `v1.8.0-rc.2` and use `v1.8.0-rc.3` as the new prerelease tag.
+
+**Planning & Compiled by:** Saiful Islam
+
+---
+
 # v1.8.0 candidate UI refinement (rc.2) · 30 October 2026
 
 - Conditional filters now **omit every zero-result option** instead of displaying disabled grey entries; applies to the topic/content-family dropdown, primary programme, evidence route, review status, format and cross-cutting tag menu.

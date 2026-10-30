@@ -28,5 +28,8 @@ jobs:
       - name: Validate Approved Social v4.0
         run: python scripts/validate_social_v4.py
 
+      - name: Validate shared institutional headers
+        run: python scripts/validate_shared_header.py
+
       - name: Validate unified 300-idea content library
         run: python scripts/validate_idea_library.py

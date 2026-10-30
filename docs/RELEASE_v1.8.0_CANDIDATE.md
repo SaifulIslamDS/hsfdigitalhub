@@ -8,6 +8,16 @@
 **Approved Social Communication policy:** v4.0 (unchanged)  
 **Approved Brand Identity & Design System:** v2.4 (unchanged identity)  
 
+## Candidate revision 3: aligned institutional page headers (30 October 2026)
+
+- Standardized the institutional control strip and top header across `index.html` and `social_communication_plan.html` using one new `assets/styles/hsf-shared-header.css` file.
+- Both now show the HSF logo, name, document title, equivalent sticky white navigation, matching spacing, typography and responsive behavior. Social retains its right-side Contents drawer and 300-idea catalogue links.
+- The homepage no longer misleadingly displays `Approved & Stable` for the v1.8.0 Knowledge Hub candidate. Social Communication v4.0 continues to state `Approved & Stable` **for the policy**, not the 46 pending proposals.
+- Social hero styling now follows the homepage's pale-green/light design language with consistent green/outline CTAs, without changing the approved content.
+- Corrected an existing unmatched `});` in the homepage toast-helper script, previously causing a JavaScript parse error; no change to its intended behavior.
+- No changes to the 300 ideas, bank JSON, Excel inventories, snapshot hashes, data permissions, Netlify PIN gate or master document content.
+- Use a new `v1.8.0-rc.3` tag after review; do not move existing `rc.1` or `rc.2` tags. Production visual/device and access-gate QA remains required.
+
 ## Candidate revision 2: conditional-facet and homepage cleanup (30 October 2026)
 
 - **Zero-result choices are not displayed** in primary-programme, topic/family, evidence-route, review-status and format dropdowns, nor the multi-select tags menu. Counts reflect the other current constraints.
@@ -57,6 +67,7 @@ python scripts/build_idea_library.py
 python scripts/validate_idea_library.py
 python scripts/validate_social_v4.py
 python scripts/validate_hub.py
+python scripts/validate_shared_header.py
 python brand-design-stack/07_Engine/validate_stack.py
 ```
 
