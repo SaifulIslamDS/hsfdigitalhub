@@ -12,3 +12,20 @@ Planning & Compiled by: **Saiful Islam** · 30 October 2026
 8. Once reviewed/merged and verified: `git switch main && git pull --ff-only origin main`; create a final annotated tag as a separate authorized release step; publish its release note with `gh release create`.
 
 **Institutional boundary:** Social policy v4.0 remains approved. Only the new v1.8.0 editorial/library release is a management candidate; the 46 ideas are not yet editorial-approved, and no post is publication-approved by this change.
+
+
+## Candidate UI refinement, 30 October 2026 (rc.2)
+
+The R2 full ZIP includes all 300 ideas and every master document. Replace the existing project-root source files as a complete update, keeping the `.git` folder and local secrets. GitHub has a prior `v1.8.0-rc.1` tag. Do not overwrite it. After validating and committing this refinement, use an annotated `v1.8.0-rc.2` tag instead:
+
+```powershell
+git status
+git add -A
+git diff --cached --check
+git commit -m "fix(communication): hide zero-result filters and remove homepage promo"
+git push origin main
+git tag -a v1.8.0-rc.2 -m "HSF Digital Knowledge Hub v1.8.0 candidate refinement 2"
+git push origin v1.8.0-rc.2
+```
+
+Review all changed files before committing. Candidate status and the 46 proposed editorial ideas remain unchanged.

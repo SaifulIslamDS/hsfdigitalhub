@@ -1,3 +1,15 @@
+# v1.8.0 candidate UI refinement (rc.2) · 30 October 2026
+
+- Conditional filters now **omit every zero-result option** instead of displaying disabled grey entries; applies to the topic/content-family dropdown, primary programme, evidence route, review status, format and cross-cutting tag menu.
+- When switching programme or KDI/PSC tabs, incompatible prior selections are cleared while compatible filters remain selected; no stale hidden option or misleading `(0)` label persists.
+- Removed the outdated Social v4 promotional banner from `index.html`, including its obsolete 254-idea CTA. The standard Social Communication master-document card and navigation remain.
+- The 300-idea catalogue, 254 approved editorial ideas, 46 proposed editorial ideas, programme distribution, provenance, privacy controls, Brand/ERP/MEAL and Netlify PIN files are unchanged.
+- This is a **candidate refinement**. The existing `v1.8.0-rc.1` tag must not be overwritten. Use `v1.8.0-rc.2` if creating a new prerelease tag.
+
+**Planning & Compiled by:** Saiful Islam
+
+---
+
 # v1.8.0 candidate · 30 October 2026
 
 - Added 46 **proposed** editorial ideas: KDI-135–160 (26), PSC-121–140 (20); prior 254 ideas unchanged.

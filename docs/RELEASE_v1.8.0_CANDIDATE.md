@@ -8,6 +8,15 @@
 **Approved Social Communication policy:** v4.0 (unchanged)  
 **Approved Brand Identity & Design System:** v2.4 (unchanged identity)  
 
+## Candidate revision 2: conditional-facet and homepage cleanup (30 October 2026)
+
+- **Zero-result choices are not displayed** in primary-programme, topic/family, evidence-route, review-status and format dropdowns, nor the multi-select tags menu. Counts reflect the other current constraints.
+- Invalid prior facet selections clear automatically when constraints change; compatible selections are retained, including when switching KDI/PSC.
+- Removed the redundant Social v4.0 promotional banner in the homepage that still claimed 254 total ideas. Social v4 master card and normal links remain available.
+- No changes to the 300 editorial source ideas, approval classifications, institutional frameworks, access controls or brand assets.
+- The GitHub tag `v1.8.0-rc.1` already exists; do **not** force-update it. Use `v1.8.0-rc.2` for this refined candidate after committing.
+- Validated with repository checks and headless Chromium in-memory interaction tests; live deployment browser and Netlify-PIN QA remain outstanding.
+
 ## Scope
 
 One canonical static `communication/idea-library.html` now displays **300 editorial concepts**: KDI **160** and PSC **140**. Existing KDI-001–134 and PSC-001–120 are preserved exactly and retain their previously approved editorial-idea status. The 46 new entries are **KDI-135–160 (26)** and **PSC-121–140 (20)**, explicitly **proposed for management review**. None of the 300 entries proves an event/statistic, constitutes clinical guidance ready for use, or is approved for public posting.

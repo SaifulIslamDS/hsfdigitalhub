@@ -11,7 +11,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:22px 0 29px}.stat{background:#fff;border:1px solid var(--line);padding:20px;border-radius:16px}.stat strong{display:block;font-size:32px;color:var(--deep)}.stat small{color:var(--muted)}
 .library{border:1px solid var(--line);padding:22px;background:#fff;border-radius:20px;box-shadow:0 13px 30px rgba(10,60,40,.05);margin:12px 0 28px}.tabs{display:flex;flex-wrap:wrap;gap:9px;border-bottom:1px solid var(--line);padding-bottom:18px}.tab{border:1px solid #bdd9c9;padding:12px 18px;background:var(--pale);color:var(--deep);border-radius:999px;font-weight:bold}.tab[aria-selected=true]{background:var(--green);border-color:var(--green);color:#fff}
 .filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:23px;align-items:start}.field{min-width:0}.field.search{grid-column:span 2}.field label,.field .field-title{font-size:13px;color:#30523b;font-weight:800;display:block;margin-bottom:6px}.field input,.field select{display:block;min-height:45px;width:100%;background:#fff;border:1px solid #aacdb6;border-radius:10px;padding:10px;color:var(--ink)}
-.multi{position:relative}.multi details{border:1px solid #aacdb6;border-radius:10px;background:#fff;min-height:45px}.multi summary{padding:10px 12px;cursor:pointer;list-style:revert;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.options{padding:5px 10px 10px;max-height:224px;overflow:auto;border-top:1px solid var(--line)}.option{display:flex;gap:8px;align-items:center;padding:4px 3px;font-size:13px}.option[hidden]{display:none}.option input{width:auto;min-height:auto}.option small{color:#627468;margin-left:auto}.option.disabled{opacity:.48}
+.multi{position:relative}.multi details{border:1px solid #aacdb6;border-radius:10px;background:#fff;min-height:45px}.multi summary{padding:10px 12px;cursor:pointer;list-style:revert;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.options{padding:5px 10px 10px;max-height:224px;overflow:auto;border-top:1px solid var(--line)}.option{display:flex;gap:8px;align-items:center;padding:4px 3px;font-size:13px}.option[hidden]{display:none}.tag-empty{color:var(--muted);padding:7px 3px;font-size:13px}.tag-empty[hidden]{display:none}.option input{width:auto;min-height:auto}.option small{color:#627468;margin-left:auto}.option.disabled{opacity:.48}
 .filter-actions{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin:18px 0}.filter-actions .reset{background:#fff;border:1px solid #aacdb6;color:var(--deep);border-radius:9px;padding:10px 14px;font-weight:bold}.active-filters{display:flex;gap:7px;flex-wrap:wrap}.active-filters span{font-size:12px;border-radius:20px;background:#e5f3ea;color:#195237;padding:5px 10px}.resultbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--muted);margin-bottom:18px}.resultbar strong{color:var(--deep)}
 .ideas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.idea{border:1px solid var(--line);border-radius:15px;padding:19px;background:#fcfffd;overflow-wrap:anywhere;scroll-margin-top:22px}.idea:target{box-shadow:0 0 0 3px #92ceaa}.idea[hidden]{display:none}.cardmeta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:12px}.label{background:#e9f3ed;color:#145536;border-radius:20px;padding:2px 9px;font-weight:700}.label.secondary{background:#edf1f1;color:#385c51}.label.proposal{background:#fff2d9;color:#7c4c05}.label.approved{background:#e3f1eb;color:#23633d}.group-label{margin:10px 0 4px;color:#567264;font-size:13px;font-weight:bold}.idea h3{font-size:19px;line-height:1.35;margin:4px 0 13px}.idea h3 a{color:var(--deep);text-decoration:none}.idea h3 a:hover{text-decoration:underline}.idea p{font-size:14px;margin:8px 0}.source{color:#536d60}.chips{display:flex;flex-wrap:wrap;gap:5px;margin:13px 0}.chip{background:#eaf5ee;border-radius:20px;padding:3px 8px;font-size:11px;color:#285d40}.warning{border-top:1px solid var(--line);padding-top:11px;font-size:11px;color:#775522;font-weight:700}
 .empty{border:1px dashed #8fbaa2;padding:22px;text-align:center;border-radius:14px}.empty[hidden]{display:none}.resources{padding:12px 0 40px}.links{display:flex;flex-wrap:wrap;gap:9px}.links a{border:1px solid #aecdbb;border-radius:9px;background:#fff;padding:9px 12px;text-decoration:none;font-size:14px;font-weight:bold}footer{background:#eaf4ee;padding:22px 0;color:#405e4c;font-size:12px}
@@ -1560,23 +1560,71 @@ function match(c,exclude=''){
  if(exclude!=='tags'&&tagState.size&&![...tagState].some(t=>c.dataset.tags.split('|').includes(t)))return false;
  return true;
 }
-// Facet counts exclude the facet itself, so available choices truly follow the other active constraints.
-function refreshFacet(id,key,fn){const select=els[id];const selected=val(id);const values=[...new Set(cards.map(c=>fn(c)))].sort((a,b)=>a.localeCompare(b));const byValue=new Map(values.map(v=>[v,0]));for(const c of cards)if(match(c,key))byValue.set(fn(c),(byValue.get(fn(c))||0)+1);
- const base=select.options[0];select.replaceChildren(base);for(const v of values){const opt=document.createElement('option');opt.value=v;opt.textContent=v.replace(/^(kdi|psc):/,'')+' ('+(byValue.get(v)||0)+')';opt.disabled=!byValue.get(v)&&v!==selected;select.append(opt)}select.value=selected;}
-function facetTags(){tags.forEach(label=>{const input=label.querySelector('input');const tag=input.value;const n=cards.filter(c=>match(c,'tags')&&c.dataset.tags.split('|').includes(tag)).length;label.querySelector('.facet-count').textContent=String(n);label.classList.toggle('disabled',n===0&&!input.checked);input.disabled=n===0&&!input.checked;});els['tag-summary'].textContent=tagState.size?tagState.size+' tag(s) selected':'All tags';}
+// Facet counts exclude their own filter and respect all other constraints.
+// Only choices with a positive matching count are inserted: zero-result options
+// are not visible in any native select or cross-cutting tag menu.
+const facetIds=['programme','group','evidence','status','format'];
+const originalLabels=Object.fromEntries(['programme','evidence','status'].map(id=>[id,new Map([...els[id].options].slice(1).map(o=>[o.value,o.textContent]))]));
+function facetValue(c,id){return id==='group'?c.dataset.bank+':'+c.dataset.group:c.dataset[id];}
+function facetCount(id,value){return cards.filter(c=>match(c,id)&&facetValue(c,id)===value).length;}
+function normalizeFilters(changed=''){
+ // Prefer the latest user selection; clear incompatible older selections.
+ const mostSpecificFirst=['group','format','evidence','status','programme'];
+ const ordered=[...mostSpecificFirst.filter(id=>id!==changed),...mostSpecificFirst.filter(id=>id===changed)];
+ for(let pass=0;pass<facetIds.length+1;pass++){
+  let modified=false;
+  for(const id of ordered){if(val(id)&&facetCount(id,val(id))===0){els[id].value='';modified=true;}}
+  // A selected tag can become unavailable after changing programme/bank etc.
+  for(const tag of [...tagState]){
+   if(!cards.some(c=>match(c,'tags')&&c.dataset.tags.split('|').includes(tag))){
+    tagState.delete(tag);const label=tags.find(l=>l.querySelector('input').value===tag);
+    if(label)label.querySelector('input').checked=false;modified=true;
+   }
+  }
+  if(!modified)break;
+ }
+}
+function refreshFacet(id){
+ const select=els[id],selected=val(id);const base=select.options[0].cloneNode(true);
+ const values=(originalLabels[id]?[...originalLabels[id].keys()]:[...new Set(cards.map(c=>facetValue(c,id)))].sort((a,b)=>a.localeCompare(b)));
+ select.replaceChildren(base);
+ for(const value of values){
+  const count=facetCount(id,value);
+  if(count===0)continue;
+  const opt=document.createElement('option');opt.value=value;
+  const label=originalLabels[id]?.get(value)||value.replace(/^(kdi|psc):/,'');
+  opt.textContent=label+' ('+count+')';opt.disabled=false;select.append(opt);
+ }
+ select.value=selected && [...select.options].some(o=>o.value===selected)?selected:'';
+}
+function facetTags(){
+ let available=0;
+ tags.forEach(label=>{
+  const input=label.querySelector('input'),tag=input.value;
+  const count=cards.filter(c=>match(c,'tags')&&c.dataset.tags.split('|').includes(tag)).length;
+  label.querySelector('.facet-count').textContent=String(count);
+  // Never show zero-result tags, even as greyed-out or selected choices.
+  label.hidden=count===0;label.classList.remove('disabled');input.disabled=count===0;
+  if(count)available++;
+ });
+ let empty=els['tag-options'].querySelector('#no-available-tags');
+ if(!empty){empty=document.createElement('p');empty.id='no-available-tags';empty.setAttribute('role','status');empty.className='tag-empty';empty.textContent='No tags match the current filters.';els['tag-options'].append(empty);}
+ empty.hidden=available!==0;
+ els['tag-summary'].textContent=tagState.size?tagState.size+' tag(s) selected':'All tags';
+}
 function params(){const p=new URLSearchParams();if(currentBank!=='all')p.set('bank',currentBank);for(const id of ['search','programme','group','evidence','status','format','sort'])if(val(id)&&!(id==='sort'&&val(id)==='id'))p.set(id,val(id));if(tagState.size)p.set('tags',[...tagState].join('|'));return p;}
-function render(){refreshFacet('group','group',c=>c.dataset.bank+':'+c.dataset.group);refreshFacet('format','format',c=>c.dataset.format);const counts={programme:new Map(),evidence:new Map(),status:new Map()};for(const id of ['programme','evidence','status']){const el=els[id];for(const opt of [...el.options].slice(1)){const n=cards.filter(c=>match(c,id)&&c.dataset[id]===opt.value).length;opt.disabled=!n&&el.value!==opt.value;}}
+function render(changed=''){normalizeFilters(changed);for(const id of facetIds)refreshFacet(id);
  facetTags();const matched=cards.filter(c=>match(c));const total=matched.length;const sorted=[...matched];const sort=val('sort');if(sort==='title')sorted.sort((a,b)=>a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent));else if(sort==='programme')sorted.sort((a,b)=>a.dataset.programme.localeCompare(b.dataset.programme)||a.id.localeCompare(b.id));else if(sort==='new')sorted.sort((a,b)=>(b.dataset.status==='proposed'?1:0)-(a.dataset.status==='proposed'?1:0)||a.id.localeCompare(b.id));else sorted.sort((a,b)=>a.id.localeCompare(b.id));
  const target=els['idea-panel'].querySelector('#ideas');for(const c of cards)c.hidden=!matched.includes(c);for(const c of sorted)target.append(c);
  els.count.textContent='Showing '+total+' of '+(currentBank==='all'?300:currentBank==='kdi'?160:140)+' ideas';els.empty.hidden=total!==0;els['active-filters'].replaceChildren();const terms=[currentBank==='all'?'':'Bank: '+currentBank.toUpperCase(),...['programme','group','evidence','status','format'].map(x=>val(x)?x+': '+val(x).replace(/^(kdi|psc):/,''):''),...tagState].filter(Boolean);for(const label of terms){const e=document.createElement('span');e.textContent=label;els['active-filters'].append(e)}
  const panel=els['idea-panel'];panel.setAttribute('aria-labelledby','tab-'+currentBank);tabs.forEach(t=>{const active=t.dataset.bank===currentBank;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1});
  const q=params().toString();const hash=location.hash;if(['http:','https:'].includes(location.protocol))try{history.replaceState(null,'',location.pathname+(q?'?'+q:'')+hash)}catch(_e){};
 }
-function chooseBank(b,focus=false){currentBank=b;render();if(focus)tabs.find(t=>t.dataset.bank===b).focus();}
+function chooseBank(b,focus=false){currentBank=b;render('bank');if(focus)tabs.find(t=>t.dataset.bank===b).focus();}
 tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>chooseBank(tab.dataset.bank));tab.addEventListener('keydown',e=>{if(!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();const j=e.key==='Home'?0:e.key==='End'?tabs.length-1:(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;chooseBank(tabs[j].dataset.bank,true)})});
-for(const id of ['search','programme','group','evidence','status','format','sort'])for(const ev of ['input','change'])els[id].addEventListener(ev,render);
+for(const id of ['search','programme','group','evidence','status','format','sort'])for(const ev of ['input','change'])els[id].addEventListener(ev,()=>render(id));
 els['reset'].addEventListener('click',()=>{for(const id of ['search','programme','group','evidence','status','format'])els[id].value='';els.sort.value='id';tagState.clear();for(const l of tags)l.querySelector('input').checked=false;chooseBank('all');});
-const q=new URLSearchParams(location.search);const hash=location.hash.substring(1).toUpperCase();const linked=cards.find(c=>c.id===hash);for(const id of ['search','programme','group','evidence','status','format','sort']){if(q.has(id))els[id].value=q.get(id)}for(const tag of (q.get('tags')||'').split('|')){if(allTags.includes(tag)){tagState.add(tag);tags.find(l=>l.querySelector('input').value===tag).querySelector('input').checked=true;}}currentBank=['kdi','psc'].includes(q.get('bank'))?q.get('bank'):linked?linked.dataset.bank:'all';render();if(linked){linked.hidden=false;linked.scrollIntoView({block:'start'})}
+const q=new URLSearchParams(location.search);const hash=location.hash.substring(1).toUpperCase();const linked=cards.find(c=>c.id===hash);for(const id of ['search','programme','group','evidence','status','format','sort']){if(q.has(id)){if(['group','format'].includes(id)){const option=document.createElement('option');option.value=q.get(id);option.textContent=q.get(id);els[id].append(option);}els[id].value=q.get(id)}}for(const tag of (q.get('tags')||'').split('|')){if(allTags.includes(tag)){tagState.add(tag);tags.find(l=>l.querySelector('input').value===tag).querySelector('input').checked=true;}}currentBank=['kdi','psc'].includes(q.get('bank'))?q.get('bank'):linked?linked.dataset.bank:'all';render();if(linked){linked.hidden=false;linked.scrollIntoView({block:'start'})}
 })();
 </script><noscript><div class="wrap notice">All 300 cards are available without JavaScript. Live conditional filters require JavaScript.</div></noscript>
 </body></html>

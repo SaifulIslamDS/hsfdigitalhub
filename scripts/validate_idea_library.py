@@ -55,6 +55,11 @@ for name in ['HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx'
   with zipfile.ZipFile(fn) as w:test(w.testzip() is None,name+' ZIP/Excel integrity failed')
 m=load('MANIFEST.json');lib=m['editorial']['idea_library'];test(m['release']=='v1.8.0-candidate' and lib['total_ideas']==300 and lib['proposed_editorial_ideas']==46,'Manifest release/candidate count mismatch')
 test('46' in (R/'social_communication_plan.html').read_text(),'Social v4 control does not distinguish 46 proposed ideas')
+# R2 interface regression: do not expose zero-count choices and do not repeat the Social promo on the homepage.
+test('if(count===0)continue' in ht and 'label.hidden=count===0' in ht,'Zero-result filter choices must be removed/hidden')
+home=(R/'index.html').read_text(encoding='utf-8')
+test('id="social-v4-approved"' not in home and 'Explore all 254 content ideas' not in home,'Obsolete social promotion banner still on homepage')
+test('href="social_communication_plan.html"' in home,'Canonical Social master is missing from homepage navigation')
 if errors:
  print('300-idea candidate validation FAILED:',len(errors))
  for e in errors:print(' -',e)

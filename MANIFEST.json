@@ -104,5 +104,6 @@
       "responsive browser QA",
       "management release acceptance"
     ]
-  }
+  },
+  "candidate_revision": "rc.2"
 }
