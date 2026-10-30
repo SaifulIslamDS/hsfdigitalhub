@@ -8,7 +8,7 @@ def verify(ok,msg):
 def text(p):return (ROOT/p).read_text(encoding='utf-8')
 try:
     meta=json.loads(text('MANIFEST.json'))
-    verify(meta['release']=='v1.8.3','Knowledge Hub release must be v1.8.3')
+    verify(meta['release']=='v1.9.0','Knowledge Hub release must be v1.9.0')
     verify(meta['design_studio']['entry_page']=='design-studio/index.html','Design Studio entry path missing')
     compiled=(S/'index.html').read_bytes()
     verify(b'fabric.min.js' not in compiled[:2500], 'No unexpected unexpanded dependency in HTML head')
@@ -50,7 +50,7 @@ try:
     for phrase in ['hsf-public-design-brief/v1','publication_approved:false','factual_claims_verified:false','new Blob','URL.createObjectURL','data-brief-id']:
         verify(phrase in js,'Brief exporter missing '+phrase)
     verify('fetch(' not in js and 'localStorage' not in js and 'sessionStorage' not in js,'Brief export must remain local and stateless')
-    verify(len(re.findall('class="idea" id="(?:KDI|PSC)-[0-9]{3}"',library))==300,'300 idea cards must remain in library')
+    verify(len(re.findall('class="idea" id="(?:KDI|PSC)-[0-9]{3}"',library))==400,'400 idea cards must remain in library')
     for name in ['netlify/edge-functions/pin-gate.ts','governance/HSF_DIGITAL_SYSTEM_CONTRACT.json']:
         verify((ROOT/name).is_file(),name+' missing')
 except Exception as ex:errors.append('Validator exception: '+repr(ex))
@@ -58,4 +58,4 @@ if errors:
     print('HSF Design Studio integration FAILED')
     for issue in errors:print(' -',issue)
     sys.exit(1)
-print('HSF Design Studio integration PASS: source build, brand, governance, 300-idea bridge, navigation and privacy boundary checks.')
+print('HSF Design Studio integration PASS: source build, brand, governance, 400-idea bridge, navigation and privacy boundary checks.')

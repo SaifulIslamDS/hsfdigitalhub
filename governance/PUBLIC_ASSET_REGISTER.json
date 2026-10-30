@@ -25,26 +25,24 @@
       "note": "Generated demonstration design asset; not an operational beneficiary report."
     },
     {
-      "path": "communication/research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx",
-      "classification": "PUBLIC",
-      "owner": "HSF Communication / Knowledge Hub",
-      "contains_personal_data": false,
-      "approval_status": "EDITORIAL_IDEAS_PARTLY_PROPOSED_NOT_PUBLICATION_APPROVED",
-      "review_date": "2026-10-30",
-      "sha256": "8f60c4ac8aa1baa63093a147db3ca0e01fb0ee0e5ecd481f031dfaf1d59ed7e3",
-      "note": "160 KDI ideas: 134 existing editorial-approved + 26 proposed; no personal operational records; no verified claims or events by virtue of inclusion."
-    },
-    {
       "path": "communication/research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx",
       "classification": "PUBLIC",
       "owner": "HSF Communication / Knowledge Hub",
       "contains_personal_data": false,
       "approval_status": "EDITORIAL_IDEAS_PARTLY_PROPOSED_NOT_PUBLICATION_APPROVED",
       "review_date": "2026-10-30",
-      "sha256": "408cab820f2495ad07f437530894374a5f76199f516ea81adc0815156c961887",
+      "sha256": "9fe82b0ded347f2847da81baa7732ff1f5cd65e3f99ca9c54842b3b6becb3fdd",
       "note": "140 PSC ideas: 120 existing editorial-approved + 20 proposed; no personal operational records; no verified claims or events by virtue of inclusion."
+    },
+    {
+      "path": "communication/research/HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx",
+      "classification": "PUBLIC",
+      "contains_personal_data": false,
+      "purpose": "Public-safe editorial idea inventory; proposed/approved idea statuses do not authorize posting",
+      "sha256": "db7968cba8356a105172623ac9bb2589d0b3bc4b56fa16d83b7808d759713465"
     }
   ],
   "last_updated": "2026-10-30",
-  "planning_and_compiled_by": "Saiful Islam"
+  "planning_and_compiled_by": "Saiful Islam",
+  "release": "v1.9.0"
 }

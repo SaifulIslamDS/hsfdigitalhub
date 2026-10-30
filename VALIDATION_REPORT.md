@@ -1,3 +1,7 @@
+# HSF Knowledge Hub v1.9.0 — Automated Validation Scope
+
+The build-time checks cover 400 structured editorial records, their per-card prompt contexts, public-safe design briefs, series mappings, governance version values, document and binary integrity. They **do not** establish publication approval, independent verification of climate or medical claims, live Netlify access controls, illustration export parity or illustrator compatibility. Consult GitHub Actions for current CI result after push.
+
 # HSF Knowledge Hub v1.7.0 · Validation Report
 
 **Release status:** Approved & Stable · **Validated / last updated:** 20 October 2026  

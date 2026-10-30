@@ -31,13 +31,13 @@ for name in ['index.html','social_communication_plan.html']:
     if name=='index.html':
         test('Status: Current internal version' in s,'Homepage does not indicate current internal version')
         test('href="#documents"' in s, 'Homepage browse-documents link missing')
-        test('Knowledge Hub v1.8.3' in s,'Current Knowledge Hub version not shown')
+        test('Knowledge Hub v1.9.0' in s,'Current Knowledge Hub version not shown')
     else:
-        test('Status: Approved &amp; Stable (Knowledge Hub v1.8.3 internal)' in s,'Social policy approval distinction missing')
+        test('Status: Approved &amp; Stable (Knowledge Hub v1.9.0 internal)' in s,'Social policy approval distinction missing')
         for x in ['socialMenu','socialMenuOpen','socialMenuBackdrop','socialTocList','socialTocSearch']:
             test(x in o.ids,'Social navigation component missing '+x)
         test('href="index.html"' in s and 'href="communication/idea-library.html"' in s,'Social navigation links missing')
-        test('160 KDI and 140 PSC' in s,'Editorial bank totals changed unexpectedly')
+        test('260 KDI and 140 PSC' in s,'Editorial bank totals changed unexpectedly')
 if err:
     print('SHARED HEADER QA FAILED')
     for e in err:print(' -',e)

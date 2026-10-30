@@ -1,3 +1,13 @@
+## v1.9.0 — 30 October 2026 · 400-idea expansion and editorial approval governance
+
+- Promoted the earlier 46 proposed records to editorial-planning-approved (not publication-approved), with a preserved audit transition.
+- Expanded from 300 to 400 unique editorial concept IDs: 260 KDI (160 approved + 100 proposed), 140 PSC (140 approved).
+- New KDI-161..260 by Project: Climate Action & Resilience 45, E4BL 30, A2PHC 25; including nine narrower COP31 policy-literacy concepts.
+- Rebuilt 400-card unified library, professional prompt contexts and design-brief handover; expanded optional Learn with E4BL series tagging.
+- Updated Excel inventories, controlled source paths, manifests, approval and SSOT validators and public asset checksums.
+- Preserved approved Social v4.0, Brand v2.4, Brand Stack v3.1.0 candidate, ERP/MEAL/Netlify protected baselines.
+- See `docs/RELEASE_v1.9.0.md` and `communication/research/KDI_161-260_UNIQUENESS_REVIEW.json`.
+
 ## v1.8.3 — 30 October 2026 · Institutional SSOT stabilization
 
 - Aligned the four relevant master narratives to three current Projects and kept optional ERP modules explicitly conditional.

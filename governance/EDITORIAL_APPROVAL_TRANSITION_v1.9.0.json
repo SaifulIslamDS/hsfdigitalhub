@@ -1,0 +1,71 @@
+{
+  "promoted_count": 46,
+  "KDI": {
+    "count": 26,
+    "idea_ids": [
+      "KDI-135",
+      "KDI-136",
+      "KDI-137",
+      "KDI-138",
+      "KDI-139",
+      "KDI-140",
+      "KDI-141",
+      "KDI-142",
+      "KDI-143",
+      "KDI-144",
+      "KDI-145",
+      "KDI-146",
+      "KDI-147",
+      "KDI-148",
+      "KDI-149",
+      "KDI-150",
+      "KDI-151",
+      "KDI-152",
+      "KDI-153",
+      "KDI-154",
+      "KDI-155",
+      "KDI-156",
+      "KDI-157",
+      "KDI-158",
+      "KDI-159",
+      "KDI-160"
+    ],
+    "prior_status": "EDITORIAL_IDEA_PROPOSED",
+    "new_status": "EDITORIAL_IDEA_APPROVED"
+  },
+  "PSC": {
+    "count": 20,
+    "idea_ids": [
+      "PSC-121",
+      "PSC-122",
+      "PSC-123",
+      "PSC-124",
+      "PSC-125",
+      "PSC-126",
+      "PSC-127",
+      "PSC-128",
+      "PSC-129",
+      "PSC-130",
+      "PSC-131",
+      "PSC-132",
+      "PSC-133",
+      "PSC-134",
+      "PSC-135",
+      "PSC-136",
+      "PSC-137",
+      "PSC-138",
+      "PSC-139",
+      "PSC-140"
+    ],
+    "prior_status": "EDITORIAL_IDEA_PROPOSED",
+    "new_status": "EDITORIAL_IDEA_APPROVED"
+  },
+  "approval_scope": "EDITORIAL_IDEA_APPROVAL_FOR_PLANNING_ONLY",
+  "authority": "Explicit user instruction in HSF Project conversation dated 30 October 2026; formal institutional approval record, if required, remains separate",
+  "public_claims_approved": false,
+  "publication_approved": false,
+  "original_snapshot_sha256": {
+    "KDI-135..160": "e0ccaa65aa9bc74806d2ccf6106fbca49af9008a9d16899e5b4d2db728cfffc3",
+    "PSC-121..140": "2f9ceddc7e9505c2105b6e2f0b16285f2d81cdf486a01b804fa7cdd3452f3f96"
+  }
+}

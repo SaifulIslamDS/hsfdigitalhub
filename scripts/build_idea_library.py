@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build HSF's 300-idea library with conditional filters from public-safe editorial JSON.
+"""Build HSF's 400-idea library with conditional filters from public-safe editorial JSON.
 
-254 earlier ideas retain editorial idea approval. New 46 are proposals only.
+300 existing ideas are editorial-approved. 100 new KDI research proposals remain pending.
 No source lead verifies a claim or authorizes a public post.
 """
 from pathlib import Path
@@ -9,11 +9,11 @@ from html import escape
 from collections import Counter
 import json,re
 R=Path(__file__).resolve().parents[1]
-K=json.loads((R/'communication/research/kdi_160_ideas.json').read_text(encoding='utf-8'))['ideas']
+K=json.loads((R/'communication/research/kdi_260_ideas.json').read_text(encoding='utf-8'))['ideas']
 P=json.loads((R/'communication/research/psc_140_ideas.json').read_text(encoding='utf-8'))['ideas']
 SERIES=json.loads((R/'communication/editorial_series.json').read_text(encoding='utf-8'))['editorial_series']
 SERIES_BY_ID={idea_id:entry for entry in SERIES for idea_id in entry['idea_ids']}
-assert len(K)==160 and len(P)==140 and len({x['id'] for x in K+P})==300
+assert len(K)==260 and len(P)==140 and len({x['id'] for x in K+P})==400
 E=lambda x:escape(str(x),quote=True)
 prog_name={'E4BL':'Education for Better Life','A2PHC':'Access to Primary Healthcare','CAR':'Climate Action & Resilience','CROSS':'Cross-cutting'}
 # Editorial discovery tags, NOT source-verified fact tags. Auto-tagged older concepts are presentation metadata only.
@@ -76,8 +76,8 @@ def card(bank,x):
 cards='\n'.join(card(b,x) for b,items in [('kdi',K),('psc',P)] for x in items)
 html='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#008C44">
-<title>HSF Social Content Idea Library | 300 Ideas + E4BL Series</title>
-<meta name="description" content="300 HSF editorial concepts: 254 existing and 46 proposal-stage ideas. Not verified claims or approved publications.">
+<title>HSF Social Content Idea Library | 400 Ideas + E4BL Series</title>
+<meta name="description" content="400 HSF editorial concepts: 300 editorial-approved ideas and 100 new research proposals. Not verified claims or approved publications.">
 <style>
 :root{--green:#008C44;--deep:#163F2A;--ink:#263e32;--muted:#546c60;--pale:#EFF8F3;--line:#c9dfd0;--blue:#1769AA;--page:#f7faf8}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--ink);font:16px/1.56 Arial,'Noto Sans Bengali',sans-serif}a{color:var(--blue)}button,select,input{font:inherit}button{cursor:pointer}
@@ -95,11 +95,11 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style><link rel="stylesheet" href="assets/content-prompt-generator.css"><link rel="stylesheet" href="assets/design-brief-export.css"></head><body>
 <header><div class="wrap top"><strong>Human Safety Foundation · Digital Knowledge Hub</strong><nav aria-label="Hub navigation"><a href="../index.html">Hub Home</a><a href="../social_communication_plan.html">Social v4.0 Framework</a><a href="../brand_identity_master_guide.html">Brand Guide</a></nav></div></header>
-<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.8.3 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 254 earlier editorial ideas are preserved. The 46 additions remain proposals needing editorial review. Two E4BL learning series now help find related existing ideas.</p>
+<main><section class="hero wrap"><div class="eyebrow">Controlled editorial library · Knowledge Hub v1.9.0 · current internal version</div><h1>HSF Social Content Idea Library</h1><p>One conditional, searchable catalogue covering <b>Knowledge, Data &amp; Insight</b> and <b>Programme Stories &amp; Communication</b>. The 300 earlier ideas are approved for editorial planning; 100 new research-led KDI ideas remain proposals pending review. Two E4BL learning series now help find related existing ideas.</p>
 <div class="notice"><b>Publication gate:</b> Editorial approval is never approval of a claim, event, case study, image or public post. Validate original evidence, apply technical and safeguarding reviews, and obtain management approval for each exact publication.</div>
-<div class="stats"><div class="stat"><strong>300</strong><small>All editorial concepts</small></div><div class="stat"><strong>160</strong><small>KDI ideas (26 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (20 new proposed)</small></div></div></section>
+<div class="stats"><div class="stat"><strong>400</strong><small>All editorial concepts</small></div><div class="stat"><strong>260</strong><small>KDI ideas (100 new proposed)</small></div><div class="stat"><strong>140</strong><small>PSC ideas (all editorial-approved)</small></div></div></section>
 <section class="wrap" aria-label="Unified idea catalogue"><div class="library">
-<div role="tablist" class="tabs" aria-label="Idea banks"><button class="tab" type="button" id="tab-all" data-bank="all" role="tab" aria-controls="idea-panel" aria-selected="true">All ideas (300)</button><button class="tab" type="button" id="tab-kdi" data-bank="kdi" role="tab" aria-controls="idea-panel" aria-selected="false">Knowledge &amp; Insight (160)</button><button class="tab" type="button" id="tab-psc" data-bank="psc" role="tab" aria-controls="idea-panel" aria-selected="false">Programme Stories (140)</button></div>
+<div role="tablist" class="tabs" aria-label="Idea banks"><button class="tab" type="button" id="tab-all" data-bank="all" role="tab" aria-controls="idea-panel" aria-selected="true">All ideas (400)</button><button class="tab" type="button" id="tab-kdi" data-bank="kdi" role="tab" aria-controls="idea-panel" aria-selected="false">Knowledge &amp; Insight (260)</button><button class="tab" type="button" id="tab-psc" data-bank="psc" role="tab" aria-controls="idea-panel" aria-selected="false">Programme Stories (140)</button></div>
 <div id="idea-panel" role="tabpanel" aria-labelledby="tab-all"><form id="idea-filters" class="filters" role="search" onsubmit="return false">
 <div class="field search"><label for="search">Search all idea fields</label><input type="search" id="search" placeholder="Title, idea ID, subject, evidence, keywords" autocomplete="off"></div>
 <div class="field"><label for="programme">Primary programme</label><select id="programme"><option value="">All programmes</option><option value="E4BL">Education for Better Life</option><option value="A2PHC">Primary Healthcare</option><option value="CAR">Climate Action &amp; Resilience</option><option value="CROSS">Cross-cutting</option></select></div>
@@ -111,11 +111,11 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
 <div class="field"><label for="format">Visual / media family</label><select id="format"><option value="">All formats</option></select></div>
 <div class="field"><label for="sort">Sort ideas</label><select id="sort"><option value="id">Idea ID (ascending)</option><option value="new">Newest additions first</option><option value="title">Title A–Z</option><option value="programme">Programme</option></select></div></form>
 <div class="filter-actions"><div class="active-filters" id="active-filters" aria-label="Active filters"></div><button class="reset" id="reset" type="button">Clear all filters</button></div>
-<div class="resultbar"><strong id="count" aria-live="polite" role="status">Showing 300 of 300 ideas</strong><span id="context">254 earlier ideas · 46 proposals · zero publication-ready claims</span></div>
+<div class="resultbar"><strong id="count" aria-live="polite" role="status">Showing 400 of 400 ideas</strong><span id="context">300 editorial-approved · 100 new proposals · zero publication-ready claims</span></div>
 <div class="ideas" id="ideas">''' +cards+'''</div><div id="empty" class="empty" hidden><strong>No matching ideas.</strong><p>Broaden the filters or clear one of your selected tags.</p></div>
 </div></div></section>
 <section class="wrap resources" aria-label="Governance and source bank downloads"><h2>Controlled source inventories</h2><p><b>Inside Our Classroom</b> (PSC) and <b>Learn with E4BL</b> (KDI) are discovery labels over selected E4BL records; other ideas remain discoverable through All series. Read the <a href="../docs/E4BL_EDITORIAL_SERIES_OPERATING_GUIDE.md">series guidance</a>. These are editorial research/story opportunities. No external statistic, service activity or case outcome is verified by this catalogue. Discovery tags on older records are suggested editorial topics for filtering, not independently verified factual classifications.</p>
-<div class="links"><a href="research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx">KDI 160 workbook</a><a href="research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx">PSC 140 workbook</a><a href="research/source_registry.json">Research source registry</a><a href="registers/content_evidence_register_TEMPLATE.csv">Evidence register template</a><a href="../governance/APPROVED_INFORMATION_STANDARD.md">Approved Information Standard</a></div></section></main>
+<div class="links"><a href="research/HSF_Knowledge_Data_Insight_260_Idea_Bank_Editorial_Inventory.xlsx">KDI 260 workbook</a><a href="research/HSF_Programme_Stories_Communication_140_Idea_Bank_Editorial_Inventory.xlsx">PSC 140 workbook</a><a href="research/source_registry.json">Research source registry</a><a href="registers/content_evidence_register_TEMPLATE.csv">Evidence register template</a><a href="../governance/APPROVED_INFORMATION_STANDARD.md">Approved Information Standard</a></div></section></main>
 <dialog id="hsf-prompt-dialog" class="prompt-dialog" aria-labelledby="hsf-prompt-dialog-title" aria-describedby="hsf-prompt-intro">
  <div class="prompt-content">
  <div class="prompt-head"><div><h2 id="hsf-prompt-dialog-title">Create an evidence-led content prompt</h2><p id="hsf-prompt-intro">Copy this tailored brief into ChatGPT or another research/content assistant. It does not generate or publish a post in the Hub.</p></div><button class="prompt-close" type="button" id="hsf-prompt-close" aria-label="Close content prompt">×</button></div>
@@ -133,7 +133,7 @@ header{background:var(--deep);color:#fff}header .top{padding:17px 0;display:flex
  </div>
 </dialog>
 
-<footer><div class="wrap">HSF Knowledge Hub v1.8.3 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
+<footer><div class="wrap">HSF Knowledge Hub v1.9.0 · current internal version · Social Communication Ecosystem v4.0 approved policy · 30 October 2026 · Planning &amp; Compiled by: Saiful Islam</div></footer>
 <script>
 (function(){'use strict';
 const cards=Array.from(document.querySelectorAll('#ideas .idea'));
@@ -213,7 +213,7 @@ function params(){const p=new URLSearchParams();if(currentBank!=='all')p.set('ba
 function render(changed=''){normalizeFilters(changed);for(const id of facetIds)refreshFacet(id);
  facetTags();const matched=cards.filter(c=>match(c));const total=matched.length;const sorted=[...matched];const sort=val('sort');if(sort==='title')sorted.sort((a,b)=>a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent));else if(sort==='programme')sorted.sort((a,b)=>a.dataset.programme.localeCompare(b.dataset.programme)||a.id.localeCompare(b.id));else if(sort==='new')sorted.sort((a,b)=>(b.dataset.status==='proposed'?1:0)-(a.dataset.status==='proposed'?1:0)||a.id.localeCompare(b.id));else sorted.sort((a,b)=>a.id.localeCompare(b.id));
  const target=els['idea-panel'].querySelector('#ideas');for(const c of cards)c.hidden=!matched.includes(c);for(const c of sorted)target.append(c);
- els.count.textContent='Showing '+total+' of '+(currentBank==='all'?300:currentBank==='kdi'?160:140)+' ideas';els.empty.hidden=total!==0;els['active-filters'].replaceChildren();const terms=[currentBank==='all'?'':'Bank: '+currentBank.toUpperCase(),...['programme','series','group','evidence','status','format'].map(x=>val(x)?x+': '+val(x).replace(/^(kdi|psc):/,''):''),...tagState].filter(Boolean);for(const label of terms){const e=document.createElement('span');e.textContent=label;els['active-filters'].append(e)}
+ els.count.textContent='Showing '+total+' of '+(currentBank==='all'?400:currentBank==='kdi'?260:140)+' ideas';els.empty.hidden=total!==0;els['active-filters'].replaceChildren();const terms=[currentBank==='all'?'':'Bank: '+currentBank.toUpperCase(),...['programme','series','group','evidence','status','format'].map(x=>val(x)?x+': '+val(x).replace(/^(kdi|psc):/,''):''),...tagState].filter(Boolean);for(const label of terms){const e=document.createElement('span');e.textContent=label;els['active-filters'].append(e)}
  const panel=els['idea-panel'];panel.setAttribute('aria-labelledby','tab-'+currentBank);tabs.forEach(t=>{const active=t.dataset.bank===currentBank;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1});
  const q=params().toString();const hash=location.hash;if(['http:','https:'].includes(location.protocol))try{history.replaceState(null,'',location.pathname+(q?'?'+q:'')+hash)}catch(_e){};
 }
@@ -223,7 +223,7 @@ for(const id of ['search','programme','series','group','evidence','status','form
 els['reset'].addEventListener('click',()=>{for(const id of ['search','programme','series','group','evidence','status','format'])els[id].value='';els.sort.value='id';tagState.clear();for(const l of tags)l.querySelector('input').checked=false;chooseBank('all');});
 const q=new URLSearchParams(location.search);const hash=location.hash.substring(1).toUpperCase();const linked=cards.find(c=>c.id===hash);for(const id of ['search','programme','series','group','evidence','status','format','sort']){if(q.has(id)){if(['series','group','format'].includes(id)){const option=document.createElement('option');option.value=q.get(id);option.textContent=q.get(id);els[id].append(option);}els[id].value=q.get(id)}}for(const tag of (q.get('tags')||'').split('|')){if(allTags.includes(tag)){tagState.add(tag);tags.find(l=>l.querySelector('input').value===tag).querySelector('input').checked=true;}}currentBank=['kdi','psc'].includes(q.get('bank'))?q.get('bank'):linked?linked.dataset.bank:'all';render();if(linked){linked.hidden=false;linked.scrollIntoView({block:'start'})}
 })();
-</script><noscript><style>.idea-prompt-trigger{display:none}</style><div class="wrap notice">All 300 cards are available without JavaScript. Live conditional filters and per-idea content prompts require JavaScript.</div></noscript>
+</script><noscript><style>.idea-prompt-trigger{display:none}</style><div class="wrap notice">All 400 cards are available without JavaScript. Live conditional filters and per-idea content prompts require JavaScript.</div></noscript>
 </body></html>'''
 # Embed *public-safe editorial metadata only*, not any operational or personal data.
 # The JSON block makes the prompt modal work on static/offline previews with no API calls.
@@ -243,7 +243,7 @@ for bank,records in [('KDI',K),('PSC',P)]:
    status='proposed' if idea.get('approval_status' if k else 'idea_status')=='EDITORIAL_IDEA_PROPOSED' else 'approved',
    tags=tags_for(idea,bank)
   ))
-assert len(contexts)==300
+assert len(contexts)==400
 safejson=json.dumps(contexts,ensure_ascii=False,separators=(',',':')).replace('<',r'\u003c').replace('>',r'\u003e').replace('&',r'\u0026')
 needle='</script><noscript>'
 assert needle in html

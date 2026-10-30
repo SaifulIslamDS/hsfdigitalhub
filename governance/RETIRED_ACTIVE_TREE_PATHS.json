@@ -1,5 +1,5 @@
 {
-  "release": "v1.8.3",
+  "release": "v1.9.0",
   "date": "2026-10-30",
   "action": "REMOVE_FROM_WORKING_TREE_KEEP_IN_GIT_HISTORY",
   "paths": [
@@ -8,7 +8,9 @@
     "communication/research/psc_120_ideas.json",
     "communication/research/HSF_Knowledge_Data_Insight_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
     "communication/research/HSF_Knowledge_Data_Insight_134_Idea_Bank_Editorial_Inventory.xlsx",
-    "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx"
+    "communication/research/HSF_Programme_Stories_Communication_120_Idea_Bank_Approved_Editorial_Inventory.xlsx",
+    "communication/research/kdi_160_ideas.json",
+    "communication/research/HSF_Knowledge_Data_Insight_160_Idea_Bank_Editorial_Inventory.xlsx"
   ],
   "note": "Existing users who paste ZIP into checkout must explicitly git rm these paths because copy/paste does not remove old files."
 }

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "last_updated": "2026-10-30",
   "planning_and_compiled_by": "Saiful Islam",
-  "purpose": "Public-safe editorial discovery overlay: maps existing approved/proposed idea records to repeatable E4BL series without altering the source banks or approving posts.",
+  "purpose": "Public-safe editorial discovery overlay: maps relevant KDI/PSC ideas to optional E4BL series; no field verification, institutional evidence or public post approval implied.",
   "status": "ADOPTED_EDITORIAL_SERIES_NOT_PUBLICATION_APPROVAL",
   "editorial_series": [
     {
@@ -58,17 +58,47 @@
         "KDI-025",
         "KDI-136",
         "KDI-138",
-        "KDI-139"
+        "KDI-139",
+        "KDI-206",
+        "KDI-207",
+        "KDI-208",
+        "KDI-209",
+        "KDI-210",
+        "KDI-211",
+        "KDI-212",
+        "KDI-213",
+        "KDI-214",
+        "KDI-215",
+        "KDI-216",
+        "KDI-217",
+        "KDI-218",
+        "KDI-219",
+        "KDI-220",
+        "KDI-221",
+        "KDI-222",
+        "KDI-223",
+        "KDI-224",
+        "KDI-225",
+        "KDI-226",
+        "KDI-227",
+        "KDI-228",
+        "KDI-229",
+        "KDI-230",
+        "KDI-231",
+        "KDI-232",
+        "KDI-233",
+        "KDI-234",
+        "KDI-235"
       ],
       "evidence_rule": "Teaching/curriculum objective and independently reviewed source or teacher-approved example; accurate age/grade scope, child-friendly presentation.",
       "publication_rule": "Distinguish practical activity from research claim; education/technical review and final copy approval required."
     }
   ],
-  "total_mapped_ideas": 34,
+  "total_mapped_ideas": 64,
   "mapping_is_not_new_idea_or_claim": true,
   "source_record_sha256": {
-    "communication/research/kdi_160_ideas.json": "0c007a1b7e851cf34d481d4d0c2ba994fbec4c503677c79fc581f1c0ef95d1e0",
-    "communication/research/psc_140_ideas.json": "dea1c02c09653f115b2eadf1ea464899dc589d3e2641046958c8ae52d3210457"
+    "communication/research/kdi_260_ideas.json": "690ca9367b90ceefdcdc2a771e46eba87203cef32764eacc6bf4c6b85c40ae35",
+    "communication/research/psc_140_ideas.json": "6ad7301152c08d1d1f5316ce037258a921c4d39b8241c20cbd325b0fd3daaa40"
   },
   "example_post": {
     "topic": "Animal Sounds",

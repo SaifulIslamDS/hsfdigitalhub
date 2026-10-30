@@ -1,7 +1,7 @@
 {
-  "name": "HSF Programme Stories & Communication, 140 concepts (120 approved ideas + 20 proposed)",
+  "name": "HSF Programme Stories & Communication, 140 concepts (140 editorial-approved ideas)",
   "version": "4.0",
-  "status": "MIXED_EDITORIAL_APPROVAL_120_APPROVED_20_PROPOSED",
+  "status": "ALL_140_EDITORIAL_IDEAS_APPROVED_PUBLICATION_NOT_APPROVED",
   "total": 140,
   "stream_principle": "Two streams, open-ended; no compulsory 48-post pilot",
   "ideas": [
@@ -2296,7 +2296,7 @@
       "suggested_format": "Photo series / inventory explainer",
       "review_risk": "HIGH: do not expose child identities or make unverified outcome claims.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2310,7 +2310,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-122",
@@ -2323,7 +2325,7 @@
       "suggested_format": "Teacher voice + short carousel",
       "review_risk": "HIGH: exclude identifiable pupil data and unsupervised classroom imagery.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2337,7 +2339,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-123",
@@ -2350,7 +2354,7 @@
       "suggested_format": "Evidence chart + caveat",
       "review_risk": "HIGH: aggregated numbers only; never imply attendance equals learning.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2364,7 +2368,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-124",
@@ -2377,7 +2383,7 @@
       "suggested_format": "Challenge-response timeline",
       "review_risk": "HIGH: do not expose safeguarding incidents or blame individuals.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2391,7 +2397,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-125",
@@ -2404,7 +2412,7 @@
       "suggested_format": "Practical response checklist",
       "review_risk": "HIGH: safeguarding and privacy review; no fabricated learner story.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2418,7 +2426,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-126",
@@ -2431,7 +2441,7 @@
       "suggested_format": "Feedback-to-action report card",
       "review_risk": "HIGH: protect parent identity; do not disclose complaints.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2445,7 +2455,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-127",
@@ -2458,7 +2470,7 @@
       "suggested_format": "Behind-the-scenes photo essay",
       "review_risk": "HIGH: no clinical records or patient faces without approved consent.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2472,7 +2484,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-128",
@@ -2485,7 +2499,7 @@
       "suggested_format": "Clinician Q&A / referral explainer",
       "review_risk": "CRITICAL: clinical privacy and harm review, no identifiable case narrative.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2499,7 +2513,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-129",
@@ -2512,7 +2528,7 @@
       "suggested_format": "Definitions-first service card",
       "review_risk": "HIGH: do not call visits unique patients; no operational extracts.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2526,7 +2542,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-130",
@@ -2539,7 +2557,7 @@
       "suggested_format": "Challenge-response note",
       "review_risk": "CRITICAL: technical safety and confidentiality review.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2553,7 +2571,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-131",
@@ -2566,7 +2586,7 @@
       "suggested_format": "Referral decision flow graphic",
       "review_risk": "HIGH: not individual medical advice; avoid unverified service availability.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2580,7 +2600,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-132",
@@ -2593,7 +2615,7 @@
       "suggested_format": "Photo + short educational Reel",
       "review_risk": "HIGH: clinical content must be reviewed; no unconsented patient imagery.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2607,7 +2629,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-133",
@@ -2620,7 +2644,7 @@
       "suggested_format": "Map narrative / field album",
       "review_risk": "HIGH: avoid exposing household locations and vulnerable individuals.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2634,7 +2658,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-134",
@@ -2647,7 +2673,7 @@
       "suggested_format": "Audio quote card + evidence note",
       "review_risk": "HIGH: no pressure on vulnerable participants; quote and privacy approval.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2661,7 +2687,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-135",
@@ -2674,7 +2702,7 @@
       "suggested_format": "Before/after learning graphic",
       "review_risk": "HIGH: only valid comparable measures; no unverified risk reduction.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2688,7 +2716,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-136",
@@ -2701,7 +2731,7 @@
       "suggested_format": "Lessons learned story",
       "review_risk": "STANDARD: do not imply delivered outputs or blame individuals.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2715,7 +2745,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-137",
@@ -2728,7 +2760,7 @@
       "suggested_format": "Alert-to-action checklist",
       "review_risk": "HIGH: clinical content and alert validity must be verified.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2742,7 +2774,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-138",
@@ -2755,7 +2789,7 @@
       "suggested_format": "Transparency/process post",
       "review_risk": "HIGH: avoid disclosing sensitive or unverified allegations.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2769,7 +2803,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-139",
@@ -2782,7 +2818,7 @@
       "suggested_format": "Editorial QA scorecard",
       "review_risk": "STANDARD: no staff performance or restricted reviewer identifiers.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2796,7 +2832,9 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     },
     {
       "id": "PSC-140",
@@ -2809,7 +2847,7 @@
       "suggested_format": "Feedback process carousel",
       "review_risk": "HIGH: never publish confidential complaints or identifiable statements.",
       "optional_kdi_crosslink": "Link to a KDI topic only after separate citation/verification.",
-      "idea_status": "EDITORIAL_IDEA_PROPOSED",
+      "idea_status": "EDITORIAL_IDEA_APPROVED",
       "fact_verification_status": "NOT_VERIFIED",
       "publication_status": "NOT_APPROVED",
       "field_source_ref": "",
@@ -2823,9 +2861,11 @@
       ],
       "evidence_readiness": "FIELD_EVIDENCE_REQUIRED",
       "suggested_channel": "Facebook / Instagram / website after verification",
-      "date_added": "2026-10-30"
+      "date_added": "2026-10-30",
+      "editorial_approval_record": "USER_DIRECTED_2026-10-30_ED_PLANNING_ONLY",
+      "editorial_approval_date": "2026-10-30"
     }
   ],
-  "approval_date": "2026-10-20",
+  "approval_date": "2026-10-30",
   "approved_for_publication": false
 }

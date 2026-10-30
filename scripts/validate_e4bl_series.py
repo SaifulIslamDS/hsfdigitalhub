@@ -7,7 +7,7 @@ errors=[]
 def check(ok,msg):
  if not ok:errors.append(msg)
 def load(p):return json.loads((R/p).read_text('utf-8'))
-mapdoc=load('communication/editorial_series.json');K=load('communication/research/kdi_160_ideas.json')['ideas'];P=load('communication/research/psc_140_ideas.json')['ideas']
+mapdoc=load('communication/editorial_series.json');K=load('communication/research/kdi_260_ideas.json')['ideas'];P=load('communication/research/psc_140_ideas.json')['ideas']
 spec=[('inside-our-classroom','PSC',P),('learn-with-e4bl','KDI',K)]
 check(mapdoc.get('status')=='ADOPTED_EDITORIAL_SERIES_NOT_PUBLICATION_APPROVAL','Approval boundary missing')
 check(len(mapdoc['editorial_series'])==2,'Expected exactly two E4BL series')
@@ -19,7 +19,7 @@ for (code,bank,ideas),series in zip(spec,mapdoc['editorial_series']):
   check(id in ref,'Missing source idea '+id)
   if id in ref: check(ref[id]['programme']=='E4BL',id+' assigned outside E4BL')
   seen.append(id)
-check(len(seen)==len(set(seen))==34,'Duplicate or unexpected series mapping count')
+check(len(seen)==len(set(seen))==64,'Duplicate or unexpected series mapping count')
 for p,digest in mapdoc['source_record_sha256'].items():
  check(hashlib.sha256((R/p).read_bytes()).hexdigest()==digest,'Source bank changed: '+p)
 for p in ['social_communication_plan.html','communication/README.md','communication/idea-library.html']:
@@ -29,8 +29,8 @@ ui=(R/'communication/idea-library.html').read_text('utf-8')
 check('id="series"' in ui and 'data-series="inside-our-classroom"' in ui and 'data-series="learn-with-e4bl"' in ui,'Series selector/card facets missing')
 check("exclude!=='series'" in ui and "'series'" in ui,'Series conditional filter missing')
 check('data-series=""' in ui,'Untagged ideas must remain discoverable')
-check(len(K)==160 and len(P)==140,'300 original ideas must be preserved')
+check(len(K)==260 and len(P)==140,'400 current ideas must be preserved')
 check(all(x['publication_status']=='NOT_APPROVED' for x in K+P),'An idea falsely marked publication approved')
 if errors:
  print('E4BL series QA FAILED:');[print(' -',x) for x in errors];sys.exit(1)
-print('E4BL series PASS: 19 PSC + 15 KDI mapped, 300 original ideas and safety controls preserved.')
+print('E4BL series PASS: 19 PSC + 45 KDI mapped, 400 current ideas and safety controls preserved.')

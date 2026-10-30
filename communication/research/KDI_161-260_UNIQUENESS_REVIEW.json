@@ -1,0 +1,4813 @@
+{
+  "date": "2026-10-30",
+  "audit_scope": "300 preceding ideas: KDI-001..160 and PSC-001..140; plus manual thematic screening of new candidate set",
+  "assessment": "100 candidate ideas have distinct specified learning questions; thematic neighbours exist, final human editorial review still recommended; no scientific claim verified",
+  "count": 100,
+  "distribution": {
+    "CAR": 45,
+    "E4BL": 30,
+    "A2PHC": 25
+  },
+  "records": [
+    {
+      "new_id": "KDI-161",
+      "title": "How does the natural greenhouse effect differ from human-driven warming?",
+      "closest_existing_ids": [
+        "KDI-105",
+        "KDI-153",
+        "KDI-080",
+        "KDI-023",
+        "KDI-025"
+      ],
+      "closest_existing_titles": [
+        "How does child marriage intersect with health and learning?",
+        "How do salinity risks differ for drinking water, farming and livelihoods?",
+        "Why is a forecast different from a prediction of exact harm?",
+        "Does harsh discipline improve learning?",
+        "How important is parental engagement in primary learning?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.504
+        },
+        {
+          "id": "KDI-153",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.497
+        },
+        {
+          "id": "KDI-080",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.47
+        },
+        {
+          "id": "KDI-023",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-025",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        }
+      ],
+      "distinct_learning_objective": "Explain infrared absorption, Earth's energy balance, and the difference between the naturally necessary greenhouse effect and its human enhancement.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-162",
+      "title": "Carbon dioxide and methane: why do their warming effects differ?",
+      "closest_existing_ids": [
+        "KDI-005",
+        "KDI-092",
+        "KDI-064",
+        "KDI-027",
+        "KDI-011"
+      ],
+      "closest_existing_titles": [
+        "Child labour and school attendance: what does the evidence show?",
+        "How can shade change outdoor thermal comfort?",
+        "How does handwashing protect health?",
+        "How do floods and heat affect school continuity?",
+        "Can schoolchildren read at their expected level?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.469
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.44
+        },
+        {
+          "id": "KDI-064",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.42
+        },
+        {
+          "id": "KDI-027",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.411
+        },
+        {
+          "id": "KDI-011",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.411
+        }
+      ],
+      "distinct_learning_objective": "Compare atmospheric persistence, radiative forcing and appropriate time horizons without treating a single equivalence as universal.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-163",
+      "title": "Where does fossil carbon go after it is burned?",
+      "closest_existing_ids": [
+        "KDI-036",
+        "KDI-044",
+        "KDI-094",
+        "KDI-052",
+        "PSC-062"
+      ],
+      "closest_existing_titles": [
+        "What does a 'service contact' actually measure?",
+        "Why does tobacco use matter to heart and lung health?",
+        "Why do some cities flood after heavy rain?",
+        "Why does skilled care during childbirth matter?",
+        "What teachers changed after feedback"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-036",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.489
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.48
+        },
+        {
+          "id": "KDI-094",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.472
+        },
+        {
+          "id": "KDI-052",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.468
+        },
+        {
+          "id": "PSC-062",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.458
+        }
+      ],
+      "distinct_learning_objective": "Trace carbon from fossil-fuel extraction and combustion into air, oceans and land using carbon-cycle evidence.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-164",
+      "title": "Why are oceans absorbing so much of the extra heat?",
+      "closest_existing_ids": [
+        "KDI-080",
+        "KDI-030",
+        "KDI-087",
+        "KDI-074",
+        "KDI-006"
+      ],
+      "closest_existing_titles": [
+        "Why is a forecast different from a prediction of exact harm?",
+        "What protects adolescents during the secondary transition?",
+        "Why are children especially vulnerable during disasters?",
+        "Who is most vulnerable during extreme heat?",
+        "Are girls and boys progressing equally through primary school?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-080",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.468
+        },
+        {
+          "id": "KDI-030",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.459
+        },
+        {
+          "id": "KDI-087",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.449
+        },
+        {
+          "id": "KDI-074",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.447
+        },
+        {
+          "id": "KDI-006",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.442
+        }
+      ],
+      "distinct_learning_objective": "Investigate ocean heat uptake, thermal expansion and delayed warming, separating global observations from local coastal effects.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-165",
+      "title": "Why is global average warming not the same as a local hot day?",
+      "closest_existing_ids": [
+        "KDI-074",
+        "KDI-115",
+        "KDI-136",
+        "KDI-087",
+        "KDI-084"
+      ],
+      "closest_existing_titles": [
+        "Who is most vulnerable during extreme heat?",
+        "What happens when national averages hide local inequalities?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "Why are children especially vulnerable during disasters?",
+        "What happens to safe water access after floods?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-074",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.476
+        },
+        {
+          "id": "KDI-115",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.443
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "KDI-087",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.424
+        },
+        {
+          "id": "KDI-084",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.422
+        }
+      ],
+      "distinct_learning_objective": "Clarify global temperature anomalies, baseline periods, local variability and weather observations.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-166",
+      "title": "How do ice and snow reflect sunlight, and why does that matter?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-136",
+        "KDI-119",
+        "PSC-098",
+        "KDI-050"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "What can a single family story tell us, and what can it not?",
+        "How to notice learning difficulties without blame",
+        "How do NCD risk factors cluster?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.617
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.516
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.488
+        },
+        {
+          "id": "PSC-098",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.464
+        },
+        {
+          "id": "KDI-050",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.463
+        }
+      ],
+      "distinct_learning_objective": "Explain surface albedo, sea-ice feedback and the difference between feedback and a new external driver.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-167",
+      "title": "What is the remaining carbon budget and why is it uncertain?",
+      "closest_existing_ids": [
+        "KDI-136",
+        "KDI-072",
+        "KDI-034",
+        "KDI-112",
+        "KDI-096"
+      ],
+      "closest_existing_titles": [
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "What is the difference between weather and climate?",
+        "What is a referral, and when does it matter?",
+        "What is the difference between enrolment and unique learners?",
+        "What is the difference between mitigation and adaptation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.56
+        },
+        {
+          "id": "KDI-072",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.541
+        },
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.538
+        },
+        {
+          "id": "KDI-112",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.512
+        },
+        {
+          "id": "KDI-096",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.496
+        }
+      ],
+      "distinct_learning_objective": "Explain cumulative CO2, warming targets, probability assumptions and updates to scientific carbon-budget estimates.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-168",
+      "title": "Net zero, gross zero and carbon neutrality: are they the same?",
+      "closest_existing_ids": [
+        "KDI-124",
+        "KDI-154",
+        "PSC-136",
+        "PSC-057",
+        "PSC-018"
+      ],
+      "closest_existing_titles": [
+        "Zero waste, methane and cleaner industry: what can change?",
+        "Why do hazard exposure and social vulnerability require different maps?",
+        "What a cancelled climate activity taught the organising team",
+        "Progress in participation, not only test marks",
+        "Care across changing community venues"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.467
+        },
+        {
+          "id": "KDI-154",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.421
+        },
+        {
+          "id": "PSC-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.41
+        },
+        {
+          "id": "PSC-057",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.407
+        },
+        {
+          "id": "PSC-018",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.404
+        }
+      ],
+      "distinct_learning_objective": "Differentiate emissions reductions, removals, accounting boundaries and the claims implied by three common labels.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-169",
+      "title": "What counts as a carbon sink and can a sink become a source?",
+      "closest_existing_ids": [
+        "KDI-159",
+        "PSC-118",
+        "KDI-158",
+        "KDI-036",
+        "KDI-069"
+      ],
+      "closest_existing_titles": [
+        "What counts as meaningful community feedback?",
+        "What community feedback changed in a programme process",
+        "What makes an NGO impact claim stronger than an activity report?",
+        "What does a 'service contact' actually measure?",
+        "What can schools and families learn about adolescent mental health?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-159",
+          "token_jaccard": 0.222,
+          "title_similarity": 0.514
+        },
+        {
+          "id": "PSC-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.509
+        },
+        {
+          "id": "KDI-158",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.452
+        },
+        {
+          "id": "KDI-036",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.449
+        },
+        {
+          "id": "KDI-069",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        }
+      ],
+      "distinct_learning_objective": "Compare forests, wetlands, soils and oceans, including how disturbance and measurement uncertainty alter sink claims.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-170",
+      "title": "Can some air pollutants cool the planet while still harming health?",
+      "closest_existing_ids": [
+        "KDI-002",
+        "KDI-068",
+        "PSC-136",
+        "KDI-028",
+        "KDI-092"
+      ],
+      "closest_existing_titles": [
+        "From enrolment to completion: where do learners leave?",
+        "How can air pollution affect children and older people?",
+        "What a cancelled climate activity taught the organising team",
+        "How important are school toilets and handwashing facilities?",
+        "How can shade change outdoor thermal comfort?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-002",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.446
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.443
+        },
+        {
+          "id": "PSC-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "KDI-028",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.429
+        }
+      ],
+      "distinct_learning_objective": "Distinguish particulate aerosols, black carbon, greenhouse gases and near-term climate effects from health harms.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-171",
+      "title": "Scope 1, 2 and 3 emissions: what is actually counted?",
+      "closest_existing_ids": [
+        "PSC-130",
+        "KDI-149",
+        "KDI-124",
+        "KDI-079",
+        "KDI-135"
+      ],
+      "closest_existing_titles": [
+        "When equipment is unavailable: what mitigation actually occurred?",
+        "Floodwater and disease: what do public-health sources actually establish?",
+        "Zero waste, methane and cleaner industry: what can change?",
+        "How can river erosion affect community services?",
+        "A missed-week attendance pattern: what do school registers actually tell us?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-130",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.525
+        },
+        {
+          "id": "KDI-149",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.492
+        },
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-079",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.436
+        },
+        {
+          "id": "KDI-135",
+          "token_jaccard": 0.067,
+          "title_similarity": 0.434
+        }
+      ],
+      "distinct_learning_objective": "Define direct fuel use, purchased electricity and value-chain emissions, with boundaries and risks of double counting.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-172",
+      "title": "What is a compound climate risk, and why do hazards interact?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-136",
+        "KDI-086",
+        "KDI-119",
+        "KDI-028"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "Can climate hazards interrupt primary healthcare?",
+        "What can a single family story tell us, and what can it not?",
+        "How important are school toilets and handwashing facilities?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.552
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.492
+        },
+        {
+          "id": "KDI-086",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.491
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.479
+        },
+        {
+          "id": "KDI-028",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.463
+        }
+      ],
+      "distinct_learning_objective": "Examine how concurrent heat, drought, flooding or service disruption can produce cascading impacts beyond one hazard.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-173",
+      "title": "Historical emissions versus annual emissions: who contributed when?",
+      "closest_existing_ids": [
+        "KDI-020",
+        "KDI-141",
+        "KDI-055",
+        "KDI-151",
+        "KDI-118"
+      ],
+      "closest_existing_titles": [
+        "How can teachers use learning data without pressuring children?",
+        "First contact versus referral: what can a primary care visit safely resolve?",
+        "How common is anaemia among relevant groups?",
+        "Who decides whether a local adaptation intervention worked?",
+        "What do official projections mean and not mean?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.431
+        },
+        {
+          "id": "KDI-141",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.42
+        },
+        {
+          "id": "KDI-055",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.414
+        },
+        {
+          "id": "KDI-151",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.413
+        },
+        {
+          "id": "KDI-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.404
+        }
+      ],
+      "distinct_learning_objective": "Contrast cumulative and yearly greenhouse-gas emissions across periods and measurement methods.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-174",
+      "title": "Emissions made here, goods used elsewhere: who is responsible?",
+      "closest_existing_ids": [
+        "KDI-027",
+        "KDI-128",
+        "KDI-020",
+        "PSC-103",
+        "PSC-129"
+      ],
+      "closest_existing_titles": [
+        "How do floods and heat affect school continuity?",
+        "Climate-resilient primary healthcare: keeping essential services accessible",
+        "How can teachers use learning data without pressuring children?",
+        "Why a single blood-glucose reading is not a diagnosis",
+        "Consultations versus unique people in a monthly camp report"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-027",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.4
+        },
+        {
+          "id": "KDI-128",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.394
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.384
+        },
+        {
+          "id": "PSC-103",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.383
+        },
+        {
+          "id": "PSC-129",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.38
+        }
+      ],
+      "distinct_learning_objective": "Explain territorial versus consumption-based carbon accounts and traded emissions.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-175",
+      "title": "What is embodied carbon in everyday products?",
+      "closest_existing_ids": [
+        "PSC-118",
+        "KDI-055",
+        "KDI-096",
+        "KDI-026",
+        "KDI-066"
+      ],
+      "closest_existing_titles": [
+        "What community feedback changed in a programme process",
+        "How common is anaemia among relevant groups?",
+        "What is the difference between mitigation and adaptation?",
+        "What is the digital divide for learners?",
+        "What causes scabies to spread in crowded settings?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-055",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.494
+        },
+        {
+          "id": "KDI-096",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-026",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-066",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.442
+        }
+      ],
+      "distinct_learning_objective": "Examine emissions associated with materials, manufacture, transport and end-of-life under life-cycle assessment.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-176",
+      "title": "How can a garment supply chain identify its energy hotspots?",
+      "closest_existing_ids": [
+        "KDI-092",
+        "KDI-039",
+        "KDI-031",
+        "KDI-025",
+        "KDI-068"
+      ],
+      "closest_existing_titles": [
+        "How can shade change outdoor thermal comfort?",
+        "How should medicines be discussed in community health posts?",
+        "Who can reach essential primary healthcare?",
+        "How important is parental engagement in primary learning?",
+        "How can air pollution affect children and older people?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.457
+        },
+        {
+          "id": "KDI-039",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-031",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.447
+        },
+        {
+          "id": "KDI-025",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.435
+        }
+      ],
+      "distinct_learning_objective": "Distinguish spinning, dyeing, finishing, sewing and transport stages, and where primary energy data are needed.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-177",
+      "title": "What does extreme heat mean for workers inside buildings?",
+      "closest_existing_ids": [
+        "KDI-123",
+        "KDI-108",
+        "KDI-136",
+        "KDI-062",
+        "KDI-098"
+      ],
+      "closest_existing_titles": [
+        "What does a just energy transition mean for Bangladesh?",
+        "What do birth-registration gaps mean for children?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "Why does stagnant water matter for mosquito control?",
+        "Why does conserving water matter in a changing climate?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-123",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.536
+        },
+        {
+          "id": "KDI-108",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.523
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.508
+        },
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.477
+        },
+        {
+          "id": "KDI-098",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.464
+        }
+      ],
+      "distinct_learning_objective": "Investigate indoor heat exposure, ventilation, work intensity and occupational heat-risk assessment.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-178",
+      "title": "What happens to jobs when a fossil-fuel industry changes?",
+      "closest_existing_ids": [
+        "KDI-115",
+        "PSC-041",
+        "KDI-049",
+        "KDI-084",
+        "KDI-024"
+      ],
+      "closest_existing_titles": [
+        "What happens when national averages hide local inequalities?",
+        "What it takes to cross a river for care",
+        "What happens when chronic treatment is interrupted?",
+        "What happens to safe water access after floods?",
+        "What makes children feel safe at school?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-115",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.513
+        },
+        {
+          "id": "PSC-041",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-049",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-084",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-024",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.474
+        }
+      ],
+      "distinct_learning_objective": "Explore workforce transition safeguards, retraining, job quality and community participation within a just transition.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-179",
+      "title": "Recyclable, recycled and circular: three different product claims?",
+      "closest_existing_ids": [
+        "KDI-156",
+        "KDI-003",
+        "PSC-002",
+        "KDI-072",
+        "KDI-154"
+      ],
+      "closest_existing_titles": [
+        "Percentage, percentage point and headcount: three different public claims",
+        "Do rural and urban children face different school barriers?",
+        "A reading circle in progress",
+        "What is the difference between weather and climate?",
+        "Why do hazard exposure and social vulnerability require different maps?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-156",
+          "token_jaccard": 0.273,
+          "title_similarity": 0.633
+        },
+        {
+          "id": "KDI-003",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.464
+        },
+        {
+          "id": "PSC-002",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.447
+        },
+        {
+          "id": "KDI-072",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "KDI-154",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.438
+        }
+      ],
+      "distinct_learning_objective": "Explain material circularity, recycling rates, product durability and boundaries of environmental labelling.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-180",
+      "title": "Who pays for climate pollution in low-income communities?",
+      "closest_existing_ids": [
+        "KDI-079",
+        "KDI-060",
+        "PSC-109",
+        "PSC-074",
+        "KDI-159"
+      ],
+      "closest_existing_titles": [
+        "How can river erosion affect community services?",
+        "What does child mortality data reveal about inequities?",
+        "What climate misinformation gets wrong about one storm",
+        "What an HSF climate session taught the team",
+        "What counts as meaningful community feedback?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-079",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.514
+        },
+        {
+          "id": "KDI-060",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.482
+        },
+        {
+          "id": "PSC-109",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.468
+        },
+        {
+          "id": "PSC-074",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.46
+        },
+        {
+          "id": "KDI-159",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.451
+        }
+      ],
+      "distinct_learning_objective": "Explore unequal exposure, public health costs, environmental justice and distributional effects of industrial activity.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-181",
+      "title": "How can people recognise greenwashing in a company's advertisement?",
+      "closest_existing_ids": [
+        "KDI-138",
+        "KDI-079",
+        "KDI-020",
+        "KDI-009",
+        "KDI-028"
+      ],
+      "closest_existing_titles": [
+        "How can a teacher recognise and reduce barriers to classroom participation?",
+        "How can river erosion affect community services?",
+        "How can teachers use learning data without pressuring children?",
+        "How much do learning materials matter to participation?",
+        "How important are school toilets and handwashing facilities?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.493
+        },
+        {
+          "id": "KDI-079",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.452
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.446
+        },
+        {
+          "id": "KDI-009",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.443
+        },
+        {
+          "id": "KDI-028",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        }
+      ],
+      "distinct_learning_objective": "Distinguish substantiated environmental claims, vague labels, cherry-picked metrics and missing baselines.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-182",
+      "title": "Cool roofs and shaded roofs: what does the evidence actually support?",
+      "closest_existing_ids": [
+        "KDI-005",
+        "KDI-089",
+        "KDI-065",
+        "KDI-149",
+        "KDI-135"
+      ],
+      "closest_existing_titles": [
+        "Child labour and school attendance: what does the evidence show?",
+        "What does climate-related displacement evidence actually show?",
+        "Menstrual hygiene: what does the evidence say about access?",
+        "Floodwater and disease: what do public-health sources actually establish?",
+        "A missed-week attendance pattern: what do school registers actually tell us?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.602
+        },
+        {
+          "id": "KDI-089",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.519
+        },
+        {
+          "id": "KDI-065",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.516
+        },
+        {
+          "id": "KDI-149",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.493
+        },
+        {
+          "id": "KDI-135",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.483
+        }
+      ],
+      "distinct_learning_objective": "Compare roof reflectivity, insulation, shading, local climate and installation conditions as heat-control strategies.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-183",
+      "title": "Can reducing household electricity use meaningfully cut emissions?",
+      "closest_existing_ids": [
+        "KDI-104",
+        "KDI-083",
+        "KDI-118",
+        "KDI-020",
+        "PSC-083"
+      ],
+      "closest_existing_titles": [
+        "What does disability inclusion mean in practice?",
+        "What belongs in a household flood readiness plan?",
+        "What do official projections mean and not mean?",
+        "How can teachers use learning data without pressuring children?",
+        "Reaching a char community despite difficult roads"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-104",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "KDI-083",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.435
+        },
+        {
+          "id": "KDI-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.425
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.419
+        },
+        {
+          "id": "PSC-083",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.417
+        }
+      ],
+      "distinct_learning_objective": "Compare appliance demand, electricity generation mix, rebound effects and safe efficiency measures.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-184",
+      "title": "Walking, buses and private vehicles: how should transport emissions be compared?",
+      "closest_existing_ids": [
+        "KDI-056",
+        "PSC-130",
+        "KDI-109",
+        "KDI-029",
+        "KDI-049"
+      ],
+      "closest_existing_titles": [
+        "When and how should breastfeeding be supported?",
+        "When equipment is unavailable: what mitigation actually occurred?",
+        "Why should girls' safety and participation be considered together?",
+        "Why should exam success not be the only measure?",
+        "What happens when chronic treatment is interrupted?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "PSC-130",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.414
+        },
+        {
+          "id": "KDI-109",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.411
+        },
+        {
+          "id": "KDI-029",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.406
+        },
+        {
+          "id": "KDI-049",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.397
+        }
+      ],
+      "distinct_learning_objective": "Explore passenger-kilometres, occupancy, energy source and accessibility rather than assuming one vehicle is always best.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-185",
+      "title": "Why does wasted food create a climate problem?",
+      "closest_existing_ids": [
+        "KDI-051",
+        "KDI-052",
+        "KDI-083",
+        "KDI-062",
+        "KDI-094"
+      ],
+      "closest_existing_titles": [
+        "What does adequate antenatal care involve?",
+        "Why does skilled care during childbirth matter?",
+        "What belongs in a household flood readiness plan?",
+        "Why does stagnant water matter for mosquito control?",
+        "Why do some cities flood after heavy rain?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.545
+        },
+        {
+          "id": "KDI-052",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.538
+        },
+        {
+          "id": "KDI-083",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.49
+        },
+        {
+          "id": "KDI-094",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.477
+        }
+      ],
+      "distinct_learning_objective": "Separate production-related losses, landfill methane and avoidable household waste, identifying the evidence behind each.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-186",
+      "title": "Does wastewater treatment create or prevent greenhouse gas emissions?",
+      "closest_existing_ids": [
+        "KDI-062",
+        "KDI-038",
+        "PSC-092",
+        "KDI-117",
+        "KDI-035"
+      ],
+      "closest_existing_titles": [
+        "Why does stagnant water matter for mosquito control?",
+        "Which communities have the greatest primary-care access gaps?",
+        "A tree needs care through the dry season",
+        "What is the difference between association and causation?",
+        "Do women and men face different care-access barriers?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.43
+        },
+        {
+          "id": "KDI-038",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.415
+        },
+        {
+          "id": "PSC-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.404
+        },
+        {
+          "id": "KDI-117",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.397
+        },
+        {
+          "id": "KDI-035",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.393
+        }
+      ],
+      "distinct_learning_objective": "Examine methane and nitrous oxide pathways alongside sanitation-health benefits.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-187",
+      "title": "What makes a neighbourhood cooling space accessible and safe?",
+      "closest_existing_ids": [
+        "KDI-088",
+        "PSC-099",
+        "KDI-083",
+        "KDI-084",
+        "KDI-097"
+      ],
+      "closest_existing_titles": [
+        "What makes early warning information accessible?",
+        "What makes a classroom emotionally safe?",
+        "What belongs in a household flood readiness plan?",
+        "What happens to safe water access after floods?",
+        "Can better cooking practices improve indoor air?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.222,
+          "title_similarity": 0.569
+        },
+        {
+          "id": "PSC-099",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.535
+        },
+        {
+          "id": "KDI-083",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.491
+        },
+        {
+          "id": "KDI-084",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-097",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.477
+        }
+      ],
+      "distinct_learning_objective": "Study cooling space siting, opening arrangements, disability access, water provision and accountable management.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-188",
+      "title": "How should a public climate graphic show uncertainty?",
+      "closest_existing_ids": [
+        "KDI-114",
+        "PSC-104",
+        "PSC-138",
+        "KDI-058",
+        "KDI-120"
+      ],
+      "closest_existing_titles": [
+        "Why should every statistical graphic show a year?",
+        "What should a patient know after a consultation?",
+        "How HSF corrected a public communication error",
+        "How can child immunization gaps be understood?",
+        "How should HSF communicate an improvement claim?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-114",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.588
+        },
+        {
+          "id": "PSC-104",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.515
+        },
+        {
+          "id": "PSC-138",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.485
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.485
+        },
+        {
+          "id": "KDI-120",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        }
+      ],
+      "distinct_learning_objective": "Explain confidence intervals, scenarios, model range and difference between uncertainty and ignorance.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-189",
+      "title": "How can communities rehearse a safe evacuation before a hazard?",
+      "closest_existing_ids": [
+        "KDI-040",
+        "PSC-052",
+        "KDI-151",
+        "KDI-041",
+        "KDI-058"
+      ],
+      "closest_existing_titles": [
+        "What can community participation contribute to care access?",
+        "A community member's observations about tree care",
+        "Who decides whether a local adaptation intervention worked?",
+        "How common is raised blood pressure?",
+        "How can child immunization gaps be understood?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-040",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.525
+        },
+        {
+          "id": "PSC-052",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.518
+        },
+        {
+          "id": "KDI-151",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-041",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.459
+        }
+      ],
+      "distinct_learning_objective": "Distinguish an evacuation drill from a written plan, including roles, routes, accessible communication and evaluation.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-190",
+      "title": "What can a school energy audit measure without specialist equipment?",
+      "closest_existing_ids": [
+        "KDI-020",
+        "PSC-128",
+        "KDI-092",
+        "KDI-123",
+        "KDI-139"
+      ],
+      "closest_existing_titles": [
+        "How can teachers use learning data without pressuring children?",
+        "A clinician explains a real referral decision without patient details",
+        "How can shade change outdoor thermal comfort?",
+        "What does a just energy transition mean for Bangladesh?",
+        "When does school readiness become an unfair expectation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.504
+        },
+        {
+          "id": "PSC-128",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.453
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.442
+        },
+        {
+          "id": "KDI-123",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "KDI-139",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.435
+        }
+      ],
+      "distinct_learning_objective": "Differentiate observation checklists, bills, meter readings and estimated emissions for school learning.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-191",
+      "title": "How do we know whether an environmental action made a difference?",
+      "closest_existing_ids": [
+        "KDI-151",
+        "PSC-054",
+        "KDI-035",
+        "KDI-025",
+        "PSC-104"
+      ],
+      "closest_existing_titles": [
+        "Who decides whether a local adaptation intervention worked?",
+        "Why someone joins an environmental dialogue",
+        "Do women and men face different care-access barriers?",
+        "How important is parental engagement in primary learning?",
+        "What should a patient know after a consultation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-151",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.532
+        },
+        {
+          "id": "PSC-054",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-035",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.492
+        },
+        {
+          "id": "KDI-025",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "PSC-104",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.46
+        }
+      ],
+      "distinct_learning_objective": "Distinguish activity counts, baselines, measured outcomes, counterfactuals and long-term maintenance.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-192",
+      "title": "Conditional and unconditional NDC actions: why the distinction matters?",
+      "closest_existing_ids": [
+        "KDI-137",
+        "KDI-111",
+        "PSC-136",
+        "KDI-132",
+        "PSC-130"
+      ],
+      "closest_existing_titles": [
+        "School transfer or school dropout? Why the distinction matters",
+        "A consultation is not necessarily one patient: why it matters",
+        "What a cancelled climate activity taught the organising team",
+        "Loss and Damage: what happens when adaptation is not enough?",
+        "When equipment is unavailable: what mitigation actually occurred?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-137",
+          "token_jaccard": 0.222,
+          "title_similarity": 0.647
+        },
+        {
+          "id": "KDI-111",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.47
+        },
+        {
+          "id": "PSC-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.427
+        },
+        {
+          "id": "KDI-132",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.412
+        },
+        {
+          "id": "PSC-130",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.397
+        }
+      ],
+      "distinct_learning_objective": "Explain how pledged actions differ by domestic resources and external support, using original Bangladesh NDC text.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-193",
+      "title": "Article 6 carbon markets: what is double counting?",
+      "closest_existing_ids": [
+        "PSC-121",
+        "PSC-133",
+        "KDI-105",
+        "KDI-148",
+        "KDI-004"
+      ],
+      "closest_existing_titles": [
+        "A classroom materials inventory, documented without staging",
+        "A local risk walk before community planning",
+        "How does child marriage intersect with health and learning?",
+        "A neighbourhood heat-risk map: what evidence is needed before publishing?",
+        "When family income falls, what happens to schooling?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-121",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.459
+        },
+        {
+          "id": "PSC-133",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.452
+        },
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.44
+        },
+        {
+          "id": "KDI-148",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.423
+        },
+        {
+          "id": "KDI-004",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.412
+        }
+      ],
+      "distinct_learning_objective": "Explain internationally transferred mitigation outcomes, corresponding adjustments and integrity safeguards at a lay-reader level.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-194",
+      "title": "Climate finance through grants or loans: what changes for communities?",
+      "closest_existing_ids": [
+        "PSC-018",
+        "PSC-123",
+        "PSC-069",
+        "KDI-121",
+        "PSC-133"
+      ],
+      "closest_existing_titles": [
+        "Care across changing community venues",
+        "Attendance patterns over one complete reporting period",
+        "A referral-support lesson becomes practice",
+        "Ten years after the Paris Agreement: what must COP31 deliver?",
+        "A local risk walk before community planning"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-018",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "PSC-123",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.435
+        },
+        {
+          "id": "PSC-069",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.429
+        },
+        {
+          "id": "KDI-121",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.427
+        },
+        {
+          "id": "PSC-133",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.425
+        }
+      ],
+      "distinct_learning_objective": "Compare debt obligations, concessionality, grant funding and distribution effects using source-defined categories.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-195",
+      "title": "Announced, committed and disbursed climate finance: three different figures?",
+      "closest_existing_ids": [
+        "KDI-156",
+        "KDI-035",
+        "KDI-003",
+        "KDI-005",
+        "KDI-154"
+      ],
+      "closest_existing_titles": [
+        "Percentage, percentage point and headcount: three different public claims",
+        "Do women and men face different care-access barriers?",
+        "Do rural and urban children face different school barriers?",
+        "Child labour and school attendance: what does the evidence show?",
+        "Why do hazard exposure and social vulnerability require different maps?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-156",
+          "token_jaccard": 0.154,
+          "title_similarity": 0.483
+        },
+        {
+          "id": "KDI-035",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-003",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.474
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.429
+        },
+        {
+          "id": "KDI-154",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.422
+        }
+      ],
+      "distinct_learning_objective": "Explain pledge, legal commitment and payment stages, including common reporting lags and double-counting risks.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-196",
+      "title": "How could a community navigate Loss and Damage funding access?",
+      "closest_existing_ids": [
+        "KDI-040",
+        "KDI-120",
+        "KDI-038",
+        "KDI-028",
+        "KDI-058"
+      ],
+      "closest_existing_titles": [
+        "What can community participation contribute to care access?",
+        "How should HSF communicate an improvement claim?",
+        "Which communities have the greatest primary-care access gaps?",
+        "How important are school toilets and handwashing facilities?",
+        "How can child immunization gaps be understood?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-040",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.529
+        },
+        {
+          "id": "KDI-120",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.491
+        },
+        {
+          "id": "KDI-038",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.488
+        },
+        {
+          "id": "KDI-028",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.463
+        }
+      ],
+      "distinct_learning_objective": "Investigate Fund for Responding to Loss and Damage eligibility, access routes, intermediaries and evolving operational rules.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-197",
+      "title": "How can non-economic climate losses be documented ethically?",
+      "closest_existing_ids": [
+        "KDI-100",
+        "KDI-089",
+        "PSC-121",
+        "PSC-074",
+        "KDI-122"
+      ],
+      "closest_existing_titles": [
+        "Which climate claims online should be checked before sharing?",
+        "What does climate-related displacement evidence actually show?",
+        "A classroom materials inventory, documented without staging",
+        "What an HSF climate session taught the team",
+        "Bangladesh NDC 3.0: from climate targets to implementation"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-100",
+          "token_jaccard": 0.167,
+          "title_similarity": 0.463
+        },
+        {
+          "id": "KDI-089",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.459
+        },
+        {
+          "id": "PSC-121",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.454
+        },
+        {
+          "id": "PSC-074",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.447
+        },
+        {
+          "id": "KDI-122",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.441
+        }
+      ],
+      "distinct_learning_objective": "Explore harm to cultural heritage, social networks and sense of place, with participatory ethical measurement limits.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-198",
+      "title": "What does the Global Stocktake ask countries to report next?",
+      "closest_existing_ids": [
+        "KDI-044",
+        "KDI-158",
+        "KDI-090",
+        "KDI-026",
+        "KDI-022"
+      ],
+      "closest_existing_titles": [
+        "Why does tobacco use matter to heart and lung health?",
+        "What makes an NGO impact claim stronger than an activity report?",
+        "What role do local volunteers play in resilience?",
+        "What is the digital divide for learners?",
+        "What does data tell us about child marriage and schooling?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.549
+        },
+        {
+          "id": "KDI-158",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.532
+        },
+        {
+          "id": "KDI-090",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.477
+        },
+        {
+          "id": "KDI-026",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.46
+        },
+        {
+          "id": "KDI-022",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.458
+        }
+      ],
+      "distinct_learning_objective": "Explain the UNFCCC collective assessment process and how follow-up ambition differs from compliance findings.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-199",
+      "title": "How can the Global Goal on Adaptation be measured locally?",
+      "closest_existing_ids": [
+        "KDI-151",
+        "PSC-122",
+        "KDI-058",
+        "KDI-068",
+        "KDI-020"
+      ],
+      "closest_existing_titles": [
+        "Who decides whether a local adaptation intervention worked?",
+        "A teacher explains a real lesson adaptation, with evidence",
+        "How can child immunization gaps be understood?",
+        "How can air pollution affect children and older people?",
+        "How can teachers use learning data without pressuring children?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-151",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.496
+        },
+        {
+          "id": "PSC-122",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.483
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.462
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.46
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.446
+        }
+      ],
+      "distinct_learning_objective": "Investigate adaptation indicators, baselines, comparability and limits of locally measured resilience.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-200",
+      "title": "What makes climate technology transfer fair and usable?",
+      "closest_existing_ids": [
+        "KDI-010",
+        "KDI-123",
+        "KDI-158",
+        "KDI-008",
+        "KDI-049"
+      ],
+      "closest_existing_titles": [
+        "What happens at the transition to secondary school?",
+        "What does a just energy transition mean for Bangladesh?",
+        "What makes an NGO impact claim stronger than an activity report?",
+        "What does a prolonged absence signal?",
+        "What happens when chronic treatment is interrupted?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-010",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.509
+        },
+        {
+          "id": "KDI-123",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.509
+        },
+        {
+          "id": "KDI-158",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.504
+        },
+        {
+          "id": "KDI-008",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-049",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.472
+        }
+      ],
+      "distinct_learning_objective": "Examine affordability, licensing, maintenance, local skills and access for low-resource institutions.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-201",
+      "title": "What does wet-bulb heat stress mean for outdoor livelihoods?",
+      "closest_existing_ids": [
+        "KDI-123",
+        "KDI-062",
+        "KDI-051",
+        "PSC-107",
+        "KDI-022"
+      ],
+      "closest_existing_titles": [
+        "What does a just energy transition mean for Bangladesh?",
+        "Why does stagnant water matter for mosquito control?",
+        "What does adequate antenatal care involve?",
+        "Extreme heat is not only an outdoor issue",
+        "What does data tell us about child marriage and schooling?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-123",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.522
+        },
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.49
+        },
+        {
+          "id": "PSC-107",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-022",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        }
+      ],
+      "distinct_learning_objective": "Explain humidity, exertion and heat-exposure indices with attention to informal work in Bangladesh.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-202",
+      "title": "How can farmers use seasonal outlooks without mistaking them for guarantees?",
+      "closest_existing_ids": [
+        "KDI-020",
+        "KDI-092",
+        "KDI-077",
+        "PSC-130",
+        "KDI-137"
+      ],
+      "closest_existing_titles": [
+        "How can teachers use learning data without pressuring children?",
+        "How can shade change outdoor thermal comfort?",
+        "What can seasonal rainfall forecasts tell us?",
+        "When equipment is unavailable: what mitigation actually occurred?",
+        "School transfer or school dropout? Why the distinction matters"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.154,
+          "title_similarity": 0.576
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.479
+        },
+        {
+          "id": "KDI-077",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.446
+        },
+        {
+          "id": "PSC-130",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "KDI-137",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.42
+        }
+      ],
+      "distinct_learning_objective": "Compare forecast probabilities, crop decisions, uncertainty and access to locally relevant advisories.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-203",
+      "title": "What makes a cyclone shelter accessible to people with disabilities?",
+      "closest_existing_ids": [
+        "KDI-084",
+        "PSC-082",
+        "KDI-144",
+        "KDI-088",
+        "KDI-066"
+      ],
+      "closest_existing_titles": [
+        "What happens to safe water access after floods?",
+        "Managing a learning activity with modest facilities",
+        "What does travel time reveal about access to essential primary care?",
+        "What makes early warning information accessible?",
+        "What causes scabies to spread in crowded settings?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-084",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.487
+        },
+        {
+          "id": "PSC-082",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-144",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.466
+        },
+        {
+          "id": "KDI-066",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        }
+      ],
+      "distinct_learning_objective": "Study shelter access routes, mobility needs, sanitation, communication and management standards.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-204",
+      "title": "Flash floods and slow river floods: why does warning time differ?",
+      "closest_existing_ids": [
+        "PSC-108",
+        "KDI-005",
+        "KDI-137",
+        "KDI-124",
+        "PSC-041"
+      ],
+      "closest_existing_titles": [
+        "Why flood preparedness cannot rely on one warning",
+        "Child labour and school attendance: what does the evidence show?",
+        "School transfer or school dropout? Why the distinction matters",
+        "Zero waste, methane and cleaner industry: what can change?",
+        "What it takes to cross a river for care"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-108",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.491
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.434
+        },
+        {
+          "id": "KDI-137",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.409
+        },
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.407
+        },
+        {
+          "id": "PSC-041",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.404
+        }
+      ],
+      "distinct_learning_objective": "Explain catchment response, rainfall intensity, upstream monitoring and lead-time limitations.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-205",
+      "title": "Where does rainwater go when a city loses permeable ground?",
+      "closest_existing_ids": [
+        "KDI-063",
+        "KDI-102",
+        "KDI-044",
+        "KDI-098",
+        "KDI-036"
+      ],
+      "closest_existing_titles": [
+        "What does safer drinking water really mean?",
+        "Where do education and health costs meet household hardship?",
+        "Why does tobacco use matter to heart and lung health?",
+        "Why does conserving water matter in a changing climate?",
+        "What does a 'service contact' actually measure?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.51
+        },
+        {
+          "id": "KDI-102",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.487
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.482
+        },
+        {
+          "id": "KDI-098",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.474
+        },
+        {
+          "id": "KDI-036",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.472
+        }
+      ],
+      "distinct_learning_objective": "Examine runoff, infiltration, built surfaces and stormwater capacity beyond blocked drains alone.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-206",
+      "title": "Phonemic awareness versus phonics: what does each teach?",
+      "closest_existing_ids": [
+        "KDI-136",
+        "KDI-135",
+        "PSC-106",
+        "KDI-107",
+        "KDI-046"
+      ],
+      "closest_existing_titles": [
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "A missed-week attendance pattern: what do school registers actually tell us?",
+        "Planting versus keeping a tree alive",
+        "How do unpaid care responsibilities affect opportunities?",
+        "How much physical activity do adults get?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.479
+        },
+        {
+          "id": "KDI-135",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "PSC-106",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.435
+        },
+        {
+          "id": "KDI-107",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.425
+        },
+        {
+          "id": "KDI-046",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.412
+        }
+      ],
+      "distinct_learning_objective": "Explain hearing and manipulating speech sounds versus linking sounds to writing systems, including Bangla-language considerations.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-207",
+      "title": "Letter names and letter sounds: why teach them differently?",
+      "closest_existing_ids": [
+        "KDI-156",
+        "KDI-005",
+        "PSC-092",
+        "KDI-124",
+        "PSC-084"
+      ],
+      "closest_existing_titles": [
+        "Percentage, percentage point and headcount: three different public claims",
+        "Child labour and school attendance: what does the evidence show?",
+        "A tree needs care through the dry season",
+        "Zero waste, methane and cleaner industry: what can change?",
+        "When rain changes a planned outreach schedule"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-156",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.47
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "PSC-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "PSC-084",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.442
+        }
+      ],
+      "distinct_learning_objective": "Review how children learn symbols, sounds and the possibility of uneven mappings across writing systems.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-208",
+      "title": "What makes a beginner reading passage appropriately decodable?",
+      "closest_existing_ids": [
+        "PSC-099",
+        "KDI-017",
+        "KDI-136",
+        "KDI-144",
+        "KDI-063"
+      ],
+      "closest_existing_titles": [
+        "What makes a classroom emotionally safe?",
+        "How does home reading exposure relate to learning?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "What does travel time reveal about access to essential primary care?",
+        "What does safer drinking water really mean?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-099",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.51
+        },
+        {
+          "id": "KDI-017",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.488
+        },
+        {
+          "id": "KDI-144",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.477
+        },
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.476
+        }
+      ],
+      "distinct_learning_objective": "Explore cumulative letter-sound knowledge, word familiarity and the limits of decodable texts.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-209",
+      "title": "How does oral vocabulary help children understand what they read?",
+      "closest_existing_ids": [
+        "KDI-011",
+        "KDI-022",
+        "KDI-105",
+        "KDI-068",
+        "KDI-136"
+      ],
+      "closest_existing_titles": [
+        "Can schoolchildren read at their expected level?",
+        "What does data tell us about child marriage and schooling?",
+        "How does child marriage intersect with health and learning?",
+        "How can air pollution affect children and older people?",
+        "What does a Grade 3 reading check measure, and what does it miss?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-011",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.478
+        },
+        {
+          "id": "KDI-022",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.452
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.446
+        }
+      ],
+      "distinct_learning_objective": "Investigate spoken word knowledge, background knowledge and reading comprehension development.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-210",
+      "title": "Reading fluency: speed, accuracy or meaning?",
+      "closest_existing_ids": [
+        "KDI-017",
+        "KDI-061",
+        "KDI-117",
+        "KDI-013",
+        "PSC-088"
+      ],
+      "closest_existing_titles": [
+        "How does home reading exposure relate to learning?",
+        "How has dengue changed across seasons?",
+        "What is the difference between association and causation?",
+        "Reading words versus understanding stories",
+        "Managing long queues respectfully"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-017",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.489
+        },
+        {
+          "id": "KDI-061",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.415
+        },
+        {
+          "id": "KDI-117",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.396
+        },
+        {
+          "id": "KDI-013",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.395
+        },
+        {
+          "id": "PSC-088",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.39
+        }
+      ],
+      "distinct_learning_objective": "Explain prosody, accuracy, automaticity and comprehension without ranking children by reading speed alone.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-211",
+      "title": "How can dialogic reading turn storytime into conversation?",
+      "closest_existing_ids": [
+        "KDI-009",
+        "KDI-017",
+        "PSC-111",
+        "PSC-073",
+        "KDI-138"
+      ],
+      "closest_existing_titles": [
+        "How much do learning materials matter to participation?",
+        "How does home reading exposure relate to learning?",
+        "Foundation Day as a story of contributors and continuity",
+        "A climate dialogue leads to a follow-up question",
+        "How can a teacher recognise and reduce barriers to classroom participation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-009",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.531
+        },
+        {
+          "id": "KDI-017",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "PSC-111",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.474
+        },
+        {
+          "id": "PSC-073",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.472
+        },
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.451
+        }
+      ],
+      "distinct_learning_objective": "Review evidence on open-ended prompts, child responses and interactive adult-child reading.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-212",
+      "title": "What is retrieval practice, and why is it more than a test?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-118",
+        "KDI-111",
+        "KDI-026",
+        "KDI-067"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "What do official projections mean and not mean?",
+        "A consultation is not necessarily one patient: why it matters",
+        "What is the digital divide for learners?",
+        "When are antibiotics needed, and when not?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.621
+        },
+        {
+          "id": "KDI-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.528
+        },
+        {
+          "id": "KDI-111",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-026",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.485
+        },
+        {
+          "id": "KDI-067",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        }
+      ],
+      "distinct_learning_objective": "Explore recall from memory, low-stakes questioning and evidence limitations across ages.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-213",
+      "title": "Why can spaced practice support long-term remembering?",
+      "closest_existing_ids": [
+        "PSC-135",
+        "KDI-063",
+        "KDI-077",
+        "KDI-056",
+        "PSC-076"
+      ],
+      "closest_existing_titles": [
+        "Did a preparedness practice improve after a workshop?",
+        "What does safer drinking water really mean?",
+        "What can seasonal rainfall forecasts tell us?",
+        "When and how should breastfeeding be supported?",
+        "Irregular attendance and a supportive response"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-135",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.486
+        },
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.454
+        },
+        {
+          "id": "KDI-077",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.436
+        },
+        {
+          "id": "PSC-076",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.42
+        }
+      ],
+      "distinct_learning_objective": "Explain distributed review versus one-off cramming and the importance of appropriate difficulty.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-214",
+      "title": "Mixed practice versus blocked practice: when can each help?",
+      "closest_existing_ids": [
+        "KDI-141",
+        "KDI-134",
+        "PSC-059",
+        "KDI-048",
+        "PSC-135"
+      ],
+      "closest_existing_titles": [
+        "First contact versus referral: what can a primary care visit safely resolve?",
+        "Gender-transformative climate justice: whose needs shape the solution?",
+        "What a school-term review can teach us",
+        "Are NCD risks equal for women and men?",
+        "Did a preparedness practice improve after a workshop?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-141",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.444
+        },
+        {
+          "id": "KDI-134",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.434
+        },
+        {
+          "id": "PSC-059",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.433
+        },
+        {
+          "id": "KDI-048",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.433
+        },
+        {
+          "id": "PSC-135",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.411
+        }
+      ],
+      "distinct_learning_objective": "Distinguish interleaving from learning one type of problem at a time, emphasizing developmental and curriculum context.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-215",
+      "title": "Worked examples to independent problem-solving: how should support fade?",
+      "closest_existing_ids": [
+        "KDI-056",
+        "KDI-052",
+        "KDI-032",
+        "KDI-144",
+        "KDI-020"
+      ],
+      "closest_existing_titles": [
+        "When and how should breastfeeding be supported?",
+        "Why does skilled care during childbirth matter?",
+        "What are the barriers to seeking timely care?",
+        "What does travel time reveal about access to essential primary care?",
+        "How can teachers use learning data without pressuring children?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.454
+        },
+        {
+          "id": "KDI-052",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.387
+        },
+        {
+          "id": "KDI-032",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.376
+        },
+        {
+          "id": "KDI-144",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.371
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.37
+        }
+      ],
+      "distinct_learning_objective": "Review modelling, guided practice and gradual release while considering prior learner knowledge.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-216",
+      "title": "What can a one-minute exit ticket reveal after a lesson?",
+      "closest_existing_ids": [
+        "KDI-037",
+        "KDI-040",
+        "PSC-104",
+        "PSC-135",
+        "KDI-051"
+      ],
+      "closest_existing_titles": [
+        "Why is continuity important after a consultation?",
+        "What can community participation contribute to care access?",
+        "What should a patient know after a consultation?",
+        "Did a preparedness practice improve after a workshop?",
+        "What does adequate antenatal care involve?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-037",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.514
+        },
+        {
+          "id": "KDI-040",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.487
+        },
+        {
+          "id": "PSC-104",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "PSC-135",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.477
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.469
+        }
+      ],
+      "distinct_learning_objective": "Explain brief formative prompts, misconception sampling and responsible use of classroom responses.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-217",
+      "title": "Why is specific feedback more useful than a vague 'good job'?",
+      "closest_existing_ids": [
+        "PSC-091",
+        "KDI-117",
+        "KDI-072",
+        "PSC-118",
+        "KDI-098"
+      ],
+      "closest_existing_titles": [
+        "How field feedback changes a health-awareness topic",
+        "What is the difference between association and causation?",
+        "What is the difference between weather and climate?",
+        "What community feedback changed in a programme process",
+        "Why does conserving water matter in a changing climate?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-091",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.429
+        },
+        {
+          "id": "KDI-117",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.424
+        },
+        {
+          "id": "KDI-072",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.411
+        },
+        {
+          "id": "PSC-118",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.4
+        },
+        {
+          "id": "KDI-098",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.397
+        }
+      ],
+      "distinct_learning_objective": "Compare task-specific feedback, effort claims and how children interpret correction.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-218",
+      "title": "How can asking 'why' help children explain their thinking?",
+      "closest_existing_ids": [
+        "KDI-011",
+        "KDI-068",
+        "KDI-020",
+        "KDI-105",
+        "KDI-092"
+      ],
+      "closest_existing_titles": [
+        "Can schoolchildren read at their expected level?",
+        "How can air pollution affect children and older people?",
+        "How can teachers use learning data without pressuring children?",
+        "How does child marriage intersect with health and learning?",
+        "How can shade change outdoor thermal comfort?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-011",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.509
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.496
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.463
+        },
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.462
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.447
+        }
+      ],
+      "distinct_learning_objective": "Explore self-explanation, metacognitive questioning and age-appropriate reflection.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-219",
+      "title": "What is subitizing, and how can dot patterns build number sense?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-150",
+        "KDI-056",
+        "KDI-096",
+        "KDI-108"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "What an air-quality index can and cannot tell a family",
+        "When and how should breastfeeding be supported?",
+        "What is the difference between mitigation and adaptation?",
+        "What do birth-registration gaps mean for children?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-150",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.458
+        },
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.432
+        },
+        {
+          "id": "KDI-096",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.43
+        },
+        {
+          "id": "KDI-108",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.421
+        }
+      ],
+      "distinct_learning_objective": "Explain recognizing small quantities without counting one by one, with developmental and accessibility caveats.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-220",
+      "title": "Why does place value require grouping, not just memorizing digits?",
+      "closest_existing_ids": [
+        "PSC-103",
+        "KDI-154",
+        "KDI-085",
+        "PSC-140",
+        "PSC-105"
+      ],
+      "closest_existing_titles": [
+        "Why a single blood-glucose reading is not a diagnosis",
+        "Why do hazard exposure and social vulnerability require different maps?",
+        "How does salinity affect coastal communities?",
+        "Community feedback: the response loop, not a promotional quote",
+        "Why healthcare conversations require privacy"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-103",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-154",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.438
+        },
+        {
+          "id": "KDI-085",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.432
+        },
+        {
+          "id": "PSC-140",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.422
+        },
+        {
+          "id": "PSC-105",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.418
+        }
+      ],
+      "distinct_learning_objective": "Explore base-ten understanding, bundles of tens and common errors across early grades.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-221",
+      "title": "How can a number line support mental arithmetic?",
+      "closest_existing_ids": [
+        "KDI-031",
+        "KDI-069",
+        "PSC-060",
+        "PSC-120",
+        "PSC-121"
+      ],
+      "closest_existing_titles": [
+        "Who can reach essential primary healthcare?",
+        "What can schools and families learn about adolescent mental health?",
+        "A materials support activity revisited",
+        "A quarter of institutional learning in three questions",
+        "A classroom materials inventory, documented without staging"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-031",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-069",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.487
+        },
+        {
+          "id": "PSC-060",
+          "token_jaccard": 0.125,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "PSC-120",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.451
+        },
+        {
+          "id": "PSC-121",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.449
+        }
+      ],
+      "distinct_learning_objective": "Examine magnitude, position and strategies for addition and subtraction rather than counting objects only.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-222",
+      "title": "What do drawings reveal about early fraction misconceptions?",
+      "closest_existing_ids": [
+        "KDI-060",
+        "KDI-110",
+        "KDI-144",
+        "KDI-146",
+        "KDI-088"
+      ],
+      "closest_existing_titles": [
+        "What does child mortality data reveal about inequities?",
+        "What do poverty trends tell us about service access?",
+        "What does travel time reveal about access to essential primary care?",
+        "What can dengue surveillance data tell us about prevention timing?",
+        "What makes early warning information accessible?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-060",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.522
+        },
+        {
+          "id": "KDI-110",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.518
+        },
+        {
+          "id": "KDI-144",
+          "token_jaccard": 0.167,
+          "title_similarity": 0.516
+        },
+        {
+          "id": "KDI-146",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.508
+        },
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.5
+        }
+      ],
+      "distinct_learning_objective": "Explore part-whole models, equal parts and the limitations of pie pictures.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-223",
+      "title": "Why should children estimate before measuring?",
+      "closest_existing_ids": [
+        "KDI-029",
+        "KDI-109",
+        "KDI-011",
+        "KDI-087",
+        "KDI-100"
+      ],
+      "closest_existing_titles": [
+        "Why should exam success not be the only measure?",
+        "Why should girls' safety and participation be considered together?",
+        "Can schoolchildren read at their expected level?",
+        "Why are children especially vulnerable during disasters?",
+        "Which climate claims online should be checked before sharing?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-029",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.574
+        },
+        {
+          "id": "KDI-109",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.518
+        },
+        {
+          "id": "KDI-011",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.511
+        },
+        {
+          "id": "KDI-087",
+          "token_jaccard": 0.125,
+          "title_similarity": 0.51
+        },
+        {
+          "id": "KDI-100",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.505
+        }
+      ],
+      "distinct_learning_objective": "Examine estimation, informal units and gradual introduction to standardized measures.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-224",
+      "title": "Can difficult wording hide a child's mathematical understanding?",
+      "closest_existing_ids": [
+        "KDI-058",
+        "PSC-037",
+        "KDI-013",
+        "KDI-119",
+        "PSC-096"
+      ],
+      "closest_existing_titles": [
+        "How can child immunization gaps be understood?",
+        "Making room for a child's particular needs",
+        "Reading words versus understanding stories",
+        "What can a single family story tell us, and what can it not?",
+        "Why a child may stop attending regularly"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.473
+        },
+        {
+          "id": "PSC-037",
+          "token_jaccard": 0.182,
+          "title_similarity": 0.472
+        },
+        {
+          "id": "KDI-013",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.472
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.435
+        },
+        {
+          "id": "PSC-096",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.423
+        }
+      ],
+      "distinct_learning_objective": "Investigate language demands of word problems separately from calculation competence.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-225",
+      "title": "How can spatial play prepare children for geometry?",
+      "closest_existing_ids": [
+        "KDI-068",
+        "KDI-020",
+        "KDI-031",
+        "KDI-007",
+        "KDI-021"
+      ],
+      "closest_existing_titles": [
+        "How can air pollution affect children and older people?",
+        "How can teachers use learning data without pressuring children?",
+        "Who can reach essential primary healthcare?",
+        "What barriers affect children living in informal settlements?",
+        "How inclusive is education for children with disabilities?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.566
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.474
+        },
+        {
+          "id": "KDI-031",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.468
+        },
+        {
+          "id": "KDI-007",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.464
+        },
+        {
+          "id": "KDI-021",
+          "token_jaccard": 0.125,
+          "title_similarity": 0.459
+        }
+      ],
+      "distinct_learning_objective": "Explore orientation, shape composition and language during constructive play.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-226",
+      "title": "How can a child's home language support classroom learning?",
+      "closest_existing_ids": [
+        "KDI-105",
+        "PSC-008",
+        "KDI-017",
+        "KDI-022",
+        "KDI-138"
+      ],
+      "closest_existing_titles": [
+        "How does child marriage intersect with health and learning?",
+        "Children helping keep their classroom ready",
+        "How does home reading exposure relate to learning?",
+        "What does data tell us about child marriage and schooling?",
+        "How can a teacher recognise and reduce barriers to classroom participation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.542
+        },
+        {
+          "id": "PSC-008",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.529
+        },
+        {
+          "id": "KDI-017",
+          "token_jaccard": 0.2,
+          "title_similarity": 0.495
+        },
+        {
+          "id": "KDI-022",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.479
+        },
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.478
+        }
+      ],
+      "distinct_learning_objective": "Review evidence on multilingual learning, comprehension and culturally responsive instruction.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-227",
+      "title": "Listening comprehension before fluent reading: what can teachers notice?",
+      "closest_existing_ids": [
+        "KDI-147",
+        "PSC-127",
+        "KDI-002",
+        "PSC-039",
+        "KDI-119"
+      ],
+      "closest_existing_titles": [
+        "Is a consultation count the same as the number of people served?",
+        "Preparing a medical outreach site before patients arrive",
+        "From enrolment to completion: where do learners leave?",
+        "The choice to remain in school",
+        "What can a single family story tell us, and what can it not?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-147",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "PSC-127",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.422
+        },
+        {
+          "id": "KDI-002",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.413
+        },
+        {
+          "id": "PSC-039",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.412
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.409
+        }
+      ],
+      "distinct_learning_objective": "Distinguish oral-language understanding from decoding skills and assessment bias.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-228",
+      "title": "Handwriting and written expression: why are they not the same skill?",
+      "closest_existing_ids": [
+        "PSC-074",
+        "KDI-020",
+        "KDI-005",
+        "PSC-128",
+        "PSC-112"
+      ],
+      "closest_existing_titles": [
+        "What an HSF climate session taught the team",
+        "How can teachers use learning data without pressuring children?",
+        "Child labour and school attendance: what does the evidence show?",
+        "A clinician explains a real referral decision without patient details",
+        "What an HSF field team learned this month"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-074",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.427
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.424
+        },
+        {
+          "id": "PSC-128",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.409
+        },
+        {
+          "id": "PSC-112",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.404
+        }
+      ],
+      "distinct_learning_objective": "Explain transcription demands, idea formation and motor needs.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-229",
+      "title": "How can oral rehearsal help a child plan a sentence?",
+      "closest_existing_ids": [
+        "KDI-068",
+        "KDI-043",
+        "KDI-090",
+        "KDI-058",
+        "KDI-140"
+      ],
+      "closest_existing_titles": [
+        "How can air pollution affect children and older people?",
+        "How many people know they have high blood pressure?",
+        "What role do local volunteers play in resilience?",
+        "How can child immunization gaps be understood?",
+        "How should a school plan for heat, flooding or temporary closure?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-043",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.485
+        },
+        {
+          "id": "KDI-090",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.449
+        },
+        {
+          "id": "KDI-140",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.444
+        }
+      ],
+      "distinct_learning_objective": "Investigate speaking, sequencing ideas and early writing composition.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-230",
+      "title": "What is scaffolding, and when should a teacher remove support?",
+      "closest_existing_ids": [
+        "KDI-056",
+        "KDI-034",
+        "KDI-100",
+        "KDI-063",
+        "PSC-100"
+      ],
+      "closest_existing_titles": [
+        "When and how should breastfeeding be supported?",
+        "What is a referral, and when does it matter?",
+        "Which climate claims online should be checked before sharing?",
+        "What does safer drinking water really mean?",
+        "Why Grade V should not mean the end of educational support"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.569
+        },
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.547
+        },
+        {
+          "id": "KDI-100",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.504
+        },
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.495
+        },
+        {
+          "id": "PSC-100",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.483
+        }
+      ],
+      "distinct_learning_objective": "Define temporary learning supports versus permanent labels or dependency.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-231",
+      "title": "Universal Design for Learning: how can one lesson offer different ways to participate?",
+      "closest_existing_ids": [
+        "KDI-009",
+        "KDI-068",
+        "PSC-001",
+        "KDI-003",
+        "KDI-138"
+      ],
+      "closest_existing_titles": [
+        "How much do learning materials matter to participation?",
+        "How can air pollution affect children and older people?",
+        "Before the first lesson: a gentle classroom start",
+        "Do rural and urban children face different school barriers?",
+        "How can a teacher recognise and reduce barriers to classroom participation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-009",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.496
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "PSC-001",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.4
+        },
+        {
+          "id": "KDI-003",
+          "token_jaccard": 0.067,
+          "title_similarity": 0.4
+        },
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.398
+        }
+      ],
+      "distinct_learning_objective": "Introduce multiple representation, engagement and response options without claiming individual disability diagnoses.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-232",
+      "title": "Can learners assess their own progress without comparing classmates?",
+      "closest_existing_ids": [
+        "PSC-117",
+        "KDI-020",
+        "KDI-121",
+        "PSC-004",
+        "PSC-128"
+      ],
+      "closest_existing_titles": [
+        "An ECOSOC participation update without implying UN affiliation",
+        "How can teachers use learning data without pressuring children?",
+        "Ten years after the Paris Agreement: what must COP31 deliver?",
+        "Learning materials, from preparation to classroom",
+        "A clinician explains a real referral decision without patient details"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-117",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.492
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.473
+        },
+        {
+          "id": "KDI-121",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "PSC-004",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.462
+        },
+        {
+          "id": "PSC-128",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.438
+        }
+      ],
+      "distinct_learning_objective": "Explore age-appropriate self-assessment, learning goals and privacy-preserving reflection.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-233",
+      "title": "How should cooperative learning groups be structured?",
+      "closest_existing_ids": [
+        "KDI-140",
+        "KDI-056",
+        "PSC-098",
+        "KDI-058",
+        "KDI-009"
+      ],
+      "closest_existing_titles": [
+        "How should a school plan for heat, flooding or temporary closure?",
+        "When and how should breastfeeding be supported?",
+        "How to notice learning difficulties without blame",
+        "How can child immunization gaps be understood?",
+        "How much do learning materials matter to participation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-140",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.525
+        },
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.143,
+          "title_similarity": 0.52
+        },
+        {
+          "id": "PSC-098",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.49
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.485
+        },
+        {
+          "id": "KDI-009",
+          "token_jaccard": 0.125,
+          "title_similarity": 0.481
+        }
+      ],
+      "distinct_learning_objective": "Review roles, participation equity, group accountability and limitations of merely seating pupils together.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-234",
+      "title": "What makes a digital learning activity educational rather than just entertaining?",
+      "closest_existing_ids": [
+        "PSC-082",
+        "KDI-088",
+        "PSC-099",
+        "KDI-060",
+        "PSC-136"
+      ],
+      "closest_existing_titles": [
+        "Managing a learning activity with modest facilities",
+        "What makes early warning information accessible?",
+        "What makes a classroom emotionally safe?",
+        "What does child mortality data reveal about inequities?",
+        "What a cancelled climate activity taught the organising team"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-082",
+          "token_jaccard": 0.167,
+          "title_similarity": 0.47
+        },
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "PSC-099",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.446
+        },
+        {
+          "id": "KDI-060",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "PSC-136",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.44
+        }
+      ],
+      "distinct_learning_objective": "Assess content quality, interaction, developmental suitability and the role of adult guidance.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-235",
+      "title": "How can pupils keep a simple weather observation journal responsibly?",
+      "closest_existing_ids": [
+        "KDI-088",
+        "KDI-020",
+        "PSC-052",
+        "KDI-043",
+        "KDI-009"
+      ],
+      "closest_existing_titles": [
+        "What makes early warning information accessible?",
+        "How can teachers use learning data without pressuring children?",
+        "A community member's observations about tree care",
+        "How many people know they have high blood pressure?",
+        "How much do learning materials matter to participation?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.496
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "PSC-052",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "KDI-043",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.433
+        },
+        {
+          "id": "KDI-009",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.419
+        }
+      ],
+      "distinct_learning_objective": "Distinguish direct observation, local weather and long-term climate conclusions in a child-safe exercise.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-236",
+      "title": "How should a home blood-pressure reading be taken accurately?",
+      "closest_existing_ids": [
+        "KDI-140",
+        "KDI-056",
+        "KDI-152",
+        "PSC-103",
+        "KDI-073"
+      ],
+      "closest_existing_titles": [
+        "How should a school plan for heat, flooding or temporary closure?",
+        "When and how should breastfeeding be supported?",
+        "What should a family flood-preparedness plan include?",
+        "Why a single blood-glucose reading is not a diagnosis",
+        "How should we read heatwave statistics?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-140",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.54
+        },
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.519
+        },
+        {
+          "id": "KDI-152",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.509
+        },
+        {
+          "id": "PSC-103",
+          "token_jaccard": 0.182,
+          "title_similarity": 0.491
+        },
+        {
+          "id": "KDI-073",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.48
+        }
+      ],
+      "distinct_learning_objective": "Review posture, rest, arm position, validated devices and repeat measurements under current clinical guidance.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-237",
+      "title": "Why is a blood-pressure log more useful than one isolated reading?",
+      "closest_existing_ids": [
+        "KDI-143",
+        "PSC-108",
+        "PSC-008",
+        "KDI-006",
+        "KDI-018"
+      ],
+      "closest_existing_titles": [
+        "Why is blood-pressure measurement only one part of a health assessment?",
+        "Why flood preparedness cannot rely on one warning",
+        "Children helping keep their classroom ready",
+        "Are girls and boys progressing equally through primary school?",
+        "Does grade level always indicate learning level?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-143",
+          "token_jaccard": 0.214,
+          "title_similarity": 0.569
+        },
+        {
+          "id": "PSC-108",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.487
+        },
+        {
+          "id": "PSC-008",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.422
+        },
+        {
+          "id": "KDI-006",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.422
+        },
+        {
+          "id": "KDI-018",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.421
+        }
+      ],
+      "distinct_learning_objective": "Explain day-to-day variability, measurement conditions and review of trends by qualified clinicians.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-238",
+      "title": "Can the wrong blood-pressure cuff size change the result?",
+      "closest_existing_ids": [
+        "KDI-143",
+        "KDI-020",
+        "KDI-092",
+        "KDI-043",
+        "PSC-012"
+      ],
+      "closest_existing_titles": [
+        "Why is blood-pressure measurement only one part of a health assessment?",
+        "How can teachers use learning data without pressuring children?",
+        "How can shade change outdoor thermal comfort?",
+        "How many people know they have high blood pressure?",
+        "When the community offers a place to serve"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-143",
+          "token_jaccard": 0.154,
+          "title_similarity": 0.453
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-092",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.431
+        },
+        {
+          "id": "KDI-043",
+          "token_jaccard": 0.167,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "PSC-012",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.424
+        }
+      ],
+      "distinct_learning_objective": "Investigate cuff fit, arm circumference and measurement error in validated devices.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-239",
+      "title": "HbA1c and a single blood-glucose test: what is the difference?",
+      "closest_existing_ids": [
+        "PSC-103",
+        "KDI-005",
+        "KDI-119",
+        "KDI-124",
+        "KDI-003"
+      ],
+      "closest_existing_titles": [
+        "Why a single blood-glucose reading is not a diagnosis",
+        "Child labour and school attendance: what does the evidence show?",
+        "What can a single family story tell us, and what can it not?",
+        "Zero waste, methane and cleaner industry: what can change?",
+        "Do rural and urban children face different school barriers?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-103",
+          "token_jaccard": 0.333,
+          "title_similarity": 0.626
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.524
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.508
+        },
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-003",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.413
+        }
+      ],
+      "distinct_learning_objective": "Explain what different tests measure, their interpretation limits and situations needing clinician judgment.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-240",
+      "title": "What foot changes should a person with diabetes report promptly?",
+      "closest_existing_ids": [
+        "KDI-063",
+        "KDI-008",
+        "KDI-060",
+        "KDI-113",
+        "KDI-056"
+      ],
+      "closest_existing_titles": [
+        "What does safer drinking water really mean?",
+        "What does a prolonged absence signal?",
+        "What does child mortality data reveal about inequities?",
+        "What does a survey percentage really represent?",
+        "When and how should breastfeeding be supported?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.467
+        },
+        {
+          "id": "KDI-008",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "KDI-060",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.454
+        },
+        {
+          "id": "KDI-113",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-056",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        }
+      ],
+      "distinct_learning_objective": "Explore neuropathy, infection warning signs, routine foot inspection and referral using clinical guidelines.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-241",
+      "title": "How can people understand a medicine label safely?",
+      "closest_existing_ids": [
+        "PSC-014",
+        "PSC-131",
+        "KDI-070",
+        "KDI-043",
+        "KDI-103"
+      ],
+      "closest_existing_titles": [
+        "Health education alongside a medical camp",
+        "How a camp guides someone needing higher-level care",
+        "How can readers distinguish reliable medical advice online?",
+        "How many people know they have high blood pressure?",
+        "How different are rural and urban development indicators?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-014",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.484
+        },
+        {
+          "id": "PSC-131",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-070",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.459
+        },
+        {
+          "id": "KDI-043",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.436
+        },
+        {
+          "id": "KDI-103",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.43
+        }
+      ],
+      "distinct_learning_objective": "Explain medicine name, strength, form, directions, expiry and who to ask when instructions are unclear.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-242",
+      "title": "Why should medicines be stored out of children's reach?",
+      "closest_existing_ids": [
+        "KDI-039",
+        "KDI-109",
+        "KDI-094",
+        "PSC-100",
+        "KDI-069"
+      ],
+      "closest_existing_titles": [
+        "How should medicines be discussed in community health posts?",
+        "Why should girls' safety and participation be considered together?",
+        "Why do some cities flood after heavy rain?",
+        "Why Grade V should not mean the end of educational support",
+        "What can schools and families learn about adolescent mental health?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-039",
+          "token_jaccard": 0.182,
+          "title_similarity": 0.574
+        },
+        {
+          "id": "KDI-109",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.512
+        },
+        {
+          "id": "KDI-094",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.495
+        },
+        {
+          "id": "PSC-100",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.478
+        },
+        {
+          "id": "KDI-069",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        }
+      ],
+      "distinct_learning_objective": "Review storage hazards, packaging, temperature guidance and accidental ingestion risks.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-243",
+      "title": "Does an expiry date tell the whole story of medicine safety?",
+      "closest_existing_ids": [
+        "KDI-017",
+        "KDI-136",
+        "PSC-114",
+        "KDI-070",
+        "KDI-051"
+      ],
+      "closest_existing_titles": [
+        "How does home reading exposure relate to learning?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "How HSF decides whether a story is safe to share",
+        "How can readers distinguish reliable medical advice online?",
+        "What does adequate antenatal care involve?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-017",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.455
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.432
+        },
+        {
+          "id": "PSC-114",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "KDI-070",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.42
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.412
+        }
+      ],
+      "distinct_learning_objective": "Differentiate labelled expiry, storage, opened-product guidance and pharmacist advice.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-244",
+      "title": "What is antimicrobial resistance and why does it affect communities?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-136",
+        "KDI-079",
+        "KDI-085",
+        "KDI-118"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "How can river erosion affect community services?",
+        "How does salinity affect coastal communities?",
+        "What do official projections mean and not mean?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.571
+        },
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.526
+        },
+        {
+          "id": "KDI-079",
+          "token_jaccard": 0.125,
+          "title_similarity": 0.517
+        },
+        {
+          "id": "KDI-085",
+          "token_jaccard": 0.333,
+          "title_similarity": 0.513
+        },
+        {
+          "id": "KDI-118",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.487
+        }
+      ],
+      "distinct_learning_objective": "Explain how microorganisms develop resistance and why inappropriate antimicrobial use contributes.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-245",
+      "title": "Which fever warning signs in young children require urgent assessment?",
+      "closest_existing_ids": [
+        "KDI-145",
+        "KDI-088",
+        "KDI-083",
+        "KDI-143",
+        "KDI-020"
+      ],
+      "closest_existing_titles": [
+        "Which warning signs call for urgent maternal health referral?",
+        "What makes early warning information accessible?",
+        "What belongs in a household flood readiness plan?",
+        "Why is blood-pressure measurement only one part of a health assessment?",
+        "How can teachers use learning data without pressuring children?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-145",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.55
+        },
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.458
+        },
+        {
+          "id": "KDI-083",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.437
+        },
+        {
+          "id": "KDI-143",
+          "token_jaccard": 0.067,
+          "title_similarity": 0.426
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.421
+        }
+      ],
+      "distinct_learning_objective": "Research internationally recognized pediatric danger signs and local emergency referral context.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-246",
+      "title": "Heat exhaustion and heatstroke: how can they be distinguished?",
+      "closest_existing_ids": [
+        "KDI-124",
+        "KDI-102",
+        "KDI-051",
+        "KDI-027",
+        "KDI-005"
+      ],
+      "closest_existing_titles": [
+        "Zero waste, methane and cleaner industry: what can change?",
+        "Where do education and health costs meet household hardship?",
+        "What does adequate antenatal care involve?",
+        "How do floods and heat affect school continuity?",
+        "Child labour and school attendance: what does the evidence show?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.517
+        },
+        {
+          "id": "KDI-102",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.442
+        },
+        {
+          "id": "KDI-027",
+          "token_jaccard": 0.1,
+          "title_similarity": 0.436
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.429
+        }
+      ],
+      "distinct_learning_objective": "Review signs of heat illness, prevention, emergency response and limitations of self-identification.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-247",
+      "title": "What does a pulse oximeter measure and what can it miss?",
+      "closest_existing_ids": [
+        "KDI-136",
+        "KDI-119",
+        "KDI-044",
+        "KDI-034",
+        "KDI-051"
+      ],
+      "closest_existing_titles": [
+        "What does a Grade 3 reading check measure, and what does it miss?",
+        "What can a single family story tell us, and what can it not?",
+        "Why does tobacco use matter to heart and lung health?",
+        "What is a referral, and when does it matter?",
+        "What does adequate antenatal care involve?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-136",
+          "token_jaccard": 0.25,
+          "title_similarity": 0.711
+        },
+        {
+          "id": "KDI-119",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.586
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.569
+        },
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.54
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.51
+        }
+      ],
+      "distinct_learning_objective": "Explain oxygen saturation, device limitations, circulation and contextual assessment.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-248",
+      "title": "Why does inhaler technique matter for people with asthma?",
+      "closest_existing_ids": [
+        "KDI-062",
+        "KDI-044",
+        "KDI-098",
+        "KDI-063",
+        "KDI-105"
+      ],
+      "closest_existing_titles": [
+        "Why does stagnant water matter for mosquito control?",
+        "Why does tobacco use matter to heart and lung health?",
+        "Why does conserving water matter in a changing climate?",
+        "What does safer drinking water really mean?",
+        "How does child marriage intersect with health and learning?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.569
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.527
+        },
+        {
+          "id": "KDI-098",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.518
+        },
+        {
+          "id": "KDI-063",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.5
+        },
+        {
+          "id": "KDI-105",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.483
+        }
+      ],
+      "distinct_learning_objective": "Examine medicine delivery, technique checks and clinician-pharmacist demonstrations.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-249",
+      "title": "What respiratory warning signs should caregivers know?",
+      "closest_existing_ids": [
+        "KDI-083",
+        "KDI-051",
+        "PSC-034",
+        "KDI-032",
+        "KDI-088"
+      ],
+      "closest_existing_titles": [
+        "What belongs in a household flood readiness plan?",
+        "What does adequate antenatal care involve?",
+        "What a guardian meeting helped clarify",
+        "What are the barriers to seeking timely care?",
+        "What makes early warning information accessible?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-083",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.505
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.479
+        },
+        {
+          "id": "PSC-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.478
+        },
+        {
+          "id": "KDI-032",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "KDI-088",
+          "token_jaccard": 0.111,
+          "title_similarity": 0.451
+        }
+      ],
+      "distinct_learning_objective": "Review breathing difficulty signs across ages and how urgent evaluation decisions are made.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-250",
+      "title": "When does a persistent cough call for tuberculosis screening?",
+      "closest_existing_ids": [
+        "KDI-113",
+        "KDI-036",
+        "KDI-062",
+        "PSC-050",
+        "KDI-123"
+      ],
+      "closest_existing_titles": [
+        "What does a survey percentage really represent?",
+        "What does a 'service contact' actually measure?",
+        "Why does stagnant water matter for mosquito control?",
+        "When a patient asks for further guidance",
+        "What does a just energy transition mean for Bangladesh?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-113",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-036",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.481
+        },
+        {
+          "id": "KDI-062",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.478
+        },
+        {
+          "id": "PSC-050",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-123",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.448
+        }
+      ],
+      "distinct_learning_objective": "Review locally applicable TB screening symptoms, service access and confidentiality.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-251",
+      "title": "Why do some wounds need more than home first aid?",
+      "closest_existing_ids": [
+        "KDI-094",
+        "PSC-054",
+        "KDI-029",
+        "KDI-044",
+        "PSC-092"
+      ],
+      "closest_existing_titles": [
+        "Why do some cities flood after heavy rain?",
+        "Why someone joins an environmental dialogue",
+        "Why should exam success not be the only measure?",
+        "Why does tobacco use matter to heart and lung health?",
+        "A tree needs care through the dry season"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-094",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.549
+        },
+        {
+          "id": "PSC-054",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.478
+        },
+        {
+          "id": "KDI-029",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.454
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.451
+        },
+        {
+          "id": "PSC-092",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.449
+        }
+      ],
+      "distinct_learning_objective": "Differentiate minor first aid from wounds with infection, bleeding or other complications requiring clinical care.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-252",
+      "title": "Snakebite myths: which first-aid advice can be dangerous?",
+      "closest_existing_ids": [
+        "KDI-124",
+        "KDI-032",
+        "PSC-027",
+        "PSC-001",
+        "PSC-036"
+      ],
+      "closest_existing_titles": [
+        "Zero waste, methane and cleaner industry: what can change?",
+        "What are the barriers to seeking timely care?",
+        "Climate justice in plain language",
+        "Before the first lesson: a gentle classroom start",
+        "Learning confidence in a small-group setting"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-124",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.4
+        },
+        {
+          "id": "KDI-032",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.392
+        },
+        {
+          "id": "PSC-027",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.378
+        },
+        {
+          "id": "PSC-001",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.377
+        },
+        {
+          "id": "PSC-036",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.376
+        }
+      ],
+      "distinct_learning_objective": "Review official snakebite emergency guidelines and common harmful practices in Bangladesh.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-253",
+      "title": "How can families reduce the spread of diarrhoeal infections at home?",
+      "closest_existing_ids": [
+        "KDI-038",
+        "KDI-066",
+        "KDI-151",
+        "KDI-138",
+        "KDI-030"
+      ],
+      "closest_existing_titles": [
+        "Which communities have the greatest primary-care access gaps?",
+        "What causes scabies to spread in crowded settings?",
+        "Who decides whether a local adaptation intervention worked?",
+        "How can a teacher recognise and reduce barriers to classroom participation?",
+        "What protects adolescents during the secondary transition?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-038",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.465
+        },
+        {
+          "id": "KDI-066",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.458
+        },
+        {
+          "id": "KDI-151",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.457
+        },
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.448
+        },
+        {
+          "id": "KDI-030",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.444
+        }
+      ],
+      "distinct_learning_objective": "Investigate household transmission routes, cleaning, food safety, water and sanitation measures.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-254",
+      "title": "Oral rehydration solution: what does it replace and what are its limits?",
+      "closest_existing_ids": [
+        "KDI-065",
+        "PSC-029",
+        "KDI-133",
+        "KDI-051",
+        "KDI-068"
+      ],
+      "closest_existing_titles": [
+        "Menstrual hygiene: what does the evidence say about access?",
+        "Small group questions about weather and climate",
+        "Locally led adaptation: who makes climate-resilience decisions?",
+        "What does adequate antenatal care involve?",
+        "How can air pollution affect children and older people?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-065",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.534
+        },
+        {
+          "id": "PSC-029",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.471
+        },
+        {
+          "id": "KDI-133",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.459
+        },
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "KDI-068",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.425
+        }
+      ],
+      "distinct_learning_objective": "Explain the function of oral rehydration and situations where professional medical help is urgent.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-255",
+      "title": "If a vaccine dose is missed, where should a family obtain reliable catch-up guidance?",
+      "closest_existing_ids": [
+        "PSC-095",
+        "KDI-152",
+        "PSC-125",
+        "PSC-073",
+        "KDI-111"
+      ],
+      "closest_existing_titles": [
+        "Separating observed weather from climate claims",
+        "What should a family flood-preparedness plan include?",
+        "When a learner misses several classes: a safe follow-up pathway",
+        "A climate dialogue leads to a follow-up question",
+        "A consultation is not necessarily one patient: why it matters"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-095",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.409
+        },
+        {
+          "id": "KDI-152",
+          "token_jaccard": 0.067,
+          "title_similarity": 0.406
+        },
+        {
+          "id": "PSC-125",
+          "token_jaccard": 0.056,
+          "title_similarity": 0.378
+        },
+        {
+          "id": "PSC-073",
+          "token_jaccard": 0.062,
+          "title_similarity": 0.376
+        },
+        {
+          "id": "KDI-111",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.37
+        }
+      ],
+      "distinct_learning_objective": "Clarify authoritative immunization schedules, vaccination records and the role of authorized providers.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-256",
+      "title": "FAST and stroke recognition: why does time matter?",
+      "closest_existing_ids": [
+        "KDI-034",
+        "KDI-137",
+        "KDI-002",
+        "KDI-005",
+        "PSC-043"
+      ],
+      "closest_existing_titles": [
+        "What is a referral, and when does it matter?",
+        "School transfer or school dropout? Why the distinction matters",
+        "From enrolment to completion: where do learners leave?",
+        "Child labour and school attendance: what does the evidence show?",
+        "When a follow-up conversation matters"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-034",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.511
+        },
+        {
+          "id": "KDI-137",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.464
+        },
+        {
+          "id": "KDI-002",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.462
+        },
+        {
+          "id": "KDI-005",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "PSC-043",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.437
+        }
+      ],
+      "distinct_learning_objective": "Explain core stroke warning signs and urgency of emergency assessment, including symptoms beyond the mnemonic.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-257",
+      "title": "Can heart attack symptoms look different from chest pain alone?",
+      "closest_existing_ids": [
+        "PSC-140",
+        "KDI-035",
+        "PSC-078",
+        "KDI-081",
+        "KDI-080"
+      ],
+      "closest_existing_titles": [
+        "Community feedback: the response loop, not a promotional quote",
+        "Do women and men face different care-access barriers?",
+        "Adapting classroom activities to different learning levels",
+        "Why does flood risk differ across Bangladesh?",
+        "Why is a forecast different from a prediction of exact harm?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "PSC-140",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.48
+        },
+        {
+          "id": "KDI-035",
+          "token_jaccard": 0.071,
+          "title_similarity": 0.466
+        },
+        {
+          "id": "PSC-078",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.446
+        },
+        {
+          "id": "KDI-081",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.407
+        },
+        {
+          "id": "KDI-080",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.407
+        }
+      ],
+      "distinct_learning_objective": "Review variations in cardiac emergency warning signs and urgent referral recommendations.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-258",
+      "title": "Which symptoms after childbirth warrant urgent medical review?",
+      "closest_existing_ids": [
+        "KDI-051",
+        "KDI-069",
+        "KDI-087",
+        "KDI-145",
+        "KDI-044"
+      ],
+      "closest_existing_titles": [
+        "What does adequate antenatal care involve?",
+        "What can schools and families learn about adolescent mental health?",
+        "Why are children especially vulnerable during disasters?",
+        "Which warning signs call for urgent maternal health referral?",
+        "Why does tobacco use matter to heart and lung health?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-051",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.462
+        },
+        {
+          "id": "KDI-069",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "KDI-087",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.441
+        },
+        {
+          "id": "KDI-145",
+          "token_jaccard": 0.077,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "KDI-044",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.435
+        }
+      ],
+      "distinct_learning_objective": "Investigate postpartum warning signs, time windows and accessible referral guidance.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-259",
+      "title": "How can a trusted person listen supportively during emotional distress?",
+      "closest_existing_ids": [
+        "KDI-138",
+        "KDI-020",
+        "PSC-060",
+        "KDI-087",
+        "PSC-094"
+      ],
+      "closest_existing_titles": [
+        "How can a teacher recognise and reduce barriers to classroom participation?",
+        "How can teachers use learning data without pressuring children?",
+        "A materials support activity revisited",
+        "Why are children especially vulnerable during disasters?",
+        "A discussion reveals differing risk perceptions"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-138",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.466
+        },
+        {
+          "id": "KDI-020",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.463
+        },
+        {
+          "id": "PSC-060",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.44
+        },
+        {
+          "id": "KDI-087",
+          "token_jaccard": 0.091,
+          "title_similarity": 0.425
+        },
+        {
+          "id": "PSC-094",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.424
+        }
+      ],
+      "distinct_learning_objective": "Review supportive listening, non-judgment, boundaries and appropriate escalation, without treating it as clinical therapy.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    },
+    {
+      "new_id": "KDI-260",
+      "title": "Teach-back in healthcare: how can patients confirm they understood advice?",
+      "closest_existing_ids": [
+        "KDI-130",
+        "KDI-058",
+        "PSC-050",
+        "PSC-047",
+        "KDI-079"
+      ],
+      "closest_existing_titles": [
+        "Children at the centre: education continuity under climate stress",
+        "How can child immunization gaps be understood?",
+        "When a patient asks for further guidance",
+        "A health educator answers a common question",
+        "How can river erosion affect community services?"
+      ],
+      "similarity_candidates": [
+        {
+          "id": "KDI-130",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.475
+        },
+        {
+          "id": "KDI-058",
+          "token_jaccard": 0.083,
+          "title_similarity": 0.45
+        },
+        {
+          "id": "PSC-050",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.439
+        },
+        {
+          "id": "PSC-047",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.427
+        },
+        {
+          "id": "KDI-079",
+          "token_jaccard": 0.0,
+          "title_similarity": 0.41
+        }
+      ],
+      "distinct_learning_objective": "Explain teach-back communication, respectful questioning and its role in reducing misunderstandings.",
+      "editorial_duplicate_decision": "ACCEPT_DISTINCT_LEARNING_QUESTION_REQUIRES_EDITOR_REVIEW",
+      "duplicate_check_method": "Compare title and evidence question against full 160 KDI + 140 PSC; flag nearest topic neighbours and narrow the learning outcome; no automated proof of uniqueness"
+    }
+  ]
+}

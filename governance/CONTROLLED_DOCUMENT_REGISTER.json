@@ -1,6 +1,6 @@
 {
   "register_version": "1.0.0",
-  "repository_release": "v1.8.3",
+  "repository_release": "v1.9.0",
   "last_updated": "2026-10-30",
   "scope": "Public-safe controlled-document metadata. Does not contain management signatures, private decision records or personal information.",
   "approval_caution": "Source-declared status is not independent proof of a signed management approval. Where documentary evidence is missing, mark pending verification and retain existing institutional status without manufacturing approvals.",
@@ -16,8 +16,8 @@
       "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
       "revision_or_review_date": "2026-10-30",
       "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
-      "sha256": "912d7e44160b1093d13aff060d763f292facc140ea0f1bdf0141a8eeb67e2dd6",
-      "note": "Review needed: alignment wording updated 2026-10-30"
+      "sha256": "9a35841898c83e7dfb712a90b42c1882ceca02d6e5d76224514b7ec830aa42dd",
+      "note": "v1.9.0: current idea-library counts/status references aligned. Underlying approved framework and operating principles unchanged; individual content approval still required."
     },
     {
       "document_id": "HSF-SOCIAL",
@@ -28,10 +28,10 @@
       "recorded_approval_authority": "HSF Management (role; not an independently verified named approver)",
       "approval_record_reference": null,
       "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
-      "revision_or_review_date": "2026-10-20",
+      "revision_or_review_date": "2026-10-30",
       "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
-      "sha256": "e3ec08b91a665b8e9508f1f22b4d18f071024e11d8b6cce041da6fd64b770798",
-      "note": "Declared approved policy v4.0 effective 2026-10-20; approval record not independently provided"
+      "sha256": "e788ef21030d6c9025fb2ba1e0bbbd8bd9d2ad7a1158b57fac92375f17aa950a",
+      "note": "v1.9.0: current idea-library counts/status references aligned. Underlying approved framework and operating principles unchanged; individual content approval still required."
     },
     {
       "document_id": "HSF-BRAND",
