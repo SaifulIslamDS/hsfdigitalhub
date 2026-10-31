@@ -63,6 +63,11 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def sha_normalized_text(path):
+    """Hash governed text invariantly across CRLF and LF checkout styles."""
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
+
+
 def load_stack():
     brandfile = STACK / "02_Tokens" / "brand-tokens.json"
     archfile = STACK / "04_Archetypes" / "archetypes.json"
@@ -419,7 +424,7 @@ def write_lock(files, values):
         "policy_references": {"social": "v4.0", "brand": "v2.4"},
         "canonical_sources": {str(p.relative_to(ROOT)).replace("\\", "/"): sha(p) for p in files},
         "studio_source_checksum_sha256": sha(SOURCE / "src" / "e1_data.js"),
-        "protected_governance_sha256": {str((ROOT / p).relative_to(ROOT)).replace("\\", "/"): sha(ROOT / p) for p in [
+        "protected_governance_sha256": {str((ROOT / p).relative_to(ROOT)).replace("\\", "/"): sha_normalized_text(ROOT / p) for p in [
             "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json", "brand_identity_master_guide.html",
             "ERP_Overview.html", "impact_meal_learning_framework.html",
             "website_content_editorial_guidelines.html", "netlify.toml", "_redirects",

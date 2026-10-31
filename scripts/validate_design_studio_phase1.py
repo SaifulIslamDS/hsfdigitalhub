@@ -26,6 +26,11 @@ def load(relative):
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+
+def sha_normalized_text(path):
+    """Hash governed text invariantly across CRLF and LF checkout styles."""
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
+
 def js_json(text, const):
     m=re.search(r'\bconst\s+'+re.escape(const)+r'\s*=\s*',text)
     if not m:raise ValueError('JS variable absent: '+const)
@@ -57,7 +62,7 @@ try:
     for path,digest in lock['canonical_sources'].items():
         check(sha(R/path)==digest,'Canonical source changed after lock: '+path)
     for path,digest in lock.get('protected_governance_sha256',{}).items():
-        check(sha(R/path)==digest,'Protected governance/security baseline changed: '+path)
+        check(sha_normalized_text(R/path)==digest,'Protected governance/security baseline changed: '+path)
     check(lock['studio_source_checksum_sha256']==sha(E1),'Compiled Studio data changed without regenerating lock')
     source=E1.read_text(encoding='utf-8')
     brand=load('brand-design-stack/02_Tokens/brand-tokens.json')
