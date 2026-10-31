@@ -49,7 +49,7 @@ for phrase in ['navigator.clipboard','document.execCommand','[FIELD EVIDENCE REQ
 require('Facebook' in ht and 'LinkedIn' in ht,'Target channel options missing from modal')
 require('fetch(' not in script and 'localStorage' not in script and 'sessionStorage' not in script,'Prompt builder must not access remote services or local storage')
 manifest=json.loads((R/'MANIFEST.json').read_text(encoding='utf-8'))
-require(manifest['release']=='v1.10.1','Current release must be v1.10.1')
+require(manifest['release']=='v1.11.0','Current release must be v1.11.0')
 require(manifest['editorial']['idea_library']['content_prompt_generator']['button_per_idea'],'Manifest feature flag missing')
 if issues:
  print('CONTENT PROMPT GENERATOR VALIDATION FAILED:')

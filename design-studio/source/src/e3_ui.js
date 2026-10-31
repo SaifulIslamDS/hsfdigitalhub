@@ -495,7 +495,7 @@ function renderQA(){if(!canvas)return;const box=$("qa");box.innerHTML="";const o
   const add=(lvl,t)=>items.push([lvl,t]);
   if(p&&p.ref&&p.ref.kind==="arch"){const A=ARCH[p.ref.arch],s=photoShare(objs,D.w,D.h);const ok=s>=A.share[0]-3&&s<=A.share[1]+5;add(ok?"ok":"warn",`Photo area ${s}% · ${A.n} target ${A.share[0]}–${A.share[1]}%`)}
   const slots=objs.filter(o=>o.hsfSlot),empty=slots.filter(o=>!o.hsfUser).length;if(slots.length)add(empty?"bad":"ok",empty?`${empty} of ${slots.length} photo frame${slots.length>1?"s":""} still empty`:`All ${slots.length} photo frame${slots.length>1?"s":""} filled`);
-  const logos=objs.filter(o=>o.hsfComp&&o.hsfComp.kind==="logo");if(logos.length)add(logoURL?"ok":"bad",logoURL?"Official logo in the logo tile":"Logo slot shows the placeholder · DO NOT PUBLISH until the approved logo is uploaded");
+  const logos=objs.filter(o=>o.hsfComp&&o.hsfComp.kind==="logo");if(logos.length)add(logoURL?"ok":"bad",logoURL?"Logo loaded (verify against official HSF master)":"Logo slot shows the placeholder · DO NOT PUBLISH until the approved logo is uploaded");
   const c=pageContent();const def=[];objs.forEach(o=>{const b=o.hsfBind||(o.hsfComp&&o.hsfComp.bind);if(!b)return;(b.match(/\{(\w+)\}/g)||[]).forEach(m=>{const k=m.slice(1,-1);const v=c[k]||"";if((v===DEFAULT_CONTENT[k]&&!["website","tagline","org","project","label","cta"].includes(k))||/\[.*\]/.test(v))def.push(k)})});
   objs.forEach(o=>{if(o.type==="textbox"&&!o.hsfBind&&/\[[^\]]+\]/.test(o.text))def.push(o.hsfName||"text")});
   const uniq=[...new Set(def)];if(uniq.length)add("warn",`Placeholder text: ${uniq.slice(0,6).join(", ")}${uniq.length>6?"…":""}`);else add("ok","No placeholder text left");
