@@ -1,6 +1,6 @@
 # HSF Design Studio | Internal Visual Production Tool
 
-**Knowledge Hub version:** v1.9.0 · **Updated:** 30 October 2026  
+**Knowledge Hub version:** v1.11.0 (Phase 1 source patch) · **Updated:** 31 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
 **Open app:** [Design Studio](index.html) (self-contained offline-capable HTML). To use without internet, download `index.html` with your browser's Save As function and open in desktop Chrome/Edge; photo data and designs remain on the current device. This is not the ERP and stores no central record. **Approved public-use visuals still require independent HSF review.**
@@ -20,7 +20,7 @@ The official source of brand rules remains `../brand_identity_master_guide.html`
 
 ## Social v4.0 integration
 
-The studio now includes 2 streams, 7 editorial families, 2 E4BL series labels, optional `KDI-###` / `PSC-###` origin IDs, and the controlled `HSF-COM-YYYY-NNNN` content ID convention. The `Issue → Practical Response` multi-slide option is optional, not a 48-post cycle. The current idea bank is the [400-idea Communication Hub](../communication/idea-library.html). From any card, use **Download Design Brief (.json)** to get a *public-safe editorial concept file*, then import it in Design Studio → **Content**. The import does not retrieve ERP, evidence, consent records or approved claims and **always resets approval fields to pending**.
+The studio now includes 2 streams, 7 editorial families, 2 E4BL series labels, optional `KDI-###` / `PSC-###` origin IDs, and the controlled `HSF-COM-YYYY-NNNN` content ID convention. The `Issue → Practical Response` multi-slide option is optional, not a 48-post cycle. The current idea bank is the [500-idea Communication Hub](../communication/idea-library.html). From any card, use **Download Design Brief (.json)** to get a *public-safe editorial concept file*, then import it in Design Studio → **Content**. The import does not retrieve ERP, evidence, consent records or approved claims and **always resets approval fields to pending**.
 
 ## Safeguarding and privacy
 
@@ -38,3 +38,19 @@ SVG brush masking may not match raster output; Bangla direct text editing has cu
 ## Third-party components
 
 Fabric.js v5.3.0, jsPDF v2.5.1, Lucide icons and embedded typefaces are included in the *original user-supplied studio source*. Before redistributed deployment, retain upstream licence notices; verify third-party attribution and rights in [Third-party notices](THIRD_PARTY_NOTICES.md). Do not distribute extracted font files separately.
+
+
+## Phase 1 — Architecture, alignment and production readiness
+
+Source: `../docs/DESIGN_STUDIO_PHASE1_ARCHITECTURE.md`.
+`python scripts/studio_phase1.py check` confirms compiled Studio palette,
+archetypes, sequence labels and platform dimensions follow canonical Stack files.
+Use `python design-studio/source/build.py` after approved source modifications;
+never edit the generated offline HTML alone.
+
+**Publication control:** Loading a saved `.json` design resets editor-declared evidence,
+consent, technical, safeguarding and management review fields to pending. An uploaded
+logo is not independently authenticated by the editor. Any exported `APPROVED_PUBLIC`
+status is an editor declaration, not authorization; consult HSF's protected approval
+records before publishing. Full browser, Bangla text and Illustrator 2022 checks remain
+required for production certification.

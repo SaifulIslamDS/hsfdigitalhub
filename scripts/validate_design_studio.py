@@ -8,7 +8,7 @@ def verify(ok,msg):
 def text(p):return (ROOT/p).read_text(encoding='utf-8')
 try:
     meta=json.loads(text('MANIFEST.json'))
-    verify(meta['release']=='v1.10.1','Knowledge Hub release must be v1.10.1')
+    verify(meta['release']=='v1.11.0','Knowledge Hub release must be v1.11.0')
     verify(meta['design_studio']['entry_page']=='design-studio/index.html','Design Studio entry path missing')
     compiled=(S/'index.html').read_bytes()
     verify(b'fabric.min.js' not in compiled[:2500], 'No unexpected unexpanded dependency in HTML head')
@@ -38,10 +38,10 @@ try:
     brand=json.loads(text('brand-design-stack/02_Tokens/brand-tokens.json'))['palettes']
     srcdata=text('design-studio/source/src/e1_data.js')
     for k,p in brand.items():
-        verify(k+':{' in srcdata,'Studio missing brand palette '+k)
+        verify('"'+k+'":{' in srcdata,'Studio missing brand palette '+k)
         for role,v in p.items():
             if isinstance(v,str) and v.startswith('#'):
-                verify(role+':"'+v+'"' in srcdata,'Studio role/hex missing '+k+'/'+role)
+                verify('"'+role+'":"'+v+'"' in srcdata,'Studio role/hex missing '+k+'/'+role)
     library=text('communication/idea-library.html')
     verify('assets/design-brief-export.js' in library and 'assets/design-brief-export.css' in library,'Design brief assets not included in library')
     verify('design-studio/index.html' in text('index.html'),'Hub homepage Studio entry absent')

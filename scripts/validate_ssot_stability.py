@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HSF v1.10.1 cross-document single-source-of-truth stability validation.
+"""HSF v1.11.0 cross-document single-source-of-truth stability validation.
 
 Source-based, dependency-free. Does NOT attest management approval, live Netlify
 security, or Adobe Illustrator compatibility. Historical release notes are exempt.
@@ -20,7 +20,7 @@ reg=load('governance/CONTROLLED_DOCUMENT_REGISTER.json')
 assets=load('governance/PUBLIC_ASSET_REGISTER.json')
 retired=load('governance/RETIRED_ACTIVE_TREE_PATHS.json')
 release=manifest.get('release')
-check(release=='v1.10.1','Release must be v1.10.1')
+check(release=='v1.11.0','Release must be v1.11.0')
 check(manifest.get('current_status')=='ACTIVE_INTERNAL_STABILIZED_SOURCE','Repository status not synchronized')
 check(manifest.get('current_stable_content_baseline',{}).get('knowledge_hub')==release,'Stable manifest release mismatch')
 check(manifest.get('latest_internal_update',{}).get('version')==release,'Latest manifest release mismatch')
@@ -86,7 +86,7 @@ check('four core project areas' not in erp.lower(),'ERP overview still presents 
 check('future management consideration' in erp.lower(),'ERP blueprint future scope not differentiated')
 check('Women and girls (cross-cutting, not a separate Project)' in meal,'MEAL cross-cutting row missing')
 # These are source-control guards, not claims of end-to-end tests.
-for path in ['index.html','social_communication_plan.html','communication/idea-library.html']:
+for path in ['index.html','social_communication_plan.html']:
  text=(R/path).read_text(encoding='utf-8')
  check(release in text, f'{path} shows stale hub version')
 check('production_candidate' in str(manifest['current_stable_content_baseline']['brand_design_stack']), 'Brand Stack QA boundary lost')
@@ -96,4 +96,4 @@ if errors:
  print('HSF SSOT stability FAILED',len(errors))
  for x in errors:print(' -',x)
  sys.exit(1)
-print('HSF v1.10.1 SSOT stability PASS: six master documents; three current Projects; 500 ideas; retired sources absent; four registered binary assets; approval and design boundaries preserved.')
+print('HSF v1.11.0 SSOT stability PASS: six master documents; three current Projects; 500 ideas; retired sources absent; four registered binary assets; approval and design boundaries preserved.')

@@ -1,12 +1,12 @@
-> **Editorial boundary (30 October 2026):** Knowledge Hub v1.10.1 is the current internal source. All 500 ideas are editorial-approved for planning, with zero proposed; no idea implies factual verification or public-post approval.
+> **Editorial boundary (30 October 2026):** Knowledge Hub v1.11.0 is the current internal source. All 500 ideas are editorial-approved for planning, with zero proposed; no idea implies factual verification or public-post approval.
 
 # Human Safety Foundation | Digital Transformation Knowledge Hub
 
-**Current internal version:** v1.10.1 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
+**Current internal version:** v1.11.0 · **Social Communication Ecosystem:** v4.0 · **Brand Identity & Design System:** v2.4  
 **Package status:** Active internal source · **Last updated:** 30 October 2026  
 **Planning & Compiled by:** Saiful Islam
 
-This v1.10.1 internal source includes an [SSOT stabilization checklist](docs/RELEASE_v1.10.1.md), [controlled-document metadata register](governance/CONTROLLED_DOCUMENT_REGISTER.json) and [retired-file deletion manifest](governance/RETIRED_ACTIVE_TREE_PATHS.json). Approval evidence for master documents must be verified in HSF-controlled institutional records; repository metadata alone does not prove approval.
+The v1.10.1 baseline includes an [SSOT stabilization checklist](docs/RELEASE_v1.10.1.md), [controlled-document metadata register](governance/CONTROLLED_DOCUMENT_REGISTER.json) and [retired-file deletion manifest](governance/RETIRED_ACTIVE_TREE_PATHS.json). Approval evidence for master documents must be verified in HSF-controlled institutional records; repository metadata alone does not prove approval.
 
 The HSF Knowledge Hub is the controlled institutional governance and knowledge reference for E4BL, A2PHC and Climate Action & Resilience, alongside ERP planning, MEAL, website, branding, policy and evidence governance. It is **not the operational ERP**.
 
@@ -58,8 +58,11 @@ python brand-design-stack/07_Engine/validate_stack.py
 
 ## Release & deployment
 
-See [Current internal release v1.10.1](docs/RELEASE_v1.10.1.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
+See [Current internal release v1.11.0](docs/RELEASE_v1.11.0.md) and historical [Release v1.7.1](docs/RELEASE_v1.7.1.md), [Change log](CHANGELOG.md) and [Netlify Deployment Guide](docs/DEPLOY_TO_NETLIFY.md). This repository package does not itself deploy to GitHub or Netlify. Never upload `.env.local`, credential material, a local `.git` directory or confidential ERP records.
 
 ## Full-repository replacement and Git history
 
-Use [the current release guide](docs/RELEASE_v1.10.1.md) and [the v1.10.1 safe installation/deletion guide](docs/INSTALL_FULL_REPOSITORY_v1.10.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+Use [the current release guide](docs/RELEASE_v1.11.0.md) and [the v1.10.1 safe installation/deletion guide](docs/INSTALL_FULL_REPOSITORY_v1.10.1.md) when migrating an existing checkout. Extract to a **new** directory rather than overwriting the old tree, or obsolete historical files will remain. The ZIP does not contain `.git/` or `.env.local`.
+
+
+**Design Studio Phase 1:** [Architecture](docs/DESIGN_STUDIO_PHASE1_ARCHITECTURE.md) · [Patch/application guide](docs/APPLY_DESIGN_STUDIO_PHASE1_v1.11.0.md) · [QA matrix](docs/DESIGN_STUDIO_PHASE1_QA_MATRIX.md). Design Studio is not a publication approval authority.

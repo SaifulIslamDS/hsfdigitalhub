@@ -1,7 +1,7 @@
 {
   "register_version": "1.0.0",
-  "repository_release": "v1.10.1",
-  "last_updated": "2026-10-30",
+  "repository_release": "v1.11.0",
+  "last_updated": "2026-10-31",
   "scope": "Public-safe controlled-document metadata. Does not contain management signatures, private decision records or personal information.",
   "approval_caution": "Source-declared status is not independent proof of a signed management approval. Where documentary evidence is missing, mark pending verification and retain existing institutional status without manufacturing approvals.",
   "documents": [
@@ -30,8 +30,8 @@
       "approval_evidence_status": "NOT_IN_PUBLIC_SOURCE; VERIFY_IN_CONTROLLED_INTERNAL_RECORD",
       "revision_or_review_date": "2026-10-30",
       "data_classification": "PUBLIC_SAFE_GOVERNANCE_REFERENCE",
-      "sha256": "aa987e096dae31b7cab73fc7ec305d0f12101a50731eccd4e58e4feaf79096c8",
-      "note": "v1.10.1: 500 editorial ideas approved for planning, while source verification, field occurrence and exact publication approval remain separate; existing policy framework unchanged."
+      "sha256": "46530f648ea2f87913465fbacdf8872f546e78d0c4d13702ba3e6a12057675b7",
+      "note": "v1.11.0: Knowledge Hub release-reference labels synchronized only; Social v4.0 editorial policy and all 500 planning-only idea approval boundaries unchanged."
     },
     {
       "document_id": "HSF-BRAND",

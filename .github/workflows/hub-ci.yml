@@ -52,6 +52,9 @@ jobs:
       - name: Validate internal HSF Design Studio integration
         run: python scripts/validate_design_studio.py
 
+      - name: Validate HSF Design Studio Phase 1 canonical alignment
+        run: python scripts/validate_design_studio_phase1.py
+
       - name: Validate institutional SSOT and controlled assets
         run: python scripts/validate_ssot_stability.py
 

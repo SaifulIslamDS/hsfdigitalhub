@@ -3,13 +3,13 @@
   "repository_role": "HSF institutional Knowledge Hub",
   "visibility": "public",
   "current_status": "ACTIVE_INTERNAL_STABILIZED_SOURCE",
-  "release": "v1.10.1",
-  "release_date": "2026-10-30",
-  "last_updated": "2026-10-30",
+  "release": "v1.11.0",
+  "release_date": "2026-10-31",
+  "last_updated": "2026-10-31",
   "planning_and_compiled_by": "Saiful Islam",
   "current_stable_content_baseline": {
-    "knowledge_hub": "v1.10.1",
-    "release_date": "2026-10-30",
+    "knowledge_hub": "v1.11.0",
+    "release_date": "2026-10-31",
     "social_communication_plan": "v4.0",
     "brand_identity_design_system": "v2.4",
     "brand_design_stack": {
@@ -143,7 +143,8 @@
     "python scripts/validate_content_prompt_generator.py",
     "python scripts/validate_design_studio.py",
     "python scripts/validate_new_kdi_ideas.py",
-    "python scripts/validate_new_psc_ideas.py"
+    "python scripts/validate_new_psc_ideas.py",
+    "python scripts/validate_design_studio_phase1.py"
   ],
   "shared_navigation_design": {
     "header_stylesheet": "assets/styles/hsf-shared-header.css",
@@ -154,10 +155,11 @@
   },
   "release_method": "CONTINUOUS_INTERNAL_UPDATES; PUBLICATION_APPROVAL_SEPARATE",
   "latest_internal_update": {
-    "version": "v1.10.1",
-    "date": "2026-10-30",
-    "summary": "Promote 100 KDI and 100 PSC reviewed ideas to editorial-approved for planning. Exactly 500/500 approved concepts, 0 proposed, 0 publication-ready claims. Original source context, 46 earlier approval records, field-occurrence and evidence gates preserved.",
-    "software_review_state": "SOURCE_AND_AUTOMATED_VALIDATION_COMPLETE; LIVE_DEPLOYMENT_AND_FULL_EXPORT_QA_PENDING"
+    "version": "v1.11.0",
+    "date": "2026-10-31",
+    "summary": "Design Studio Phase 1: Stack-aligned generated palette/archetypes/sequence labels/platform sizes, imported approval-state reset, source-generated offline build and QA bridge. Documentation synchronized. Social v4.0 and Brand v2.4 unchanged.",
+    "software_review_state": "LOCAL_SOURCE_BUILD_VALIDATION_REQUIRED; LIVE_DEPLOYMENT_AND_BROWSER_ILLUSTRATOR_QA_PENDING",
+    "policy_change": false
   },
   "design_studio": {
     "status": "ACTIVE_INTERNAL_DRAFTING_TOOL_NOT_AUTOMATIC_PUBLICATION_APPROVAL",
@@ -169,7 +171,10 @@
     "brief_transfer": "MANUAL_PUBLIC_SAFE_JSON_DOWNLOAD_IMPORT",
     "design_approval_boundary": "HSF_AUTHORIZED_EXACT_OUTPUT_REVIEW_REQUIRED",
     "privacy": "NO_RESTRICTED_OPERATIONAL_DATA_IN_PUBLIC_SOURCE",
-    "version": "1.0.0-hsf-internal-integration"
+    "version": "1.1.0-hsf-phase1",
+    "alignment_lock": "design-studio/source/STACK_ALIGNMENT_LOCK.json",
+    "source_build_generated": true,
+    "approval_security": "IMPORTED_EDITOR_METADATA_RESETS_TO_PENDING; APPROVAL_RECORDS_EXTERNAL"
   },
   "institutional_alignment": {
     "project_registry": "governance/PROGRAMME_REGISTRY.md",

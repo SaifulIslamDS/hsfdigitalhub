@@ -1,0 +1,32 @@
+{
+  "schema": "hsf-design-studio-stack-lock/v1",
+  "knowledge_hub_release": "v1.11.0",
+  "design_studio_version": "1.1.0-hsf-phase1",
+  "brand_stack_version": "3.1.0",
+  "policy_references": {
+    "social": "v4.0",
+    "brand": "v2.4"
+  },
+  "canonical_sources": {
+    "brand-design-stack/02_Tokens/brand-tokens.json": "333ef0800e4195914985e5d53784bbd8ac49ae2059f0308280691666e6c8c11b",
+    "brand-design-stack/04_Archetypes/archetypes.json": "d9d24c2cda38bcfc3b758d1953c7cbb1ecd051f7d524918d37575600eaee3cbb",
+    "brand-design-stack/04_Archetypes/sequence-presets.json": "4c79d56292c7dd1e67c2d854c9f72c13948a5e3de784d2c5aecd633a2cdecb8e",
+    "brand-design-stack/02_Tokens/platform-specs.json": "21deef6bfdb5d735055a6a2c6c21be5b7202e78917f8935f7663f5b516c9dec5"
+  },
+  "studio_source_checksum_sha256": "92ce822cdb08fd0e24aa9a611ff2846d1fe6891a2f387a20e6d4d3dd784b551f",
+  "protected_governance_sha256": {
+    "governance/HSF_DIGITAL_SYSTEM_CONTRACT.json": "2323ea86e52783b87bfbc0c36e92746ec33d597a1fde869c612125cfc85121f6",
+    "brand_identity_master_guide.html": "bf859d72c211ce46d0478798f77fac150a9e8bfc5af489fae0cd80adb19a6fc4",
+    "ERP_Overview.html": "ea06294205221e8aa607e99947485d76bf4fa5dcddf8e751872e509914c2978b",
+    "impact_meal_learning_framework.html": "514d010a65b9e312595c5618698ab8e5ebe661a0527e455382bd28eb0e42fd7a",
+    "website_content_editorial_guidelines.html": "58a566b44bc5b9911766d685cdc7f0fd47dd11c7e88e1d9ebd7197e51c811cc5",
+    "netlify.toml": "e64cfa05fd933171712a9fcb1c31c4f023185fdee63f9589a30bc43f8d016967",
+    "_redirects": "0340c1d1f81c0b04496c06428fb4954cefa6db1dfbe4ad79e1e27f4b4d3816c9",
+    "netlify/edge-functions/pin-gate.ts": "20653994e8d37bd5ab6bd19321fee6cff398580651da7a3be9517f134996d95d",
+    "netlify/edge-functions/pin-login.ts": "e4e5ed1b4bd7591ec80741cddf43add0f224fea61c8a69ff62392f14af66f0bf",
+    "netlify/edge-functions/pin-logout.ts": "0fb42d18a04da25c8d0d44d911ec87110b497283ad23db091a3ae9053f73e146"
+  },
+  "archetype_count": 14,
+  "canonical_sequence_count": 5,
+  "assertion": "Build-time deterministic alignment only; no claim of Illustrator, accessibility or publication certification"
+}

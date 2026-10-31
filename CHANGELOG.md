@@ -1,3 +1,12 @@
+## v1.11.0 — 2026-10-31 — Design Studio Phase 1
+
+- Build-time synchronization to Brand Design Stack v3.1.0 canonical tokens, 14 archetypes, five story-sequence stage lists and platform sizes.
+- Safer saved-design import: editor-declared publication and consent review reset to pending; uploaded-logo language corrected.
+- Added Studio alignment lock file, dedicated validation suite, Phase 1 architecture/QA documents and release/application notes.
+- Refreshed stale README references; Social Communication v4.0 and Brand Identity v2.4 policy unchanged.
+- No change to Netlify PIN gateway, ERP data model, live deployment or actual publication approvals.
+- Source and automated checks are distinct from pending visual, browser, Illustrator 2022, live deployment and user acceptance QA.
+
 ## v1.10.1 — 30 October 2026 · 200 editorial idea approvals (KDI + PSC)
 - User-confirmed editorial review promotes KDI-161..260 (100) and PSC-141..240 (100) from proposed to approved **for planning only**.
 - All 500 ideas remain intact with original IDs, evidence routes, reviewed-source context and concept provenance. Zero verified public claims, zero confirmed new PSC field occurrences, zero post approvals.
